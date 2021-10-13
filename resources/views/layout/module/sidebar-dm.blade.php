@@ -1,5 +1,5 @@
 <ul class="list-group" id="sidebar-list">
-    <li class="list-group-item">
+    <li class="list-group-item active">
         <a class="sidebar-elements" href="#">
             Part 1
         </a>
