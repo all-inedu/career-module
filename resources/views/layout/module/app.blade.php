@@ -26,6 +26,10 @@
             font-size: 18px;
         }
 
+        .list-group-item {
+            padding: 2% 2% 2% 57% !important;
+        }
+
         .container {
             padding: 0% 10%;
         }
