@@ -83,6 +83,7 @@
             </div>
 
             <div class="col">
+<<<<<<< HEAD
                 <div class="card">
                     <div class="container2">
                         <img src="{{ asset('img/CMW_2. Data Scientist.webp') }}" class="card-img-top">
@@ -90,6 +91,17 @@
                         </div>
                     </div>
                 </div>
+=======
+                <a href="{{ url('data-scientist/1') }}">
+                    <div class="card">
+                        <div class="container2">
+                            <img src="{{ asset('img/CMW_2. Data Scientist.webp') }}" class="card-img-top">
+                            <div class="bottom-right">Data Scientist
+                            </div>
+                        </div>
+                    </div>
+                </a>
+>>>>>>> e86b1b28c1f04e478693c88da7424c857b7927ad
             </div>
 
             <div class="col">
