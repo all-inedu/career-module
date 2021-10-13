@@ -30,6 +30,10 @@
             padding: 2% 2% 2% 57% !important;
         }
 
+        .content {
+            margin: 0% 25% 0% 0% !important;
+        }
+
         .container {
             padding: 0% 10%;
         }
@@ -104,7 +108,7 @@
         }
 
         .card {
-            border: 1px solid #fff;
+            border: 1px solid rgb(136, 136, 136);
             background-color: #fff
         }
 
