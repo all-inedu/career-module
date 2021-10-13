@@ -1,6 +1,6 @@
 @extends('layout.module.app')
 @section('title')
-    Digital Marketing
+    Digital Marketing | Intro
 @endsection
 
 @section('banner')
