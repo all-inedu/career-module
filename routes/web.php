@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/digital-marketing/intro', function() {
+    return view('modules/digital-marketing/index');
+});
+
 /* data scientist route */
 Route::get('/data-scientist/1', function() {
     return view('modules/data-scientist-part/part-0');
