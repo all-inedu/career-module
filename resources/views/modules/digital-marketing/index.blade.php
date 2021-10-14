@@ -64,7 +64,7 @@
                                     </div>
                                     <div class="col-md-12 text-end">
                                         <hr class="m-0 mb-2">
-                                        <button class="btn btn-info btn-sm px-3" onclick="next(2)">
+                                        <button class="btn btn-info btn-sm px-3" onclick="next(1, 1)">
                                             Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                         </button>
                                     </div>
@@ -106,7 +106,7 @@
                                     </div>
                                     <div class="col-md-12 text-end">
                                         <hr class="m-0 mb-2">
-                                        <button class="btn btn-info btn-sm px-3" onclick="next(3)">
+                                        <button class="btn btn-info btn-sm px-3" onclick="next(2, 1)">
                                             Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                         </button>
                                     </div>
@@ -148,7 +148,7 @@
                                     </div>
                                     <div class="col-md-12 text-end">
                                         <hr class="m-0 mb-2">
-                                        <button class="btn btn-info btn-sm px-3" onclick="done(3, 1)">
+                                        <button class="btn btn-info btn-sm px-3" onclick="next(3, 1)">
                                             Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                         </button>
                                     </div>
@@ -180,26 +180,32 @@
             }
         });
 
-        function next(id) {
-            let before = id - 1;
-            sessionStorage.setItem("intro" + before, "read");
-            if (sessionStorage.getItem('intro' + before) == 'read') {
-                $('#icon' + before).removeClass('far fa-check-circle')
-                $('#icon' + before).addClass('fas fa-check-circle')
-            }
-            $('#intro' + before).collapse('toggle');
-            $('#intro' + id).collapse('toggle');
-        }
-
-        function done(n, id) {
+        function next(n, part) {
             sessionStorage.setItem("intro" + n, "read");
             if (sessionStorage.getItem('intro' + n) == 'read') {
                 $('#icon' + n).removeClass('far fa-check-circle')
                 $('#icon' + n).addClass('fas fa-check-circle')
             }
-            $('#intro' + n).collapse('toggle');
 
-            sessionStorage.setItem("part" + id, "done");
+            let next = n + 1
+            $('#intro' + n).collapse('toggle');
+            $('#intro' + next).collapse('toggle');
+
+            let j = $('.accordion-item').length
+            let z = 0
+            for (i = 0; i <= j; i++) {
+                if (sessionStorage.getItem('intro' + i) == 'read') {
+                    z++
+                }
+            }
+
+            if (z == j) {
+                sessionStorage.setItem("part" + part, "done");
+                if (sessionStorage.getItem('part' + part) == 'done') {
+                    $('#iconPart' + part).addClass('fas fa-check-circle float-end mt-1')
+                }
+            }
+
         }
 
     </script>
