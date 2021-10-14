@@ -17,9 +17,40 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/digital-marketing/intro', function() {
+Route::get('/digital-marketing/part-1', function() {
     return view('modules/digital-marketing/index');
 });
+
+Route::get('/digital-marketing/part-2', function() {
+    return view('modules/digital-marketing/part-2');
+});
+
+Route::get('/digital-marketing/part-3', function() {
+    return view('modules/digital-marketing/part-3');
+});
+
+Route::get('/digital-marketing/part-4', function() {
+    return view('modules/digital-marketing/part-4');
+});
+
+Route::get('/digital-marketing/part-5', function() {
+    return view('modules/digital-marketing/part-5');
+});
+
+Route::get('/digital-marketing/part-6', function() {
+    return view('modules/digital-marketing/part-6');
+});
+
+Route::get('/digital-marketing/part-7', function() {
+    return view('modules/digital-marketing/part-7');
+});
+
+Route::get('/digital-marketing/part-8', function() {
+    return view('modules/digital-marketing/part-8');
+});
+
+
+
 
 /* data scientist route */
 Route::get('/data-scientist/1', function() {
