@@ -64,3 +64,7 @@ footer {
 footer .social-media {
     font-size: 15px
 }
+
+.ul-spacing li + li {
+    margin-top: 1em;
+}
