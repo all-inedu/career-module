@@ -45,7 +45,7 @@
         }
 
         .content {
-            margin: 0% 25% 0% 0% !important;
+            margin: 0% 24% 0% 0% !important;
         }
 
         .container {
@@ -160,9 +160,9 @@
         </div>
     </nav>
 
-    <div class="container-fluid p-0 mb-4">
+    <div class="container-fluid ps-0 mb-4">
         <div class="row">
-            <div class="col-12 mb-3">
+            <div class="col-md-12 mb-3">
                 @yield('banner')
             </div>
             <div class="col-md-4">

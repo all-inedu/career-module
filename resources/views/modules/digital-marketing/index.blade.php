@@ -30,11 +30,12 @@
                         <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#intro1">
+                                <i class="far fa-check-circle pe-2" id="icon1"></i>
                                 The Power of Digital Marketing
                             </button>
                         </h2>
-                    </div>
-                    <div class="accordion-item">
+
+
                         <div id="intro1" class="accordion-collapse collapse show"
                             aria-labelledby="panelsStayOpen-headingOne">
                             <div class="accordion-body">
@@ -58,13 +59,25 @@
                                             makes it effective?
                                         </p>
                                     </div>
+                                    <div class="col-md-6">
+
+                                    </div>
+                                    <div class="col-md-12 text-end">
+                                        <hr class="m-0 mb-2">
+                                        <button class="btn btn-info btn-sm px-3" onclick="next(2)">
+                                            Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
+                    <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#intro2">
+                                <i class="far fa-check-circle pe-2" id="icon2"></i>
                                 Instagram Reels or Vertical Video
                             </button>
                         </h2>
@@ -91,6 +104,54 @@
                                         important to keep us updated and seek
                                         opportunities.
                                     </div>
+                                    <div class="col-md-12 text-end">
+                                        <hr class="m-0 mb-2">
+                                        <button class="btn btn-info btn-sm px-3" onclick="next(3)">
+                                            Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#intro3">
+                                <i class="far fa-check-circle pe-2" id="icon3"></i>
+                                Instagram Reels or Vertical Video
+                            </button>
+                        </h2>
+                        <div id="intro3" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p>
+                                            Do you know about
+                                            Instagram feature that
+                                            released on 2021,
+                                            named Instagram reels?
+                                        </p>
+                                        Instagram reels or vertical video is one
+                                        of the tools for Digital Marketing to
+                                        accelerate their marketing strategy. It is
+                                        the new opportunities for them,
+                                        because it provide a vertical quick
+                                        videos that can be used for market a
+                                        business. As a digital marketing, it is
+                                        important to keep us updated and seek
+                                        opportunities.
+                                    </div>
+                                    <div class="col-md-12 text-end">
+                                        <hr class="m-0 mb-2">
+                                        <button class="btn btn-info btn-sm px-3" onclick="done(3, 1)">
+                                            Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -99,4 +160,47 @@
             </div>
         </div>
     </div>
+
+    <script>
+        $(document).ready(function() {
+            // sessionStorage.clear();
+            let n = $('.accordion-item').length
+            for (i = 1; i <= n; i++) {
+                if (sessionStorage.getItem('intro' + i) == 'read') {
+                    $('#icon' + i).removeClass('far fa-check-circle')
+                    $('#icon' + i).addClass('fas fa-check-circle')
+                }
+            }
+
+            let nPart = $('.list-group-item').length
+            for (i = 1; i <= nPart; i++) {
+                if (sessionStorage.getItem('part' + i) == 'done') {
+                    $('#iconPart' + i).addClass('fas fa-check-circle float-end mt-1')
+                }
+            }
+        });
+
+        function next(id) {
+            let before = id - 1;
+            sessionStorage.setItem("intro" + before, "read");
+            if (sessionStorage.getItem('intro' + before) == 'read') {
+                $('#icon' + before).removeClass('far fa-check-circle')
+                $('#icon' + before).addClass('fas fa-check-circle')
+            }
+            $('#intro' + before).collapse('toggle');
+            $('#intro' + id).collapse('toggle');
+        }
+
+        function done(n, id) {
+            sessionStorage.setItem("intro" + n, "read");
+            if (sessionStorage.getItem('intro' + n) == 'read') {
+                $('#icon' + n).removeClass('far fa-check-circle')
+                $('#icon' + n).addClass('fas fa-check-circle')
+            }
+            $('#intro' + n).collapse('toggle');
+
+            sessionStorage.setItem("part" + id, "done");
+        }
+
+    </script>
 @endsection
