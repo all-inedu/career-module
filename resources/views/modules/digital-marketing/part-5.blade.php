@@ -100,14 +100,103 @@
                                                                             width="100%"> <br><br>
                                                                     </div>
                                                                 </div>
-                                                                <p>
-                                                                    (insert user persona) (suggestion: use padlet for this
-                                                                    activity)
-                                                                </p>
                                                                 <img src="{{ asset('img/data-marketing/cs4.png') }}"
-                                                                    width="100%"> <br><br>
+                                                                    width="100%">
+                                                                <br><br>
+                                                                <p>
+                                                                    Let’s see the user persona example here. Your task is to
+                                                                    determine who is the target market of Mrs. Penny’s cake?
+                                                                    Is it going to be a teenage girl? Or a 30 years old mom?
+                                                                    Or career woman? What is her/his occupation? Try to
+                                                                    complete the buyer persona using the worksheet below!
+
+                                                                <div class="text-center">
+                                                                    <button class="btn btn-primary btn-sm px-3">Download the
+                                                                        Worksheet</button>
+                                                                </div>
+                                                                </p>
                                                                 <hr class="my-1">
-                                                                Please download the worksheet template here <br><br>
+                                                                <br>
+                                                                Please upload your worksheet below <br>
+                                                                <input type="file" class="form-control">
+                                                            </div>
+                                                            <div class="col-md-12 text-end">
+                                                                <hr class="m-0 mb-2">
+                                                                <button class="btn btn-info btn-sm px-3"
+                                                                    onclick="next(1, 2)">
+                                                                    Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#cs1-2">
+                                                        <i class="far fa-check-circle pe-2" id="icon1"></i>
+                                                        What Social Media do you think is appropriate
+                                                        to use?
+                                                    </button>
+                                                </h2>
+                                                <div id="cs1-2" class="accordion-collapse collapse"
+                                                    aria-labelledby="panelsStayOpen-headingOne">
+                                                    <div class="accordion-body">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-md-12 mb-3">
+                                                                <p>
+                                                                    Determine Goals/Objective
+                                                                </p>
+                                                                <div class="row">
+                                                                    <div class="col-md-8 mx-auto">
+                                                                        <img src="{{ asset('img/data-marketing/cs5.png') }}"
+                                                                            width="100%">
+                                                                    </div>
+                                                                </div>
+                                                                <br>
+                                                                <div class="card">
+                                                                    <div class="card-body">
+                                                                        <b>Customer Jobs:</b> what
+                                                                        is the customer trying
+                                                                        to get done by
+                                                                        purchasing your
+                                                                        product. (eg: provide
+                                                                        food hampers for a
+                                                                        friend’s birthday)
+                                                                        <br><br>
+                                                                        <b>Pain:</b> what is
+                                                                        something that can
+                                                                        hinder your customer
+                                                                        from getting the job
+                                                                        done. (eg: Spoiled
+                                                                        food, Long cooking
+                                                                        time)
+                                                                        <br><br>
+                                                                        <b>Gain:</b> what is the
+                                                                        positive outcome that
+                                                                        your consumers get
+                                                                        when the job is getting
+                                                                        done. (eg: sanitary
+                                                                        packaging, fast
+                                                                        delivery)
+                                                                    </div>
+                                                                </div>
+                                                                <br>
+                                                                <p>
+                                                                    After you have completed the user persona, now you can
+                                                                    take a look at customer gain, pain, and goals. If you
+                                                                    are Mrs. Penny’s customer, what do you think you want to
+                                                                    have when you purchase it? what is something that can
+                                                                    hinder you from purchasing the cake? What is the
+                                                                    positive outcome that you will get when the job is
+                                                                    getting done? Try to complete the diagram here using
+                                                                    below worksheet!
+                                                                </p>
+                                                                <hr class="my-1">
+                                                                <br>
+                                                                Please upload your worksheet below <br>
                                                                 <input type="file" class="form-control">
                                                             </div>
                                                             <div class="col-md-12 text-end">
@@ -126,7 +215,7 @@
                                     </div>
                                     <div class="col-md-12 text-end">
                                         <hr class="m-0 mb-2">
-                                        <button class="btn btn-info btn-sm px-3" onclick="next(1, 5)">
+                                        <button class="btn btn-info btn-sm px-3" onclick="csNext(2, 1)">
                                             Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                         </button>
                                     </div>
