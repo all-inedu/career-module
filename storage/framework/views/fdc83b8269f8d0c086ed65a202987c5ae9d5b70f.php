@@ -2,6 +2,10 @@
     Digital Marketing | Intro
 <?php $__env->stopSection(); ?>
 
+<?php $__env->startSection('style'); ?>
+
+<?php $__env->stopSection(); ?>
+
 <?php $__env->startSection('banner'); ?>
     <div class="banner">
         <div class="container">

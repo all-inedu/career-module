@@ -1,148 +1,272 @@
-@extends('modules.data-scientist-part.app')
+@extends('layout.module.app')
+@section('title')
+    Data Scientist | What types of Data Scientist are available?
+@endsection
+
+@section('banner')
+    <div class="banner">
+        <div class="container">
+            <h1 class="title">
+                Data Science <br>
+                101
+            </h1>
+        </div>
+    </div>
+@stop
+
+@section('sidebar')
+    @include('layout.module.sidebar-ds')
+@endsection
 
 @section('content')
+    <div class="content">
+        <div class="card">
+            <div class="accordion accordion-flush" id="p2">
+                <div>
+                    <h2 class="section-header" id="p2-header">
+                        <div>What types of Data Scientists are available?</div>
+                    </h2>
+                </div>
 
-<div class="accordion accordion-flush" id="p3">
-    <div class="accordion-item">
-        <h2 class="section-header" id="p3-header">
-            <div>How do I become a Data Scientist?</div>
-        </h2>
-    </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="p2-1">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#c-p3-1" aria-expanded="false" aria-controls="c-p3-1">
+                            <i class="far fa-check-circle pe-2" id="icon2-1"></i>
+                            Data Engineer
+                        </button>
+                    </h2>
 
-    <div class="accordion-item">
-        <h2 class="accordion-header" id="p3-1">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c-p3-1"
-                aria-expanded="false" aria-controls="c-p3-1">
-                A day as Data Scientist
-            </button>
-        </h2>
+                    <div id="c-p3-1" class="accordion-collapse collapse" aria-labelledby="p2-1" data-bs-parent="#p2">
+                        <div class="accordion-body row">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/vNNoNs_VeWc"
+                                class="col-md-6" title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <ul class="col-md-6">
+                                <li>Data engineers collect the raw information from different sources and ensure the data is
+                                    clean
+                                    and organized</li>
+                                <li>They are also responsible for developing and maintaining data pipelines</li>
+                            </ul>
 
-        <div id="c-p3-1" class="accordion-collapse collapse show" aria-labelledby="p3-1" data-bs-parent="#p3">
-            <div class="accordion-body">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/wFI41gagSLU" class="mx-auto d-block"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+                            <div class="col-md-12 text-end">
+                                <hr class="m-0 mb-2">
+                                <button class="btn btn-info btn-sm px-3" onclick="next(1, 2)">
+                                    Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="p2-2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#c-p3-2" aria-expanded="false" aria-controls="c-p3-2">
+                            <i class="far fa-check-circle pe-2" id="icon2-2"></i>
+                            Data Analyst
+                        </button>
+                    </h2>
+
+                    <div id="c-p3-2" class="accordion-collapse collapse" aria-labelledby="p2-2" data-bs-parent="#p2">
+                        <div class="accordion-body row">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/5HlbV1wKBmo"
+                                class="col-md-6" title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <ul class="col-md-6">
+                                <li>Data analysts will extract and interpret data, identifying and analyzing trends and
+                                    patterns
+                                </li>
+                                <li>Information is then generated to help the executive in decision-making</li>
+                            </ul>
+
+                            <div class="col-md-12 text-end">
+                                <hr class="m-0 mb-2">
+                                <button class="btn btn-info btn-sm px-3" onclick="next(2, 2)">
+                                    Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="p2-3">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#c-p3-3" aria-expanded="false" aria-controls="c-p3-3">
+                            <i class="far fa-check-circle pe-2" id="icon2-3"></i>
+                            Machine Learning Engineer
+                        </button>
+                    </h2>
+
+                    <div id="c-p3-3" class="accordion-collapse collapse" aria-labelledby="p2-3" data-bs-parent="#p2">
+                        <div class="accordion-body row">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/qna5zKR5t4A"
+                                class="col-md-6" title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <ul class="col-md-6">
+                                <li>Machine learning engineers are responsible for developing data science prototypes</li>
+                                <li>They then develop the software to automate predictive models for recommended searches,
+                                    virtual
+                                    assistants, etc.</li>
+                            </ul>
+
+                            <div class="col-md-12 text-end">
+                                <hr class="m-0 mb-2">
+                                <button class="btn btn-info btn-sm px-3" onclick="next(3, 2)">
+                                    Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="p2-4">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#c-p3-4" aria-expanded="false" aria-controls="c-p3-4">
+                            <i class="far fa-check-circle pe-2" id="icon2-4"></i>
+                            Data Architect
+                        </button>
+                    </h2>
+
+                    <div id="c-p3-4" class="accordion-collapse collapse" aria-labelledby="p2-4" data-bs-parent="#p2">
+                        <div class="accordion-body row">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/zz_H5jBP158"
+                                class="col-md-6" title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <ul class="col-md-6">
+                                <li>A data architect creates the blueprints for data management so that the databases can be
+                                    easily
+                                    integrated, centralized, and protected</li>
+                                <li>They also ensure that the data engineers have the best tools and systems to work with
+                                </li>
+                            </ul>
+
+                            <div class="col-md-12 text-end">
+                                <hr class="m-0 mb-2">
+                                <button class="btn btn-info btn-sm px-3" onclick="next(4, 2)">
+                                    Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="p2-5">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#c-p3-5" aria-expanded="false" aria-controls="c-p3-5">
+                            <i class="far fa-check-circle pe-2" id="icon2-5"></i>
+                            Business Intelligence Analyst
+                        </button>
+                    </h2>
+
+                    <div id="c-p3-5" class="accordion-collapse collapse" aria-labelledby="p2-5" data-bs-parent="#p2">
+                        <div class="accordion-body row">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/26GlYvcYZiI"
+                                class="col-md-6" title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <ul class="col-md-6">
+                                <li>Business Intelligence (BI) analysts transform data into insights that drive business
+                                    value</li>
+                                <li>They can identify trends that can help managers and executives make business decisions
+                                    to
+                                    improve processes in the organization</li>
+                            </ul>
+
+                            <div class="col-md-12 text-end">
+                                <hr class="m-0 mb-2">
+                                <button class="btn btn-info btn-sm px-3" onclick="next(5, 2)">
+                                    Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="p2-6">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#c-p3-6" aria-expanded="false" aria-controls="c-p3-6">
+                            <i class="far fa-check-circle pe-2" id="icon2-6"></i>
+                            Checkpoint #1
+                        </button>
+                    </h2>
+
+                    <div id="c-p3-6" class="accordion-collapse collapse" aria-labelledby="p2-6" data-bs-parent="#p2">
+                        <div class="accordion-body row">
+                            <form>
+                                <div class="form-group">
+                                    <label>After getting to know briefly about the specializations of data science, which
+                                        one do you
+                                        find the most interesting?</label>
+                                    <br>
+                                    <textarea style="width: 90%;" rows="5"
+                                        class="form-control rounded mx-auto d-block"></textarea>
+                                </div>
+                                <br>
+                                <button type="button" class="btn btn-primary float-end text-center"
+                                    style="width: 10%; height: 20%;">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="accordion-item">
-        <h2 class="accordion-header" id="p3-2">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c-p3-2"
-                aria-expanded="false" aria-controls="c-p3-2">
-                Pathways to become a Data Scientist
-            </button>
-        </h2>
+    <script>
+        $(document).ready(function() {
+            // sessionStorage.clear();
+            let n = $('.accordion-item').length
+            for (i = 1; i <= n; i++) {
+                if (sessionStorage.getItem('c-p3-' + i) == 'read') {
+                    $('#icon2-' + i).removeClass('far fa-check-circle')
+                    $('#icon2-' + i).addClass('fas fa-check-circle')
+                }
+            }
 
-        <div id="c-p3-2" class="accordion-collapse collapse" aria-labelledby="p3-2" data-bs-parent="#p3">
-            <div class="accordion-body">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h4>School</h4>
-                        <br>
-                        <p>In your high school, here are several subjects you need to put more focus on :</p>
-                        <ul class="dash">
-                            <li>Mathematics</li>
-                            <li>Statistics</li>
-                            <li>Business</li>
-                            <li>Programming</li>
-                        </ul>
-                    </div>
+            let nPart = $('.list-group-item').length
+            for (i = 1; i <= nPart; i++) {
+                if (sessionStorage.getItem('part' + i) == 'done') {
+                    $('#iconPart' + i).addClass('fas fa-check-circle float-end mt-1')
+                }
+            }
+        });
 
-                    <div class="col-md-6">
-                        <h4>Uni Pathways</h4>
-                        <br>
-                        <p>As we know that this job is quite new, therefore there aren’t much universities providing
-                            specifically a Data Science Course</p>
-                        <p>Some of them might provide Data Science as specialization of Computer Science course, or you
-                            can even take Data Science as your Postgraduate programme.</p>
-                        <p>As undergraduate student, you might want to consider on taking major such as Computer
-                            Science, Math or statistical related program, Actuarial Science, Business and Management as
-                            pathway to enter this job.</p>
-                        <p>Some of the companies might also accept students from specific majors, like Biomedical
-                            Engineering to work as Data Scientist in but only in specific field, like medical.</p>
-                    </div>
-                </div>
+        function next(n, part) {
+            sessionStorage.setItem("c-p3-" + n, "read");
+            if (sessionStorage.getItem('c-p3-' + n) == 'read') {
+                $('#icon2-' + n).removeClass('far fa-check-circle')
+                $('#icon2-' + n).addClass('fas fa-check-circle')
+            }
 
-                <p>As we know that currently we have limited source of formal education for data scientist or data
-                    analyst as a degree. Some of them might also provide data science master degree as a complementary
-                    for Computer Science bachelor degree.</p>
-                <p>Besides that, we can also learn data science from online course as well as <b>bootcamp</b>. Many
-                    <b>data science bootcamp</b> nowadays are providing 3-6 months courses online and offline for those
-                    who are likely to be a career shifters, or those fresh graduates who are passionate about data but
-                    they haven’t learn it before.</p>
+            let next = n + 1
+            $('#c-p3-' + n).collapse('toggle');
+            $('#c-p3-' + next).collapse('toggle');
 
-                <br>
+            let j = $('.accordion-item').length
+            let z = 0
+            for (i = 0; i <= j; i++) {
+                if (sessionStorage.getItem('c-p3-' + i) == 'read') {
+                    z++
+                }
+            }
 
-                <div class="row">
-                    <div class="col-md-6">
-                        <p>You may want to pursue an advanced job, but for now, it’s likely you’ll need to start in an
-                            entry-level position, such as a <b>data analyst or junior data scientist</b>. You may want
-                            to consider system-specific training or certifications — such as data visualization,
-                            business intelligence applications or relational database management — to help get your
-                            first job. With a higher degree, more career opportunities have been opened to you, and it
-                            may be time to go after a promotion — and earn a higher salary, too
-                        </p>
-                    </div>
+            if (z == j) {
+                sessionStorage.setItem("part" + part, "done");
+                if (sessionStorage.getItem('part' + part) == 'done') {
+                    $('#iconPart' + part).addClass('fas fa-check-circle float-end mt-1')
+                    window.location = "<?php echo url('/data-scientist/3'); ?>";
+                }
+            }
+        }
 
-                    <img src="{{ asset('img/data-scientist-pathway.png') }}" class="col-md-6">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="accordion-item">
-        <h2 class="accordion-header" id="p3-3">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c-p3-3"
-                aria-expanded="false" aria-controls="c-p3-3">
-                What does it take to be a Data Scientist?
-            </button>
-        </h2>
-
-        <div id="c-p3-3" class="accordion-collapse collapse" aria-labelledby="p3-3" data-bs-parent="#p3">
-            <div class="accordion-body row" style="text-align: left;">
-                <div class="col-md-6">
-                    <h3>Hard Skill (Technical) :</h3>
-                    <br>
-                    <h4>Programming Language :</h4>
-                    <ul class="dash">
-                        <li>Java</li>
-                        <li>Python</li>
-                        <li>R</li>
-                        <li>SQL</li>
-                    </ul>
-
-                    <br>
-
-                    <h4>Other :</h4>
-                    Math, specifically in:
-                    <ul class="dash">
-                        <li>Statistics</li>
-                        <li>Algebra</li>
-                        <li>Basic calculus</li>
-                    </ul>
-                </div>
-
-                <div class="col-md-6">
-                    <h4>Programming Language :</h4>
-                    <ul class="dash">
-                        <li>Intuitive</li>
-                        <li><b>Storytelling</b></li>
-                        <li><b>Interpersonal and communication</b></li>
-                        <li>Ethical</li>
-                        <li>Lifelong learning</li>
-                        <li>Visualization</li>
-                    </ul>
-
-                    <br>
-
-                    <p>Storytelling and interpersonal skills are two important skills that data scientist need to have,
-                        as they are required to communicate insights from the processed data to the stakeholders in the
-                        business field.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-@stop
+    </script>
+@endsection

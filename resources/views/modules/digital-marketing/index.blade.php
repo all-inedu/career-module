@@ -3,6 +3,10 @@
     Digital Marketing | Intro
 @endsection
 
+@section('style')
+
+@stop
+
 @section('banner')
     <div class="banner">
         <div class="container">

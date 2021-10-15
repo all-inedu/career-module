@@ -13,19 +13,20 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <script src="{{ asset('js/jquery-3.6.0.js') }}"></script>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-light blue">
         <div class="container">
             <a class="navbar-brand text-white" href="#">
                 <img src="{{ asset('img/allin.png') }}" width="20%">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarText" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav me-auto my-5 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px; white-space: nowrap;">
+                <ul class="navbar-nav me-auto my-5 my-lg-0 navbar-nav-scroll"
+                    style="--bs-scroll-height: 100px; white-space: nowrap;">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
@@ -53,7 +54,9 @@
     </div>
 
     <div class="container mt-4">
-        In this module, you will learn about what Data Scientist do, types of it, and how you could be a Data Scientist. Along with case studies, and reflection, we hope that you can gain a deeper knowledge on Data Scientist and how to implement them in real-life events. <br><br>Happy learning!
+        In this module, you will learn about what Data Scientist do, types of it, and how you could be a Data Scientist.
+        Along with case studies, and reflection, we hope that you can gain a deeper knowledge on Data Scientist and how
+        to implement them in real-life events. <br><br>Happy learning!
     </div>
 
     <div class="container mt-3">
@@ -103,8 +106,8 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-        crossorigin="anonymous"></script>
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
     <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
         integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
         crossorigin="anonymous"></script>

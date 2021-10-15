@@ -27,13 +27,15 @@
 
         <div class="row">
             <div class="col">
-                <div class="card">
-                    <div class="container2">
-                        <img src="<?php echo e(asset('img/CMW_1. Digital Marketing.webp')); ?>" class="card-img-top">
-                        <div class="bottom-right">Digital Marketing Specialist
+                <a href="<?php echo e(url('digital-marketing/part-1')); ?>">
+                    <div class="card">
+                        <div class="container2">
+                            <img src="<?php echo e(asset('img/CMW_1. Digital Marketing.webp')); ?>" class="card-img-top">
+                            <div class="bottom-right">Digital Marketing Specialist
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
 
             <div class="col">
