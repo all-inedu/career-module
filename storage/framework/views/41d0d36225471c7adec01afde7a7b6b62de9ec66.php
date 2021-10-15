@@ -1,9 +1,8 @@
-@extends('layout.module.app')
-@section('title')
+<?php $__env->startSection('title'); ?>
     Digital Marketing | Case Studies
-@endsection
+<?php $__env->stopSection(); ?>
 
-@section('banner')
+<?php $__env->startSection('banner'); ?>
     <div class="banner">
         <div class="container">
             <h1 class="title">
@@ -22,13 +21,13 @@
             Happy learning!
         </p>
     </div>
-@endsection
+<?php $__env->stopSection(); ?>
 
-@section('sidebar')
-    @include('layout.module.sidebar-dm')
-@endsection
+<?php $__env->startSection('sidebar'); ?>
+    <?php echo $__env->make('layout.module.sidebar-dm', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+<?php $__env->stopSection(); ?>
 
-@section('content')
+<?php $__env->startSection('content'); ?>
     <div class="content">
         <div class="card">
             <div class="py-2 text-center">
@@ -92,11 +91,11 @@
                                                                 </p>
                                                                 <div class="row">
                                                                     <div class="col-md-8 mx-auto">
-                                                                        <img src="{{ asset('img/data-marketing/cs1.png') }}"
+                                                                        <img src="<?php echo e(asset('img/data-marketing/cs1.png')); ?>"
                                                                             width="100%"> <br> <br>
-                                                                        <img src="{{ asset('img/data-marketing/cs2.png') }}"
+                                                                        <img src="<?php echo e(asset('img/data-marketing/cs2.png')); ?>"
                                                                             width="100%"> <br> <br>
-                                                                        <img src="{{ asset('img/data-marketing/cs3.png') }}"
+                                                                        <img src="<?php echo e(asset('img/data-marketing/cs3.png')); ?>"
                                                                             width="100%"> <br><br>
                                                                     </div>
                                                                 </div>
@@ -104,7 +103,7 @@
                                                                     (insert user persona) (suggestion: use padlet for this
                                                                     activity)
                                                                 </p>
-                                                                <img src="{{ asset('img/data-marketing/cs4.png') }}"
+                                                                <img src="<?php echo e(asset('img/data-marketing/cs4.png')); ?>"
                                                                     width="100%"> <br><br>
                                                                 <hr class="my-1">
                                                                 Please download the worksheet template here <br><br>
@@ -212,4 +211,6 @@
         }
 
     </script>
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layout.module.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /opt/lampp/htdocs/career-module/resources/views/modules/digital-marketing/part-5.blade.php ENDPATH**/ ?>
