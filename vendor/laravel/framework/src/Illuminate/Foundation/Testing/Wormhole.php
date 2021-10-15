@@ -78,17 +78,6 @@ class Wormhole
      * @param  callable|null  $callback
      * @return mixed
      */
-    public function minute($callback = null)
-    {
-        return $this->minutes($callback);
-    }
-
-    /**
-     * Travel forward the given number of minutes.
-     *
-     * @param  callable|null  $callback
-     * @return mixed
-     */
     public function minutes($callback = null)
     {
         Carbon::setTestNow(Carbon::now()->addMinutes($this->value));

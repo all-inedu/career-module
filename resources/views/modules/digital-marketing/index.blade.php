@@ -3,6 +3,74 @@
     Digital Marketing | Intro
 @endsection
 
+@section('style')
+    <style>
+        .banner {
+            background: url('{{ asset('img/banner.webp') }}');
+            min-height: 50vh;
+            background-size: 100%;
+            background-position: bottom;
+        }
+
+        h1.title {
+            position: relative;
+            color: rgb(27, 27, 27);
+            text-align: end;
+            padding-top: 22%;
+            font-weight: 900;
+        }
+
+        .list-group {
+            border: 1px solid #666666 !important;
+        }
+
+        .list-group-item {
+            border: 0px !important;
+            background: #c4c4c4 !important;
+            padding: 2% 2% 2% 57% !important;
+            transition: all .2s ease-in-out;
+        }
+
+        .list-group-item.active {
+            background: #ffffff !important;
+            color: #000;
+        }
+
+        .list-group-item:hover {
+            background: #383737 !important;
+            color: rgb(255, 255, 255) !important;
+        }
+
+        .content {
+            padding: 0% 24% 0% 0% !important;
+        }
+
+        .container {
+            padding: 0% 10%;
+        }
+
+        .container2 {
+            position: relative;
+            text-align: center;
+            color: #000;
+            cursor: pointer
+        }
+
+        .bottom-left {
+            position: absolute;
+            bottom: 8px;
+            left: 16px
+        }
+
+        .top-left {
+            position: absolute;
+            top: 8px;
+            left: 16px
+        }
+
+    </style>
+@stop
+
 @section('banner')
     <div class="banner">
         <div class="container">
@@ -273,6 +341,5 @@
             }
 
         }
-
     </script>
 @endsection

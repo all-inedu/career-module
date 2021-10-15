@@ -566,17 +566,6 @@ class Stringable implements JsonSerializable
     }
 
     /**
-     * Strip HTML and PHP tags from the given string.
-     *
-     * @param  string  $allowedTags
-     * @return static
-     */
-    public function stripTags($allowedTags = null)
-    {
-        return new static(strip_tags($this->value, $allowedTags));
-    }
-
-    /**
      * Convert the given string to upper-case.
      *
      * @return static
@@ -789,7 +778,7 @@ class Stringable implements JsonSerializable
     /**
      * Dump the string and end the script.
      *
-     * @return never
+     * @return void
      */
     public function dd()
     {
