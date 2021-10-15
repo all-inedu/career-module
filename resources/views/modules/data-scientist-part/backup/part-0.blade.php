@@ -1,4 +1,4 @@
-@extends('modules.data-scientist-part.app')
+@extends('modules.data-scientist-part.index')
 
 @section('content')
 <div class="accordion accordion-flush" id="p0">

@@ -3,10 +3,7 @@ a.sidebar-elements{
     color: inherit;
     background-color: inherit;
     }
-.sidebar-active{
-    background-color: #505050;
-    color: white;
-}
+
 .sidebar-unactive{
     background-color: #C4C4C4;
     color: black;
@@ -49,10 +46,15 @@ ul {
 
 .banner{
     background-image: url("../img/banner.webp");
-    height: 250px;
+    height: 350px;
     width: 100%;
     background-size: cover;
-    background-position: 0 -112px;
+    background-position: 0 -152px;
+}
+.banner .heading-title {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 footer {
