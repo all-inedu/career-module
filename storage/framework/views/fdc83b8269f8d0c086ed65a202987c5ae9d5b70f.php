@@ -1,9 +1,8 @@
-@extends('layout.module.app')
-@section('title')
+<?php $__env->startSection('title'); ?>
     Digital Marketing | Intro
-@endsection
+<?php $__env->stopSection(); ?>
 
-@section('banner')
+<?php $__env->startSection('banner'); ?>
     <div class="banner">
         <div class="container">
             <h1 class="title">
@@ -22,13 +21,13 @@
             Happy learning!
         </p>
     </div>
-@endsection
+<?php $__env->stopSection(); ?>
 
-@section('sidebar')
-    @include('layout.module.sidebar-dm')
-@endsection
+<?php $__env->startSection('sidebar'); ?>
+    <?php echo $__env->make('layout.module.sidebar-dm', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+<?php $__env->stopSection(); ?>
 
-@section('content')
+<?php $__env->startSection('content'); ?>
     <div class="content">
         <div class="card">
             <div class="py-2 text-center">
@@ -66,13 +65,13 @@
                                         <br><br>
                                     </div>
                                     <div class="col-md-6">
-                                        <img src="{{ asset('img/data-marketing/btsmeal0.png') }}" width="100%">
+                                        <img src="<?php echo e(asset('img/data-marketing/btsmeal0.png')); ?>" width="100%">
                                     </div>
                                     <div class="col-md-8">
-                                        <img src="{{ asset('img/data-marketing/btsmeal1.png') }}" width="100%">
+                                        <img src="<?php echo e(asset('img/data-marketing/btsmeal1.png')); ?>" width="100%">
                                     </div>
                                     <div class="col-md-4">
-                                        <img src="{{ asset('img/data-marketing/btsmeal2.png') }}" width="100%">
+                                        <img src="<?php echo e(asset('img/data-marketing/btsmeal2.png')); ?>" width="100%">
                                     </div>
                                     <div class="col-md-12 mt-3">
                                         <p>
@@ -106,7 +105,7 @@
                             <div class="accordion-body">
                                 <div class="row align-items-center">
                                     <div class="col-md-6">
-                                        <img src="{{ asset('img/data-marketing/igreel0.png') }}" width="100%">
+                                        <img src="<?php echo e(asset('img/data-marketing/igreel0.png')); ?>" width="100%">
                                     </div>
                                     <div class="col-md-6">
                                         <p>
@@ -275,4 +274,6 @@
         }
 
     </script>
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layout.module.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /opt/lampp/htdocs/career-module/resources/views/modules/digital-marketing/index.blade.php ENDPATH**/ ?>

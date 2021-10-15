@@ -3,6 +3,20 @@
     Data Scientist | What types of Data Scientist are available?
 @endsection
 
+@section('banner')
+    <div class="container-fluid m-0 p-0">
+        <div class="card border-0 mb-5">
+            <div class="card-body text-center banner" style="text-align: right !important;">
+                <div class="container position-relative" style="height:100%;">
+                    <div class="heading-title">
+                        <h1 style="font-weight:bold">Data Science<br>101</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+@stop
+
 @section('sidebar')
     @include('layout.module.sidebar-ds')
 @endsection
