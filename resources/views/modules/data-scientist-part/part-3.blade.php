@@ -20,12 +20,12 @@
 
 @section('content')
     <div class="content">
-        <div class="card">
+        <div class="card p-3">
             <div class="accordion accordion-flush" id="p2">
-                <div>
-                    <h2 class="section-header" id="p2-header">
+                <div class="border-bottom">
+                    <h3 class="section-header" id="p2-header">
                         <div>What types of Data Scientists are available?</div>
-                    </h2>
+                    </h3>
                 </div>
 
                 <div class="accordion-item">
@@ -212,7 +212,7 @@
                                 </div>
                                 <br>
                                 <button type="button" class="btn btn-primary float-end text-center"
-                                    style="width: 10%; height: 20%;">Submit</button>
+                                    style="width: 10%; height: 20%;" onclick="next(6, 2)">Submit</button>
                             </form>
                         </div>
                     </div>
@@ -263,7 +263,7 @@
                 sessionStorage.setItem("part" + part, "done");
                 if (sessionStorage.getItem('part' + part) == 'done') {
                     $('#iconPart' + part).addClass('fas fa-check-circle float-end mt-1')
-                    window.location = "<?php echo url('/data-scientist/3'); ?>";
+                    window.location = "<?php echo url('/data-scientist/4'); ?>";
                 }
             }
         }

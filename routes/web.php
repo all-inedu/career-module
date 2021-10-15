@@ -65,25 +65,25 @@ Route::get('/data-scientist/3', function() {
     return view('modules/data-scientist-part/part-3');
 });
 
-// Route::get('/data-scientist/4', function() {
-//     return view('modules/data-scientist-part/part-3');
-// });
+Route::get('/data-scientist/4', function() {
+    return view('modules/data-scientist-part/part-4');
+});
 
-// Route::get('/data-scientist/case-studies', function() {
-//     return view('modules/data-scientist-part/part-4');
-// });
+Route::get('/data-scientist/case-studies', function() {
+    return view('modules/data-scientist-part/case-studies');
+});
 
-// Route::get('/data-scientist/reflection', function() {
-//     return view('modules/data-scientist-part/part-5');
-// });
+Route::get('/data-scientist/reflection', function() {
+    return view('modules/data-scientist-part/reflection');
+});
 
-// Route::get('/data-scientist/glossary', function() {
-//     return view('modules/data-scientist-part/part-6');
-// });
+Route::get('/data-scientist/glossary', function() {
+    return view('modules/data-scientist-part/glossary');
+});
 
-// Route::get('/data-scientist/glossary', function() {
-//     return view('modules/data-scientist-part/part-6');
-// });
+Route::get('/data-scientist/other-resources', function() {
+    return view('modules/data-scientist-part/other');
+});
 
 // Route::get('/data-scientist/other-resources', function() {
 //     return view('modules/data-scientist-part/part-7');
