@@ -81,16 +81,19 @@
             left: 0;
             top: 0;
             width: 100%;
-            height: 240px;
+            /* height: 240px; */
+            height: 100%;
+            background: black;
             transition: all .2s ease-in-out;
             z-index: 999;
-            opacity: .2;
-            cursor: pointer
+            opacity: .4;
+            cursor: pointer;
+            border-radius: 14px
         }
 
-        .container-overflow:hover {
+        /* .container-overflow:hover {
             opacity: .9
-        }
+        } */
 
         .container1 {
             display: flex;
@@ -107,6 +110,10 @@
         .img-lock {
             width: 25%;
             margin-top: 25%;
+        }
+
+        .blur {
+            filter: blur(2px)
         }
 
     </style>
