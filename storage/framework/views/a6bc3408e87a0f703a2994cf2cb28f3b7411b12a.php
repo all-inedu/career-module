@@ -1,32 +1,32 @@
 <ul class="list-group rounded-0" id="sidebar-list">
     <li class="list-group-item <?php echo e(Request::is('data-scientist/1') ? 'active' : ''); ?>"">
         <a class=" sidebar-elements" id="part-0" href="<?php echo e(url('data-scientist/1')); ?>">
-        Part 1 <i class="" id="iconPart1"></i>
+        Part 1 <i class="" id="ds-iconPart1"></i>
         </a>
     </li>
     <li class="list-group-item <?php echo e(Request::is('data-scientist/2') ? 'active' : ''); ?>">
         <a class="sidebar-elements" id="part-1" href="<?php echo e(url('data-scientist/2')); ?>">
-            Part 2 <i class="" id="iconPart3"></i>
+            Part 2 <i class="" id="ds-iconPart3"></i>
         </a>
     </li>
     <li class="list-group-item <?php echo e(Request::is('data-scientist/3') ? 'active' : ''); ?>">
         <a class="sidebar-elements" id="part-2" href="<?php echo e(url('data-scientist/3')); ?>">
-            Part 3 <i class="" id="iconPart2"></i>
+            Part 3 <i class="" id="ds-iconPart2"></i>
         </a>
     </li>
     <li class="list-group-item <?php echo e(Request::is('data-scientist/4') ? 'active' : ''); ?>">
         <a class="sidebar-elements" id="part-3" href="<?php echo e(url('data-scientist/4')); ?>">
-            Part 4 <i class="" id="iconPart4"></i>
+            Part 4 <i class="" id="ds-iconPart4"></i>
         </a>
     </li>
     <li class="list-group-item <?php echo e(Request::is('data-scientist/case-studies') ? 'active' : ''); ?>">
         <a class="sidebar-elements" id="part-4" href="<?php echo e(url('data-scientist/case-studies')); ?>">
-            Case Studies <i class="" id="iconPart5"></i>
+            Case Studies <i class="" id="ds-iconPart5"></i>
         </a>
     </li>
     <li class="list-group-item <?php echo e(Request::is('data-scientist/reflection') ? 'active' : ''); ?>">
         <a class="sidebar-elements" id="part-5" href="<?php echo e(url('data-scientist/reflection')); ?>">
-            Reflection <i class="" id="iconPart6"></i>
+            Reflection
         </a>
     </li>
     <li class="list-group-item <?php echo e(Request::is('data-scientist/glossary') ? 'active' : ''); ?>">

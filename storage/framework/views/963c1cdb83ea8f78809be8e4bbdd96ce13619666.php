@@ -79,7 +79,7 @@
             <div class="col">
                 <div class="card">
                     <div class="container-overflow text-center pt-2">
-                        <img src="<?php echo e(asset('img/CMW_lock (black).webp')); ?>" class="img-lock">
+                        
                     </div>
                     <div class="container2">
                         <img src="<?php echo e(asset('img/CMW_5.Biomedical Engineer.webp')); ?>" class="card-img-top blur">
@@ -95,7 +95,7 @@
             <div class="col">
                 <div class="card">
                     <div class="container-overflow text-center pt-2">
-                        <img src="<?php echo e(asset('img/CMW_lock (black).webp')); ?>" class="img-lock">
+                        
                     </div>
                     <div class="container2">
                         <img src="<?php echo e(asset('img/CMW_6.Investment Analyst.webp')); ?>" class="card-img-top blur">
@@ -108,7 +108,7 @@
             <div class="col">
                 <div class="card">
                     <div class="container-overflow text-center pt-2">
-                        <img src="<?php echo e(asset('img/CMW_lock (black).webp')); ?>" class="img-lock">
+                        
                     </div>
                     <div class="container2">
                         <img src="<?php echo e(asset('img/CMW_7. Psychologist.webp')); ?>" class="card-img-top blur">
@@ -121,7 +121,7 @@
             <div class="col">
                 <div class="card">
                     <div class="container-overflow text-center pt-2">
-                        <img src="<?php echo e(asset('img/CMW_lock (black).webp')); ?>" class="img-lock">
+                        
                     </div>
                     <div class="container2">
                         <img src="<?php echo e(asset('img/CMW_8. Conten Creator.webp')); ?>" class="card-img-top blur">
@@ -134,7 +134,7 @@
             <div class="col">
                 <div class="card">
                     <div class="container-overflow text-center pt-2">
-                        <img src="<?php echo e(asset('img/CMW_lock (black).webp')); ?>" class="img-lock">
+                        
                     </div>
                     <div class="container2">
                         <img src="<?php echo e(asset('img/CMW_9. Food Scientist.webp')); ?>" class="card-img-top blur">
@@ -147,7 +147,7 @@
             <div class="col">
                 <div class="card">
                     <div class="container-overflow text-center pt-2">
-                        <img src="<?php echo e(asset('img/CMW_lock (black).webp')); ?>" class="img-lock">
+                        
                     </div>
                     <div class="container2">
                         <img src="<?php echo e(asset('img/CMW_10. Medical Doctor.webp')); ?>" class="card-img-top blur">

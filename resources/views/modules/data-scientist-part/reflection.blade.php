@@ -43,7 +43,8 @@
                                 <li>After completing this module, do you think that you are interested in becoming a Data
                                     Scientist?
                                 </li>
-                                <li>If yes, do you have in mind what type of Data Scientist you want to be? Are you more of a
+                                <li>If yes, do you have in mind what type of Data Scientist you want to be? Are you more of
+                                    a
                                     generalist or a specialist?</li>
                             </ul>
 
@@ -106,5 +107,6 @@
                 }
             }
         }
+
     </script>
 @endsection
