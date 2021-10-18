@@ -32,7 +32,7 @@
                     <h2 class="accordion-header" id="p5-1">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c-p5-1"
                             aria-expanded="false" aria-controls="c-p5-1">
-                            <i class="far fa-check-circle pe-2" id="icon5-1"></i>
+                            <i class="far fa-check-circle pe-2" id="ds-icon5-1"></i>
                             Case Study Explanation
                         </button>
                     </h2>
@@ -41,8 +41,7 @@
                         <div class="accordion-body" style="text-align: left;">
                             <h2>VIDEO 3 - CASE STUDY EXPLANATION</h2>
 
-                            <div class="col-md-12 text-end">
-                                <hr class="m-0 mb-2">
+                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(1, 5)">
                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                 </button>
@@ -55,7 +54,7 @@
                     <h2 class="accordion-header" id="p5-2">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#c-p5-2" aria-expanded="false" aria-controls="c-p5-2">
-                            <i class="far fa-check-circle pe-2" id="icon5-2"></i>
+                            <i class="far fa-check-circle pe-2" id="ds-icon5-2"></i>
                             Case Study
                         </button>
                     </h2>
@@ -74,8 +73,7 @@
                                 understanding.
                                 (Expert pls provide the dataset)</p>
                             
-                                <div class="col-md-12 text-end">
-                                    <hr class="m-0 mb-2">
+                                <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                     <button class="btn btn-info btn-sm px-3" onclick="next(2, 5)">
                                         Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                     </button>
@@ -88,7 +86,7 @@
                     <h2 class="accordion-header" id="p5-3">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#c-p5-3" aria-expanded="false" aria-controls="c-p5-3">
-                            <i class="far fa-check-circle pe-2" id="icon5-3"></i>
+                            <i class="far fa-check-circle pe-2" id="ds-icon5-3"></i>
                             ANSWER - CRISP DM
                         </button>
                     </h2>
@@ -99,8 +97,7 @@
                                 methodology
                                 that data scientist will use in order to gain more insight from the data.</p>
 
-                                <div class="col-md-12 text-end">
-                                    <hr class="m-0 mb-2">
+                                <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                     <button class="btn btn-info btn-sm px-3" onclick="next(3, 5)">
                                         Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                     </button>
@@ -113,7 +110,7 @@
                     <h2 class="accordion-header" id="p5-4">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#c-p5-4" aria-expanded="false" aria-controls="c-p5-4">
-                            <i class="far fa-check-circle pe-2" id="icon5-4"></i>
+                            <i class="far fa-check-circle pe-2" id="ds-icon5-4"></i>
                             ANSWER - Business Understanding
                         </button>
                     </h2>
@@ -124,8 +121,7 @@
                                 produce useful
                                 insights of the data science process.</p>
 
-                                <div class="col-md-12 text-end">
-                                    <hr class="m-0 mb-2">
+                                <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                     <button class="btn btn-info btn-sm px-3" onclick="next(4, 5)">
                                         Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                     </button>
@@ -138,7 +134,7 @@
                     <h2 class="accordion-header" id="p5-5">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#c-p5-5" aria-expanded="false" aria-controls="c-p5-5">
-                            <i class="far fa-check-circle pe-2" id="icon5-5"></i>
+                            <i class="far fa-check-circle pe-2" id="ds-icon5-5"></i>
                             ANSWER - EDA
                         </button>
                     </h2>
@@ -158,8 +154,7 @@
                             <h6>How many different store types in the data?</h6>
                             <p>Type UNIQUE(G:G)</p>
 
-                            <div class="col-md-12 text-end">
-                                <hr class="m-0 mb-2">
+                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(5, 5)">
                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                 </button>
@@ -172,7 +167,7 @@
                     <h2 class="accordion-header" id="p5-6">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#c-p5-6" aria-expanded="false" aria-controls="c-p5-6">
-                            <i class="far fa-check-circle pe-2" id="icon5-6"></i>
+                            <i class="far fa-check-circle pe-2" id="ds-icon5-6"></i>
                             ANSWER - EDA (Statistics)
                         </button>
                     </h2>
@@ -207,8 +202,7 @@
                             <p>Drag Average of Fuel Price to Values</p>
                             <p>Type MAX(B:B)</p>
 
-                            <div class="col-md-12 text-end">
-                                <hr class="m-0 mb-2">
+                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(6, 5)">
                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                 </button>
@@ -221,7 +215,7 @@
                     <h2 class="accordion-header" id="p5-7">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#c-p5-7" aria-expanded="false" aria-controls="c-p5-7">
-                            <i class="far fa-check-circle pe-2" id="icon5-7"></i>
+                            <i class="far fa-check-circle pe-2" id="ds-icon5-7"></i>
                             ANSWER - Data Cleaning
                         </button>
                     </h2>
@@ -236,8 +230,7 @@
                             <h6>If any, please fill the missing values</h6>
                             <p>Find average values for the missing columns, and fill the blank with it!</p>
 
-                            <div class="col-md-12 text-end">
-                                <hr class="m-0 mb-2">
+                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(7, 5)">
                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                 </button>
@@ -250,7 +243,7 @@
                     <h2 class="accordion-header" id="p5-8">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#c-p5-8" aria-expanded="false" aria-controls="c-p5-8">
-                            <i class="far fa-check-circle pe-2" id="icon5-8"></i>
+                            <i class="far fa-check-circle pe-2" id="ds-icon5-8"></i>
                             Case Study Answer
                         </button>
                     </h2>
@@ -258,8 +251,7 @@
                     <div id="c-p5-8" class="accordion-collapse collapse" aria-labelledby="p5-8" data-bs-parent="#p5">
                         <div class="accordion-body" style="text-align: left;">
                             <h2>VIDEO 4 - CASE STUDY ANSWER</h2>
-                            <div class="col-md-12 text-end">
-                                <hr class="m-0 mb-2">
+                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(8, 5)">
                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                 </button>
@@ -272,7 +264,7 @@
                     <h2 class="accordion-header" id="p5-9">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#c-p5-9" aria-expanded="false" aria-controls="c-p5-9">
-                            <i class="far fa-check-circle pe-2" id="icon5-9"></i>
+                            <i class="far fa-check-circle pe-2" id="ds-icon5-9"></i>
                             Case Study Explanation
                         </button>
                     </h2>
@@ -280,8 +272,7 @@
                     <div id="c-p5-9" class="accordion-collapse collapse" aria-labelledby="p5-9" data-bs-parent="#p5">
                         <div class="accordion-body" style="text-align: left;">
                             <h2>VIDEO 5 - CASE STUDY EXPLANATION</h2>
-                            <div class="col-md-12 text-end">
-                                <hr class="m-0 mb-2">
+                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(9, 5)">
                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                 </button>
@@ -294,7 +285,7 @@
                     <h2 class="accordion-header" id="p5-10">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#c-p5-10" aria-expanded="false" aria-controls="c-p5-10">
-                            <i class="far fa-check-circle pe-2" id="icon5-10"></i>
+                            <i class="far fa-check-circle pe-2" id="ds-icon5-10"></i>
                             Case Study #2
                         </button>
                     </h2>
@@ -304,8 +295,7 @@
                             <p>From the data that has been provided on the previous case study, try to turn it into
                                 visualization!
                             </p>
-                            <div class="col-md-12 text-end">
-                                <hr class="m-0 mb-2">
+                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(10, 5)">
                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                 </button>
@@ -318,7 +308,7 @@
                     <h2 class="accordion-header" id="p5-11">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#c-p5-11" aria-expanded="false" aria-controls="c-p5-11">
-                            <i class="far fa-check-circle pe-2" id="icon5-11"></i>
+                            <i class="far fa-check-circle pe-2" id="ds-icon5-11"></i>
                             Case Study Answer
                         </button>
                     </h2>
@@ -326,8 +316,7 @@
                     <div id="c-p5-11" class="accordion-collapse collapse" aria-labelledby="p5-11" data-bs-parent="#p5">
                         <div class="accordion-body">
                             <h2>VIDEO 6 - CASE STUDY ANSWER</h2>
-                            <div class="col-md-12 text-end">
-                                <hr class="m-0 mb-2">
+                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(11, 5)">
                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                 </button>
@@ -340,7 +329,7 @@
                     <h2 class="accordion-header" id="p5-12">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#c-p5-12" aria-expanded="false" aria-controls="c-p5-12">
-                            <i class="far fa-check-circle pe-2" id="icon5-12"></i>
+                            <i class="far fa-check-circle pe-2" id="ds-icon5-12"></i>
                             Data Cleaning
                         </button>
                     </h2>
@@ -359,8 +348,7 @@
                                     outcome</li>
                             </ul>
                             <p>The predictor variables used are <i>Store, Dept, Date, CPI, Weekly_Sales, IsHoliday</i></p>
-                            <div class="col-md-12 text-end">
-                                <hr class="m-0 mb-2">
+                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(12, 5)">
                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                 </button>
@@ -373,7 +361,7 @@
                     <h2 class="accordion-header" id="p5-13">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#c-p5-13" aria-expanded="false" aria-controls="c-p5-13">
-                            <i class="far fa-check-circle pe-2" id="icon5-13"></i>
+                            <i class="far fa-check-circle pe-2" id="ds-icon5-13"></i>
                             Data Visualization
                         </button>
                     </h2>
@@ -430,8 +418,7 @@
                             <h6>Create scatter plot showing relationship between weekly sales and temperature.</h6>
                             <p>Select column Weekly Sales and Temperature</p>
                             <p>Click Insert and select scatter plot</p>
-                            <div class="col-md-12 text-end">
-                                <hr class="m-0 mb-2">
+                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(13, 5)">
                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                 </button>
@@ -444,7 +431,7 @@
                     <h2 class="accordion-header" id="p5-14">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#c-p5-14" aria-expanded="false" aria-controls="c-p5-14">
-                            <i class="far fa-check-circle pe-2" id="icon5-14"></i>
+                            <i class="far fa-check-circle pe-2" id="ds-icon5-14"></i>
                             Model Building
                         </button>
                     </h2>
@@ -474,8 +461,7 @@
                                 <li>Type LINEST(E2:E5771;H2:L5771) in column M</li>
                                 <li>M to Q columns are the value of m1 to m5, while R column is the value of b</li>
                             </ul>
-                            <div class="col-md-12 text-end">
-                                <hr class="m-0 mb-2">
+                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(14, 5)">
                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                 </button>
@@ -493,15 +479,15 @@
             let n = $('.accordion-item').length
             for (i = 1; i <= n; i++) {
                 if (sessionStorage.getItem('c-p5-' + i) == 'read') {
-                    $('#icon5-' + i).removeClass('far fa-check-circle')
-                    $('#icon5-' + i).addClass('fas fa-check-circle')
+                    $('#ds-icon5-' + i).removeClass('far fa-check-circle')
+                    $('#ds-icon5-' + i).addClass('fas fa-check-circle')
                 }
             }
 
             let nPart = $('.list-group-item').length
             for (i = 1; i <= nPart; i++) {
                 if (sessionStorage.getItem('part' + i) == 'done') {
-                    $('#iconPart' + i).addClass('fas fa-check-circle float-end mt-1')
+                    $('#ds-iconPart' + i).addClass('fas fa-check-circle float-end mt-1')
                 }
             }
         });
@@ -509,8 +495,8 @@
         function next(n, part) {
             sessionStorage.setItem("c-p5-" + n, "read");
             if (sessionStorage.getItem('c-p5-' + n) == 'read') {
-                $('#icon5-' + n).removeClass('far fa-check-circle')
-                $('#icon5-' + n).addClass('fas fa-check-circle')
+                $('#ds-icon5-' + n).removeClass('far fa-check-circle')
+                $('#ds-icon5-' + n).addClass('fas fa-check-circle')
             }
 
             let next = n + 1
@@ -528,7 +514,7 @@
             if (z == j) {
                 sessionStorage.setItem("part" + part, "done");
                 if (sessionStorage.getItem('part' + part) == 'done') {
-                    $('#iconPart' + part).addClass('fas fa-check-circle float-end mt-1')
+                    $('#ds-iconPart' + part).addClass('fas fa-check-circle float-end mt-1')
                     window.location = "<?php echo url('/data-scientist/reflection'); ?>";
                 }
             }

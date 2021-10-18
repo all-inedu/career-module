@@ -32,7 +32,7 @@
                     <h2 class="accordion-header" id="p6-1">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c-p6-1"
                             aria-expanded="false" aria-controls="c-p6-1">
-                            <i class="far fa-check-circle pe-2" id="icon6-1"></i>
+                            <i class="far fa-check-circle pe-2" id="ds-icon6-1"></i>
                             Ask yourself
                         </button>
                     </h2>
@@ -66,15 +66,15 @@
             let n = $('.accordion-item').length
             for (i = 1; i <= n; i++) {
                 if (sessionStorage.getItem('c-p6-' + i) == 'read') {
-                    $('#icon6-' + i).removeClass('far fa-check-circle')
-                    $('#icon6-' + i).addClass('fas fa-check-circle')
+                    $('#ds-icon6-' + i).removeClass('far fa-check-circle')
+                    $('#ds-icon6-' + i).addClass('fas fa-check-circle')
                 }
             }
 
             let nPart = $('.list-group-item').length
             for (i = 1; i <= nPart; i++) {
                 if (sessionStorage.getItem('part' + i) == 'done') {
-                    $('#iconPart' + i).addClass('fas fa-check-circle float-end mt-1')
+                    $('#ds-iconPart' + i).addClass('fas fa-check-circle float-end mt-1')
                 }
             }
         });
@@ -82,8 +82,8 @@
         function next(n, part) {
             sessionStorage.setItem("c-p6-" + n, "read");
             if (sessionStorage.getItem('c-p6-' + n) == 'read') {
-                $('#icon6-' + n).removeClass('far fa-check-circle')
-                $('#icon6-' + n).addClass('fas fa-check-circle')
+                $('#ds-icon6-' + n).removeClass('far fa-check-circle')
+                $('#ds-icon6-' + n).addClass('fas fa-check-circle')
             }
 
             let next = n + 1
@@ -101,7 +101,7 @@
             if (z == j) {
                 sessionStorage.setItem("part" + part, "done");
                 if (sessionStorage.getItem('part' + part) == 'done') {
-                    $('#iconPart' + part).addClass('fas fa-check-circle float-end mt-1')
+                    $('#ds-iconPart' + part).addClass('fas fa-check-circle float-end mt-1')
                     window.location = "<?php echo url('/data-scientist/glossary'); ?>";
                 }
             }
