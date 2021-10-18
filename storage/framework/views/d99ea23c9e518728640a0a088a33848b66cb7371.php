@@ -81,16 +81,19 @@
             left: 0;
             top: 0;
             width: 100%;
-            height: 240px;
+            /* height: 240px; */
+            height: 100%;
+            background: black;
             transition: all .2s ease-in-out;
             z-index: 999;
-            opacity: .2;
-            cursor: pointer
+            opacity: .4;
+            cursor: pointer;
+            border-radius: 14px
         }
 
-        .container-overflow:hover {
+        /* .container-overflow:hover {
             opacity: .9
-        }
+        } */
 
         .container1 {
             display: flex;
@@ -109,13 +112,17 @@
             margin-top: 25%;
         }
 
+        .blur {
+            filter: blur(2px)
+        }
+
     </style>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f7f7f7;">
         <div class="container my-1">
-            <a class="navbar-brand" href="#"><img src="<?php echo e(asset('img/logo-1.png')); ?>" width="30%" /></a>
+            <a class="navbar-brand" href="<?php echo e(url('/')); ?>"><img src="<?php echo e(asset('img/logo-1.png')); ?>" width="30%" /></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">

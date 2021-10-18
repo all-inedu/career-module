@@ -52,12 +52,12 @@
 
             <div class="col">
                 <div class="card">
-                    <div class="container-overflow text-center mt-3">
-                        <img src="<?php echo e(asset('img/CMW_lock (black).webp')); ?>" class="img-lock">
+                    <div class="container-overflow text-center pt-2">
+                        
                     </div>
                     <div class="container2">
                         <img src="<?php echo e(asset('img/CMW_3. Full Stack Engineer.webp')); ?>" class="card-img-top blur">
-                        <div class="bottom-right">Full Stack Engineering
+                        <div class="bottom-right blur">Full Stack Engineering
                         </div>
                     </div>
                 </div>
@@ -65,12 +65,12 @@
 
             <div class="col">
                 <div class="card">
-                    <div class="container-overflow text-center mt-3">
-                        <img src="<?php echo e(asset('img/CMW_lock (black).webp')); ?>" class="img-lock">
+                    <div class="container-overflow text-center pt-2">
+                        
                     </div>
                     <div class="container2">
                         <img src="<?php echo e(asset('img/CMW_4. UX Designer.webp')); ?>" class="card-img-top blur">
-                        <div class="bottom-right">UX Designer
+                        <div class="bottom-right blur">UX Designer
                         </div>
                     </div>
                 </div>
@@ -78,12 +78,12 @@
 
             <div class="col">
                 <div class="card">
-                    <div class="container-overflow text-center mt-3">
+                    <div class="container-overflow text-center pt-2">
                         <img src="<?php echo e(asset('img/CMW_lock (black).webp')); ?>" class="img-lock">
                     </div>
                     <div class="container2">
                         <img src="<?php echo e(asset('img/CMW_5.Biomedical Engineer.webp')); ?>" class="card-img-top blur">
-                        <div class="bottom-right">Biomedical Engineering
+                        <div class="bottom-right blur">Biomedical Engineering
                         </div>
                     </div>
                 </div>
@@ -94,12 +94,12 @@
         <div class="row mt-3">
             <div class="col">
                 <div class="card">
-                    <div class="container-overflow text-center mt-3">
+                    <div class="container-overflow text-center pt-2">
                         <img src="<?php echo e(asset('img/CMW_lock (black).webp')); ?>" class="img-lock">
                     </div>
                     <div class="container2">
                         <img src="<?php echo e(asset('img/CMW_6.Investment Analyst.webp')); ?>" class="card-img-top blur">
-                        <div class="bottom-right">Investment Analyst
+                        <div class="bottom-right blur">Investment Analyst
                         </div>
                     </div>
                 </div>
@@ -107,12 +107,12 @@
 
             <div class="col">
                 <div class="card">
-                    <div class="container-overflow text-center mt-3">
+                    <div class="container-overflow text-center pt-2">
                         <img src="<?php echo e(asset('img/CMW_lock (black).webp')); ?>" class="img-lock">
                     </div>
                     <div class="container2">
                         <img src="<?php echo e(asset('img/CMW_7. Psychologist.webp')); ?>" class="card-img-top blur">
-                        <div class="bottom-right">Psychologist
+                        <div class="bottom-right blur">Psychologist
                         </div>
                     </div>
                 </div>
@@ -120,12 +120,12 @@
 
             <div class="col">
                 <div class="card">
-                    <div class="container-overflow text-center mt-3">
+                    <div class="container-overflow text-center pt-2">
                         <img src="<?php echo e(asset('img/CMW_lock (black).webp')); ?>" class="img-lock">
                     </div>
                     <div class="container2">
                         <img src="<?php echo e(asset('img/CMW_8. Conten Creator.webp')); ?>" class="card-img-top blur">
-                        <div class="bottom-right">Content Creator
+                        <div class="bottom-right blur">Content Creator
                         </div>
                     </div>
                 </div>
@@ -133,12 +133,12 @@
 
             <div class="col">
                 <div class="card">
-                    <div class="container-overflow text-center mt-3">
+                    <div class="container-overflow text-center pt-2">
                         <img src="<?php echo e(asset('img/CMW_lock (black).webp')); ?>" class="img-lock">
                     </div>
                     <div class="container2">
                         <img src="<?php echo e(asset('img/CMW_9. Food Scientist.webp')); ?>" class="card-img-top blur">
-                        <div class="bottom-right">Food Scientist
+                        <div class="bottom-right blur">Food Scientist
                         </div>
                     </div>
                 </div>
@@ -146,12 +146,12 @@
 
             <div class="col">
                 <div class="card">
-                    <div class="container-overflow text-center mt-3">
+                    <div class="container-overflow text-center pt-2">
                         <img src="<?php echo e(asset('img/CMW_lock (black).webp')); ?>" class="img-lock">
                     </div>
                     <div class="container2">
                         <img src="<?php echo e(asset('img/CMW_10. Medical Doctor.webp')); ?>" class="card-img-top blur">
-                        <div class="bottom-right">Medical Doctor
+                        <div class="bottom-right blur">Medical Doctor
                         </div>
                     </div>
                 </div>

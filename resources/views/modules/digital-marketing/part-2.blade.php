@@ -142,7 +142,7 @@
 
             let nPart = $('.list-group-item').length
             for (i = 1; i <= nPart; i++) {
-                if (sessionStorage.getItem('part' + i) == 'done') {
+                if (sessionStorage.getItem('dm-part' + i) == 'done') {
                     $('#dm-iconPart' + i).addClass('fas fa-check-circle text-success float-end mt-1')
                 }
             }
@@ -168,8 +168,8 @@
             }
 
             if (z == j) {
-                sessionStorage.setItem("part" + part, "done");
-                if (sessionStorage.getItem('part' + part) == 'done') {
+                sessionStorage.setItem("dm-part" + part, "done");
+                if (sessionStorage.getItem('dm-part' + part) == 'done') {
                     $('#dm-iconPart' + part).addClass('fas fa-check-circle text-success float-end mt-1')
                 }
             }
