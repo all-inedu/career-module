@@ -102,11 +102,13 @@
             left: 0;
             top: 0;
             width: 100%;
-            height: 240px;
+            /* height: 240px; */
+            height: 100%;
+            background: black;
             transition: all .2s ease-in-out;
             z-index: 999;
             opacity: .2;
-            cursor: pointer
+            cursor: pointer;
         }
 
         .container-overflow:hover {

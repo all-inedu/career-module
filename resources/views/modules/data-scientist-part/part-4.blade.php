@@ -32,7 +32,7 @@
                     <h2 class="accordion-header" id="p4-1">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c-p4-1"
                             aria-expanded="false" aria-controls="c-p4-1">
-                            <i class="far fa-check-circle pe-2" id="icon4-1"></i>
+                            <i class="far fa-check-circle pe-2" id="ds-icon4-1"></i>
                             A day as Data Scientist
                         </button>
                     </h2>
@@ -44,8 +44,7 @@
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
 
-                                <div class="col-md-12 text-end">
-                                    <hr class="m-0 mb-2">
+                                <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                     <button class="btn btn-info btn-sm px-3" onclick="next(1, 4)">
                                         Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                     </button>
@@ -58,7 +57,7 @@
                     <h2 class="accordion-header" id="p4-2">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#c-p4-2" aria-expanded="false" aria-controls="c-p4-2">
-                            <i class="far fa-check-circle pe-2" id="icon4-2"></i>
+                            <i class="far fa-check-circle pe-2" id="ds-icon4-2"></i>
                             Pathways to become a Data Scientist
                         </button>
                     </h2>
@@ -132,8 +131,7 @@
                                 <img src="{{ asset('img/data-scientist-pathway.png') }}" class="col-md-6">
                             </div>
 
-                            <div class="col-md-12 text-end">
-                                <hr class="m-0 mb-2">
+                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(2, 4)">
                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                 </button>
@@ -146,7 +144,7 @@
                     <h2 class="accordion-header" id="p4-3">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#c-p4-3" aria-expanded="false" aria-controls="c-p4-3">
-                            <i class="far fa-check-circle pe-2" id="icon4-3"></i>
+                            <i class="far fa-check-circle pe-2" id="ds-icon4-3"></i>
                             What does it take to be a Data Scientist?
                         </button>
                     </h2>
@@ -194,8 +192,7 @@
                                     in the
                                     business field.</p>
                             </div>
-                            <div class="col-md-12 text-end">
-                                <hr class="m-0 mb-2">
+                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(3, 4)">
                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                 </button>
@@ -213,15 +210,15 @@
             let n = $('.accordion-item').length
             for (i = 1; i <= n; i++) {
                 if (sessionStorage.getItem('c-p4-' + i) == 'read') {
-                    $('#icon4-' + i).removeClass('far fa-check-circle')
-                    $('#icon4-' + i).addClass('fas fa-check-circle')
+                    $('#ds-icon4-' + i).removeClass('far fa-check-circle')
+                    $('#ds-icon4-' + i).addClass('fas fa-check-circle')
                 }
             }
 
             let nPart = $('.list-group-item').length
             for (i = 1; i <= nPart; i++) {
                 if (sessionStorage.getItem('part' + i) == 'done') {
-                    $('#iconPart' + i).addClass('fas fa-check-circle float-end mt-1')
+                    $('#ds-iconPart' + i).addClass('fas fa-check-circle float-end mt-1')
                 }
             }
         });
@@ -229,8 +226,8 @@
         function next(n, part) {
             sessionStorage.setItem("c-p4-" + n, "read");
             if (sessionStorage.getItem('c-p4-' + n) == 'read') {
-                $('#icon4-' + n).removeClass('far fa-check-circle')
-                $('#icon4-' + n).addClass('fas fa-check-circle')
+                $('#ds-icon4-' + n).removeClass('far fa-check-circle')
+                $('#ds-icon4-' + n).addClass('fas fa-check-circle')
             }
 
             let next = n + 1
@@ -248,7 +245,7 @@
             if (z == j) {
                 sessionStorage.setItem("part" + part, "done");
                 if (sessionStorage.getItem('part' + part) == 'done') {
-                    $('#iconPart' + part).addClass('fas fa-check-circle float-end mt-1')
+                    $('#ds-iconPart' + part).addClass('fas fa-check-circle float-end mt-1')
                     window.location = "<?php echo url('/data-scientist/case-studies'); ?>";
                 }
             }

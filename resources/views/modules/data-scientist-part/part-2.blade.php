@@ -32,7 +32,7 @@
                     <h2 class="accordion-header" id="p3-1">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c-p3-1"
                             aria-expanded="false" aria-controls="c-p3-1">
-                            <i class="far fa-check-circle pe-2" id="icon3-1"></i>
+                            <i class="far fa-check-circle pe-2" id="ds-icon3-1"></i>
                             Data Scientist as a career
                         </button>
                     </h2>
@@ -47,8 +47,7 @@
                                 <h5><strong>THAT’S THE WORK OF DATA SCIENTIST!</strong></h5>
                             </div>
 
-                            <div class="col-md-12 text-end">
-                                <hr class="m-0 mb-2">
+                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(1, 3)">
                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                 </button>
@@ -61,7 +60,7 @@
                     <h2 class="accordion-header" id="p3-2">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#c-p3-2" aria-expanded="false" aria-controls="c-p3-2">
-                            <i class="far fa-check-circle pe-2" id="icon3-2"></i>
+                            <i class="far fa-check-circle pe-2" id="ds-icon3-2"></i>
                             Do you know basketball uses data science?
                         </button>
                     </h2>
@@ -73,8 +72,7 @@
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
 
-                            <div class="col-md-12 text-end">
-                                <hr class="m-0 mb-2">
+                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(2, 3)">
                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                 </button>
@@ -87,7 +85,7 @@
                     <h2 class="accordion-header" id="p3-3">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#c-p3-3" aria-expanded="false" aria-controls="c-p3-3">
-                            <i class="far fa-check-circle pe-2" id="icon3-3"></i>
+                            <i class="far fa-check-circle pe-2" id="ds-icon3-3"></i>
                             What is Data Science?
                         </button>
                     </h2>
@@ -109,8 +107,7 @@
                                 </ul>
                             </div>
 
-                            <div class="col-md-12 text-end">
-                                <hr class="m-0 mb-2">
+                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(3, 3)">
                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                 </button>
@@ -123,45 +120,48 @@
                     <h2 class="accordion-header" id="p3-4">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#c-p3-4" aria-expanded="false" aria-controls="c-p3-4">
-                            <i class="far fa-check-circle pe-2" id="icon3-4"></i>
+                            <i class="far fa-check-circle pe-2" id="ds-icon3-4"></i>
                             Data Scientist as a career
                         </button>
                     </h2>
 
                     <div id="c-p3-4" class="accordion-collapse collapse" aria-labelledby="p3-4" data-bs-parent="#p3">
                         <div class="accordion-body">
-                            <ul>
-                                <li><b>Data Scientist</b> is a rising career nowadays as the demand for data science
-                                    professionals
-                                    is very high but the supply is very low.</li>
-                                <li>The <b>high demand</b> is due to the growing popularity of <b>data-driven decision</b>
-                                    making
-                                    used by many companies. The U.S. Bureau of Labor Statistics sees strong growth in the
-                                    data
-                                    science field and predicts the number of jobs will increase by <b>about 28%</b> through
-                                    2026.
-                                </li>
-                                <li>Whereas the <b>low supply</b> is because data science is still relatively a <b>new</b>
-                                    field and
-                                    there are very few educational programs for aspiring data scientists.</li>
-                            </ul>
-
-                            <img src="{{ asset('img/harvard-business-review.png') }}" class="rounded mx-auto d-block">
-                            <br>
-                            <div class="accordion-body row">
-                                <form>
-                                    <div class="form-group">
-                                        <label>According to Harvard Business Review, Data Scientist is the sexiest job of
-                                            the 21st
-                                            century. What do you think is the reason?</label>
+                            <div class="row">
+                                <div class="col">
+                                    <ul>
+                                        <li><b>Data Scientist</b> is a rising career nowadays as the demand for data science
+                                            professionals
+                                            is very high but the supply is very low.</li>
+                                        <li>The <b>high demand</b> is due to the growing popularity of <b>data-driven decision</b>
+                                            making
+                                            used by many companies. The U.S. Bureau of Labor Statistics sees strong growth in the
+                                            data
+                                            science field and predicts the number of jobs will increase by <b>about 28%</b> through
+                                            2026.
+                                        </li>
+                                        <li>Whereas the <b>low supply</b> is because data science is still relatively a <b>new</b>
+                                            field and
+                                            there are very few educational programs for aspiring data scientists.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row pt-4">
+                                <div class="col">
+                                    <img src="{{ asset('img/harvard-business-review.png') }}" class="rounded mx-auto d-block">
+                                </div>
+                                <div class="col">
+                                    <form>
+                                        <div class="form-group">
+                                            <label>According to Harvard Business Review, Data Scientist is the sexiest job of
+                                                the 21st
+                                                century. What do you think is the reason?</label>
+                                            <textarea rows="5" class="form-control rounded mx-auto d-block mt-2"></textarea>
+                                        </div>
                                         <br>
-                                        <textarea style="width: 90%;" rows="5"
-                                            class="form-control rounded mx-auto d-block"></textarea>
-                                    </div>
-                                    <br>
-                                    <button type="button" class="btn btn-primary float-end text-center"
-                                        style="width: 10%; height: 20%;" onclick="next(4, 3)">Submit</button>
-                                </form>
+                                        <button type="button" class="btn btn-primary float-end text-center" onclick="next(4, 3)">Submit</button>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -171,7 +171,7 @@
                     <h2 class="accordion-header" id="p3-5">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#c-p3-5" aria-expanded="false" aria-controls="c-p3-5">
-                            <i class="far fa-check-circle pe-2" id="icon3-5"></i>
+                            <i class="far fa-check-circle pe-2" id="ds-icon3-5"></i>
                             What does a data scientist do?
                         </button>
                     </h2>
@@ -203,8 +203,7 @@
                             </ol>
                             <img src="{{ asset('img/what-do-datascientists-do.png') }}" class="rounded mx-auto d-block">
 
-                            <div class="col-md-12 text-end">
-                                <hr class="m-0 mb-2">
+                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(5, 3)">
                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                 </button>
@@ -217,7 +216,7 @@
                     <h2 class="accordion-header" id="p3-6">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#c-p3-6" aria-expanded="false" aria-controls="c-p3-6">
-                            <i class="far fa-check-circle pe-2" id="icon3-6"></i>
+                            <i class="far fa-check-circle pe-2" id="ds-icon3-6"></i>
                             Career Trends for Data Science
                         </button>
                     </h2>
@@ -229,8 +228,7 @@
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
                             
-                                <div class="col-md-12 text-end">
-                                    <hr class="m-0 mb-2">
+                                <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                     <button class="btn btn-info btn-sm px-3" onclick="next(6, 3)">
                                         Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                     </button>
@@ -243,7 +241,7 @@
                     <h2 class="accordion-header" id="p3-7">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#c-p3-7" aria-expanded="false" aria-controls="c-p3-7">
-                            <i class="far fa-check-circle pe-2" id="icon3-7"></i>
+                            <i class="far fa-check-circle pe-2" id="ds-icon3-7"></i>
                             Where is Data Science applied?
                         </button>
                     </h2>
@@ -255,8 +253,7 @@
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
 
-                                <div class="col-md-12 text-end">
-                                    <hr class="m-0 mb-2">
+                                <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                     <button class="btn btn-info btn-sm px-3" onclick="next(7, 3)">
                                         Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                     </button>
@@ -269,7 +266,7 @@
                     <h2 class="accordion-header" id="p3-8">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#c-p3-8" aria-expanded="false" aria-controls="c-p3-8">
-                            <i class="far fa-check-circle pe-2" id="icon3-8"></i>
+                            <i class="far fa-check-circle pe-2" id="ds-icon3-8"></i>
                             Data Science for business
                         </button>
                     </h2>
@@ -288,8 +285,7 @@
                             </ul>
                             <img src="{{ asset('img/data-science-business.png') }}" class="rounded mx-auto d-block">
 
-                            <div class="col-md-12 text-end">
-                                <hr class="m-0 mb-2">
+                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(8, 3)">
                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                 </button>
@@ -302,7 +298,7 @@
                     <h2 class="accordion-header" id="p3-9">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#c-p3-9" aria-expanded="false" aria-controls="c-p3-9">
-                            <i class="far fa-check-circle pe-2" id="icon3-9"></i>
+                            <i class="far fa-check-circle pe-2" id="ds-icon3-9"></i>
                             Concept Check
                         </button>
                     </h2>
@@ -317,8 +313,7 @@
                             </ol>
                             <img src="{{ asset('img/topic-1-concept-check.png') }}" class="rounded mx-auto d-block">
 
-                            <div class="col-md-12 text-end">
-                                <hr class="m-0 mb-2">
+                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(9, 3)">
                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                 </button>
@@ -331,7 +326,7 @@
                     <h2 class="accordion-header" id="p3-10">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#c-p3-10" aria-expanded="false" aria-controls="c-p3-10">
-                            <i class="far fa-check-circle pe-2" id="icon3-10"></i>
+                            <i class="far fa-check-circle pe-2" id="ds-icon3-10"></i>
                             Testimony
                         </button>
                     </h2>
@@ -339,8 +334,7 @@
                     <div id="c-p3-10" class="accordion-collapse collapse" aria-labelledby="p3-10" data-bs-parent="#p3">
                         <div class="accordion-body">
                             <h2>VIDEO 2 - TESTIMONI</h2>
-                            <div class="col-md-12 text-end">
-                                <hr class="m-0 mb-2">
+                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(10, 3)">
                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                 </button>
@@ -358,15 +352,15 @@
             let n = $('.accordion-item').length
             for (i = 1; i <= n; i++) {
                 if (sessionStorage.getItem('c-p3-' + i) == 'read') {
-                    $('#icon3-' + i).removeClass('far fa-check-circle')
-                    $('#icon3-' + i).addClass('fas fa-check-circle')
+                    $('#ds-icon3-' + i).removeClass('far fa-check-circle')
+                    $('#ds-icon3-' + i).addClass('fas fa-check-circle')
                 }
             }
 
             let nPart = $('.list-group-item').length
             for (i = 1; i <= nPart; i++) {
                 if (sessionStorage.getItem('part' + i) == 'done') {
-                    $('#iconPart' + i).addClass('fas fa-check-circle float-end mt-1')
+                    $('#ds-iconPart' + i).addClass('fas fa-check-circle float-end mt-1')
                 }
             }
         });
@@ -374,8 +368,8 @@
         function next(n, part) {
             sessionStorage.setItem("c-p3-" + n, "read");
             if (sessionStorage.getItem('c-p3-' + n) == 'read') {
-                $('#icon3-' + n).removeClass('far fa-check-circle')
-                $('#icon3-' + n).addClass('fas fa-check-circle')
+                $('#ds-icon3-' + n).removeClass('far fa-check-circle')
+                $('#ds-icon3-' + n).addClass('fas fa-check-circle')
             }
 
             let next = n + 1
@@ -393,7 +387,7 @@
             if (z == j) {
                 sessionStorage.setItem("part" + part, "done");
                 if (sessionStorage.getItem('part' + part) == 'done') {
-                    $('#iconPart' + part).addClass('fas fa-check-circle float-end mt-1')
+                    $('#ds-iconPart' + part).addClass('fas fa-check-circle float-end mt-1')
                     window.location = "<?php echo url('/data-scientist/3'); ?>";
                 }
             }
