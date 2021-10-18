@@ -19,12 +19,12 @@
 
 <?php $__env->startSection('content'); ?>
     <div class="content">
-        <div class="card">
+        <div class="card p-3">
             <div class="accordion accordion-flush" id="p0">
-                <div>
-                    <h2 class="section-header" id="p0-header">
+                <div class="border-bottom">
+                    <h3 class="section-header" id="p0-header">
                         <div>Introduction</div>
-                    </h2>
+                    </h3>
                 </div>
 
                 <div class="accordion-item">

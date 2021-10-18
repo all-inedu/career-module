@@ -1,5 +1,5 @@
 <?php $__env->startSection('title'); ?>
-    Digital Marketing | Part 4
+    Digital Marketing | Pathway
 <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('banner'); ?>
@@ -31,11 +31,11 @@
     <div class="content">
         <div class="card">
 
-            <div class="py-2 text-center">
+            <div class="pt-3 pb-2 ps-3">
                 <h5>How do I become a Digital
                     Marketing Specialist?</h5>
-                <hr class="m-1 border-2 mx-auto" width="90%">
             </div>
+            <hr class="m-1 border-2 mx-auto" width="95%">
             <div class="card-body">
                 <div class="accordion my-2" id="accordionPanelsStayOpenExample">
                     <div class="accordion-item">
@@ -271,8 +271,8 @@
                                     </div>
                                     <div class="col-md-12 text-end">
                                         <hr class="m-0 mb-2">
-                                        <button class="btn btn-info btn-sm px-3" onclick="next(7, 4)">
-                                            Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                        <button class="btn btn-primary btn-sm px-3" onclick="next(7, 4)">
+                                            Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                         </button>
                                     </div>
                                 </div>
@@ -298,26 +298,26 @@
             let nPart = $('.list-group-item').length
             for (i = 1; i <= nPart; i++) {
                 if (sessionStorage.getItem('part' + i) == 'done') {
-                    $('#iconPart' + i).addClass('fas fa-check-circle text-success float-end mt-1')
+                    $('#dm-iconPart' + i).addClass('fas fa-check-circle text-success float-end mt-1')
                 }
             }
         });
 
         function next(n, part) {
-            sessionStorage.setItem("part4-" + n, "read");
-            if (sessionStorage.getItem('part4-' + n) == 'read') {
+            sessionStorage.setItem("part" + part + "-" + n, "read");
+            if (sessionStorage.getItem("part" + part + "-" + n) == 'read') {
                 $('#icon' + n).removeClass('far fa-check-circle')
                 $('#icon' + n).addClass('fas fa-check-circle text-success')
             }
 
             let next = n + 1
-            $('#part4-' + n).collapse('toggle');
-            $('#part4-' + next).collapse('toggle');
+            $('#part' + part + '-' + n).collapse('toggle');
+            $('#part' + part + '-' + next).collapse('toggle');
 
             let j = $('.accordion-item').length
             let z = 0
             for (i = 0; i <= j; i++) {
-                if (sessionStorage.getItem('part4-' + i) == 'read') {
+                if (sessionStorage.getItem('part' + part + '-' + i) == 'read') {
                     z++
                 }
             }
@@ -325,7 +325,7 @@
             if (z == j) {
                 sessionStorage.setItem("part" + part, "done");
                 if (sessionStorage.getItem('part' + part) == 'done') {
-                    $('#iconPart' + part).addClass('fas fa-check-circle text-success float-end mt-1')
+                    $('#dm-iconPart' + part).addClass('fas fa-check-circle text-success float-end mt-1')
                 }
             }
 

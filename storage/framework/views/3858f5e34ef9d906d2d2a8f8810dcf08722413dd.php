@@ -212,7 +212,8 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f7f7f7;">
         <div class="container my-1">
-            <a class="navbar-brand" href="#"><img src="<?php echo e(asset('img/logo-1.png')); ?>" width="30%" /></a>
+            <a class="navbar-brand" href="<?php echo e(url('/')); ?>"><img src="<?php echo e(asset('img/logo-1.png')); ?>"
+                    width="30%" /></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">

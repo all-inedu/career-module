@@ -1,7 +1,7 @@
 <ul class="list-group rounded-0" id="sidebar-list">
     <li class="list-group-item {{ Request::is('data-scientist/1') ? 'active' : '' }}"">
-        <a class="  sidebar-elements" id="part-0" href="{{ url('data-scientist/1') }}">
-            Part 1 <i class="" id="iconPart1"></i>
+        <a class=" sidebar-elements" id="part-0" href="{{ url('data-scientist/1') }}">
+        Part 1 <i class="" id="iconPart1"></i>
         </a>
     </li>
     <li class="list-group-item {{ Request::is('data-scientist/2') ? 'active' : '' }}">
@@ -49,4 +49,5 @@
         parent.addClass("active")
         parent.removeClass("")
     });
+
 </script>

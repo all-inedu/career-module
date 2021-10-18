@@ -30,17 +30,17 @@
 <?php $__env->startSection('content'); ?>
     <div class="content">
         <div class="card">
-            <div class="py-2 text-center">
+            <div class="pt-3 pb-2 ps-3">
                 <h5>Case Studies</h5>
-                <hr class="m-1 border-2 mx-auto" width="90%">
             </div>
+            <hr class="m-1 border-2 mx-auto" width="95%">
             <div class="card-body">
                 <div class="accordion my-2" id="accordionPanelsStayOpenExample">
-                    <div class="accordion-item">
+                    <div class="accordion-item step cs">
                         <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#part5-1">
-                                <i class="far fa-check-circle pe-2" id="icon1"></i>
+                                <i class="far fa-check-circle pe-2" id="dm-icon1"></i>
                                 Case Study #1
                             </button>
                         </h2>
@@ -72,11 +72,11 @@
                                             allowfullscreen></iframe>
                                         <br><br>
                                         <div class="accordion my-2" id="accordionPanelsStayOpenExample">
-                                            <div class="accordion-item">
+                                            <div class="accordion-item dm-cs1">
                                                 <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#cs1-1">
-                                                        <i class="far fa-check-circle pe-2" id="icon1"></i>
+                                                        <i class="far fa-check-circle pe-2" id="cs1Icon1"></i>
                                                         How would you identify her target market?
                                                     </button>
                                                 </h2>
@@ -121,9 +121,10 @@
                                                             </div>
                                                             <div class="col-md-12 text-end">
                                                                 <hr class="m-0 mb-2">
-                                                                <button class="btn btn-info btn-sm px-3"
+                                                                <button class="btn btn-primary btn-sm px-3"
                                                                     onclick="csNext(1, 1)">
-                                                                    Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                                                    Submit <i
+                                                                        class="far fa-arrow-alt-circle-right ps-2"></i>
                                                                 </button>
                                                             </div>
                                                         </div>
@@ -131,11 +132,11 @@
                                                 </div>
                                             </div>
 
-                                            <div class="accordion-item">
+                                            <div class="accordion-item dm-cs1">
                                                 <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#cs1-2">
-                                                        <i class="far fa-check-circle pe-2" id="icon1"></i>
+                                                        <i class="far fa-check-circle pe-2" id="cs1Icon2"></i>
                                                         How do you define their goals and pains?
                                                     </button>
                                                 </h2>
@@ -199,9 +200,10 @@
                                                             </div>
                                                             <div class="col-md-12 text-end">
                                                                 <hr class="m-0 mb-2">
-                                                                <button class="btn btn-info btn-sm px-3"
+                                                                <button class="btn btn-primary btn-sm px-3"
                                                                     onclick="csNext(2, 1)">
-                                                                    Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                                                    Submit <i
+                                                                        class="far fa-arrow-alt-circle-right ps-2"></i>
                                                                 </button>
                                                             </div>
                                                         </div>
@@ -209,11 +211,11 @@
                                                 </div>
                                             </div>
 
-                                            <div class="accordion-item">
+                                            <div class="accordion-item dm-cs1">
                                                 <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#cs1-3">
-                                                        <i class="far fa-check-circle pe-2" id="icon1"></i>
+                                                        <i class="far fa-check-circle pe-2" id="cs1Icon3"></i>
                                                         What Social Media do you think is appropriate
                                                         to use?
                                                     </button>
@@ -247,10 +249,11 @@
                                                             </div>
                                                             <div class="col-md-12 text-end">
                                                                 <hr class="m-0 mb-2">
-                                                                <button class="btn btn-info btn-sm px-3"
+                                                                <button class="btn btn-primary btn-sm px-3"
                                                                     onclick="csNext(3, 1)">
-                                                                    Next <i class=" far fa-arrow-alt-circle-right
-                                                                                                            ps-2"></i>
+                                                                    Submit <i
+                                                                        class=" far fa-arrow-alt-circle-right
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ps-2"></i>
                                                                 </button>
                                                             </div>
                                                         </div>
@@ -259,22 +262,16 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-12 text-end">
-                                        <hr class="m-0 mb-2">
-                                        <button class="btn btn-info btn-sm px-3" onclick="csNext(2, 1)">
-                                            Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
-                                        </button>
-                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="accordion-item">
+                    <div class="accordion-item step cs">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#part5-2">
-                                <i class="far fa-check-circle pe-2" id="icon2"></i>
+                                <i class="far fa-check-circle pe-2" id="dm-icon2"></i>
                                 Case Study #2
                             </button>
                         </h2>
@@ -282,7 +279,168 @@
                             <div class="accordion-body">
                                 <div class="row align-items-center">
                                     <div class="col-md-12 mb-3">
-                                        VIDEO
+                                        <p>
+                                            Before the case study start, make sure you have signed up on your Hootsuite
+                                            account.
+                                            <br>
+                                            You are a digital marketer tasked to advertise new Baby Formula product with
+                                            banana
+                                            flavor. You are to research the competitors and plan a marketing campaign to
+                                            promote
+                                            this Baby Formula. You have been given a few facts and figures of the target
+                                            market:
+                                        <ul>
+                                            <li>
+                                                Low to mid socioeconomic groups
+                                            </li>
+                                            <li>
+                                                20-40 year old mothers
+                                            </li>
+                                            <li>
+                                                Instagram users
+                                            </li>
+                                            <li>
+                                                Baby formula is the first one to have Banana flavor
+                                            </li>
+                                        </ul>
+                                        <br>
+                                        This Baby Formula is also a direct competitior to other baby formulas like
+                                        Similac
+                                        or Enfamil. Use competitior analysis, customer journey, and concept board to
+                                        determine a week of content planning
+                                        </p>
+
+                                        <br>
+                                        <div class="accordion my-2" id="accordionPanelsStayOpenExample">
+                                            <div class="accordion-item dm-cs2">
+                                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#cs2-1">
+                                                        <i class="far fa-check-circle pe-2" id="cs2Icon1"></i>
+                                                        Competitor Analysis
+                                                    </button>
+                                                </h2>
+                                                <div id="cs2-1" class="accordion-collapse collapse"
+                                                    aria-labelledby="panelsStayOpen-headingOne">
+                                                    <div class="accordion-body">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-md-12 mb-3">
+                                                                <p>
+                                                                    The first step in successfully marketing your baby
+                                                                    formula is understanding the digital marketing employed
+                                                                    by your competitors. Construct a table detailing the
+                                                                    pros and cons of 2-3 competitor brands’ MOST RECENT
+                                                                    digital marketing campaigns.
+                                                                </p>
+
+                                                                <div class="text-center">
+                                                                    <button class="btn btn-primary btn-sm px-3">Download the
+                                                                        Worksheet</button>
+                                                                </div>
+                                                                </p>
+                                                                <hr class="my-1">
+                                                                <br>
+                                                                Please upload your worksheet below <br>
+                                                                <input type="file" class="form-control">
+                                                            </div>
+                                                            <div class="col-md-12 text-end">
+                                                                <hr class="m-0 mb-2">
+                                                                <button class="btn btn-primary btn-sm px-3"
+                                                                    onclick="csNext(1, 2)">
+                                                                    Submit <i
+                                                                        class="far fa-arrow-alt-circle-right ps-2"></i>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item dm-cs2">
+                                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#cs2-2">
+                                                        <i class="far fa-check-circle pe-2" id="cs2Icon2"></i>
+                                                        Customer Journey
+                                                    </button>
+                                                </h2>
+                                                <div id="cs2-2" class="accordion-collapse collapse"
+                                                    aria-labelledby="panelsStayOpen-headingOne">
+                                                    <div class="accordion-body">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-md-12 mb-3">
+                                                                <img src="<?php echo e(asset('img/data-marketing/cs6.png')); ?>"
+                                                                    width="100%">
+
+                                                                <div class="text-center">
+                                                                    <button class="btn btn-primary btn-sm px-3">Download the
+                                                                        Worksheet</button>
+                                                                </div>
+                                                                </p>
+                                                                <hr class="my-1">
+                                                                <br>
+                                                                Please upload your worksheet below <br>
+                                                                <input type="file" class="form-control">
+                                                            </div>
+                                                            <div class="col-md-12 text-end">
+                                                                <hr class="m-0 mb-2">
+                                                                <button class="btn btn-primary btn-sm px-3"
+                                                                    onclick="csNext(2, 2)">
+                                                                    Submit <i
+                                                                        class="far fa-arrow-alt-circle-right ps-2"></i>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item dm-cs2">
+                                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#cs2-3">
+                                                        <i class="far fa-check-circle pe-2" id="cs2Icon3"></i>
+                                                        Concept board
+                                                    </button>
+                                                </h2>
+                                                <div id="cs2-3" class="accordion-collapse collapse"
+                                                    aria-labelledby="panelsStayOpen-headingOne">
+                                                    <div class="accordion-body">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-md-12 mb-3">
+                                                                <p>
+                                                                    Now that you know what strategies that your competitors
+                                                                    use for digital marketing, create a concept board where
+                                                                    you add all the ideas/concepts you’d like to incorporate
+                                                                    for your digital marketing campaign. A concept board
+                                                                    looks like this. [link]
+                                                                </p>
+                                                                <img src="<?php echo e(asset('img/data-marketing/cs7.png')); ?>"
+                                                                    width="100%">
+
+                                                                <div class="text-center">
+                                                                    <button class="btn btn-primary btn-sm px-3">Download the
+                                                                        Worksheet</button>
+                                                                </div>
+                                                                </p>
+                                                                <hr class="my-1">
+                                                                <br>
+                                                                Please upload your worksheet below <br>
+                                                                <input type="file" class="form-control">
+                                                            </div>
+                                                            <div class="col-md-12 text-end">
+                                                                <hr class="m-0 mb-2">
+                                                                <button class="btn btn-primary btn-sm px-3"
+                                                                    onclick="csNext(3, 2)">
+                                                                    Submit <i
+                                                                        class="far fa-arrow-alt-circle-right ps-2"></i>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="col-md-12 text-end">
                                         <hr class="m-0 mb-2">
@@ -302,18 +460,29 @@
     <script>
         $(document).ready(function() {
             // sessionStorage.clear();
-            let n = $('.accordion-item').length
+            let n = $('.step').length
             for (i = 1; i <= n; i++) {
                 if (sessionStorage.getItem('part5-' + i) == 'read') {
-                    $('#icon' + i).removeClass('far fa-check-circle')
-                    $('#icon' + i).addClass('fas fa-check-circle text-success')
+                    $('#dm-icon' + i).removeClass('far fa-check-circle')
+                    $('#dm-icon' + i).addClass('fas fa-check-circle text-success')
+                }
+            }
+
+            let m = $('.cs').length
+            for (i = 1; i <= m; i++) {
+                let z = $('.dm-cs' + i).length
+                for (a = 1; a <= z; a++) {
+                    if (sessionStorage.getItem('dm-cs' + i + '' + a) == 'read') {
+                        $('#cs' + i + 'Icon' + a).removeClass('far fa-check-circle')
+                        $('#cs' + i + 'Icon' + a).addClass('fas fa-check-circle text-success')
+                    }
                 }
             }
 
             let nPart = $('.list-group-item').length
             for (i = 1; i <= nPart; i++) {
                 if (sessionStorage.getItem('part' + i) == 'done') {
-                    $('#iconPart' + i).addClass('fas fa-check-circle text-success float-end mt-1')
+                    $('#dm-iconPart' + i).addClass('fas fa-check-circle text-success float-end mt-1')
                 }
             }
         });
@@ -321,17 +490,17 @@
         function next(n, part) {
             sessionStorage.setItem("part5-" + n, "read");
             if (sessionStorage.getItem('part5-' + n) == 'read') {
-                $('#icon' + n).removeClass('far fa-check-circle')
-                $('#icon' + n).addClass('fas fa-check-circle text-success')
+                $('#dm-icon' + n).removeClass('far fa-check-circle')
+                $('#dm-icon' + n).addClass('fas fa-check-circle text-success')
             }
 
             let next = n + 1
             $('#part5-' + n).collapse('toggle');
             $('#part5-' + next).collapse('toggle');
 
-            let j = $('.accordion-item').length
+            let j = $('.step').length
             let z = 0
-            for (i = 0; i <= j; i++) {
+            for (i = 1; i <= j; i++) {
                 if (sessionStorage.getItem('part5-' + i) == 'read') {
                     z++
                 }
@@ -340,10 +509,37 @@
             if (z == j) {
                 sessionStorage.setItem("part" + part, "done");
                 if (sessionStorage.getItem('part' + part) == 'done') {
-                    $('#iconPart' + part).addClass('fas fa-check-circle text-success float-end mt-1')
+                    $('#dm-iconPart' + part).addClass('fas fa-check-circle text-success float-end mt-1')
                 }
             }
 
+        }
+
+        function csNext(n, part) {
+            sessionStorage.setItem("dm-cs" + part + "" + n, "read");
+            if (sessionStorage.getItem('dm-cs' + part + '' + n) == 'read') {
+                $('#cs' + part + 'Icon' + n).removeClass('far fa-check-circle')
+                $('#cs' + part + 'Icon' + n).addClass('fas fa-check-circle text-success')
+            }
+
+            let next = n + 1
+            $('#cs' + part + '-' + n).collapse('toggle');
+            $('#cs' + part + '-' + next).collapse('toggle');
+
+            let j = $('.ds-cs' + part).length
+            let z = 0
+            for (i = 1; i <= j; i++) {
+                if (sessionStorage.getItem('dm-cs' + part + '' + i) == 'read') {
+                    z++
+                }
+            }
+
+            if (z == j) {
+                sessionStorage.setItem("part5-" + part, "read");
+                if (sessionStorage.getItem('part5-' + part) == 'read') {
+                    $('#dm-icon' + part).addClass('fas fa-check-circle text-success float-end mt-1')
+                }
+            }
         }
 
     </script>

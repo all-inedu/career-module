@@ -35,10 +35,10 @@
 @section('content')
     <div class="content">
         <div class="card">
-            <div class="py-2 text-center">
+            <div class="pt-3 pb-2 ps-3">
                 <h5>Introduction</h5>
-                <hr class="m-1 border-2 mx-auto" width="90%">
             </div>
+            <hr class="m-1 border-2 mx-auto" width="95%">
             <div class="card-body">
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/PNkCR5rGIzw"
                     title="YouTube video player" frameborder="0"
@@ -49,12 +49,12 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#intro1">
+                                data-bs-target="#part1-1">
                                 <i class="far fa-check-circle pe-2" id="icon1"></i>
                                 The Power of Digital Marketing
                             </button>
                         </h2>
-                        <div id="intro1" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                        <div id="part1-1" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
                             <div class="accordion-body">
                                 <div class="row align-items-center">
                                     <div class="col-md-6">
@@ -101,12 +101,12 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#intro2">
+                                data-bs-target="#part1-2">
                                 <i class="far fa-check-circle pe-2" id="icon2"></i>
                                 Instagram Reels or Vertical Video
                             </button>
                         </h2>
-                        <div id="intro2" class="accordion-collapse collapse">
+                        <div id="part1-2" class="accordion-collapse collapse">
                             <div class="accordion-body">
                                 <div class="row align-items-center">
                                     <div class="col-md-6">
@@ -150,12 +150,12 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#intro3">
+                                data-bs-target="#part1-3">
                                 <i class="far fa-check-circle pe-2" id="icon3"></i>
                                 Outline
                             </button>
                         </h2>
-                        <div id="intro3" class="accordion-collapse collapse">
+                        <div id="part1-3" class="accordion-collapse collapse">
                             <div class="accordion-body">
                                 <div class="row">
                                     <div class="col-md-12 mb-3">
@@ -183,12 +183,12 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#intro4">
+                                data-bs-target="#part1-4">
                                 <i class="far fa-check-circle pe-2" id="icon4"></i>
                                 What is a Digital Marketing Specialist?
                             </button>
                         </h2>
-                        <div id="intro4" class="accordion-collapse collapse">
+                        <div id="part1-4" class="accordion-collapse collapse">
                             <div class="accordion-body">
                                 <div class="row">
                                     <div class="col-md-12 mb-3">
@@ -218,8 +218,8 @@
                                     </div>
                                     <div class="col-md-12 text-end">
                                         <hr class="m-0 mb-2">
-                                        <button class="btn btn-info btn-sm px-3" onclick="next(4, 1)">
-                                            Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                        <button class="btn btn-primary btn-sm px-3" onclick="next(4, 1)">
+                                            Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                         </button>
                                     </div>
                                 </div>
@@ -236,7 +236,7 @@
             // sessionStorage.clear();
             let n = $('.accordion-item').length
             for (i = 1; i <= n; i++) {
-                if (sessionStorage.getItem('intro' + i) == 'read') {
+                if (sessionStorage.getItem('part1-' + i) == 'read') {
                     $('#icon' + i).removeClass('far fa-check-circle')
                     $('#icon' + i).addClass('fas fa-check-circle text-success')
                 }
@@ -245,26 +245,26 @@
             let nPart = $('.list-group-item').length
             for (i = 1; i <= nPart; i++) {
                 if (sessionStorage.getItem('part' + i) == 'done') {
-                    $('#iconPart' + i).addClass('fas fa-check-circle text-success float-end mt-1')
+                    $('#dm-iconPart' + i).addClass('fas fa-check-circle text-success float-end mt-1')
                 }
             }
         });
 
         function next(n, part) {
-            sessionStorage.setItem("intro" + n, "read");
-            if (sessionStorage.getItem('intro' + n) == 'read') {
+            sessionStorage.setItem("part" + part + "-" + n, "read");
+            if (sessionStorage.getItem("part" + part + "-" + n) == 'read') {
                 $('#icon' + n).removeClass('far fa-check-circle')
                 $('#icon' + n).addClass('fas fa-check-circle text-success')
             }
 
             let next = n + 1
-            $('#intro' + n).collapse('toggle');
-            $('#intro' + next).collapse('toggle');
+            $('#part' + part + '-' + n).collapse('toggle');
+            $('#part' + part + '-' + next).collapse('toggle');
 
             let j = $('.accordion-item').length
             let z = 0
             for (i = 0; i <= j; i++) {
-                if (sessionStorage.getItem('intro' + i) == 'read') {
+                if (sessionStorage.getItem('part' + part + '-' + i) == 'read') {
                     z++
                 }
             }
@@ -272,7 +272,7 @@
             if (z == j) {
                 sessionStorage.setItem("part" + part, "done");
                 if (sessionStorage.getItem('part' + part) == 'done') {
-                    $('#iconPart' + part).addClass('fas fa-check-circle text-success float-end mt-1')
+                    $('#dm-iconPart' + part).addClass('fas fa-check-circle text-success float-end mt-1')
                 }
             }
 
