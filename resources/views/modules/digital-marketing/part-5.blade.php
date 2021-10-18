@@ -123,7 +123,7 @@
                                                             <div class="col-md-12 text-end">
                                                                 <hr class="m-0 mb-2">
                                                                 <button class="btn btn-info btn-sm px-3"
-                                                                    onclick="next(1, 2)">
+                                                                    onclick="csNext(1, 1)">
                                                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                                                 </button>
                                                             </div>
@@ -137,8 +137,7 @@
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#cs1-2">
                                                         <i class="far fa-check-circle pe-2" id="icon1"></i>
-                                                        What Social Media do you think is appropriate
-                                                        to use?
+                                                        How do you define their goals and pains?
                                                     </button>
                                                 </h2>
                                                 <div id="cs1-2" class="accordion-collapse collapse"
@@ -202,7 +201,7 @@
                                                             <div class="col-md-12 text-end">
                                                                 <hr class="m-0 mb-2">
                                                                 <button class="btn btn-info btn-sm px-3"
-                                                                    onclick="next(1, 2)">
+                                                                    onclick="csNext(2, 1)">
                                                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                                                 </button>
                                                             </div>
@@ -211,6 +210,54 @@
                                                 </div>
                                             </div>
 
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#cs1-3">
+                                                        <i class="far fa-check-circle pe-2" id="icon1"></i>
+                                                        What Social Media do you think is appropriate
+                                                        to use?
+                                                    </button>
+                                                </h2>
+                                                <div id="cs1-3" class="accordion-collapse collapse"
+                                                    aria-labelledby="panelsStayOpen-headingOne">
+                                                    <div class="accordion-body">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-md-12 mb-3">
+                                                                <p>
+                                                                    Determine the best Social Media(s) and Strategy to
+                                                                    market her business
+                                                                </p>
+                                                                <p>
+                                                                    Based on buyer persona, especially touchpoints and
+                                                                    customer’s goals what is the best determine social
+                                                                    media to market her business?
+                                                                    <br><br>
+                                                                    From the data you have compiled in Step 1, construct
+                                                                    a mind map of different social media that can be
+                                                                    used for Mrs. P’s promotion. You can start by decide
+                                                                    which social media is the most suitable?
+                                                                    What is the best strategy for marketing, will you
+                                                                    use discount? Promo? KOL? Put your strategy using
+                                                                    below worksheet!
+                                                                </p>
+                                                                <hr class="my-1">
+                                                                <br>
+                                                                Please upload your worksheet below <br>
+                                                                <input type="file" class="form-control">
+                                                            </div>
+                                                            <div class="col-md-12 text-end">
+                                                                <hr class="m-0 mb-2">
+                                                                <button class="btn btn-info btn-sm px-3"
+                                                                    onclick="csNext(3, 1)">
+                                                                    Next <i class=" far fa-arrow-alt-circle-right
+                                                                                                            ps-2"></i>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-md-12 text-end">
@@ -229,7 +276,7 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#part5-2">
                                 <i class="far fa-check-circle pe-2" id="icon2"></i>
-                                Explanation Case Study + Theory
+                                Case Study #2
                             </button>
                         </h2>
                         <div id="part5-2" class="accordion-collapse collapse">
