@@ -127,41 +127,37 @@
 
                     <div id="c-p3-4" class="accordion-collapse collapse" aria-labelledby="p3-4" data-bs-parent="#p3">
                         <div class="accordion-body">
-                            <div class="row">
-                                <div class="col">
-                                    <ul>
-                                        <li><b>Data Scientist</b> is a rising career nowadays as the demand for data science
-                                            professionals
-                                            is very high but the supply is very low.</li>
-                                        <li>The <b>high demand</b> is due to the growing popularity of <b>data-driven decision</b>
-                                            making
-                                            used by many companies. The U.S. Bureau of Labor Statistics sees strong growth in the
-                                            data
-                                            science field and predicts the number of jobs will increase by <b>about 28%</b> through
-                                            2026.
-                                        </li>
-                                        <li>Whereas the <b>low supply</b> is because data science is still relatively a <b>new</b>
-                                            field and
-                                            there are very few educational programs for aspiring data scientists.</li>
-                                    </ul>
-                                </div>
+                            <div class="col-md-12">
+                                <ul>
+                                    <li><b>Data Scientist</b> is a rising career nowadays as the demand for data science
+                                        professionals
+                                        is very high but the supply is very low.</li>
+                                    <li>The <b>high demand</b> is due to the growing popularity of <b>data-driven decision</b>
+                                        making
+                                        used by many companies. The U.S. Bureau of Labor Statistics sees strong growth in the
+                                        data
+                                        science field and predicts the number of jobs will increase by <b>about 28%</b> through
+                                        2026.
+                                    </li>
+                                    <li>Whereas the <b>low supply</b> is because data science is still relatively a <b>new</b>
+                                        field and
+                                        there are very few educational programs for aspiring data scientists.</li>
+                                </ul>
                             </div>
-                            <div class="row pt-4">
-                                <div class="col">
-                                    <img src="{{ asset('img/harvard-business-review.png') }}" class="rounded mx-auto d-block">
-                                </div>
-                                <div class="col">
-                                    <form>
-                                        <div class="form-group">
-                                            <label>According to Harvard Business Review, Data Scientist is the sexiest job of
-                                                the 21st
-                                                century. What do you think is the reason?</label>
-                                            <textarea rows="5" class="form-control rounded mx-auto d-block mt-2"></textarea>
-                                        </div>
-                                        <br>
-                                        <button type="button" class="btn btn-primary float-end text-center" onclick="next(4, 3)">Submit</button>
-                                    </form>
-                                </div>
+                            <div class="col-md-12 pt-3 pb-3">
+                                <img src="{{ asset('img/harvard-business-review.png') }}" class="rounded mx-auto d-block">
+                            </div>
+                            <div class="col-md-12">
+                                <form>
+                                    <div class="form-group">
+                                        <label>According to Harvard Business Review, Data Scientist is the sexiest job of
+                                            the 21st
+                                            century. What do you think is the reason?</label>
+                                        <textarea rows="5" class="form-control rounded mx-auto d-block mt-2"></textarea>
+                                    </div>
+                                    <br>
+                                    <button type="button" class="btn btn-primary float-end text-center" onclick="next(4, 3)">Submit</button>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -353,14 +349,14 @@
             for (i = 1; i <= n; i++) {
                 if (sessionStorage.getItem('c-p3-' + i) == 'read') {
                     $('#ds-icon3-' + i).removeClass('far fa-check-circle')
-                    $('#ds-icon3-' + i).addClass('fas fa-check-circle')
+                    $('#ds-icon3-' + i).addClass('fas fa-check-circle text-success')
                 }
             }
 
             let nPart = $('.list-group-item').length
             for (i = 1; i <= nPart; i++) {
                 if (sessionStorage.getItem('part' + i) == 'done') {
-                    $('#ds-iconPart' + i).addClass('fas fa-check-circle float-end mt-1')
+                    $('#ds-iconPart' + i).addClass('fas fa-check-circle float-end mt-1 text-success')
                 }
             }
         });
@@ -369,7 +365,7 @@
             sessionStorage.setItem("c-p3-" + n, "read");
             if (sessionStorage.getItem('c-p3-' + n) == 'read') {
                 $('#ds-icon3-' + n).removeClass('far fa-check-circle')
-                $('#ds-icon3-' + n).addClass('fas fa-check-circle')
+                $('#ds-icon3-' + n).addClass('fas fa-check-circle text-success')
             }
 
             let next = n + 1
@@ -387,7 +383,7 @@
             if (z == j) {
                 sessionStorage.setItem("part" + part, "done");
                 if (sessionStorage.getItem('part' + part) == 'done') {
-                    $('#ds-iconPart' + part).addClass('fas fa-check-circle float-end mt-1')
+                    $('#ds-iconPart' + part).addClass('fas fa-check-circle float-end mt-1 text-success')
                     window.location = "<?php echo url('/data-scientist/3'); ?>";
                 }
             }

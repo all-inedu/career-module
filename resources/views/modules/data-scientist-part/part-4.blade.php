@@ -211,14 +211,14 @@
             for (i = 1; i <= n; i++) {
                 if (sessionStorage.getItem('c-p4-' + i) == 'read') {
                     $('#ds-icon4-' + i).removeClass('far fa-check-circle')
-                    $('#ds-icon4-' + i).addClass('fas fa-check-circle')
+                    $('#ds-icon4-' + i).addClass('fas fa-check-circle text-success')
                 }
             }
 
             let nPart = $('.list-group-item').length
             for (i = 1; i <= nPart; i++) {
                 if (sessionStorage.getItem('part' + i) == 'done') {
-                    $('#ds-iconPart' + i).addClass('fas fa-check-circle float-end mt-1')
+                    $('#ds-iconPart' + i).addClass('fas fa-check-circle float-end mt-1 text-success')
                 }
             }
         });
@@ -227,7 +227,7 @@
             sessionStorage.setItem("c-p4-" + n, "read");
             if (sessionStorage.getItem('c-p4-' + n) == 'read') {
                 $('#ds-icon4-' + n).removeClass('far fa-check-circle')
-                $('#ds-icon4-' + n).addClass('fas fa-check-circle')
+                $('#ds-icon4-' + n).addClass('fas fa-check-circle text-success')
             }
 
             let next = n + 1
@@ -245,7 +245,7 @@
             if (z == j) {
                 sessionStorage.setItem("part" + part, "done");
                 if (sessionStorage.getItem('part' + part) == 'done') {
-                    $('#ds-iconPart' + part).addClass('fas fa-check-circle float-end mt-1')
+                    $('#ds-iconPart' + part).addClass('fas fa-check-circle float-end mt-1 text-success')
                     window.location = "<?php echo url('/data-scientist/case-studies'); ?>";
                 }
             }
