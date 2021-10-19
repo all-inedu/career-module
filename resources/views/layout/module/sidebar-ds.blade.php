@@ -1,22 +1,22 @@
 <ul class="list-group rounded-0" id="sidebar-list">
     <li class="list-group-item {{ Request::is('data-scientist/1') ? 'active' : '' }}"">
         <a class=" sidebar-elements" id="part-0" href="{{ url('data-scientist/1') }}">
-        Part 1 <i class="" id="ds-iconPart1"></i>
+        Intro <i class="" id="ds-iconPart1"></i>
         </a>
     </li>
     <li class="list-group-item {{ Request::is('data-scientist/2') ? 'active' : '' }}">
         <a class="sidebar-elements" id="part-1" href="{{ url('data-scientist/2') }}">
-            Part 2 <i class="" id="ds-iconPart3"></i>
+            Core Tasks <i class="" id="ds-iconPart3"></i>
         </a>
     </li>
     <li class="list-group-item {{ Request::is('data-scientist/3') ? 'active' : '' }}">
         <a class="sidebar-elements" id="part-2" href="{{ url('data-scientist/3') }}">
-            Part 3 <i class="" id="ds-iconPart2"></i>
+            Type <i class="" id="ds-iconPart2"></i>
         </a>
     </li>
     <li class="list-group-item {{ Request::is('data-scientist/4') ? 'active' : '' }}">
         <a class="sidebar-elements" id="part-3" href="{{ url('data-scientist/4') }}">
-            Part 4 <i class="" id="ds-iconPart4"></i>
+            Pathway <i class="" id="ds-iconPart4"></i>
         </a>
     </li>
     <li class="list-group-item {{ Request::is('data-scientist/case-studies') ? 'active' : '' }}">
