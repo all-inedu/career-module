@@ -39,17 +39,18 @@
 
                     <div id="c-p2-1" class="accordion-collapse collapse" aria-labelledby="p2-1" data-bs-parent="#p2">
                         <div class="accordion-body row">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/vNNoNs_VeWc"
-                                class="col-md-6" title="YouTube video player" frameborder="0"
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/vNNoNs_VeWc"
+                                title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
-                            <ul class="col-md-6">
+                            <p>
+                            <ul class="col-md-12">
                                 <li>Data engineers collect the raw information from different sources and ensure the data is
                                     clean
                                     and organized</li>
                                 <li>They are also responsible for developing and maintaining data pipelines</li>
                             </ul>
-
+                            </p>
                             <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(1, 2)">
                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
@@ -70,17 +71,18 @@
 
                     <div id="c-p2-2" class="accordion-collapse collapse" aria-labelledby="p2-2" data-bs-parent="#p2">
                         <div class="accordion-body row">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/5HlbV1wKBmo"
-                                class="col-md-6" title="YouTube video player" frameborder="0"
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/5HlbV1wKBmo"
+                                title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
-                            <ul class="col-md-6">
+                            <p>
+                            <ul class="col-md-12">
                                 <li>Data analysts will extract and interpret data, identifying and analyzing trends and
                                     patterns
                                 </li>
                                 <li>Information is then generated to help the executive in decision-making</li>
                             </ul>
-
+                            </p>
                             <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(2, 2)">
                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
@@ -101,16 +103,18 @@
 
                     <div id="c-p2-3" class="accordion-collapse collapse" aria-labelledby="p2-3" data-bs-parent="#p2">
                         <div class="accordion-body row">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/qna5zKR5t4A"
-                                class="col-md-6" title="YouTube video player" frameborder="0"
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/qna5zKR5t4A"
+                                title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
-                            <ul class="col-md-6">
+                            <p>
+                            <ul class="col-md-12">
                                 <li>Machine learning engineers are responsible for developing data science prototypes</li>
                                 <li>They then develop the software to automate predictive models for recommended searches,
                                     virtual
                                     assistants, etc.</li>
                             </ul>
+                            </p>
 
                             <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(3, 2)">
@@ -132,18 +136,19 @@
 
                     <div id="c-p2-4" class="accordion-collapse collapse" aria-labelledby="p2-4" data-bs-parent="#p2">
                         <div class="accordion-body row">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/zz_H5jBP158"
-                                class="col-md-6" title="YouTube video player" frameborder="0"
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/zz_H5jBP158"
+                                title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
-                            <ul class="col-md-6">
+                            <p>
+                            <ul class="col-md-12">
                                 <li>A data architect creates the blueprints for data management so that the databases can be
                                     easily
                                     integrated, centralized, and protected</li>
                                 <li>They also ensure that the data engineers have the best tools and systems to work with
                                 </li>
                             </ul>
-
+                            </p>
                             <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(4, 2)">
                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
@@ -164,18 +169,19 @@
 
                     <div id="c-p2-5" class="accordion-collapse collapse" aria-labelledby="p2-5" data-bs-parent="#p2">
                         <div class="accordion-body row">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/26GlYvcYZiI"
-                                class="col-md-6" title="YouTube video player" frameborder="0"
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/26GlYvcYZiI"
+                                title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
-                            <ul class="col-md-6">
+                            <p>
+                            <ul class="col-md-12">
                                 <li>Business Intelligence (BI) analysts transform data into insights that drive business
                                     value</li>
                                 <li>They can identify trends that can help managers and executives make business decisions
                                     to
                                     improve processes in the organization</li>
                             </ul>
-
+                            </p>
                             <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(5, 2)">
                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
@@ -190,7 +196,7 @@
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#c-p2-6" aria-expanded="false" aria-controls="c-p2-6">
                             <i class="far fa-check-circle pe-2" id="ds-icon2-6"></i>
-                            Checkpoint #1
+                            Checkpoint
                         </button>
                     </h2>
 
@@ -199,14 +205,16 @@
                             <div class="col-md-12">
                                 <form>
                                     <div class="form-group">
-                                        <label>After getting to know briefly about the specializations of data science, which
+                                        <label>After getting to know briefly about the specializations of data science,
+                                            which
                                             one do you
                                             find the most interesting?</label>
                                         <br>
                                         <textarea rows="5" class="form-control rounded mx-auto d-block mt-3"></textarea>
                                     </div>
                                     <br>
-                                    <button type="button" class="btn btn-primary float-end text-center" onclick="next(6, 2)">Submit</button>
+                                    <button type="button" class="btn btn-primary float-end text-center"
+                                        onclick="next(6, 2)">Submit</button>
                                 </form>
                             </div>
                         </div>

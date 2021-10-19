@@ -39,19 +39,21 @@
 
                     <div id="c-p6-1" class="accordion-collapse collapse show" aria-labelledby="p6-1" data-bs-parent="#p6">
                         <div class="accordion-body">
-                            <ul>
-                                <li>After completing this module, do you think that you are interested in becoming a Data
-                                    Scientist?
-                                </li>
-                                <li>If yes, do you have in mind what type of Data Scientist you want to be? Are you more of
-                                    a
-                                    generalist or a specialist?</li>
-                            </ul>
-
+                            <label>
+                                After completing this module, do you think that you are interested in becoming a Data
+                                Scientist?
+                            </label>
+                            <textarea class="form-control" rows="5"></textarea>
+                            <br>
+                            <label>If yes, do you have in mind what type of Data Scientist you want to be? Are you more of
+                                a
+                                generalist or a specialist?
+                            </label>
+                            <textarea class="form-control" rows="5"></textarea>
                             <div class="col-md-12 text-end mt-3">
                                 <hr class="m-0 mb-2">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(1, 6)">
-                                    Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                    Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                 </button>
                             </div>
                         </div>

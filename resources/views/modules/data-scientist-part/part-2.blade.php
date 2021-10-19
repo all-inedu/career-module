@@ -39,8 +39,10 @@
 
                     <div id="c-p3-1" class="accordion-collapse collapse show" aria-labelledby="p3-1" data-bs-parent="#p3">
                         <div class="accordion-body row" style="text-align: left;">
-                            <img src="{{ asset('img/yt-recommended.png') }}" class="col-md-6">
-                            <div class="col-md-6">
+
+                            <div class="col-md-12">
+                                <img src="{{ asset('img/yt-recommended.png') }}" width="100% ">
+                                <br><br>
                                 <h5>Have you ever watched youtube?</h5>
                                 <h5>Do you know why the recommendation can fit you?</h5>
                                 <br>
@@ -67,7 +69,7 @@
 
                     <div id="c-p3-2" class="accordion-collapse collapse" aria-labelledby="p3-2" data-bs-parent="#p3">
                         <div class="accordion-body">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/MpLHMKTolVw"
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/MpLHMKTolVw"
                                 class="mx-auto d-block" title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
@@ -132,16 +134,21 @@
                                     <li><b>Data Scientist</b> is a rising career nowadays as the demand for data science
                                         professionals
                                         is very high but the supply is very low.</li>
-                                    <li>The <b>high demand</b> is due to the growing popularity of <b>data-driven decision</b>
+                                    <li>The <b>high demand</b> is due to the growing popularity of <b>data-driven
+                                            decision</b>
                                         making
-                                        used by many companies. The U.S. Bureau of Labor Statistics sees strong growth in the
+                                        used by many companies. The U.S. Bureau of Labor Statistics sees strong growth in
+                                        the
                                         data
-                                        science field and predicts the number of jobs will increase by <b>about 28%</b> through
+                                        science field and predicts the number of jobs will increase by <b>about 28%</b>
+                                        through
                                         2026.
                                     </li>
-                                    <li>Whereas the <b>low supply</b> is because data science is still relatively a <b>new</b>
+                                    <li>Whereas the <b>low supply</b> is because data science is still relatively a
+                                        <b>new</b>
                                         field and
-                                        there are very few educational programs for aspiring data scientists.</li>
+                                        there are very few educational programs for aspiring data scientists.
+                                    </li>
                                 </ul>
                             </div>
                             <div class="col-md-12 pt-3 pb-3">
@@ -155,8 +162,9 @@
                                             century. What do you think is the reason?</label>
                                         <textarea rows="5" class="form-control rounded mx-auto d-block mt-2"></textarea>
                                     </div>
-                                    <br>
-                                    <button type="button" class="btn btn-primary float-end text-center" onclick="next(4, 3)">Submit</button>
+                                    <div class="text-end mt-2">
+                                        <button type="button" class="btn btn-primary" onclick="next(4, 3)">Submit</button>
+                                    </div>
                                 </form>
                             </div>
                         </div>
@@ -223,12 +231,12 @@
                                 class="mx-auto d-block" title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
-                            
-                                <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                    <button class="btn btn-info btn-sm px-3" onclick="next(6, 3)">
-                                        Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
-                                    </button>
-                                </div>
+
+                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
+                                <button class="btn btn-info btn-sm px-3" onclick="next(6, 3)">
+                                    Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -249,11 +257,11 @@
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
 
-                                <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                    <button class="btn btn-info btn-sm px-3" onclick="next(7, 3)">
-                                        Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
-                                    </button>
-                                </div>
+                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
+                                <button class="btn btn-info btn-sm px-3" onclick="next(7, 3)">
+                                    Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -301,38 +309,33 @@
 
                     <div id="c-p3-9" class="accordion-collapse collapse" aria-labelledby="p3-9" data-bs-parent="#p3">
                         <div class="accordion-body">
+                            <img src="{{ asset('img/topic-1-concept-check.png') }}" class="rounded mx-auto d-block"
+                                width="100%">
+                            <br>
                             <h6>What does a data scientist do?</h6>
-                            <ol type="A">
-                                <li>Transforming data into a format that can be easily analyzed</li>
-                                <li>Interpreting data, analyzing results using statistical techniques</li>
-                                <li>Using machine learning to create predictive models</li>
-                            </ol>
-                            <img src="{{ asset('img/topic-1-concept-check.png') }}" class="rounded mx-auto d-block">
-
-                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                <button class="btn btn-info btn-sm px-3" onclick="next(9, 3)">
-                                    Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
-                                </button>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radio1" id="option1">
+                                <label class="form-check-label" for="option1">
+                                    Transforming data into a format that can be easily analyzed
+                                </label>
                             </div>
-                        </div>
-                    </div>
-                </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radio1" id="option2">
+                                <label class="form-check-label" for="option2">
+                                    Interpreting data, analyzing results using statistical techniques
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radio1" id="option3">
+                                <label class="form-check-label" for="option3">
+                                    Using machine learning to create predictive models
+                                </label>
+                            </div>
+                            <br>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="p3-10">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#c-p3-10" aria-expanded="false" aria-controls="c-p3-10">
-                            <i class="far fa-check-circle pe-2" id="ds-icon3-10"></i>
-                            Testimony
-                        </button>
-                    </h2>
-
-                    <div id="c-p3-10" class="accordion-collapse collapse" aria-labelledby="p3-10" data-bs-parent="#p3">
-                        <div class="accordion-body">
-                            <h2>VIDEO 2 - TESTIMONI</h2>
-                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                <button class="btn btn-info btn-sm px-3" onclick="next(10, 3)">
-                                    Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                            <div class="text-end">
+                                <button class="btn btn-primary btn-sm px-3 mt-2" onclick="next(9, 3)">
+                                    Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                 </button>
                             </div>
                         </div>

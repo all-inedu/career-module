@@ -49,6 +49,27 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="p0-2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#c-p0-2" aria-expanded="false" aria-controls="c-p3-10">
+                            <i class="far fa-check-circle pe-2" id="ds-icon2"></i>
+                            Testimony
+                        </button>
+                    </h2>
+
+                    <div id="c-p0-2" class="accordion-collapse collapse" aria-labelledby="p3-10" data-bs-parent="#p3">
+                        <div class="accordion-body">
+                            <h2>VIDEO 2 - TESTIMONI</h2>
+                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
+                                <button class="btn btn-info btn-sm px-3" onclick="next(2, 1)">
+                                    Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -80,8 +101,8 @@
             }
 
             let next = n + 1
-            $('#intro' + n).collapse('toggle');
-            $('#intro' + next).collapse('toggle');
+            $('#c-p0-' + n).collapse('toggle');
+            $('#c-p0-' + next).collapse('toggle');
 
             let j = $('.accordion-item').length
             let z = 0

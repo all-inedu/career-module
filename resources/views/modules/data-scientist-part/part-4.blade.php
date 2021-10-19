@@ -39,16 +39,16 @@
 
                     <div id="c-p4-1" class="accordion-collapse collapse show" aria-labelledby="p4-1" data-bs-parent="#p4">
                         <div class="accordion-body">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/wFI41gagSLU"
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/wFI41gagSLU"
                                 class="mx-auto d-block" title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
 
-                                <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                    <button class="btn btn-info btn-sm px-3" onclick="next(1, 4)">
-                                        Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
-                                    </button>
-                                </div>
+                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
+                                <button class="btn btn-info btn-sm px-3" onclick="next(1, 4)">
+                                    Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -65,9 +65,8 @@
                     <div id="c-p4-2" class="accordion-collapse collapse" aria-labelledby="p4-2" data-bs-parent="#p4">
                         <div class="accordion-body">
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-12 mb-3">
                                     <h4>School</h4>
-                                    <br>
                                     <p>In your high school, here are several subjects you need to put more focus on :</p>
                                     <ul class="dash">
                                         <li>Mathematics</li>
@@ -76,10 +75,10 @@
                                         <li>Programming</li>
                                     </ul>
                                 </div>
-
-                                <div class="col-md-6">
+                                <br>
+                                <hr>
+                                <div class="col-md-12">
                                     <h4>Uni Pathways</h4>
-                                    <br>
                                     <p>As we know that this job is quite new, therefore there aren’t much universities
                                         providing
                                         specifically a Data Science Course</p>
@@ -96,7 +95,7 @@
                                     </p>
                                 </div>
                             </div>
-
+                            <hr>
                             <p>As we know that currently we have limited source of formal education for data scientist or
                                 data
                                 analyst as a degree. Some of them might also provide data science master degree as a
@@ -151,7 +150,7 @@
 
                     <div id="c-p4-3" class="accordion-collapse collapse" aria-labelledby="p4-3" data-bs-parent="#p4">
                         <div class="accordion-body row" style="text-align: left;">
-                            <div class="col-md-6">
+                            <div class="col-md-12 mb-2">
                                 <h3>Hard Skill (Technical) :</h3>
                                 <br>
                                 <h4>Programming Language :</h4>
@@ -173,7 +172,7 @@
                                 </ul>
                             </div>
 
-                            <div class="col-md-6">
+                            <div class="col-md-12 mb-2 mt-2">
                                 <h4>Programming Language :</h4>
                                 <ul class="dash">
                                     <li>Intuitive</li>
@@ -250,5 +249,6 @@
                 }
             }
         }
+
     </script>
 @endsection
