@@ -12,6 +12,16 @@
             </h1>
         </div>
     </div>
+    <div class="container pt-4">
+        <p>
+            In this module, you will learn about what Data Science Specialist do, types of it, and how you could be a
+            Data Science Specialist. Along with case studies, and reflection, we hope that you can gain a deeper
+            knowledge
+            on Data Science and how to implement them in real-life events.
+            <br><br>
+            Happy learning!
+        </p>
+    </div>
 @stop
 
 @section('sidebar')
@@ -52,7 +62,7 @@
                             <textarea class="form-control" rows="5"></textarea>
                             <div class="col-md-12 text-end mt-3">
                                 <hr class="m-0 mb-2">
-                                <button class="btn btn-info btn-sm px-3" onclick="next(1, 6)">
+                                <button class="btn btn-primary btn-sm px-3" onclick="next(1, 6)">
                                     Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                 </button>
                             </div>

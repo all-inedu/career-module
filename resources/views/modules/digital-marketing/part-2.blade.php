@@ -12,7 +12,7 @@
             </h1>
         </div>
     </div>
-    <div class="container pt-3">
+    <div class="container pt-4">
         <p>
             In this module, you will learn about what Digital Marketing Specialist do, types of it, and how you could be a
             Digital Marketing Specialist. Along with case studies, and reflection, we hope that you can gain a deeper

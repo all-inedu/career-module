@@ -12,7 +12,7 @@
             </h1>
         </div>
     </div>
-    <div class="container pt-3">
+    <div class="container pt-4">
         <p>
             In this module, you will learn about what Digital Marketing Specialist do, types of it, and how you could be a
             Digital Marketing Specialist. Along with case studies, and reflection, we hope that you can gain a deeper
@@ -254,7 +254,7 @@
                                                                     onclick="csNext(3, 1)">
                                                                     Submit <i
                                                                         class=" far fa-arrow-alt-circle-right
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ps-2"></i>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ps-2"></i>
                                                                 </button>
                                                             </div>
                                                         </div>
@@ -527,7 +527,7 @@
             $('#cs' + part + '-' + n).collapse('toggle');
             $('#cs' + part + '-' + next).collapse('toggle');
 
-            let j = $('.ds-cs' + part).length
+            let j = $('.dm-cs' + part).length
             let z = 0
             for (i = 1; i <= j; i++) {
                 if (sessionStorage.getItem('dm-cs' + part + '' + i) == 'read') {

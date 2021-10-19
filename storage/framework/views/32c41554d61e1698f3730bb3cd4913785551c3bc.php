@@ -11,7 +11,7 @@
             </h1>
         </div>
     </div>
-    <div class="container pt-3">
+    <div class="container pt-4">
         <p>
             In this module, you will learn about what Digital Marketing Specialist do, types of it, and how you could be a
             Digital Marketing Specialist. Along with case studies, and reflection, we hope that you can gain a deeper
@@ -219,7 +219,7 @@
 
             let nPart = $('.list-group-item').length
             for (i = 1; i <= nPart; i++) {
-                if (sessionStorage.getItem('part' + i) == 'done') {
+                if (sessionStorage.getItem('dm-part' + i) == 'done') {
                     $('#dm-iconPart' + i).addClass('fas fa-check-circle text-success float-end mt-1')
                 }
             }
@@ -245,8 +245,8 @@
             }
 
             if (z == j) {
-                sessionStorage.setItem("part" + part, "done");
-                if (sessionStorage.getItem('part' + part) == 'done') {
+                sessionStorage.setItem("dm-part" + part, "done");
+                if (sessionStorage.getItem('dm-part' + part) == 'done') {
                     $('#dm-iconPart' + part).addClass('fas fa-check-circle text-success float-end mt-1')
                 }
             }

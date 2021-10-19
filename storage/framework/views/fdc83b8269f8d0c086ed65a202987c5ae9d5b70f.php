@@ -2,10 +2,6 @@
     Digital Marketing | Intro
 <?php $__env->stopSection(); ?>
 
-<?php $__env->startSection('style'); ?>
-
-<?php $__env->stopSection(); ?>
-
 <?php $__env->startSection('banner'); ?>
     <div class="banner">
         <div class="container">
@@ -15,7 +11,7 @@
             </h1>
         </div>
     </div>
-    <div class="container pt-3">
+    <div class="container pt-4">
         <p>
             In this module, you will learn about what Digital Marketing Specialist do, types of it, and how you could be a
             Digital Marketing Specialist. Along with case studies, and reflection, we hope that you can gain a deeper
@@ -270,7 +266,7 @@
 
             if (z == j) {
                 sessionStorage.setItem("dm-part" + part, "done");
-                if (sessionStorage.getItem('part' + part) == 'done') {
+                if (sessionStorage.getItem('dm-part' + part) == 'done') {
                     $('#dm-iconPart' + part).addClass('fas fa-check-circle text-success float-end mt-1')
                 }
             }

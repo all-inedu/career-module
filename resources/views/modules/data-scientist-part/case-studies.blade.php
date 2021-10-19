@@ -12,6 +12,16 @@
             </h1>
         </div>
     </div>
+    <div class="container pt-4">
+        <p>
+            In this module, you will learn about what Data Science Specialist do, types of it, and how you could be a
+            Data Science Specialist. Along with case studies, and reflection, we hope that you can gain a deeper
+            knowledge
+            on Data Science and how to implement them in real-life events.
+            <br><br>
+            Happy learning!
+        </p>
+    </div>
 @stop
 
 @section('sidebar')
@@ -72,12 +82,12 @@
                                 step explanation of how the raw data will turn into visualization for a better
                                 understanding.
                                 (Expert pls provide the dataset)</p>
-                            
-                                <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                    <button class="btn btn-info btn-sm px-3" onclick="next(2, 5)">
-                                        Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
-                                    </button>
-                                </div>
+
+                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
+                                <button class="btn btn-info btn-sm px-3" onclick="next(2, 5)">
+                                    Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -97,11 +107,11 @@
                                 methodology
                                 that data scientist will use in order to gain more insight from the data.</p>
 
-                                <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                    <button class="btn btn-info btn-sm px-3" onclick="next(3, 5)">
-                                        Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
-                                    </button>
-                                </div>
+                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
+                                <button class="btn btn-info btn-sm px-3" onclick="next(3, 5)">
+                                    Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -121,11 +131,11 @@
                                 produce useful
                                 insights of the data science process.</p>
 
-                                <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                    <button class="btn btn-info btn-sm px-3" onclick="next(4, 5)">
-                                        Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
-                                    </button>
-                                </div>
+                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
+                                <button class="btn btn-info btn-sm px-3" onclick="next(4, 5)">
+                                    Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -519,5 +529,6 @@
                 }
             }
         }
+
     </script>
 @endsection
