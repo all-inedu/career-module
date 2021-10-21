@@ -60,7 +60,7 @@
                     </div>
                 </div> --}}
 
-                <div class="accordion-item">
+                <div class="accordion-item accordion-parent">
                     <h2 class="accordion-header" id="p5-1">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#c-p5-1" aria-expanded="false" aria-controls="c-p5-1">
@@ -263,7 +263,7 @@
                     </div>
                 </div>
 
-                <div class="accordion-item">
+                <div class="accordion-item accordion-parent">
                     <h2 class="accordion-header" id="p5-2">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#c-p5-2" aria-expanded="false" aria-controls="c-p5-2">
@@ -308,8 +308,8 @@
 
                                         <textarea class="form-control" id="" cols="30" rows="5"></textarea>
                                         <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                            <button class="btn btn-info btn-sm px-3" onclick="sub_next(2, 1, 5)">
-                                                Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                            <button class="btn btn-primary btn-sm px-3" onclick="sub_next(2, 1, 5)">
+                                                Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                             </button>
                                         </div>
                                     </div>
@@ -388,8 +388,8 @@
                                         <p>Select column Weekly Sales and Temperature</p>
                                         <p>Click Insert and select scatter plot</p>
                                         <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                            <button class="btn btn-info btn-sm px-3" onclick="sub_next(2, 2, 5)">
-                                                Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                            <button class="btn btn-primary btn-sm px-3" onclick="sub_next(2, 2, 5)">
+                                                Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                             </button>
                                         </div>
                                     </div>
@@ -437,8 +437,8 @@
                                             <textarea class="form-control mt-3" cols="30" rows="5"></textarea>
                                         </ul>
                                         <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                            <button class="btn btn-info btn-sm px-3" onclick="sub_next(2, 3, 5)">
-                                                Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                            <button class="btn btn-primary btn-sm px-3" onclick="sub_next(2, 3, 5)">
+                                                Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                             </button>
                                         </div>
                                     </div>
@@ -558,6 +558,23 @@
                     $('#ds-icon5-' + n).removeClass('far fa-check-circle')
                     $('#ds-icon5-' + n).addClass('fas fa-check-circle text-success')
                 }
+
+                let k = $('.accordion-parent').length
+                let m = 0
+                for (i = 0; i <= k; i++) {
+                    if (sessionStorage.getItem('c-p5-' + i) == 'read') {
+                        m++
+                    }
+                }
+
+                if ( m == k) {
+                    sessionStorage.setItem("part" + part, "done");
+                    if (sessionStorage.getItem('part' + part) == 'done') {
+                        $('#ds-iconPart' + part).addClass('fas fa-check-circle float-end mt-1 text-success')
+                        window.location = "<?php echo url('/data-scientist/reflection'); ?>";
+                    }
+                }
+
                 let next2 = n + 1
                 $('#c-p5-' + n).collapse('toggle');
                 $('#c-p5-' + next2).collapse('toggle');
