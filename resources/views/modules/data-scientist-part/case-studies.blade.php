@@ -65,7 +65,7 @@
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#c-p5-1" aria-expanded="false" aria-controls="c-p5-1">
                             <i class="far fa-check-circle pe-2" id="ds-icon5-1"></i>
-                            Case Study
+                            Case Study #1
                         </button>
                     </h2>
 

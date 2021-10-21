@@ -47,6 +47,7 @@
                             <img src="{{ asset('img/CMW_2. Data Scientist.webp') }}" class="card-img-top">
                             <div class="bottom-right">Data Scientist
                             </div>
+                            <i class="fas fa-check-circle text-success float-end mt-1 d-none icon-done" id="ds"></i>
                         </div>
                     </div>
                 </a>

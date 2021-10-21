@@ -12,6 +12,16 @@
             </h1>
         </div>
     </div>
+    <div class="container pt-4">
+        <p>
+            In this module, you will learn about what Data Science Specialist do, types of it, and how you could be a
+            Data Science Specialist. Along with case studies, and reflection, we hope that you can gain a deeper
+            knowledge
+            on Data Science and how to implement them in real-life events.
+            <br><br>
+            Happy learning!
+        </p>
+    </div>
 @stop
 
 @section('sidebar')
@@ -21,9 +31,9 @@
 @section('content')
     <div class="content">
         <div class="card p-3">
-            <div class="accordion accordion-flush" id="p6">
+            <div class="accordion accordion-flush" id="p7">
                 <div class="border-bottom">
-                    <h3 class="section-header" id="p6-header">
+                    <h3 class="section-header" id="p7-header">
                         <div>Glossary</div>
                     </h3>
                 </div>
@@ -54,6 +64,12 @@
                         </li>
                     </ul>
                 </div>
+
+                <div class="col-md-12 text-end mt-4 pt-2 border-top">
+                    <button class="btn btn-info btn-sm px-3" onclick="next(1, 7)">
+                        Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
@@ -63,9 +79,9 @@
             // sessionStorage.clear();
             let n = $('.accordion-item').length
             for (i = 1; i <= n; i++) {
-                if (sessionStorage.getItem('c-p6-' + i) == 'read') {
-                    $('#icon6-' + i).removeClass('far fa-check-circle')
-                    $('#icon6-' + i).addClass('fas fa-check-circle text-success')
+                if (sessionStorage.getItem('c-p7-' + i) == 'read') {
+                    $('#icon7-' + i).removeClass('far fa-check-circle')
+                    $('#icon7-' + i).addClass('fas fa-check-circle text-success')
                 }
             }
 
@@ -78,20 +94,20 @@
         });
 
         function next(n, part) {
-            sessionStorage.setItem("c-p6-" + n, "read");
-            if (sessionStorage.getItem('c-p6-' + n) == 'read') {
-                $('#icon6-' + n).removeClass('far fa-check-circle')
-                $('#icon6-' + n).addClass('fas fa-check-circle text-success')
+            sessionStorage.setItem("c-p7-" + n, "read");
+            if (sessionStorage.getItem('c-p7-' + n) == 'read') {
+                $('#icon7-' + n).removeClass('far fa-check-circle')
+                $('#icon7-' + n).addClass('fas fa-check-circle text-success')
             }
 
             let next = n + 1
-            $('#c-p6-' + n).collapse('toggle');
-            $('#c-p6-' + next).collapse('toggle');
+            $('#c-p7-' + n).collapse('toggle');
+            $('#c-p7-' + next).collapse('toggle');
 
             let j = $('.accordion-item').length
             let z = 0
             for (i = 0; i <= j; i++) {
-                if (sessionStorage.getItem('c-p6-' + i) == 'read') {
+                if (sessionStorage.getItem('c-p7-' + i) == 'read') {
                     z++
                 }
             }
@@ -100,7 +116,7 @@
                 sessionStorage.setItem("part" + part, "done");
                 if (sessionStorage.getItem('part' + part) == 'done') {
                     $('#ds-iconPart' + part).addClass('fas fa-check-circle float-end mt-1 text-success')
-                    window.location = "<?php echo url('/data-scientist/glossary'); ?>";
+                    window.location = "<?php echo url('/data-scientist/other-resources'); ?>";
                 }
             }
         }

@@ -12,6 +12,16 @@
             </h1>
         </div>
     </div>
+    <div class="container pt-4">
+        <p>
+            In this module, you will learn about what Data Science Specialist do, types of it, and how you could be a
+            Data Science Specialist. Along with case studies, and reflection, we hope that you can gain a deeper
+            knowledge
+            on Data Science and how to implement them in real-life events.
+            <br><br>
+            Happy learning!
+        </p>
+    </div>
 @stop
 
 @section('sidebar')
@@ -52,6 +62,11 @@
                                 Learning</a></li>
                     </ul>
                 </div>
+                <div class="col-md-12 text-end mt-4 pt-2 border-top">
+                    <button class="btn btn-success btn-sm px-3" onclick="next(1, 8)">
+                        Finish <i class="fas fa-check-circle ps-3"></i>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
@@ -76,30 +91,39 @@
         });
 
         function next(n, part) {
-            sessionStorage.setItem("c-p6-" + n, "read");
-            if (sessionStorage.getItem('c-p6-' + n) == 'read') {
-                $('#icon6-' + n).removeClass('far fa-check-circle')
-                $('#icon6-' + n).addClass('fas fa-check-circle text-success')
-            }
+            sessionStorage.setItem("part" + part, "done");
+            // sessionStorage.setItem('digital-marketing', 'done')
 
-            let next = n + 1
-            $('#c-p6-' + n).collapse('toggle');
-            $('#c-p6-' + next).collapse('toggle');
-
-            let j = $('.accordion-item').length
+            let j = $('.list-group-item').length
             let z = 0
-            for (i = 0; i <= j; i++) {
-                if (sessionStorage.getItem('c-p6-' + i) == 'read') {
+            for (i = 1; i <= j; i++) {
+                if (sessionStorage.getItem('part' + i) == 'done') {
+                    console.log(i)
                     z++
                 }
             }
-
-            if (z == j) {
-                sessionStorage.setItem("part" + part, "done");
-                if (sessionStorage.getItem('part' + part) == 'done') {
-                    $('#ds-iconPart' + part).addClass('fas fa-check-circle float-end mt-1 text-success')
-                    window.location = "<?php echo url('/data-scientist/glossary'); ?>";
-                }
+            
+            if (j == z) {
+                Swal.fire({
+                    title: 'Congratulation',
+                    text: "You have completed this module",
+                    icon: 'success',
+                    showCancelButton: false,
+                    confirmButtonColor: '#3085d6',
+                    cancelButtonColor: '#d33',
+                    confirmButtonText: 'OK'
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        sessionStorage.setItem('data-science', 'done')
+                        window.location.href = "{{ url('') }}"
+                    }
+                })
+            } else {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Please complete all parts of this module first!'
+                })
             }
         }
     </script>
