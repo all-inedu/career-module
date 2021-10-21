@@ -114,6 +114,8 @@
         });
 
         function next(n, part) {
+            sessionStorage.setItem("dm-part" + part, "done");
+
             let nextPart = part + 1
             window.location.href = "{{ url('digital-marketing/part-') }}" + nextPart;
         }

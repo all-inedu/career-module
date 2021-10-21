@@ -31,12 +31,12 @@
     </li>
     <li class="list-group-item <?php echo e(Request::is('digital-marketing/part-7') ? 'active' : ''); ?>">
         <a class="sidebar-elements" href="<?php echo e(url('digital-marketing/part-7')); ?>">
-            Glossary <i class="" id="dm-iconPart7"></i>
+            Glossary <i class=""></i>
         </a>
     </li>
     <li class="list-group-item <?php echo e(Request::is('digital-marketing/part-8') ? 'active' : ''); ?>">
         <a class="sidebar-elements" href="<?php echo e(url('digital-marketing/part-8')); ?>">
-            Additional Resources <i class="" id="dm-iconPart8"></i>
+            Additional Resources <i class=""></i>
         </a>
     </li>
 </ul>

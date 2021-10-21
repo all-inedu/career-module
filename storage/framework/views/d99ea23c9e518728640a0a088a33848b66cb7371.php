@@ -89,10 +89,10 @@
             width: 100%;
             /* height: 240px; */
             height: 100%;
-            background: black;
+            background: rgb(255, 182, 114);
             transition: all .2s ease-in-out;
             z-index: 999;
-            opacity: .4;
+            opacity: .1;
             cursor: pointer;
             border-radius: 14px
         }

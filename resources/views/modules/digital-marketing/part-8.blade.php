@@ -122,21 +122,41 @@
         });
 
         function next(n, part) {
-            sessionStorage.setItem('digital-marketing', 'done')
-            Swal.fire({
-                title: 'Congratulation',
-                text: "You have completed this module",
-                icon: 'success',
-                showCancelButton: false,
-                confirmButtonColor: '#3085d6',
-                cancelButtonColor: '#d33',
-                confirmButtonText: 'OK'
-            }).then((result) => {
-                if (result.isConfirmed) {
-                    sessionStorage.setItem('digital-marketing', 'done')
-                    window.location.href = "{{ url('') }}"
+            sessionStorage.setItem("dm-part" + part, "done");
+            // sessionStorage.setItem('digital-marketing', 'done')
+
+            let j = $('.list-group-item').length
+            let z = 0
+            for (i = 1; i <= j; i++) {
+                if (sessionStorage.getItem('dm-part' + i) == 'done') {
+                    z++
                 }
-            })
+            }
+
+            if (j == z) {
+                Swal.fire({
+                    title: 'Congratulation',
+                    text: "You have completed this module",
+                    icon: 'success',
+                    showCancelButton: false,
+                    confirmButtonColor: '#3085d6',
+                    cancelButtonColor: '#d33',
+                    confirmButtonText: 'OK'
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        sessionStorage.setItem('digital-marketing', 'done')
+                        window.location.href = "{{ url('') }}"
+                    }
+                })
+            } else {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Please complete all parts of this module first!'
+                })
+            }
+
+
         }
 
     </script>
