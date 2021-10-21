@@ -34,6 +34,7 @@
                             <img src="{{ asset('img/CMW_1. Digital Marketing.webp') }}" class="card-img-top">
                             <div class="bottom-right">Digital Marketing Specialist
                             </div>
+                            <i class="fas fa-check-circle text-success float-end mt-1 d-none icon-done" id="dm"></i>
                         </div>
                     </div>
                 </a>

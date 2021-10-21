@@ -43,17 +43,17 @@
                             After learning about Digital Marketing Specialist, do you want to pursue digital marketing as a
                             career?
                         </label>
-                        <textarea class="form-control"></textarea>
+                        <textarea class="form-control" rows="5"></textarea>
                         <br>
                         <label>
                             If so, what do you want to specialize in?
                         </label>
-                        <textarea class="form-control"></textarea>
+                        <textarea class="form-control" rows="5"></textarea>
                         <br>
                         <label>
                             What makes you interested in this career?
                         </label>
-                        <textarea class="form-control"></textarea>
+                        <textarea class="form-control" rows="5"></textarea>
 
                         <hr>
                         <div class="text-end">
@@ -105,10 +105,12 @@
                 }
             }
 
+            let nextPart = part + 1
             if (z == j) {
                 sessionStorage.setItem("dm-part" + part, "done");
                 if (sessionStorage.getItem('dm-part' + part) == 'done') {
                     $('#dm-iconPart' + part).addClass('fas fa-check-circle text-success float-end mt-1')
+                    window.location.href = "{{ url('digital-marketing/part-') }}" + nextPart;
                 }
             }
 

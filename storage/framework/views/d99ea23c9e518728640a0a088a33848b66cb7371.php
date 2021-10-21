@@ -26,6 +26,12 @@
             font-size: 18px;
         }
 
+        .icon-done {
+            position: absolute;
+            top: 2%;
+            right: 4%;
+        }
+
         .container {
             padding: 0% 10%;
         }
@@ -122,7 +128,8 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f7f7f7;">
         <div class="container my-1">
-            <a class="navbar-brand" href="<?php echo e(url('/')); ?>"><img src="<?php echo e(asset('img/logo-1.png')); ?>" width="30%" /></a>
+            <a class="navbar-brand" href="<?php echo e(url('/')); ?>"><img src="<?php echo e(asset('img/logo-1.png')); ?>"
+                    width="30%" /></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -177,6 +184,13 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
+    <script>
+        // sessionStorage.clear();
+        if (sessionStorage.getItem('digital-marketing')) {
+            $('#dm').removeClass('d-none')
+        }
+
     </script>
     <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
         integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"

@@ -167,10 +167,12 @@
                 }
             }
 
+            let nextPart = part + 1
             if (z == j) {
                 sessionStorage.setItem("dm-part" + part, "done");
                 if (sessionStorage.getItem('dm-part' + part) == 'done') {
                     $('#dm-iconPart' + part).addClass('fas fa-check-circle text-success float-end mt-1')
+                    window.location.href = "{{ url('digital-marketing/part-') }}" + nextPart;
                 }
             }
 

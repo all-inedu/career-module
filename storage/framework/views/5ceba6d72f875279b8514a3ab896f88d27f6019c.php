@@ -11,7 +11,7 @@
             </h1>
         </div>
     </div>
-    <div class="container pt-3">
+    <div class="container pt-4">
         <p>
             In this module, you will learn about what Digital Marketing Specialist do, types of it, and how you could be a
             Digital Marketing Specialist. Along with case studies, and reflection, we hope that you can gain a deeper
@@ -88,6 +88,13 @@
                                 </ul>
                             </div>
                         </div>
+                        <br>
+                        <hr>
+                        <div class="text-end">
+                            <button class="btn btn-success btn-sm px-3" onclick="next(1, 8)">
+                                Finish <i class="fas fa-check-circle ps-3"></i>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -107,38 +114,28 @@
 
             let nPart = $('.list-group-item').length
             for (i = 1; i <= nPart; i++) {
-                if (sessionStorage.getItem('part' + i) == 'done') {
+                if (sessionStorage.getItem('dm-part' + i) == 'done') {
                     $('#dm-iconPart' + i).addClass('fas fa-check-circle text-success float-end mt-1')
                 }
             }
         });
 
         function next(n, part) {
-            sessionStorage.setItem("part" + part + "-" + n, "read");
-            if (sessionStorage.getItem("part" + part + "-" + n) == 'read') {
-                $('#icon' + n).removeClass('far fa-check-circle')
-                $('#icon' + n).addClass('fas fa-check-circle text-success')
-            }
-
-            let next = n + 1
-            $('#part' + part + '-' + n).collapse('toggle');
-            $('#part' + part + '-' + next).collapse('toggle');
-
-            let j = $('.accordion-item').length
-            let z = 0
-            for (i = 0; i <= j; i++) {
-                if (sessionStorage.getItem('part' + part + '-' + i) == 'read') {
-                    z++
+            sessionStorage.setItem('digital-marketing', 'done')
+            Swal.fire({
+                title: 'Congratulation',
+                text: "You have completed this module",
+                icon: 'success',
+                showCancelButton: false,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'OK'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    sessionStorage.setItem('digital-marketing', 'done')
+                    window.location.href = "<?php echo e(url('')); ?>"
                 }
-            }
-
-            if (z == j) {
-                sessionStorage.setItem("part" + part, "done");
-                if (sessionStorage.getItem('part' + part) == 'done') {
-                    $('#dm-iconPart' + part).addClass('fas fa-check-circle text-success float-end mt-1')
-                }
-            }
-
+            })
         }
 
     </script>

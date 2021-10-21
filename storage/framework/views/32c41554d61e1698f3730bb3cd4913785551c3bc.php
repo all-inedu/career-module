@@ -80,36 +80,36 @@
                         <div id="part3-2" class="accordion-collapse collapse">
                             <div class="accordion-body">
                                 <div class="row align-items-center">
-                                    <div class="col-md-7">
+                                    <div class="col-md-12">
                                         <iframe width="100%" height="315" src="https://www.youtube.com/embed/9m45nVsvvEY"
                                             title="YouTube video player" frameborder="0"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen></iframe>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-md-12 mt-3">
                                         What are the 7 reasons why a
                                         business should start using
                                         social media?
-                                        <textarea class="form-control"></textarea>
+                                        <textarea class="form-control" rows="5"></textarea>
                                     </div>
                                     <div class="col-md-12">
                                         <hr>
                                     </div>
-                                    <div class="col-md-7">
+                                    <div class="col-md-12">
                                         <iframe width="100%" height="315" src="https://www.youtube.com/embed/2ZzfWUsj9_Q"
                                             title="YouTube video player" frameborder="0"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen></iframe>
                                     </div>
-                                    <div class="col-md-5">
-                                        What are the benefits of social media marketing??
-                                        <textarea class="form-control"></textarea>
-                                        <br><br>
-                                        Do you have experience with social media marketing??
+                                    <div class="col-md-12 mt-3">
+                                        What are the benefits of social media marketing?
+                                        <textarea class="form-control" rows="5"></textarea>
+                                        <br>
+                                        Do you have experience with social media marketing?
                                         If so, please explain.
-                                        <textarea class="form-control"></textarea>
+                                        <textarea class="form-control" rows="5"></textarea>
                                     </div>
-                                    <div class="col-md-12 text-end">
+                                    <div class="col-md-12 text-end mt-2">
                                         <hr class="m-0 mb-2">
                                         <button class="btn btn-primary btn-sm px-3" onclick="next(2, 3)">
                                             Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
@@ -153,7 +153,7 @@
 
                                         <br><br>
                                         What differentiates SEM from SEO and traditional marketing?
-                                        <textarea class="form-control"></textarea>
+                                        <textarea class="form-control" rows="5"></textarea>
 
                                     </div>
 
@@ -179,19 +179,19 @@
                         <div id="part3-4" class="accordion-collapse collapse">
                             <div class="accordion-body">
                                 <div class="row align-items-center">
-                                    <div class="col-md-7">
+                                    <div class="col-md-12">
                                         <iframe width="100%" height="315" src="https://www.youtube.com/embed/xy5xyHDJgpo"
                                             title="YouTube video player" frameborder="0"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen></iframe>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-md-12 mt-3">
                                         What is the main job of a
                                         Digital Marketing Analyst?
-                                        <textarea class="form-control"></textarea>
+                                        <textarea class="form-control" rows="5"></textarea>
                                     </div>
 
-                                    <div class="col-md-12 text-end">
+                                    <div class="col-md-12 text-end mt-3">
                                         <hr class="m-0 mb-2">
                                         <button class="btn btn-primary btn-sm px-3" onclick="next(4, 3)">
                                             Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
@@ -244,10 +244,12 @@
                 }
             }
 
+            let nextPart = part + 1
             if (z == j) {
                 sessionStorage.setItem("dm-part" + part, "done");
                 if (sessionStorage.getItem('dm-part' + part) == 'done') {
                     $('#dm-iconPart' + part).addClass('fas fa-check-circle text-success float-end mt-1')
+                    window.location.href = "<?php echo e(url('digital-marketing/part-')); ?>" + nextPart;
                 }
             }
 

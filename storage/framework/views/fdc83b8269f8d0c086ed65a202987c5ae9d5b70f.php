@@ -81,11 +81,11 @@
                                             What do you think
                                             makes it effective?
                                         </p>
+                                        <textarea name="" class="form-control" rows="5"></textarea>
                                     </div>
-                                    <div class="col-md-12 text-end">
-                                        <hr class="m-0 mb-2">
-                                        <button class="btn btn-info btn-sm px-3" onclick="next(1, 1)">
-                                            Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                    <div class="col-md-12 text-end mt-2">
+                                        <button class="btn btn-primary btn-sm px-3" onclick="next(1, 1)">
+                                            Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                         </button>
                                     </div>
                                 </div>
@@ -198,17 +198,17 @@
                                             <label>
                                                 What do you think they do?
                                             </label>
-                                            <textarea class="form-control"></textarea>
+                                            <textarea class="form-control" rows="5"></textarea>
                                             <br>
                                             <label>
                                                 What degree do they need?
                                             </label>
-                                            <textarea class="form-control"></textarea>
+                                            <textarea class="form-control" rows="5"></textarea>
                                             <br>
                                             <label>
                                                 What skills do they need?
                                             </label>
-                                            <textarea class="form-control"></textarea>
+                                            <textarea class="form-control" rows="5"></textarea>
                                         </form>
                                     </div>
                                     <div class="col-md-12 text-end">
@@ -264,10 +264,12 @@
                 }
             }
 
+            let nextPart = part + 1
             if (z == j) {
                 sessionStorage.setItem("dm-part" + part, "done");
                 if (sessionStorage.getItem('dm-part' + part) == 'done') {
                     $('#dm-iconPart' + part).addClass('fas fa-check-circle text-success float-end mt-1')
+                    window.location.href = "<?php echo e(url('digital-marketing/part-')); ?>" + nextPart;
                 }
             }
 

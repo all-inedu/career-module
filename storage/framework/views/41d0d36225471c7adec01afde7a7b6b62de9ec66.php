@@ -193,6 +193,11 @@
                                                                     getting done? Try to complete the diagram here using
                                                                     below worksheet!
                                                                 </p>
+                                                                <div class="text-center">
+                                                                    <button class="btn btn-primary btn-sm px-3">Download the
+                                                                        Worksheet</button>
+                                                                </div>
+                                                                <br>
                                                                 <hr class="my-1">
                                                                 <br>
                                                                 Please upload your worksheet below <br>
@@ -242,6 +247,11 @@
                                                                     use discount? Promo? KOL? Put your strategy using
                                                                     below worksheet!
                                                                 </p>
+                                                                <div class="text-center">
+                                                                    <button class="btn btn-primary btn-sm px-3">Download the
+                                                                        Worksheet</button>
+                                                                </div>
+                                                                <br>
                                                                 <hr class="my-1">
                                                                 <br>
                                                                 Please upload your worksheet below <br>
@@ -253,7 +263,34 @@
                                                                     onclick="csNext(3, 1)">
                                                                     Submit <i
                                                                         class=" far fa-arrow-alt-circle-right
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ps-2"></i>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ps-2"></i>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item dm-cs1">
+                                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#cs1-4">
+                                                        <i class="far fa-check-circle pe-2" id="cs1Icon4"></i>
+                                                        Case Study Answer
+                                                    </button>
+                                                </h2>
+                                                <div id="cs1-4" class="accordion-collapse collapse"
+                                                    aria-labelledby="panelsStayOpen-headingOne">
+                                                    <div class="accordion-body">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-md-12 mb-3">
+                                                                <h1>Video</h1>
+                                                            </div>
+                                                            <div class="col-md-12 text-end">
+                                                                <hr class="m-0 mb-2">
+                                                                <button class="btn btn-info btn-sm px-3"
+                                                                    onclick="csNext(4, 1)">
+                                                                    Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                                                 </button>
                                                             </div>
                                                         </div>
@@ -440,6 +477,33 @@
                                                     </div>
                                                 </div>
                                             </div>
+
+                                            <div class="accordion-item dm-cs2">
+                                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#cs2-4">
+                                                        <i class="far fa-check-circle pe-2" id="cs2Icon4"></i>
+                                                        Case Study Answer
+                                                    </button>
+                                                </h2>
+                                                <div id="cs2-4" class="accordion-collapse collapse"
+                                                    aria-labelledby="panelsStayOpen-headingOne">
+                                                    <div class="accordion-body">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-md-12 mb-3">
+                                                                <h1>Video</h1>
+                                                            </div>
+                                                            <div class="col-md-12 text-end">
+                                                                <hr class="m-0 mb-2">
+                                                                <button class="btn btn-info btn-sm px-3"
+                                                                    onclick="csNext(4, 2)">
+                                                                    Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-md-12 text-end">
@@ -506,10 +570,12 @@
                 }
             }
 
+            let nextPart = part + 1
             if (z == j) {
                 sessionStorage.setItem("dm-part" + part, "done");
                 if (sessionStorage.getItem('dm-part' + part) == 'done') {
                     $('#dm-iconPart' + part).addClass('fas fa-check-circle text-success float-end mt-1')
+                    window.location.href = "<?php echo e(url('digital-marketing/part-')); ?>" + nextPart;
                 }
             }
 

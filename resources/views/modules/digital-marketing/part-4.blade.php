@@ -81,7 +81,8 @@
                                 data-bs-target="#part4-2">
                                 <i class="far fa-check-circle pe-2" id="icon2"></i>
                                 Pathways to becoming a Digital Marketing
-                                Specialist
+                                Specialist and Applications for industries that uses Digital
+                                Marketing
                             </button>
                         </h2>
                         <div id="part4-2" class="accordion-collapse collapse">
@@ -95,7 +96,11 @@
                                     <div class="col-md-6">
                                         <img src="{{ asset('img/data-marketing/path1.png') }}" width="100%">
                                     </div>
-                                    <div class="col-md-12 text-end">
+                                    <div class="col-md-12 mt-3">
+                                        All industries require Digital Marketing, but you still have to consider the
+                                        different channels you can use for specific industries
+                                    </div>
+                                    <div class="col-md-12 text-end mt-3">
                                         <hr class="m-0 mb-2">
                                         <button class="btn btn-info btn-sm px-3" onclick="next(2, 4)">
                                             Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
@@ -111,16 +116,22 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#part4-3">
                                 <i class="far fa-check-circle pe-2" id="icon3"></i>
-                                Applications or industries that uses Digital
-                                Marketing
+                                Useful skills to learn from high school
                             </button>
                         </h2>
                         <div id="part4-3" class="accordion-collapse collapse">
                             <div class="accordion-body">
                                 <div class="row align-items-center">
-                                    <div class="col-md-12">
-                                        All industries require Digital Marketing, but you still have to consider the
-                                        different channels you can use for specific industries
+                                    <div class="col-md-12 mb-3">
+                                        <b>Art</b> <br>
+                                        Basic design understanding will help Digital Marketing Specialist decide if
+                                        the design already align with the branding or not
+                                        <br><br>
+                                        <b>Writing</b> <br>
+
+                                        Writing class helps promote creative exploration and writing skills that are
+                                        crucial for marketing. Having an established base of good vocabulary and
+                                        context is essential when writing up advertisements.
                                     </div>
                                     <div class="col-md-12 text-end">
                                         <hr class="m-0 mb-2">
@@ -138,44 +149,11 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#part4-4">
                                 <i class="far fa-check-circle pe-2" id="icon4"></i>
-                                Useful skills to learn from high school
-                            </button>
-                        </h2>
-                        <div id="part4-4" class="accordion-collapse collapse">
-                            <div class="accordion-body">
-                                <div class="row align-items-center">
-                                    <div class="col-md-12 mb-3">
-                                        <b>Art</b> <br>
-                                        Basic design understanding will help Digital Marketing Specialist decide if
-                                        the design already align with the branding or not
-                                        <br><br>
-                                        <b>Writing</b> <br>
-
-                                        Writing class helps promote creative exploration and writing skills that are
-                                        crucial for marketing. Having an established base of good vocabulary and
-                                        context is essential when writing up advertisements.
-                                    </div>
-                                    <div class="col-md-12 text-end">
-                                        <hr class="m-0 mb-2">
-                                        <button class="btn btn-info btn-sm px-3" onclick="next(4, 4)">
-                                            Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#part4-5">
-                                <i class="far fa-check-circle pe-2" id="icon5"></i>
                                 Soft skills that are useful for a career in Digital
                                 Marketing
                             </button>
                         </h2>
-                        <div id="part4-5" class="accordion-collapse collapse">
+                        <div id="part4-4" class="accordion-collapse collapse">
                             <div class="accordion-body">
                                 <div class="row align-items-center">
                                     <div class="col-md-12 mb-3">
@@ -197,7 +175,7 @@
                                     </div>
                                     <div class="col-md-12 text-end">
                                         <hr class="m-0 mb-2">
-                                        <button class="btn btn-info btn-sm px-3" onclick="next(5, 4)">
+                                        <button class="btn btn-info btn-sm px-3" onclick="next(4, 4)">
                                             Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                         </button>
                                     </div>
@@ -209,12 +187,12 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#part4-6">
-                                <i class="far fa-check-circle pe-2" id="icon6"></i>
+                                data-bs-target="#part4-5">
+                                <i class="far fa-check-circle pe-2" id="icon5"></i>
                                 Digital Marketing can be learnt even at home
                             </button>
                         </h2>
-                        <div id="part4-6" class="accordion-collapse collapse">
+                        <div id="part4-5" class="accordion-collapse collapse">
                             <div class="accordion-body">
                                 <div class="row align-items-center">
                                     <div class="col-md-12 mb-3">
@@ -241,7 +219,7 @@
                                     </div>
                                     <div class="col-md-12 text-end">
                                         <hr class="m-0 mb-2">
-                                        <button class="btn btn-info btn-sm px-3" onclick="next(6, 4)">
+                                        <button class="btn btn-info btn-sm px-3" onclick="next(5, 4)">
                                             Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                         </button>
                                     </div>
@@ -253,26 +231,26 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#part4-7">
-                                <i class="far fa-check-circle pe-2" id="icon7"></i>
+                                data-bs-target="#part4-6">
+                                <i class="far fa-check-circle pe-2" id="icon6"></i>
                                 Checkpoint
                             </button>
                         </h2>
-                        <div id="part4-7" class="accordion-collapse collapse">
+                        <div id="part4-6" class="accordion-collapse collapse">
                             <div class="accordion-body">
                                 <div class="row align-items-center">
                                     <div class="col-md-12 mb-3">
                                         <p>Here are some concept check questions:</p>
                                         Name 3 degrees you could pursue to become a digital marketting specialist.
-                                        <textarea class="form-control"></textarea>
+                                        <textarea class="form-control" rows="5"></textarea>
                                         <br>
                                         Describe what search engine optimization (SEO) and search engine marketting (SEM)
                                         are. How are they related to each other, and what are the differences?
-                                        <textarea class="form-control"></textarea>
+                                        <textarea class="form-control" rows="5"></textarea>
                                     </div>
                                     <div class="col-md-12 text-end">
                                         <hr class="m-0 mb-2">
-                                        <button class="btn btn-primary btn-sm px-3" onclick="next(7, 4)">
+                                        <button class="btn btn-primary btn-sm px-3" onclick="next(6, 4)">
                                             Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                         </button>
                                     </div>
@@ -323,10 +301,12 @@
                 }
             }
 
+            let nextPart = part + 1
             if (z == j) {
                 sessionStorage.setItem("dm-part" + part, "done");
                 if (sessionStorage.getItem('dm-part' + part) == 'done') {
                     $('#dm-iconPart' + part).addClass('fas fa-check-circle text-success float-end mt-1')
+                    window.location.href = "{{ url('digital-marketing/part-') }}" + nextPart;
                 }
             }
 
