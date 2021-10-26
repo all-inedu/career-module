@@ -14,12 +14,9 @@
     </div>
     <div class="container pt-4">
         <p>
-            In this module, you will learn about what Digital Marketing Specialist do, types of it, and how you could be a
-            Digital Marketing Specialist. Along with case studies, and reflection, we hope that you can gain a deeper
-            knowledge
-            on Digital Marketing and how to implement them in real-life events.
-            <br><br>
-            Happy learning!
+            This module consists of all the background information on Digital Marketing Specialist as a career, 2 (two) case
+            studies and a final reflection. Complete all sections in order. Refer to Glossary and Additional Resources when
+            necessary.
         </p>
     </div>
 @endsection
@@ -32,7 +29,7 @@
     <div class="content">
         <div class="card">
             <div class="pt-3 pb-2 ps-3">
-                <h5>Case Studies</h5>
+                <h3>Case Studies</h3>
             </div>
             <hr class="m-1 border-2 mx-auto" width="95%">
             <div class="card-body">
@@ -48,25 +45,28 @@
                         <div id="part5-1" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
                             <div class="accordion-body">
                                 <div class="row align-items-center">
-                                    <div class="col-md-12 mb-3">
-                                        Mrs. Penny opened a store selling her handmade traditional snacks but, because of
-                                        the
-                                        pandemic, she is unable to open an actual store/kiosk in shopping centres. As of
-                                        now, she
-                                        promotes her business through sending a poster to WhatsApp group chat and has
-                                        recently
-                                        started an Instagram account. Her customers are her closes friends and neighbors
-                                        with the
-                                        similar age and occupation. However, because she is unfamiliar with digital
-                                        marketing, she
-                                        is having trouble promoting her traditional cakes to other people outside her
-                                        WhatsApp
-                                        group and she doesn’t know how social media can be used for marketing. You are
-                                        called to
-                                        help Mrs. Penny improve her sales through SOCIAL MEDIA MARKETING. <br>
-                                        How should Mrs.
-                                        Penny strategize her social media marketing?
-                                        <br> <br>
+                                    <div class="col-md-12 mb-3 pc">
+                                        <p class="text-justify" style="text-align: justify;">
+                                            Mrs. Penny opened a store selling her handmade traditional snacks but, because
+                                            of
+                                            the
+                                            pandemic, she is unable to open an actual store/kiosk in shopping centres. As of
+                                            now, she
+                                            promotes her business through sending a poster to WhatsApp group chat and has
+                                            recently
+                                            started an Instagram account. Her customers are her closes friends and neighbors
+                                            with the
+                                            similar age and occupation. However, because she is unfamiliar with digital
+                                            marketing, she
+                                            is having trouble promoting her traditional cakes to other people outside her
+                                            WhatsApp
+                                            group and she doesn’t know how social media can be used for marketing. You are
+                                            called to
+                                            help Mrs. Penny improve her sales through <b>SOCIAL MEDIA MARKETING</b>. <br>
+                                            How should Mrs.
+                                            Penny strategize her social media marketing?
+                                        </p>
+                                        <br>
                                         <iframe width="100%" height="315" src="https://www.youtube.com/embed/PNkCR5rGIzw"
                                             title="YouTube video player" frameborder="0"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -74,8 +74,8 @@
                                         <br><br>
                                         <div class="accordion my-2" id="accordionPanelsStayOpenExample">
                                             <div class="accordion-item dm-cs1">
-                                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                                                    <button class="accordion-button collapsed" type="button"
+                                                <h2 class="accordion-header st" id="panelsStayOpen-headingOne">
+                                                    <button class="accordion-button bg-allin collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#cs1-1">
                                                         <i class="far fa-check-circle pe-2" id="cs1Icon1"></i>
                                                         How would you identify her target market?
@@ -92,23 +92,29 @@
                                                                 </p>
                                                                 <div class="row">
                                                                     <div class="col-md-8 mx-auto">
-                                                                        <img src="{{ asset('img/data-marketing/cs1.png') }}"
+                                                                        <img class="img"
+                                                                            src="{{ asset('img/data-marketing/cs1.png') }}"
                                                                             width="100%"> <br> <br>
-                                                                        <img src="{{ asset('img/data-marketing/cs2.png') }}"
+                                                                        <img class="img"
+                                                                            src="{{ asset('img/data-marketing/cs2.png') }}"
                                                                             width="100%"> <br> <br>
-                                                                        <img src="{{ asset('img/data-marketing/cs3.png') }}"
+                                                                        <img class="img"
+                                                                            src="{{ asset('img/data-marketing/cs3.png') }}"
                                                                             width="100%"> <br><br>
                                                                     </div>
                                                                 </div>
-                                                                <img src="{{ asset('img/data-marketing/cs4.png') }}"
+                                                                <img class="img"
+                                                                    src="{{ asset('img/data-marketing/cs4.png') }}"
                                                                     width="100%">
                                                                 <br><br>
-                                                                <p>
+                                                                <p style="text-align: justify;">
                                                                     Let’s see the user persona example here. Your task is to
                                                                     determine who is the target market of Mrs. Penny’s cake?
-                                                                    Is it going to be a teenage girl? Or a 30 years old mom?
-                                                                    Or career woman? What is her/his occupation? Try to
-                                                                    complete the buyer persona using the worksheet below!
+                                                                    Is it going to be a teenage girl? Or a 30-year old mom?
+                                                                    Or career woman? What is her/his occupation?
+                                                                    <b>Try to
+                                                                        complete the buyer persona using the worksheet
+                                                                        below!</b>
 
                                                                 <div class="text-center">
                                                                     <button class="btn btn-primary btn-sm px-3">Download the
@@ -134,8 +140,8 @@
                                             </div>
 
                                             <div class="accordion-item dm-cs1">
-                                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                                                    <button class="accordion-button collapsed" type="button"
+                                                <h2 class="accordion-header st" id="panelsStayOpen-headingOne">
+                                                    <button class="accordion-button bg-allin collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#cs1-2">
                                                         <i class="far fa-check-circle pe-2" id="cs1Icon2"></i>
                                                         How do you define their goals and pains?
@@ -151,7 +157,8 @@
                                                                 </p>
                                                                 <div class="row">
                                                                     <div class="col-md-8 mx-auto">
-                                                                        <img src="{{ asset('img/data-marketing/cs5.png') }}"
+                                                                        <img class="img"
+                                                                            src="{{ asset('img/data-marketing/cs5.png') }}"
                                                                             width="100%">
                                                                     </div>
                                                                 </div>
@@ -191,8 +198,8 @@
                                                                     have when you purchase it? what is something that can
                                                                     hinder you from purchasing the cake? What is the
                                                                     positive outcome that you will get when the job is
-                                                                    getting done? Try to complete the diagram here using
-                                                                    below worksheet!
+                                                                    getting done? <b>Try to complete the diagram here using
+                                                                        below worksheet!</b>
                                                                 </p>
                                                                 <div class="text-center">
                                                                     <button class="btn btn-primary btn-sm px-3">Download the
@@ -218,8 +225,8 @@
                                             </div>
 
                                             <div class="accordion-item dm-cs1">
-                                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                                                    <button class="accordion-button collapsed" type="button"
+                                                <h2 class="accordion-header st" id="panelsStayOpen-headingOne">
+                                                    <button class="accordion-button bg-allin collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#cs1-3">
                                                         <i class="far fa-check-circle pe-2" id="cs1Icon3"></i>
                                                         What Social Media do you think is appropriate
@@ -264,7 +271,7 @@
                                                                     onclick="csNext(3, 1)">
                                                                     Submit <i
                                                                         class=" far fa-arrow-alt-circle-right
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ps-2"></i>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ps-2"></i>
                                                                 </button>
                                                             </div>
                                                         </div>
@@ -273,8 +280,8 @@
                                             </div>
 
                                             <div class="accordion-item dm-cs1">
-                                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                                                    <button class="accordion-button collapsed" type="button"
+                                                <h2 class="accordion-header st" id="panelsStayOpen-headingOne">
+                                                    <button class="accordion-button bg-allin collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#cs1-4">
                                                         <i class="far fa-check-circle pe-2" id="cs1Icon4"></i>
                                                         Case Study Answer
@@ -316,7 +323,7 @@
                         <div id="part5-2" class="accordion-collapse collapse">
                             <div class="accordion-body">
                                 <div class="row align-items-center">
-                                    <div class="col-md-12 mb-3">
+                                    <div class="col-md-12 mb-3 pc">
                                         <p>
                                             Before the case study start, make sure you have signed up on your Hootsuite
                                             account.
@@ -327,7 +334,9 @@
                                             promote
                                             this Baby Formula. You have been given a few facts and figures of the target
                                             market:
-                                        <ul>
+                                        </p>
+                                        <p>
+                                        <ul style="font-size: 18px; margin-left:-10px;">
                                             <li>
                                                 Low to mid socioeconomic groups
                                             </li>
@@ -341,18 +350,21 @@
                                                 Baby formula is the first one to have Banana flavor
                                             </li>
                                         </ul>
-                                        <br>
-                                        This Baby Formula is also a direct competitior to other baby formulas like
-                                        Similac
-                                        or Enfamil. Use competitior analysis, customer journey, and concept board to
-                                        determine a week of content planning
                                         </p>
-
+                                        <p>
+                                            This Baby Formula is also a direct competitior to other baby formulas. Use
+                                            competitior analysis, customer journey, and concept board to
+                                            determine a week of content planning
+                                        </p>
+                                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/PNkCR5rGIzw"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
                                         <br>
                                         <div class="accordion my-2" id="accordionPanelsStayOpenExample">
                                             <div class="accordion-item dm-cs2">
                                                 <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                                                    <button class="accordion-button collapsed" type="button"
+                                                    <button class="accordion-button bg-allin collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#cs2-1">
                                                         <i class="far fa-check-circle pe-2" id="cs2Icon1"></i>
                                                         Competitor Analysis
@@ -396,7 +408,7 @@
 
                                             <div class="accordion-item dm-cs2">
                                                 <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                                                    <button class="accordion-button collapsed" type="button"
+                                                    <button class="accordion-button bg-allin collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#cs2-2">
                                                         <i class="far fa-check-circle pe-2" id="cs2Icon2"></i>
                                                         Customer Journey
@@ -407,7 +419,8 @@
                                                     <div class="accordion-body">
                                                         <div class="row align-items-center">
                                                             <div class="col-md-12 mb-3">
-                                                                <img src="{{ asset('img/data-marketing/cs6.png') }}"
+                                                                <img class="img"
+                                                                    src="{{ asset('img/data-marketing/cs6.png') }}"
                                                                     width="100%">
 
                                                                 <div class="text-center">
@@ -435,7 +448,7 @@
 
                                             <div class="accordion-item dm-cs2">
                                                 <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                                                    <button class="accordion-button collapsed" type="button"
+                                                    <button class="accordion-button bg-allin collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#cs2-3">
                                                         <i class="far fa-check-circle pe-2" id="cs2Icon3"></i>
                                                         Concept board
@@ -450,10 +463,10 @@
                                                                     Now that you know what strategies that your competitors
                                                                     use for digital marketing, create a concept board where
                                                                     you add all the ideas/concepts you’d like to incorporate
-                                                                    for your digital marketing campaign. A concept board
-                                                                    looks like this. [link]
+                                                                    for your digital marketing campaign.
                                                                 </p>
-                                                                <img src="{{ asset('img/data-marketing/cs7.png') }}"
+                                                                <img class="img"
+                                                                    src="{{ asset('img/data-marketing/cs7.png') }}"
                                                                     width="100%">
 
                                                                 <div class="text-center">
@@ -481,13 +494,58 @@
 
                                             <div class="accordion-item dm-cs2">
                                                 <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                                                    <button class="accordion-button collapsed" type="button"
+                                                    <button class="accordion-button bg-allin collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#cs2-4">
                                                         <i class="far fa-check-circle pe-2" id="cs2Icon4"></i>
-                                                        Case Study Answer
+                                                        Plan out one week of the marketing campaign
                                                     </button>
                                                 </h2>
                                                 <div id="cs2-4" class="accordion-collapse collapse"
+                                                    aria-labelledby="panelsStayOpen-headingOne">
+                                                    <div class="accordion-body">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-md-12 mb-3">
+                                                                <p>
+                                                                    Now that you have a concept board, create a one-week
+                                                                    schedule when
+                                                                    you should post your videos, posts, pictures, or any
+                                                                    other media. Include explanations for
+                                                                    events, activities, and any relevant websites that you
+                                                                    can use as a reference to make an effective schedule.
+                                                                </p>
+
+                                                                <div class="text-center mt-3">
+                                                                    <button class="btn btn-primary btn-sm px-3">Download the
+                                                                        Worksheet</button>
+                                                                </div>
+                                                                </p>
+                                                                <hr class="my-1">
+                                                                <br>
+                                                                Please upload your worksheet below <br>
+                                                                <input type="file" class="form-control">
+                                                            </div>
+                                                            <div class="col-md-12 text-end">
+                                                                <hr class="m-0 mb-2">
+                                                                <button class="btn btn-primary btn-sm px-3"
+                                                                    onclick="csNext(4, 2)">
+                                                                    Submit <i
+                                                                        class="far fa-arrow-alt-circle-right ps-2"></i>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item dm-cs2">
+                                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                                    <button class="accordion-button bg-allin collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#cs2-5">
+                                                        <i class="far fa-check-circle pe-2" id="cs2Icon5"></i>
+                                                        Case Study Answer
+                                                    </button>
+                                                </h2>
+                                                <div id="cs2-5" class="accordion-collapse collapse"
                                                     aria-labelledby="panelsStayOpen-headingOne">
                                                     <div class="accordion-body">
                                                         <div class="row align-items-center">
@@ -497,7 +555,7 @@
                                                             <div class="col-md-12 text-end">
                                                                 <hr class="m-0 mb-2">
                                                                 <button class="btn btn-info btn-sm px-3"
-                                                                    onclick="csNext(4, 2)">
+                                                                    onclick="csNext(5, 2)">
                                                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                                                 </button>
                                                             </div>

@@ -14,12 +14,9 @@
     </div>
     <div class="container pt-4">
         <p>
-            In this module, you will learn about what Digital Marketing Specialist do, types of it, and how you could be a
-            Digital Marketing Specialist. Along with case studies, and reflection, we hope that you can gain a deeper
-            knowledge
-            on Digital Marketing and how to implement them in real-life events.
-            <br><br>
-            Happy learning!
+            This module consists of all the background information on Digital Marketing Specialist as a career, 2 (two) case
+            studies and a final reflection. Complete all sections in order. Refer to Glossary and Additional Resources when
+            necessary.
         </p>
     </div>
 @endsection
@@ -33,38 +30,52 @@
         <div class="card">
 
             <div class="pt-3 pb-2 ps-3">
-                <h5>How do I become a Digital
-                    Marketing Specialist?</h5>
+                <h3>How do I become a Digital
+                    Marketing Specialist?</h3>
             </div>
             <hr class="m-1 border-2 mx-auto" width="95%">
             <div class="card-body">
                 <div class="accordion my-2" id="accordionPanelsStayOpenExample">
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#part4-1">
                                 <i class="far fa-check-circle pe-2" id="icon1"></i>
-                                Major Specifications
+                                Educational Pathway
                             </button>
                         </h2>
-                        <div id="part4-1" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                        <div id="part4-1" class="accordion-collapse collapse">
                             <div class="accordion-body">
                                 <div class="row align-items-center">
-                                    <div class="col-md-12 mb-3">
-                                        The good new is that there is major flexibility if you want to be a Digital
-                                        Marketing Specialist. Here are a few degrees that may be useful for a
-                                        Digital Marketing Career:
-                                        <ul class="my-3">
-                                            <li>Marketing</li>
-                                            <li>Advertising</li>
-                                            <li>Communications</li>
-                                            <li>Journalism</li>
-                                            <li>Graphic design</li>
-                                            <li>System Informatics</li>
+                                    <div class="col-md-12">
+                                        <p>
+                                            If you’re interested in pursuing career in digital marketing, there are several
+                                            subjects you need to put more focus on in high school:
+                                        </p>
+                                        <ul style="margin-left:-10px;">
+                                            <li>English/Writing</li>
+                                            <li>Business</li>
+                                            <li>Economics</li>
+                                            <li>Art</li>
                                         </ul>
-                                        Would be very helpful when you apply for a job .
                                     </div>
-                                    <div class="col-md-12 text-end">
+                                    <div class="col-md-12 mt-3">
+                                        There is no single pathway to become digital
+                                        marketing specialist.
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="img" src="{{ asset('img/data-marketing/path0.png') }}" width="100%">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="img" src="{{ asset('img/data-marketing/path1.png') }}" width="100%">
+                                    </div>
+                                    <div class="col-md-12 mt-3">
+                                        <div class="pc">
+                                            All industries require Digital Marketing, but you still have to consider the
+                                            different channels you can use for specific industries
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 text-end mt-3">
                                         <hr class="m-0 mb-2">
                                         <button class="btn btn-info btn-sm px-3" onclick="next(1, 4)">
                                             Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
@@ -80,46 +91,10 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#part4-2">
                                 <i class="far fa-check-circle pe-2" id="icon2"></i>
-                                Pathways to becoming a Digital Marketing
-                                Specialist and Applications for industries that uses Digital
-                                Marketing
+                                Skills
                             </button>
                         </h2>
                         <div id="part4-2" class="accordion-collapse collapse">
-                            <div class="accordion-body">
-                                <div class="row align-items-center">
-                                    <div class="col-md-6">
-                                        There is no single pathway to become digital
-                                        marketing specialist.
-                                        <img src="{{ asset('img/data-marketing/path0.png') }}" width="100%">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <img src="{{ asset('img/data-marketing/path1.png') }}" width="100%">
-                                    </div>
-                                    <div class="col-md-12 mt-3">
-                                        All industries require Digital Marketing, but you still have to consider the
-                                        different channels you can use for specific industries
-                                    </div>
-                                    <div class="col-md-12 text-end mt-3">
-                                        <hr class="m-0 mb-2">
-                                        <button class="btn btn-info btn-sm px-3" onclick="next(2, 4)">
-                                            Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#part4-3">
-                                <i class="far fa-check-circle pe-2" id="icon3"></i>
-                                Useful skills to learn from high school
-                            </button>
-                        </h2>
-                        <div id="part4-3" class="accordion-collapse collapse">
                             <div class="accordion-body">
                                 <div class="row align-items-center">
                                     <div class="col-md-12 mb-3">
@@ -128,35 +103,10 @@
                                         the design already align with the branding or not
                                         <br><br>
                                         <b>Writing</b> <br>
-
                                         Writing class helps promote creative exploration and writing skills that are
                                         crucial for marketing. Having an established base of good vocabulary and
                                         context is essential when writing up advertisements.
-                                    </div>
-                                    <div class="col-md-12 text-end">
-                                        <hr class="m-0 mb-2">
-                                        <button class="btn btn-info btn-sm px-3" onclick="next(3, 4)">
-                                            Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#part4-4">
-                                <i class="far fa-check-circle pe-2" id="icon4"></i>
-                                Soft skills that are useful for a career in Digital
-                                Marketing
-                            </button>
-                        </h2>
-                        <div id="part4-4" class="accordion-collapse collapse">
-                            <div class="accordion-body">
-                                <div class="row align-items-center">
-                                    <div class="col-md-12 mb-3">
+                                        <br><br>
                                         <b>Time management</b> <br>
                                         It is important to know how to manage a schedule during a marketing
                                         campaign. This will help you create an efficient timeline that works for a
@@ -175,7 +125,7 @@
                                     </div>
                                     <div class="col-md-12 text-end">
                                         <hr class="m-0 mb-2">
-                                        <button class="btn btn-info btn-sm px-3" onclick="next(4, 4)">
+                                        <button class="btn btn-info btn-sm px-3" onclick="next(2, 4)">
                                             Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                         </button>
                                     </div>
@@ -185,73 +135,32 @@
                     </div>
 
                     <div class="accordion-item">
-                        <h2 class="accordion-header">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#part4-5">
-                                <i class="far fa-check-circle pe-2" id="icon5"></i>
-                                Digital Marketing can be learnt even at home
+                                data-bs-target="#part4-3">
+                                <i class="far fa-check-circle pe-2" id="icon3"></i>
+                                Possible Majors
                             </button>
                         </h2>
-                        <div id="part4-5" class="accordion-collapse collapse">
+                        <div id="part4-3" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
                             <div class="accordion-body">
                                 <div class="row align-items-center">
                                     <div class="col-md-12 mb-3">
-                                        With the abundance of online resources, Digital Marketing can be easily
-                                        learned through YouTube, Online courses, etc.
-
-                                        A thing to remember when learning about digital marketing is to take it
-                                        one step at a time. You can learn each concept slowly and build on that
-                                        knowledge.
-                                        <br><br>
-                                        You can start with:
-                                        <ul>
-                                            <li>
-                                                Basic Marketing
-                                            </li>
-                                            <li>
-                                                Search Engine basics
-                                            </li>
-                                            <li>
-                                                Social Media basics
-                                            </li>
+                                        The good news is that there are quite a few options of majors if you want to be a
+                                        Digital Marketing Specialist. Here are a few:
+                                        <ul class="my-3">
+                                            <li>Marketing</li>
+                                            <li>Advertising</li>
+                                            <li>Communications</li>
+                                            <li>Journalism</li>
+                                            <li>Graphic design</li>
+                                            <li>System Informatics</li>
                                         </ul>
-
                                     </div>
                                     <div class="col-md-12 text-end">
                                         <hr class="m-0 mb-2">
-                                        <button class="btn btn-info btn-sm px-3" onclick="next(5, 4)">
+                                        <button class="btn btn-info btn-sm px-3" onclick="next(3, 4)">
                                             Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#part4-6">
-                                <i class="far fa-check-circle pe-2" id="icon6"></i>
-                                Checkpoint
-                            </button>
-                        </h2>
-                        <div id="part4-6" class="accordion-collapse collapse">
-                            <div class="accordion-body">
-                                <div class="row align-items-center">
-                                    <div class="col-md-12 mb-3">
-                                        <p>Here are some concept check questions:</p>
-                                        Name 3 degrees you could pursue to become a digital marketting specialist.
-                                        <textarea class="form-control" rows="5"></textarea>
-                                        <br>
-                                        Describe what search engine optimization (SEO) and search engine marketting (SEM)
-                                        are. How are they related to each other, and what are the differences?
-                                        <textarea class="form-control" rows="5"></textarea>
-                                    </div>
-                                    <div class="col-md-12 text-end">
-                                        <hr class="m-0 mb-2">
-                                        <button class="btn btn-primary btn-sm px-3" onclick="next(6, 4)">
-                                            Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                         </button>
                                     </div>
                                 </div>

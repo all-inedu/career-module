@@ -14,12 +14,9 @@
     </div>
     <div class="container pt-4">
         <p>
-            In this module, you will learn about what Digital Marketing Specialist do, types of it, and how you could be a
-            Digital Marketing Specialist. Along with case studies, and reflection, we hope that you can gain a deeper
-            knowledge
-            on Digital Marketing and how to implement them in real-life events.
-            <br><br>
-            Happy learning!
+            This module consists of all the background information on Digital Marketing Specialist as a career, 2 (two) case
+            studies and a final reflection. Complete all sections in order. Refer to Glossary and Additional Resources when
+            necessary.
         </p>
     </div>
 @endsection
@@ -33,24 +30,24 @@
         <div class="card">
 
             <div class="pt-3 pb-2 ps-3">
-                <h5>Reflection</h5>
+                <h3>Reflection</h3>
             </div>
             <hr class="m-1 border-2 mx-auto" width="95%">
             <div class="card-body">
                 <div class="row">
                     <div class="col-md-12">
-                        <label>
+                        <label class="mb-2">
                             After learning about Digital Marketing Specialist, do you want to pursue digital marketing as a
                             career?
                         </label>
                         <textarea class="form-control" rows="5"></textarea>
                         <br>
-                        <label>
+                        <label class="mb-2">
                             If so, what do you want to specialize in?
                         </label>
                         <textarea class="form-control" rows="5"></textarea>
                         <br>
-                        <label>
+                        <label class="mb-2">
                             What makes you interested in this career?
                         </label>
                         <textarea class="form-control" rows="5"></textarea>

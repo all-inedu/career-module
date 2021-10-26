@@ -9,17 +9,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="<?php echo e(url('img/icon.ico')); ?>" type="image/x-icon">
     <title>
         Career Module - <?php echo $__env->yieldContent('title'); ?>
     </title>
     <link rel="stylesheet" href="<?php echo e(asset('css/style.css')); ?>">
+    <link rel="stylesheet" href="http://codylindley.com/thickbox/thickbox-code/thickbox.css">
     <script src="<?php echo e(asset('js/jquery-3.6.0.js')); ?>"></script>
-
+    <script src="<?php echo e(asset('js/thickbox.js')); ?>"></script>
     <style>
         @import  url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+        @import  url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
         body {
-            font-family: 'Roboto', sans-serif !important;
+            font-family: 'Montserrat', sans-serif;
         }
 
         p {
@@ -33,7 +36,7 @@
         }
 
         .container {
-            padding: 0% 10%;
+            padding: 0% 5%;
         }
 
         .container2 {
@@ -187,11 +190,103 @@
     </script>
     <script>
         // sessionStorage.clear();
+
+
         if (sessionStorage.getItem('digital-marketing')) {
             $('#dm').removeClass('d-none')
         }
 
+        if (sessionStorage.getItem('data-science')) {
+            $('#ds').removeClass('d-none')
+        }
+
+
+        $("img").click(function() {
+                    $(this).append('<div id="image-viewer">\n <
+                        span class = "close" > & times; < /span>\n <
+                        img class = "modal-content"
+                        id = "full-image" > \n <
+                        /div>');
+
+                        $("#full-image").attr("src", $(this).attr("src")); $('#image-viewer').show();
+                    });
+
+                $("#image-viewer .close").click(function() {
+                    $('#image-viewer').hide();
+                });
+
     </script>
+    <style>
+        img {
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        img:hover {
+            opacity: 0.7;
+        }
+
+        #image-viewer {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            padding-top: 100px;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgb(0, 0, 0);
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+
+        .modal-content {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 700px;
+        }
+
+        .modal-content {
+            animation-name: zoom;
+            animation-duration: 0.6s;
+        }
+
+        @keyframes  zoom {
+            from {
+                transform: scale(0)
+            }
+
+            to {
+                transform: scale(1)
+            }
+        }
+
+        #image-viewer .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        #image-viewer .close:hover,
+        #image-viewer .close:focus {
+            color: #bbb;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        @media  only screen and (max-width: 700px) {
+            .modal-content {
+                width: 100%;
+            }
+        }
+
+    </style>
     <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
         integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
         crossorigin="anonymous"></script>

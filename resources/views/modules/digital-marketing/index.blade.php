@@ -5,23 +5,19 @@
 
 @section('banner')
     <div class="banner">
-        <div class="container">
-            <h1 class="title">
-                Digital Marketing <br>
-                Specialist 101
-            </h1>
-        </div>
+        <h1 class="title">
+            Digital Marketing <br>
+            Specialist 101
+        </h1>
     </div>
-    <div class="container pt-4">
-        <p>
-            In this module, you will learn about what Digital Marketing Specialist do, types of it, and how you could be a
-            Digital Marketing Specialist. Along with case studies, and reflection, we hope that you can gain a deeper
-            knowledge
-            on Digital Marketing and how to implement them in real-life events.
-            <br><br>
-            Happy learning!
-        </p>
-    </div>
+    <p class="mt-3">
+        This module consists of all the <b>background information</b> on <b> Digital Marketing Specialist</b> as a
+        career, 2 (two) <b>case
+            studies</b> and a final reflection. Complete all sections <b>in order</b> . Refer to Glossary and
+        Additional
+        Resources when
+        necessary.
+    </p>
 @endsection
 
 @section('sidebar')
@@ -32,7 +28,7 @@
     <div class="content">
         <div class="card">
             <div class="pt-3 pb-2 ps-3">
-                <h5>Introduction</h5>
+                <h3>Introduction</h3>
             </div>
             <hr class="m-1 border-2 mx-auto" width="95%">
             <div class="card-body">
@@ -43,178 +39,94 @@
 
                 <div class="accordion my-2" id="accordionPanelsStayOpenExample">
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#part1-1">
-                                <i class="far fa-check-circle pe-2" id="icon1"></i>
-                                The Power of Digital Marketing
-                            </button>
-                        </h2>
-                        <div id="part1-1" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
-                            <div class="accordion-body">
-                                <div class="row align-items-center">
-                                    <div class="col-md-6">
-                                        <p>
-                                            Do you remember the BTS meal hype a few months
-                                            ago? Let’s take a look at how McDonalds really made it
-                                            successful.
-                                        </p>
-
-                                        They use collaboration with a famous korean musician, BTS,
-                                        which is very popular amongst Indonesia. Hence, they make a
-                                        viral marketing to this strategy
-                                        <br><br>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <img src="{{ asset('img/data-marketing/btsmeal0.png') }}" width="100%">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <img src="{{ asset('img/data-marketing/btsmeal1.png') }}" width="100%">
-                                    </div>
-                                    <div class="col-md-4">
-                                        <img src="{{ asset('img/data-marketing/btsmeal2.png') }}" width="100%">
-                                    </div>
-                                    <div class="col-md-12 mt-3">
-                                        <p>
-                                            Observe the
-                                            Instagram posts
-                                            McDonalds posted.
-                                            What do you think
-                                            makes it effective?
-                                        </p>
-                                        <textarea name="" class="form-control" rows="5"></textarea>
-                                    </div>
-                                    <div class="col-md-12 text-end mt-2">
-                                        <button class="btn btn-primary btn-sm px-3" onclick="next(1, 1)">
-                                            Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#part1-2">
-                                <i class="far fa-check-circle pe-2" id="icon2"></i>
-                                Instagram Reels or Vertical Video
-                            </button>
-                        </h2>
-                        <div id="part1-2" class="accordion-collapse collapse">
-                            <div class="accordion-body">
-                                <div class="row align-items-center">
-                                    <div class="col-md-6">
-                                        <img src="{{ asset('img/data-marketing/igreel0.png') }}" width="100%">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <p>
-                                            Do you know about
-                                            Instagram feature that
-                                            released on 2021,
-                                            named Instagram reels?
-                                        </p>
-                                        Instagram reels or vertical video is one
-                                        of the tools for Digital Marketing to
-                                        accelerate their marketing strategy. It is
-                                        the new opportunities for them,
-                                        because it provide a vertical quick
-                                        videos that can be used for market a
-                                        business. As a digital marketing, it is
-                                        important to keep us updated and seek
-                                        opportunities.
-                                    </div>
-                                    <div class="col-md-12 mt-3 mb-3">
-                                        <b>Well… that’s DIGITAL MARKETING</b>
-                                        <br>
-                                        Digital Marketing is really broad. So there are infinite ways to
-                                        revolutionize advertising and marketing to suit the current trends on
-                                        Social Media and technological advancements.
-                                    </div>
-                                    <div class="col-md-12 text-end">
-                                        <hr class="m-0 mb-2">
-                                        <button class="btn btn-info btn-sm px-3" onclick="next(2, 1)">
-                                            Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#part1-3">
                                 <i class="far fa-check-circle pe-2" id="icon3"></i>
-                                Outline
+                                What is Digital Marketing?
                             </button>
                         </h2>
-                        <div id="part1-3" class="accordion-collapse collapse">
+                        <div id="part1-3" class="accordion-collapse show collapse">
                             <div class="accordion-body">
-                                <div class="row">
-                                    <div class="col-md-12 mb-3">
-                                        <ul>
-                                            <li>What does a Digital Marketing Specialist do?</li>
-                                            <li>What types of Digital Marketing Specialists are there?</li>
-                                            <li>How do I become a Digital Marketing Specialist?</li>
-                                            <li>Case Studies</li>
-                                            <li>Reflection</li>
-                                            <li>Glossary</li>
-                                            <li>Additional Resources</li>
-                                        </ul>
+                                <div class="row align-items-center mb-4">
+                                    <div class="col-md-6">
+                                        <p class="pc">
+                                            They collaborated with a famous Korean boy band, BTS, who is very popular among
+                                            Indonesians. Hence, they are able to create a viral marketing strategy.
+                                        </p>
+                                        <br><br>
                                     </div>
-                                    <div class="col-md-12 text-end">
-                                        <hr class="m-0 mb-2">
-                                        <button class="btn btn-info btn-sm px-3" onclick="next(3, 1)">
-                                            Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
-                                        </button>
+                                    <div class="col-md-6">
+                                        <img class="img" src="{{ asset('img/data-marketing/btsmeal0.png') }}"
+                                            width="100%">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <img class="img" src="{{ asset('img/data-marketing/btsmeal1.png') }}"
+                                            width="100%">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="img" src="{{ asset('img/data-marketing/btsmeal2.png') }}"
+                                            width="100%">
+                                    </div>
+                                    <div class="col-md-12 mt-3">
+                                        <p class="pc">
+                                            <label class="mb-2">
+                                                Observe the Instagram posts McDonalds posted. What do you think makes the
+                                                strategy effective?
+                                            </label>
+                                            <textarea name="" class="form-control" rows="5"></textarea>
+                                        </p>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#part1-4">
-                                <i class="far fa-check-circle pe-2" id="icon4"></i>
-                                What is a Digital Marketing Specialist?
-                            </button>
-                        </h2>
-                        <div id="part1-4" class="accordion-collapse collapse">
-                            <div class="accordion-body">
-                                <div class="row">
-                                    <div class="col-md-12 mb-3">
+                                <div class="row align-items-center mt-3 mb-3">
+                                    <div class="col-md-6">
+                                        <img class="img" src="{{ asset('img/data-marketing/igreel0.png') }}" width="100%">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p>
+                                            Do you know the newly released Instagram feature in 2021, Instagram Reels?
+                                        </p>
+                                        <div class="pc">
+                                            Instagram Reels or vertical video is one of the tools intended for accelerating
+                                            marketing strategies. It provides new opportunities for marketers as they can be
+                                            made into quick promotional videos. Digital marketing specialists should keep
+                                            themselves updated with new technology like this.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-md-12 mt-3 mb-3">
                                         <iframe width="100%" height="315" src="https://www.youtube.com/embed/Z_KspIX1oXU"
                                             title="YouTube video player" frameborder="0"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen></iframe>
-                                        <br>
-                                        This video explains what digital marketing is and how it works.
-                                        Before we jump into the module, here are some questions about Digital Marketers:
-                                        <form action="" class="my-2">
-                                            <label>
-                                                What do you think they do?
-                                            </label>
-                                            <textarea class="form-control" rows="5"></textarea>
-                                            <br>
-                                            <label>
-                                                What degree do they need?
-                                            </label>
-                                            <textarea class="form-control" rows="5"></textarea>
-                                            <br>
-                                            <label>
-                                                What skills do they need?
-                                            </label>
-                                            <textarea class="form-control" rows="5"></textarea>
-                                        </form>
+                                        <div class="pc">
+                                            <p>This video explains what digital marketing is and how it works.
+                                                Before we jump into the module, here are some questions about Digital
+                                                Marketers:
+                                                <br>
+                                            <form action="" class="my-2">
+                                                <label class="mb-2">
+                                                    What do you think Digital Marketing Specialists do?
+                                                </label>
+                                                <textarea class="form-control" rows="5"></textarea>
+                                                <br>
+                                                <label class="mb-2">
+                                                    What degree do they need?
+                                                </label>
+                                                <textarea class="form-control" rows="5"></textarea>
+                                                <br>
+                                                <label class="mb-2">
+                                                    What skills do they need?
+                                                </label>
+                                                <textarea class="form-control" rows="5"></textarea>
+                                            </form>
+                                            </p>
+                                        </div>
                                     </div>
                                     <div class="col-md-12 text-end">
                                         <hr class="m-0 mb-2">
-                                        <button class="btn btn-primary btn-sm px-3" onclick="next(4, 1)">
+                                        <button class="btn btn-primary btn-sm px-3" onclick="next(1, 1)">
                                             Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                         </button>
                                     </div>
