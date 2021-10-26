@@ -75,7 +75,7 @@
         }
 
         .card-img-top {
-            width: 100%
+            width: 50%
         }
 
         .bottom-right {
@@ -273,7 +273,7 @@
                 <?php echo $__env->yieldContent('banner'); ?>
             </div>
             <div class="col-md-3">
-                <div class="sticky-top" style="top:10%; ">
+                <div class="sticky-top" style="top:12%; ">
                     <?php echo $__env->yieldContent('sidebar'); ?>
                 </div>
             </div>
@@ -340,7 +340,7 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
         integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous">
-    </script> -->
+    </script>
 </body>
 
 </html>

@@ -3,24 +3,7 @@
 <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('banner'); ?>
-    <div class="banner">
-        <div class="container">
-            <h1 class="title">
-                Data Science <br>
-                101
-            </h1>
-        </div>
-    </div>
-    <div class="container pt-4">
-        <p>
-            In this module, you will learn about what Data Science Specialist do, types of it, and how you could be a
-            Data Science Specialist. Along with case studies, and reflection, we hope that you can gain a deeper
-            knowledge
-            on Data Science and how to implement them in real-life events.
-            <br><br>
-            Happy learning!
-        </p>
-    </div>
+    <?php echo $__env->make('modules.data-scientist-part.banner', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('sidebar'); ?>
@@ -39,27 +22,30 @@
 
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="p2-1">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#c-p2-1" aria-expanded="false" aria-controls="c-p2-1">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c-p2-1"
+                            aria-expanded="true" aria-controls="c-p2-1">
                             <i class="far fa-check-circle pe-2" id="ds-icon2-1"></i>
                             Data Engineer
                         </button>
                     </h2>
 
-                    <div id="c-p2-1" class="accordion-collapse collapse" aria-labelledby="p2-1" data-bs-parent="#p2">
+                    <div id="c-p2-1" class="accordion-collapse collapse show" aria-labelledby="p2-1" data-bs-parent="#p2">
                         <div class="accordion-body row">
                             <iframe width="100%" height="315" src="https://www.youtube.com/embed/vNNoNs_VeWc"
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
-                            <p>
-                            <ul class="col-md-12">
-                                <li>Data engineers collect the raw information from different sources and ensure the data is
-                                    clean
-                                    and organized</li>
-                                <li>They are also responsible for developing and maintaining data pipelines</li>
-                            </ul>
-                            </p>
+
+                            <div>
+                                <div class="pc">
+                                    <ul>
+                                        <li>Data engineers collect raw information from different sources and ensure the
+                                            data is
+                                            clean and organized.</li>
+                                        <li>They are also responsible for developing and maintaining data pipelines.</li>
+                                    </ul>
+                                </div>
+                            </div>
                             <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(1, 2)">
                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
@@ -84,14 +70,17 @@
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
-                            <p>
-                            <ul class="col-md-12">
-                                <li>Data analysts will extract and interpret data, identifying and analyzing trends and
-                                    patterns
-                                </li>
-                                <li>Information is then generated to help the executive in decision-making</li>
-                            </ul>
-                            </p>
+                            <div>
+                                <div class="pc">
+                                    <ul class="col-md-12">
+                                        <li>Data analysts will extract and interpret data, identify and analyze trends and
+                                            patterns,
+                                            and generate information that helps the executive in decision-making processes.
+                                        </li>
+                                        <li>Information is then generated to help the executive in decision-making</li>
+                                    </ul>
+                                </div>
+                            </div>
                             <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(2, 2)">
                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
@@ -116,14 +105,18 @@
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
-                            <p>
-                            <ul class="col-md-12">
-                                <li>Machine learning engineers are responsible for developing data science prototypes</li>
-                                <li>They then develop the software to automate predictive models for recommended searches,
-                                    virtual
-                                    assistants, etc.</li>
-                            </ul>
-                            </p>
+                            <div>
+                                <div class="pc">
+                                    <ul class="col-md-12">
+                                        <li>Machine learning engineers are responsible for <b>creating algorithms and
+                                                predictive
+                                                models.</b></li>
+                                        <li>They then develop the software to automate those models for recommended
+                                            searches,
+                                            virtual assistants, etc.</li>
+                                    </ul>
+                                </div>
+                            </div>
 
                             <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(3, 2)">
@@ -149,15 +142,19 @@
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
-                            <p>
-                            <ul class="col-md-12">
-                                <li>A data architect creates the blueprints for data management so that the databases can be
-                                    easily
-                                    integrated, centralized, and protected</li>
-                                <li>They also ensure that the data engineers have the best tools and systems to work with
-                                </li>
-                            </ul>
-                            </p>
+                            <div>
+                                <div class="pc">
+                                    <ul class="col-md-12">
+                                        <li>A data architect creates the blueprints for data management so that the
+                                            databases can be
+                                            easily
+                                            integrated, centralized, and protected</li>
+                                        <li>They also ensure that the data engineers have the best tools and systems to work
+                                            with
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                             <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(4, 2)">
                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
@@ -182,15 +179,19 @@
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
-                            <p>
-                            <ul class="col-md-12">
-                                <li>Business Intelligence (BI) analysts transform data into insights that drive business
-                                    value</li>
-                                <li>They can identify trends that can help managers and executives make business decisions
-                                    to
-                                    improve processes in the organization</li>
-                            </ul>
-                            </p>
+                            <div>
+                                <div class="pc">
+                                    <ul class="col-md-12">
+                                        <li>Business Intelligence (BI) analysts transform data into insights that drive
+                                            business
+                                            value</li>
+                                        <li>They can identify trends that can help managers and executives make business
+                                            decisions
+                                            to
+                                            improve processes in the organization</li>
+                                    </ul>
+                                </div>
+                            </div>
                             <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(5, 2)">
                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
@@ -211,7 +212,7 @@
 
                     <div id="c-p2-6" class="accordion-collapse collapse" aria-labelledby="p2-6" data-bs-parent="#p2">
                         <div class="accordion-body row">
-                            <div class="col-md-12">
+                            <div class="col-md-12 pc">
                                 <form>
                                     <div class="form-group">
                                         <label>After getting to know briefly about the specializations of data science,
@@ -279,7 +280,6 @@
                 }
             }
         }
-
     </script>
 <?php $__env->stopSection(); ?>
 

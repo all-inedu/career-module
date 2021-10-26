@@ -17,7 +17,7 @@
             <div class="col-12">
                 <div class="card border mb-4">
                     <div class="card-body px-4">
-                        <p class="">
+                        <p style="font-size: 22px">
                             Hello, <br><br>
                             Are you currently trying to figure out what you want as a career in the future? <br><br>
                             ALL-in Career Module is here to provide you the space to discover various job roles and
@@ -30,7 +30,9 @@
                         </p>
                     </div>
                 </div>
-                <h1 id="career"><b>Career</b></h1>
+                <div class="sp text-center pt-4">
+                    <h1 id="career"><b>Career</b></h1>
+                </div>
             </div>
         </div>
 
@@ -38,10 +40,10 @@
             <div class="col">
                 <a href="<?php echo e(url('digital-marketing/part-1')); ?>">
                     <div class="card">
-                        <div class="container2">
+                        <div class="container2 img-bg">
                             <img src="<?php echo e(asset('img/no background icon/CMW_1. Digital Marketing (1).webp')); ?>"
                                 class="card-img-top">
-                            <div class="bottom-right">Digital Marketing Specialist
+                            <div class="bottom-right">Digital Marketing <br>Specialist
                             </div>
                             <i class="fas fa-check-circle text-success float-end mt-1 d-none icon-done" id="dm"></i>
                         </div>
@@ -52,7 +54,7 @@
             <div class="col">
                 <a href="<?php echo e(url('data-scientist/1')); ?>">
                     <div class="card">
-                        <div class="container2">
+                        <div class="container2 img-bg">
                             <img src="<?php echo e(asset('img/CMW_2. Data Scientist.webp')); ?>" class="card-img-top">
                             <div class="bottom-right">Data Scientist
                             </div>
@@ -67,10 +69,12 @@
                     <div class="container-overflow text-center pt-2">
                         
                     </div>
-                    <div class="container2">
+                    <div class="container2 img-bg">
                         <img src="<?php echo e(asset('img/CMW_3. Full Stack Engineer.webp')); ?>" class="card-img-top blur">
                         <div class="bottom-right blur">Full Stack Engineering
                         </div>
+
+                        <i class="fas fa-lock text-dark mt-1 float-start icon-lock"></i>
                     </div>
                 </div>
             </div>
@@ -80,10 +84,12 @@
                     <div class="container-overflow text-center pt-2">
                         
                     </div>
-                    <div class="container2">
+                    <div class="container2 img-bg">
                         <img src="<?php echo e(asset('img/CMW_4. UX Designer.webp')); ?>" class="card-img-top blur">
                         <div class="bottom-right blur">UX Designer
                         </div>
+
+                        <i class="fas fa-lock text-dark mt-1 float-start icon-lock"></i>
                     </div>
                 </div>
             </div>
@@ -93,26 +99,29 @@
                     <div class="container-overflow text-center pt-2">
                         
                     </div>
-                    <div class="container2">
+                    <div class="container2 img-bg">
                         <img src="<?php echo e(asset('img/CMW_5.Biomedical Engineer.webp')); ?>" class="card-img-top blur">
                         <div class="bottom-right blur">Biomedical Engineering
                         </div>
+
+                        <i class="fas fa-lock text-dark mt-1 float-start icon-lock"></i>
                     </div>
                 </div>
             </div>
 
         </div>
-
         <div class="row mt-3">
             <div class="col">
                 <div class="card">
                     <div class="container-overflow text-center pt-2">
                         
                     </div>
-                    <div class="container2">
+                    <div class="container2 img-bg">
                         <img src="<?php echo e(asset('img/CMW_6.Investment Analyst.webp')); ?>" class="card-img-top blur">
                         <div class="bottom-right blur">Investment Analyst
                         </div>
+
+                        <i class="fas fa-lock text-dark mt-1 float-start icon-lock"></i>
                     </div>
                 </div>
             </div>
@@ -122,10 +131,12 @@
                     <div class="container-overflow text-center pt-2">
                         
                     </div>
-                    <div class="container2">
+                    <div class="container2 img-bg">
                         <img src="<?php echo e(asset('img/CMW_7. Psychologist.webp')); ?>" class="card-img-top blur">
                         <div class="bottom-right blur">Psychologist
                         </div>
+
+                        <i class="fas fa-lock text-dark mt-1 float-start icon-lock"></i>
                     </div>
                 </div>
             </div>
@@ -135,10 +146,12 @@
                     <div class="container-overflow text-center pt-2">
                         
                     </div>
-                    <div class="container2">
+                    <div class="container2 img-bg">
                         <img src="<?php echo e(asset('img/CMW_8. Conten Creator.webp')); ?>" class="card-img-top blur">
                         <div class="bottom-right blur">Content Creator
                         </div>
+
+                        <i class="fas fa-lock text-dark mt-1 float-start icon-lock"></i>
                     </div>
                 </div>
             </div>
@@ -148,10 +161,12 @@
                     <div class="container-overflow text-center pt-2">
                         
                     </div>
-                    <div class="container2">
+                    <div class="container2 img-bg">
                         <img src="<?php echo e(asset('img/CMW_9. Food Scientist.webp')); ?>" class="card-img-top blur">
                         <div class="bottom-right blur">Food Scientist
                         </div>
+
+                        <i class="fas fa-lock text-dark mt-1 float-start icon-lock"></i>
                     </div>
                 </div>
             </div>
@@ -161,14 +176,18 @@
                     <div class="container-overflow text-center pt-2">
                         
                     </div>
-                    <div class="container2">
+                    <div class="container2 img-bg">
                         <img src="<?php echo e(asset('img/CMW_10. Medical Doctor.webp')); ?>" class="card-img-top blur">
                         <div class="bottom-right blur">Medical Doctor
                         </div>
+
+                        <i class="fas fa-lock text-dark mt-1 float-start icon-lock"></i>
                     </div>
                 </div>
             </div>
         </div>
+
+
     </div>
 
     <div class="row">

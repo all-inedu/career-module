@@ -1,32 +1,32 @@
 <ul class="list-group rounded-0" id="sidebar-list">
     <li class="list-group-item <?php echo e(Request::is('data-scientist/1') ? 'active' : ''); ?>"">
-        <a class=" sidebar-elements" id="part-0" href="<?php echo e(url('data-scientist/1')); ?>">
-        Data Science - Intro <i class="" id="ds-iconPart1"></i>
+        <a class="      sidebar-elements" id="part-0" href="<?php echo e(url('data-scientist/1')); ?>">
+        INTRODUCTION <i class="" id="ds-iconPart1"></i>
         </a>
     </li>
     <li class="list-group-item <?php echo e(Request::is('data-scientist/2') ? 'active' : ''); ?>">
         <a class="sidebar-elements" id="part-1" href="<?php echo e(url('data-scientist/2')); ?>">
-            Data Science - Core Tasks <i class="" id="ds-iconPart3"></i>
+            CORE TASKS <i class="" id="ds-iconPart3"></i>
         </a>
     </li>
     <li class="list-group-item <?php echo e(Request::is('data-scientist/3') ? 'active' : ''); ?>">
         <a class="sidebar-elements" id="part-2" href="<?php echo e(url('data-scientist/3')); ?>">
-            Data Science - Type <i class="" id="ds-iconPart2"></i>
+            TYPES <i class="" id="ds-iconPart2"></i>
         </a>
     </li>
     <li class="list-group-item <?php echo e(Request::is('data-scientist/4') ? 'active' : ''); ?>">
         <a class="sidebar-elements" id="part-3" href="<?php echo e(url('data-scientist/4')); ?>">
-            Data Science - Pathway <i class="" id="ds-iconPart4"></i>
+            PATHWAY <i class="" id="ds-iconPart4"></i>
         </a>
     </li>
     <li class="list-group-item <?php echo e(Request::is('data-scientist/case-studies') ? 'active' : ''); ?>">
         <a class="sidebar-elements" id="part-4" href="<?php echo e(url('data-scientist/case-studies')); ?>">
-            Case Studies <i class="" id="ds-iconPart5"></i>
+            CASE STUDY <i class="" id="ds-iconPart5"></i>
         </a>
     </li>
     <li class="list-group-item <?php echo e(Request::is('data-scientist/reflection') ? 'active' : ''); ?>">
         <a class="sidebar-elements" id="part-5" href="<?php echo e(url('data-scientist/reflection')); ?>">
-            Reflection <i class="" id="ds-iconPart6"></i>
+            REFLECTION <i class="" id="ds-iconPart6"></i>
         </a>
     </li>
     <li class="list-group-item <?php echo e(Request::is('data-scientist/glossary') ? 'active' : ''); ?>">
@@ -34,7 +34,7 @@
     </li>
     <li class="list-group-item <?php echo e(Request::is('data-scientist/other-resources') ? 'active' : ''); ?>">
         <a class="sidebar-elements" id="part-7" href="<?php echo e(url('data-scientist/other-resources')); ?>">Other
-            Resources</a>
+            RESOURCES </a>
     </li>
 </ul>
 <script>
@@ -49,6 +49,5 @@
         parent.addClass("active")
         parent.removeClass("")
     });
-
 </script>
 <?php /**PATH /opt/lampp/htdocs/career-module/resources/views/layout/module/sidebar-ds.blade.php ENDPATH**/ ?>

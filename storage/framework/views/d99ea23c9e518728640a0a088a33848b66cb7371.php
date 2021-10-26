@@ -65,7 +65,13 @@
         }
 
         .card-img-top {
-            width: 100%;
+            padding: 3em;
+        }
+
+        .img-bg {
+            background: #FFF8F1;
+            height: 200px;
+            border-radius: 20px
         }
 
         .bottom-right {
@@ -92,7 +98,6 @@
             width: 100%;
             /* height: 240px; */
             height: 100%;
-            background: rgb(255, 182, 114);
             transition: all .2s ease-in-out;
             z-index: 999;
             opacity: .1;
@@ -121,8 +126,14 @@
             margin-top: 25%;
         }
 
+        .icon-lock {
+            position: absolute;
+            top: 2%;
+            left: 4%;
+        }
+
         .blur {
-            filter: blur(2px)
+            filter: blur(1px)
         }
 
     </style>
@@ -199,22 +210,6 @@
         if (sessionStorage.getItem('data-science')) {
             $('#ds').removeClass('d-none')
         }
-
-
-        $("img").click(function() {
-                    $(this).append('<div id="image-viewer">\n <
-                        span class = "close" > & times; < /span>\n <
-                        img class = "modal-content"
-                        id = "full-image" > \n <
-                        /div>');
-
-                        $("#full-image").attr("src", $(this).attr("src")); $('#image-viewer').show();
-                    });
-
-                $("#image-viewer .close").click(function() {
-                    $('#image-viewer').hide();
-                });
-
     </script>
     <style>
         img {
@@ -286,13 +281,36 @@
             }
         }
 
+        .sp {
+            position: relative;
+            padding-bottom: 1em;
+            margin-bottom: 2em;
+            font-size: 23px;
+        }
+
+        .sp::after {
+            content: '';
+            position: absolute;
+            width: 200px;
+            height: 5px;
+            bottom: 0;
+            background-color: #584aa8;
+            left: 0;
+            margin-left: 41.5%;
+        }
+
+        label {
+            font-style: italic;
+            font-weight: 500;
+        }
+
     </style>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
-        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous">
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
-        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
-        crossorigin="anonymous"></script> -->
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
