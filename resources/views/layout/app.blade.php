@@ -199,22 +199,6 @@
         if (sessionStorage.getItem('data-science')) {
             $('#ds').removeClass('d-none')
         }
-
-
-        $("img").click(function() {
-                    $(this).append('<div id="image-viewer">\n <
-                        span class = "close" > & times; < /span>\n <
-                        img class = "modal-content"
-                        id = "full-image" > \n <
-                        /div>');
-
-                        $("#full-image").attr("src", $(this).attr("src")); $('#image-viewer').show();
-                    });
-
-                $("#image-viewer .close").click(function() {
-                    $('#image-viewer').hide();
-                });
-
     </script>
     <style>
         img {
@@ -287,12 +271,12 @@
         }
 
     </style>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
-        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous">
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
-        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
-        crossorigin="anonymous"></script> -->
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

@@ -247,10 +247,10 @@
     <div class="container  mb-4" style="margin-top: 2%">
         <div class="row">
             <div class="col-md-12" style="padding-top:5%;">
-                @yield('banner');
+                @yield('banner')
             </div>
             <div class="col-md-3">
-                <div class="sticky-top" style="top:10%; ">
+                <div class="sticky-top" style="top:12%; ">
                     @yield('sidebar')
                 </div>
             </div>
@@ -317,7 +317,7 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
         integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous">
-    </script> -->
+    </script>
 </body>
 
 </html>

@@ -4,17 +4,7 @@
 @endsection
 
 @section('banner')
-    <div class="banner">
-        <div class="container">
-            <h1 class="title">
-                Data Science <br>
-                101
-            </h1>
-        </div>
-    </div>
-    <div class="container pt-4">
-        @include('modules.data-scientist-part.banner')
-    </div>
+    @include('modules.data-scientist-part.banner')
 @stop
 
 @section('sidebar')

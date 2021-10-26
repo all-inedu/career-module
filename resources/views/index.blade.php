@@ -15,7 +15,7 @@
 
     <div class="container my-4">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 text-center">
                 <div class="card border mb-4">
                     <div class="card-body px-4">
                         <p class="">

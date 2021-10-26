@@ -1,6 +1,6 @@
 <ul class="list-group rounded-0" id="sidebar-list">
     <li class="list-group-item {{ Request::is('data-scientist/1') ? 'active' : '' }}"">
-        <a class="      sidebar-elements" id="part-0" href="{{ url('data-scientist/1') }}">
+        <a class="       sidebar-elements" id="part-0" href="{{ url('data-scientist/1') }}">
         INTRODUCTION <i class="" id="ds-iconPart1"></i>
         </a>
     </li>
@@ -30,10 +30,10 @@
         </a>
     </li>
     <li class="list-group-item {{ Request::is('data-scientist/glossary') ? 'active' : '' }}">
-        <a class="sidebar-elements" id="part-6" href="{{ url('data-scientist/glossary') }}">Glossary</a>
+        <a class="sidebar-elements" id="part-6" href="{{ url('data-scientist/glossary') }}">GLOSSARY</a>
     </li>
     <li class="list-group-item {{ Request::is('data-scientist/other-resources') ? 'active' : '' }}">
-        <a class="sidebar-elements" id="part-7" href="{{ url('data-scientist/other-resources') }}">Other
+        <a class="sidebar-elements" id="part-7" href="{{ url('data-scientist/other-resources') }}">ADDITIONAL
             RESOURCES </a>
     </li>
 </ul>
