@@ -212,6 +212,29 @@
             left: 16px
         }
 
+        .sp {
+            position: relative;
+            padding-bottom: 1em;
+            margin-bottom: 2em;
+            font-size: 23px;
+        }
+
+        .sp::after {
+            content: '';
+            position: absolute;
+            width: 200px;
+            height: 5px;
+            bottom: 0;
+            background-color: #584aa8;
+            left: 0;
+            margin-left: 41.5%;
+        }
+
+        label {
+            font-style: italic;
+            font-weight: 500;
+        }
+
     </style>
     @yield('style')
 </head>
@@ -247,7 +270,7 @@
     <div class="container  mb-4" style="margin-top: 2%">
         <div class="row">
             <div class="col-md-12" style="padding-top:5%;">
-                @yield('banner');
+                @yield('banner')
             </div>
             <div class="col-md-3">
                 <div class="sticky-top" style="top:10%; ">

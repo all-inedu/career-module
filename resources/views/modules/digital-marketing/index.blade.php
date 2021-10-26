@@ -10,7 +10,7 @@
             Specialist 101
         </h1>
     </div>
-    <p class="mt-3">
+    <p class="sp mt-5 text-center px-5">
         This module consists of all the <b>background information</b> on <b> Digital Marketing Specialist</b> as a
         career, 2 (two) <b>case
             studies</b> and a final reflection. Complete all sections <b>in order</b> . Refer to Glossary and
@@ -18,6 +18,7 @@
         Resources when
         necessary.
     </p>
+
 @endsection
 
 @section('sidebar')

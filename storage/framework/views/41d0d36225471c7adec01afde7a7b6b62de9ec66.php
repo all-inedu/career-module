@@ -4,20 +4,19 @@
 
 <?php $__env->startSection('banner'); ?>
     <div class="banner">
-        <div class="container">
-            <h1 class="title">
-                Digital Marketing <br>
-                Specialist 101
-            </h1>
-        </div>
+        <h1 class="title">
+            Digital Marketing <br>
+            Specialist 101
+        </h1>
     </div>
-    <div class="container pt-4">
-        <p>
-            This module consists of all the background information on Digital Marketing Specialist as a career, 2 (two) case
-            studies and a final reflection. Complete all sections in order. Refer to Glossary and Additional Resources when
-            necessary.
-        </p>
-    </div>
+    <p class="mt-3">
+        This module consists of all the <b>background information</b> on <b> Digital Marketing Specialist</b> as a
+        career, 2 (two) <b>case
+            studies</b> and a final reflection. Complete all sections <b>in order</b> . Refer to Glossary and
+        Additional
+        Resources when
+        necessary.
+    </p>
 <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('sidebar'); ?>
@@ -102,10 +101,7 @@
                                                                             width="100%"> <br><br>
                                                                     </div>
                                                                 </div>
-                                                                <img class="img"
-                                                                    src="<?php echo e(asset('img/data-marketing/cs4.png')); ?>"
-                                                                    width="100%">
-                                                                <br><br>
+                                                                
                                                                 <p style="text-align: justify;">
                                                                     Let’s see the user persona example here. Your task is to
                                                                     determine who is the target market of Mrs. Penny’s cake?
@@ -270,7 +266,7 @@
                                                                     onclick="csNext(3, 1)">
                                                                     Submit <i
                                                                         class=" far fa-arrow-alt-circle-right
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ps-2"></i>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ps-2"></i>
                                                                 </button>
                                                             </div>
                                                         </div>
