@@ -51,10 +51,10 @@
                             <div class="accordion-body">
                                 <div class="row align-items-center mb-4">
                                     <div class="col-md-6">
-                                        <div class="pc">
+                                        <p class="pc">
                                             They collaborated with a famous Korean boy band, BTS, who is very popular among
                                             Indonesians. Hence, they are able to create a viral marketing strategy.
-                                        </div>
+                                        </p>
                                         <br><br>
                                     </div>
                                     <div class="col-md-6">
@@ -70,10 +70,10 @@
                                             width="100%">
                                     </div>
                                     <div class="col-md-12 mt-3">
-                                        <div class="pc">
+                                        <p class="pc">
                                             Observe the Instagram posts McDonalds posted. What do you think makes the
                                             strategy effective?
-                                        </div>
+                                        </p>
                                         <textarea name="" class="form-control" rows="5"></textarea>
                                     </div>
                                 </div>
