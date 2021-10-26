@@ -95,7 +95,7 @@ ul li span {
     background-color: #e3e3e3;
     border-left: 5px solid #f0a956;
     position: relative;
-    padding-left: 1.5em !important;
+    padding: 1em 1em 1em 1.5em;
 }
 
 .pc::before {
@@ -103,7 +103,7 @@ ul li span {
     width: 0;
     height: 0;
     left: 0;
-    top: 2em;
+    top: 38%;
     position: absolute;
     border-left: 8px solid #f0a956;
     border-top: 8px solid transparent;
