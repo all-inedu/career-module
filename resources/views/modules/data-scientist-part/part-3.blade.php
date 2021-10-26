@@ -4,24 +4,7 @@
 @endsection
 
 @section('banner')
-    <div class="banner">
-        <div class="container">
-            <h1 class="title">
-                Data Science <br>
-                101
-            </h1>
-        </div>
-    </div>
-    <div class="container pt-4">
-        <p>
-            In this module, you will learn about what Data Science Specialist do, types of it, and how you could be a
-            Data Science Specialist. Along with case studies, and reflection, we hope that you can gain a deeper
-            knowledge
-            on Data Science and how to implement them in real-life events.
-            <br><br>
-            Happy learning!
-        </p>
-    </div>
+    @include('modules.data-scientist-part.banner')
 @stop
 
 @section('sidebar')
@@ -55,10 +38,9 @@
                                 allowfullscreen></iframe>
                             <p>
                             <ul class="col-md-12">
-                                <li>Data engineers collect the raw information from different sources and ensure the data is
-                                    clean
-                                    and organized</li>
-                                <li>They are also responsible for developing and maintaining data pipelines</li>
+                                <li>Data engineers collect raw information from different sources and ensure the data is
+                                    clean and organized.</li>
+                                <li>They are also responsible for developing and maintaining data pipelines.</li>
                             </ul>
                             </p>
                             <div class="col-md-12 text-end mt-4 pt-2 border-top">
@@ -87,8 +69,8 @@
                                 allowfullscreen></iframe>
                             <p>
                             <ul class="col-md-12">
-                                <li>Data analysts will extract and interpret data, identifying and analyzing trends and
-                                    patterns
+                                <li>Data analysts will extract and interpret data, identify and analyze trends and patterns,
+                                    and generate information that helps the executive in decision-making processes.
                                 </li>
                                 <li>Information is then generated to help the executive in decision-making</li>
                             </ul>
@@ -119,10 +101,10 @@
                                 allowfullscreen></iframe>
                             <p>
                             <ul class="col-md-12">
-                                <li>Machine learning engineers are responsible for developing data science prototypes</li>
-                                <li>They then develop the software to automate predictive models for recommended searches,
-                                    virtual
-                                    assistants, etc.</li>
+                                <li>Machine learning engineers are responsible for <b>creating algorithms and predictive
+                                        models.</b></li>
+                                <li>They then develop the software to automate those models for recommended searches,
+                                    virtual assistants, etc.</li>
                             </ul>
                             </p>
 
@@ -280,6 +262,5 @@
                 }
             }
         }
-
     </script>
 @endsection

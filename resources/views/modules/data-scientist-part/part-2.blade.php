@@ -4,24 +4,7 @@
 @endsection
 
 @section('banner')
-    <div class="banner">
-        <div class="container">
-            <h1 class="title">
-                Data Science <br>
-                101
-            </h1>
-        </div>
-    </div>
-    <div class="container pt-4">
-        <p>
-            In this module, you will learn about what Data Science Specialist do, types of it, and how you could be a
-            Data Science Specialist. Along with case studies, and reflection, we hope that you can gain a deeper
-            knowledge
-            on Data Science and how to implement them in real-life events.
-            <br><br>
-            Happy learning!
-        </p>
-    </div>
+    @include('modules.data-scientist-part.banner')
 @stop
 
 @section('sidebar')
@@ -38,97 +21,112 @@
                     </h3>
                 </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="p3-1">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c-p3-1"
-                            aria-expanded="false" aria-controls="c-p3-1">
-                            <i class="far fa-check-circle pe-2" id="ds-icon3-1"></i>
-                            Data Scientist as a career
-                        </button>
-                    </h2>
+                <div class="m-4">
+                    <h6>A data scientist’s job generally covers the whole process of data science, which includes:
+                    </h6>
+                    <br>
+                    <ol>
+                        <b>
+                            <li>Business Understanding :
+                        </b> determining the business aim of the data.</li>
+                        <b>
+                            <li>Data Understanding :
+                        </b> having a deep understanding about the dataset used.</li>
+                        <b>
+                            <li>Data Preparation :
+                        </b> Initial process of cleaning and transforming data for the modeling process.</li>
+                        <b>
+                            <li>Modelling :
+                        </b> Producing a set of rules that is required to predict or analyse with the dataset.</li>
+                        <b>
+                            <li>Evaluation :
+                        </b> Monitoring the performance of model built</li>
+                        <b>
+                            <li>Deployment :
+                        </b> Applying the model to the system for business as usual purposes.</li>
+                    </ol>
+                    <img src="{{ asset('img/what-do-datascientists-do.png') }}" class="rounded mx-auto d-block">
+                </div>
 
-                    <div id="c-p3-1" class="accordion-collapse collapse show" aria-labelledby="p3-1" data-bs-parent="#p3">
-                        <div class="accordion-body row" style="text-align: left;">
-
-                            <div class="col-md-12">
-                                <img src="{{ asset('img/yt-recommended.png') }}" width="100% ">
-                                <br><br>
-                                <h5>Have you ever watched youtube?</h5>
-                                <h5>Do you know why the recommendation can fit you?</h5>
-                                <br>
-                                <h5><strong>THAT’S THE WORK OF DATA SCIENTIST!</strong></h5>
+                <div class="m-4">
+                    <div class="col-md-12">
+                        <ul>
+                            <li><b>Data Scientist</b> is a rising career nowadays as the demand for data science
+                                professionals
+                                is very high but the supply is very low.</li>
+                            <li>The <b>high demand</b> is due to the growing popularity of <b>data-driven
+                                    decision</b>
+                                making in many companies. The U.S. Bureau of Labor Statistics sees strong growth in
+                                the data science field and predicts the number of jobs will increase by <b>about 28%</b>
+                                through 2026.
+                            </li>
+                            <li>Whereas the <b>low supply</b> is because data science is still relatively a
+                                <b>new</b>
+                                field and
+                                there are very few educational programs for aspiring data scientists.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12 pt-3 pb-3">
+                        <img src="{{ asset('img/harvard-business-review.png') }}" class="rounded mx-auto d-block">
+                    </div>
+                    <div class="col-md-12">
+                        <form>
+                            <div class="form-group">
+                                <label>According to Harvard Business Review, Data Scientist is the sexiest job of
+                                    the 21st
+                                    century. What do you think is the reason?</label>
+                                <textarea rows="5" class="form-control rounded mx-auto d-block mt-2"></textarea>
                             </div>
-
-                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                <button class="btn btn-info btn-sm px-3" onclick="next(1, 3)">
-                                    Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
-                                </button>
+                            <div class="text-end mt-2">
+                                <button type="button" class="btn btn-primary" onclick="next(4, 3)">Submit</button>
                             </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="p3-2">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#c-p3-2" aria-expanded="false" aria-controls="c-p3-2">
-                            <i class="far fa-check-circle pe-2" id="ds-icon3-2"></i>
-                            Do you know basketball uses data science?
+                <div class="m-4">
+                    <ul>
+                        <li>As we live in a data-centric world, data science is applied in almost every field,
+                            including
+                            healthcare, manufacturing, marketing, finance, or technologies like Augmented Reality or
+                            Speech
+                            Recognition</li>
+                    </ul>
+                    <figure class="mt-3">
+                        <img src="{{ asset('img/data-science-business.png') }}" class="rounded mx-auto d-block">
+                    </figure>
+                </div>
+
+                <div class="m-4">
+                    <h6>What does a data scientist do?</h6>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="radio1" id="option1">
+                        <label class="form-check-label" for="option1">
+                            Transforming data into a format that can be easily analyzed
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="radio1" id="option2">
+                        <label class="form-check-label" for="option2">
+                            Interpreting data, analyzing results using statistical techniques
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="radio1" id="option3">
+                        <label class="form-check-label" for="option3">
+                            Using machine learning to create predictive models
+                        </label>
+                    </div>
+                    <div class="text-end">
+                        <button class="btn btn-primary btn-sm px-3 mt-2" onclick="next(9, 3)">
+                            Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
                         </button>
-                    </h2>
-
-                    <div id="c-p3-2" class="accordion-collapse collapse" aria-labelledby="p3-2" data-bs-parent="#p3">
-                        <div class="accordion-body">
-                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/MpLHMKTolVw"
-                                class="mx-auto d-block" title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
-
-                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                <button class="btn btn-info btn-sm px-3" onclick="next(2, 3)">
-                                    Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
-                                </button>
-                            </div>
-                        </div>
                     </div>
                 </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="p3-3">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#c-p3-3" aria-expanded="false" aria-controls="c-p3-3">
-                            <i class="far fa-check-circle pe-2" id="ds-icon3-3"></i>
-                            What is Data Science?
-                        </button>
-                    </h2>
 
-                    <div id="c-p3-3" class="accordion-collapse collapse" aria-labelledby="p3-3" data-bs-parent="#p3">
-                        <div class="accordion-body row" style="text-align: left;">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/CCnCABJhAdU"
-                                class="col-md-6" title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
-                            <div class="col-md-6">
-                                <br>
-                                <ul>
-                                    <li>Data science is about looking back at historical data to spot patterns and
-                                        relationships and
-                                        using machine learning to better predict the future.</li>
-                                    <li>To learn more about data science, you can take <a
-                                            href="https://www.coursera.org/learn/what-is-datascience">this course</a></li>
-                                </ul>
-                            </div>
-
-                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                <button class="btn btn-info btn-sm px-3" onclick="next(3, 3)">
-                                    Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
+                {{-- <div class="accordion-item">
                     <h2 class="accordion-header" id="p3-4">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#c-p3-4" aria-expanded="false" aria-controls="c-p3-4">
@@ -179,9 +177,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
-                <div class="accordion-item">
+                {{-- <div class="accordion-item">
                     <h2 class="accordion-header" id="p3-5">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#c-p3-5" aria-expanded="false" aria-controls="c-p3-5">
@@ -224,9 +222,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
-                <div class="accordion-item">
+                <!-- dihapus -->
+                {{-- <div class="accordion-item">
                     <h2 class="accordion-header" id="p3-6">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#c-p3-6" aria-expanded="false" aria-controls="c-p3-6">
@@ -249,9 +248,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
-                <div class="accordion-item">
+                <!-- dihapus -->
+                {{-- <div class="accordion-item">
                     <h2 class="accordion-header" id="p3-7">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#c-p3-7" aria-expanded="false" aria-controls="c-p3-7">
@@ -274,9 +274,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
-                <div class="accordion-item">
+                {{-- <div class="accordion-item">
                     <h2 class="accordion-header" id="p3-8">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#c-p3-8" aria-expanded="false" aria-controls="c-p3-8">
@@ -293,9 +293,6 @@
                                     healthcare, manufacturing, marketing, finance, or technologies like Augmented Reality or
                                     Speech
                                     Recognition</li>
-                                <li>Even sports, like basketball, uses data science to analyze the players movements and
-                                    optimize
-                                    them, thus increasing the chance of scoring</li>
                             </ul>
                             <img src="{{ asset('img/data-science-business.png') }}" class="rounded mx-auto d-block">
 
@@ -306,9 +303,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
-                <div class="accordion-item">
+                {{-- <div class="accordion-item">
                     <h2 class="accordion-header" id="p3-9">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#c-p3-9" aria-expanded="false" aria-controls="c-p3-9">
@@ -350,7 +347,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
@@ -401,6 +398,5 @@
                 }
             }
         }
-
     </script>
 @endsection

@@ -13,14 +13,7 @@
         </div>
     </div>
     <div class="container pt-4">
-        <p>
-            In this module, you will learn about what Data Science Specialist do, types of it, and how you could be a
-            Data Science Specialist. Along with case studies, and reflection, we hope that you can gain a deeper
-            knowledge
-            on Data Science and how to implement them in real-life events.
-            <br><br>
-            Happy learning!
-        </p>
+        @include('modules.data-scientist-part.banner')
     </div>
 @stop
 
@@ -120,6 +113,5 @@
                 }
             }
         }
-
     </script>
 @endsection
