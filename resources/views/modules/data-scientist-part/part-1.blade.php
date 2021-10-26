@@ -20,22 +20,22 @@
                     </h3>
                 </div>
 
-                <div class="data-science-video">
+                <div class="data-science-video mt-4">
                     <!-- INPUT VIDEO HERE -->
                 </div>
 
                 <div class="mt-3">
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="p3-1">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c-p3-1"
-                                aria-expanded="true" aria-controls="c-p3-1">
+                        <h2 class="accordion-header" id="p0-1">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c-p0-1"
+                                aria-expanded="true" aria-controls="c-p0-1">
                                 <i class="far fa-check-circle pe-2" id="ds-icon3-1"></i>
                                 What is Data Science?
                             </button>
                         </h2>
 
-                        <div id="c-p3-1" class="accordion-collapse collapse show" aria-labelledby="p3-1"
-                            data-bs-parent="#p3">
+                        <div id="c-p0-1" class="accordion-collapse collapse show" aria-labelledby="p0-1"
+                            data-bs-parent="#p0">
                             <div class="accordion-body row" style="text-align: left;">
                                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/CCnCABJhAdU"
                                     class="col-md-12" title="YouTube video player" frameborder="0"
@@ -59,15 +59,15 @@
                     </div>
 
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="p3-2">
+                        <h2 class="accordion-header" id="p0-2">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#c-p3-2" aria-expanded="false" aria-controls="c-p3-2">
+                                data-bs-target="#c-p0-2" aria-expanded="false" aria-controls="c-p0-2">
                                 <i class="far fa-check-circle pe-2" id="ds-icon3-2"></i>
                                 Data Scientist as a career
                             </button>
                         </h2>
 
-                        <div id="c-p3-2" class="accordion-collapse collapse" aria-labelledby="p3-2" data-bs-parent="#p3">
+                        <div id="c-p0-2" class="accordion-collapse collapse" aria-labelledby="p0-2" data-bs-parent="#p0">
                             <div class="accordion-body row" style="text-align: left;">
 
                                 <div class="col-md-12">
@@ -90,15 +90,15 @@
                     </div>
 
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="p3-2">
+                        <h2 class="accordion-header" id="p0-3">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#c-p3-2" aria-expanded="false" aria-controls="c-p3-2">
-                                <i class="far fa-check-circle pe-2" id="ds-icon3-2"></i>
+                                data-bs-target="#c-p0-3" aria-expanded="false" aria-controls="c-p0-3">
+                                <i class="far fa-check-circle pe-2" id="ds-icon3-3"></i>
                                 Do you know basketball uses data science?
                             </button>
                         </h2>
 
-                        <div id="c-p3-2" class="accordion-collapse collapse" aria-labelledby="p3-2" data-bs-parent="#p3">
+                        <div id="c-p0-3" class="accordion-collapse collapse" aria-labelledby="p0-3" data-bs-parent="#p0">
                             <div class="accordion-body">
                                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/MpLHMKTolVw"
                                     class="mx-auto d-block" title="YouTube video player" frameborder="0"
@@ -115,15 +115,15 @@
                     </div>
 
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="p3-3">
+                        <h2 class="accordion-header" id="p0-4">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#c-p3-3" aria-expanded="false" aria-controls="c-p3-3">
-                                <i class="far fa-check-circle pe-2" id="ds-icon3-3"></i>
+                                data-bs-target="#c-p0-4" aria-expanded="false" aria-controls="c-p0-4">
+                                <i class="far fa-check-circle pe-2" id="ds-icon3-4"></i>
                                 A Day in a Life of a Data Scientist
                             </button>
                         </h2>
 
-                        <div id="c-p3-3" class="accordion-collapse collapse" aria-labelledby="p3-3" data-bs-parent="#p3">
+                        <div id="c-p0-4" class="accordion-collapse collapse" aria-labelledby="p0-4" data-bs-parent="#p0">
                             <div class="accordion-body">
 
                                 <div class="data-science-video">
@@ -167,13 +167,13 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="p0-2">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#c-p0-2" aria-expanded="false" aria-controls="c-p3-10">
+                            data-bs-target="#c-p0-2" aria-expanded="false" aria-controls="c-p0-10">
                             <i class="far fa-check-circle pe-2" id="ds-icon2"></i>
                             Testimony
                         </button>
                     </h2>
 
-                    <div id="c-p0-2" class="accordion-collapse collapse" aria-labelledby="p3-10" data-bs-parent="#p3">
+                    <div id="c-p0-2" class="accordion-collapse collapse" aria-labelledby="p0-10" data-bs-parent="#p0">
                         <div class="accordion-body">
                             <h2>VIDEO 2 - TESTIMONI</h2>
                             <div class="col-md-12 text-end mt-4 pt-2 border-top">

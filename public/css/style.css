@@ -13,9 +13,7 @@ a.sidebar-elements {
     /* margin-left: 2%;
     margin-top: 2%; */
     padding-top: 1%;
-    margin-bottom: 2%;
     padding-bottom: 1%;
-    border-bottom: 1px solid #ccc;
 }
 
 .img-fit {
@@ -102,10 +100,28 @@ ul li span {
     content: "";
     width: 0;
     height: 0;
-    left: 0;
+    left: -1px;
     top: 38%;
     position: absolute;
     border-left: 8px solid #f0a956;
     border-top: 8px solid transparent;
     border-bottom: 8px solid transparent;
+}
+
+.font-cst {
+    font-size: 1em !important;
+}
+
+.ol-cst li span {
+    margin-left: 0.6em;
+}
+
+.ol-cst li + li,
+.ul-cst li + li {
+    margin-top: 0.5em;
+}
+
+.ul-check-mark li:before {
+    content: "✓";
+    font-weight: bold;
 }

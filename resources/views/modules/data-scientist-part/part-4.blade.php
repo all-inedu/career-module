@@ -48,14 +48,14 @@
 
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="p4-2">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#c-p4-2" aria-expanded="false" aria-controls="c-p4-2">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c-p4-2"
+                            aria-expanded="true" aria-controls="c-p4-2">
                             <i class="far fa-check-circle pe-2" id="ds-icon4-2"></i>
-                            Educational Pathways
+                            Educational Pathway
                         </button>
                     </h2>
 
-                    <div id="c-p4-2" class="accordion-collapse collapse" aria-labelledby="p4-2" data-bs-parent="#p4">
+                    <div id="c-p4-2" class="accordion-collapse collapse show" aria-labelledby="p4-2" data-bs-parent="#p4">
                         <div class="accordion-body">
                             <div class="col-md-12">
                                 <p>As data science is a relatively new field, some universities might offer it as a
