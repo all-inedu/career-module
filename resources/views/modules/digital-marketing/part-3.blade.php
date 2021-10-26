@@ -4,21 +4,7 @@
 @endsection
 
 @section('banner')
-    <div class="banner">
-        <div class="container">
-            <h1 class="title">
-                Digital Marketing <br>
-                Specialist 101
-            </h1>
-        </div>
-    </div>
-    <div class="container pt-4">
-        <p>
-            This module consists of all the background information on Digital Marketing Specialist as a career, 2 (two) case
-            studies and a final reflection. Complete all sections in order. Refer to Glossary and Additional Resources when
-            necessary.
-        </p>
-    </div>
+    @include('modules.digital-marketing.banner')
 @endsection
 
 @section('sidebar')

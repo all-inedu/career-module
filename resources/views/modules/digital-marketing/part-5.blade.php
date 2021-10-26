@@ -4,21 +4,7 @@
 @endsection
 
 @section('banner')
-    <div class="banner">
-        <div class="container">
-            <h1 class="title">
-                Digital Marketing <br>
-                Specialist 101
-            </h1>
-        </div>
-    </div>
-    <div class="container pt-4">
-        <p>
-            This module consists of all the background information on Digital Marketing Specialist as a career, 2 (two) case
-            studies and a final reflection. Complete all sections in order. Refer to Glossary and Additional Resources when
-            necessary.
-        </p>
-    </div>
+    @include('modules.digital-marketing.banner')
 @endsection
 
 @section('sidebar')
@@ -103,10 +89,10 @@
                                                                             width="100%"> <br><br>
                                                                     </div>
                                                                 </div>
-                                                                <img class="img"
+                                                                {{-- <img class="img"
                                                                     src="{{ asset('img/data-marketing/cs4.png') }}"
                                                                     width="100%">
-                                                                <br><br>
+                                                                <br><br> --}}
                                                                 <p style="text-align: justify;">
                                                                     Let’s see the user persona example here. Your task is to
                                                                     determine who is the target market of Mrs. Penny’s cake?
@@ -271,7 +257,7 @@
                                                                     onclick="csNext(3, 1)">
                                                                     Submit <i
                                                                         class=" far fa-arrow-alt-circle-right
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ps-2"></i>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ps-2"></i>
                                                                 </button>
                                                             </div>
                                                         </div>

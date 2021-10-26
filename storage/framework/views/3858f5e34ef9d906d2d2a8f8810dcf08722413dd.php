@@ -212,6 +212,29 @@
             left: 16px
         }
 
+        .sp {
+            position: relative;
+            padding-bottom: 1em;
+            margin-bottom: 2em;
+            font-size: 23px;
+        }
+
+        .sp::after {
+            content: '';
+            position: absolute;
+            width: 200px;
+            height: 5px;
+            bottom: 0;
+            background-color: #584aa8;
+            left: 0;
+            margin-left: 41.5%;
+        }
+
+        label {
+            font-style: italic;
+            font-weight: 500;
+        }
+
     </style>
     <?php echo $__env->yieldContent('style'); ?>
 </head>
@@ -247,7 +270,7 @@
     <div class="container  mb-4" style="margin-top: 2%">
         <div class="row">
             <div class="col-md-12" style="padding-top:5%;">
-                <?php echo $__env->yieldContent('banner'); ?>;
+                <?php echo $__env->yieldContent('banner'); ?>
             </div>
             <div class="col-md-3">
                 <div class="sticky-top" style="top:10%; ">
@@ -311,14 +334,13 @@
                 })
             })
         })
-
     </script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
-        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous">
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
-        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
-        crossorigin="anonymous"></script> -->
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous">
+    </script> -->
 </body>
 
 </html>

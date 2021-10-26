@@ -3,21 +3,7 @@
 <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('banner'); ?>
-    <div class="banner">
-        <div class="container">
-            <h1 class="title">
-                Digital Marketing <br>
-                Specialist 101
-            </h1>
-        </div>
-    </div>
-    <div class="container pt-4">
-        <p>
-            This module consists of all the background information on Digital Marketing Specialist as a career, 2 (two) case
-            studies and a final reflection. Complete all sections in order. Refer to Glossary and Additional Resources when
-            necessary.
-        </p>
-    </div>
+    <?php echo $__env->make('modules.digital-marketing.banner', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('sidebar'); ?>
