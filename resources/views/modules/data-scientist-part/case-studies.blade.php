@@ -69,13 +69,13 @@
                             <h2>VIDEO 3 - CASE STUDY EXPLANATION</h2>
 
                             <div class="accordion-item">
-                                <div class="accordion-header">
+                                <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#c-p5-1-1" aria-expanded="false" aria-controls="c-p5-1-1">
                                         <i class="far fa-check-circle pe-2" id="ds-icon5-1-1"></i>
                                         Answer
                                     </button>
-                                </div>
+                                </h2>
                                 <div id="c-p5-1-1" class="accordion-collapse collapse">
                                     <div class="accordion-body">
                                         <div class="card">
