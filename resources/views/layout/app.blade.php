@@ -65,7 +65,13 @@
         }
 
         .card-img-top {
-            width: 100%;
+            padding: 3em;
+        }
+
+        .img-bg {
+            background: #FFF8F1;
+            height: 200px;
+            border-radius: 20px
         }
 
         .bottom-right {
@@ -92,7 +98,6 @@
             width: 100%;
             /* height: 240px; */
             height: 100%;
-            background: rgb(255, 182, 114);
             transition: all .2s ease-in-out;
             z-index: 999;
             opacity: .1;
@@ -121,8 +126,14 @@
             margin-top: 25%;
         }
 
+        .icon-lock {
+            position: absolute;
+            top: 2%;
+            left: 4%;
+        }
+
         .blur {
-            filter: blur(2px)
+            filter: blur(1px)
         }
 
     </style>
@@ -268,6 +279,29 @@
             .modal-content {
                 width: 100%;
             }
+        }
+
+        .sp {
+            position: relative;
+            padding-bottom: 1em;
+            margin-bottom: 2em;
+            font-size: 23px;
+        }
+
+        .sp::after {
+            content: '';
+            position: absolute;
+            width: 200px;
+            height: 5px;
+            bottom: 0;
+            background-color: #584aa8;
+            left: 0;
+            margin-left: 41.5%;
+        }
+
+        label {
+            font-style: italic;
+            font-weight: 500;
         }
 
     </style>

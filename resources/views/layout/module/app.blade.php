@@ -75,7 +75,7 @@
         }
 
         .card-img-top {
-            width: 100%
+            width: 50%
         }
 
         .bottom-right {
