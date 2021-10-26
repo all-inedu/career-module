@@ -4,24 +4,7 @@
 @endsection
 
 @section('banner')
-    <div class="banner">
-        <div class="container">
-            <h1 class="title">
-                Data Science <br>
-                101
-            </h1>
-        </div>
-    </div>
-    <div class="container pt-4">
-        <p>
-            In this module, you will learn about what Data Science Specialist do, types of it, and how you could be a
-            Data Science Specialist. Along with case studies, and reflection, we hope that you can gain a deeper
-            knowledge
-            on Data Science and how to implement them in real-life events.
-            <br><br>
-            Happy learning!
-        </p>
-    </div>
+    @include('modules.data-scientist-part.banner')
 @stop
 
 @section('sidebar')
@@ -95,29 +78,35 @@
                                 </div>
                                 <div id="c-p5-1-1" class="accordion-collapse collapse">
                                     <div class="accordion-body">
-                                        <div class="card"> <!-- 1 -->
+                                        <div class="card">
+                                            <!-- 1 -->
                                             <div class="card-header">
                                                 ANSWER - CRISP DM
                                             </div>
                                             <div class="card-body">
-                                                <p>Professionals will be explaining about CRISP DM methodology as one of the most popular
+                                                <p>Professionals will be explaining about CRISP DM methodology as one of the
+                                                    most popular
                                                     methodology
-                                                    that data scientist will use in order to gain more insight from the data.</p>
+                                                    that data scientist will use in order to gain more insight from the
+                                                    data.</p>
                                             </div>
                                         </div>
 
-                                        <div class="card mt-3"> <!-- 2 -->
+                                        <div class="card mt-3">
+                                            <!-- 2 -->
                                             <div class="card-header">
                                                 ANSWER - Business Understanding
                                             </div>
                                             <div class="card-body">
-                                                <p>Professionals will be explaining about how does business accumen important in order to
+                                                <p>Professionals will be explaining about how does business accumen
+                                                    important in order to
                                                     produce useful
                                                     insights of the data science process.</p>
                                             </div>
                                         </div>
 
-                                        <div class="card mt-3"> <!-- 3 -->
+                                        <div class="card mt-3">
+                                            <!-- 3 -->
                                             <div class="card-header">
                                                 ANSWER - EDA
                                             </div>
@@ -125,26 +114,30 @@
                                                 <div class="pt-3 pb-3">
                                                     <h6>How many distinct stores in the data?</h6>
                                                     {{-- <p>Type UNIQUE(B:B)</p> --}}
-                                                    <textarea class="form-control w-100" id="" cols="30" rows="5"></textarea>
+                                                    <textarea class="form-control w-100" id="" cols="30"
+                                                        rows="5"></textarea>
                                                 </div>
-                    
+
                                                 <div class="pt-3 pb-3">
                                                     <h6>How many distinct numbers of departments in the data?</h6>
                                                     {{-- <p>Type UNIQUE(C:C)</p> --}}
-                                                    <textarea class="form-control w-100" id="" cols="30" rows="5"></textarea>
+                                                    <textarea class="form-control w-100" id="" cols="30"
+                                                        rows="5"></textarea>
                                                 </div>
-                    
+
                                                 <div class="pt-3 pb-3">
                                                     <h6>Could you tell the date range in the data?</h6>
                                                     {{-- <p>Type MIN(D:D)</p>
                                                     <p>Type MAX{D:D)</p> --}}
-                                                    <textarea class="form-control w-100" id="" cols="30" rows="5"></textarea>
+                                                    <textarea class="form-control w-100" id="" cols="30"
+                                                        rows="5"></textarea>
                                                 </div>
-                    
+
                                                 <div class="pt-3 pb-3">
                                                     <h6>How many different store types in the data?</h6>
                                                     {{-- <p>Type UNIQUE(G:G)</p> --}}
-                                                    <textarea class="form-control w-100" id="" cols="30" rows="5"></textarea>
+                                                    <textarea class="form-control w-100" id="" cols="30"
+                                                        rows="5"></textarea>
                                                 </div>
                                                 <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                                     <a href="#aws_1_cont">
@@ -156,7 +149,8 @@
                                             </div>
                                         </div>
 
-                                        <div class="card mt-3"> <!-- 4 -->
+                                        <div class="card mt-3">
+                                            <!-- 4 -->
                                             <div class="card-header" id="aws_1_cont">
                                                 ANSWER - EDA (Statistic)
                                             </div>
@@ -164,25 +158,26 @@
                                                 <h6>How much average weekly sales per store?</h6>
                                                 <p>In PivotChart, drag store column to Legend (Series)</p>
                                                 <p>Drag Average of weekly sales to Values</p>
-                    
+
                                                 <br>
-                                                
+
                                                 <div class="pb-3">
                                                     <h6>Which stores is having highest average weekly sales?</h6>
                                                     {{-- <p>Type MAX(3:3)</p> --}}
-                                                    <textarea id="aws_1" class="form-control w-100" id="" rows="5"></textarea>
+                                                    <textarea id="aws_1" class="form-control w-100" id=""
+                                                        rows="5"></textarea>
                                                 </div>
-                    
+
                                                 <br>
-                    
+
                                                 <div class="pb-3">
                                                     <h6>Which stores is having lowest average weekly sales?</h6>
                                                     {{-- <p>Type MIN(3:3)</p> --}}
                                                     <textarea class="form-control w-100" id="" rows="5"></textarea>
                                                 </div>
-                    
+
                                                 <br>
-                    
+
                                                 <div class="pb-3">
                                                     <h6>Which month is having the average highest temperature?</h6>
                                                     <p>In PivotChart, drag Date column to Rows</p>
@@ -190,9 +185,9 @@
                                                     {{-- <p>Type MAX(B:B)</p> --}}
                                                     <textarea class="form-control w-100" id="" rows="5"></textarea>
                                                 </div>
-                    
+
                                                 <br>
-                    
+
                                                 <div class="pb-3">
                                                     <h6>Which month is having the average highest fuel price?</h6>
                                                     <p>In PivotChart, drag Date column to Rows</p>
@@ -211,7 +206,8 @@
                                             </div>
                                         </div>
 
-                                        <div class="card mt-3"> <!-- 5 -->
+                                        <div class="card mt-3">
+                                            <!-- 5 -->
                                             <div class="card-header" id="aws_2_cont">
                                                 ANSWER - Data Cleaning
                                             </div>
@@ -219,13 +215,15 @@
                                                 <div class="pb-3" id="aws_2_cont">
                                                     <h6>Which columns having missing values?</h6>
                                                     <p>Filter each columns, see if a column is containing BLANKS</p>
-                                                    <textarea id="aws_2" class="form-control w-100" id="" rows="5"></textarea>
+                                                    <textarea id="aws_2" class="form-control w-100" id=""
+                                                        rows="5"></textarea>
                                                 </div>
                                                 <br>
 
                                                 <div class="pb-3">
                                                     <h6>If any, please fill the missing values</h6>
-                                                    <p>Find average values for the missing columns, and fill the blank with it!</p>
+                                                    <p>Find average values for the missing columns, and fill the blank with
+                                                        it!</p>
                                                     <textarea class="form-control w-100" id="" rows="5"></textarea>
                                                 </div>
 
@@ -247,7 +245,7 @@
                                         Case Study Answer
                                     </button>
                                 </h2>
-            
+
                                 <div id="c-p5-1-2" class="accordion-collapse collapse">
                                     <div class="accordion-body" style="text-align: left;">
                                         <h2>VIDEO 4 - CASE STUDY ANSWER</h2>
@@ -290,21 +288,26 @@
                                         Data Cleaning
                                     </button>
                                 </h2>
-            
+
                                 <div id="c-p5-2-1" class="accordion-collapse collapse">
                                     <div class="accordion-body">
-                                        <p>Professionals will be explaining about the importance of data cleaning process which includes
+                                        <p>Professionals will be explaining about the importance of data cleaning process
+                                            which includes
                                             getting
-                                            rid of all inconsistencies, such as missing values and any redundant variables</p>
+                                            rid of all inconsistencies, such as missing values and any redundant variables
+                                        </p>
                                         <ul>
-                                            <li>Check if the data have any missing values (NA) and analyze which variables have the null
+                                            <li>Check if the data have any missing values (NA) and analyze which variables
+                                                have the null
                                                 values
                                             </li>
-                                            <li>Explain how to get rid of any unnecessary variable that isn’t essential for predicting
+                                            <li>Explain how to get rid of any unnecessary variable that isn’t essential for
+                                                predicting
                                                 the
                                                 outcome</li>
                                         </ul>
-                                        <p>The predictor variables used are <i>Store, Dept, Date, CPI, Weekly_Sales, IsHoliday</i></p>
+                                        <p>The predictor variables used are <i>Store, Dept, Date, CPI, Weekly_Sales,
+                                                IsHoliday</i></p>
 
                                         <textarea class="form-control" id="" cols="30" rows="5"></textarea>
                                         <div class="col-md-12 text-end mt-4 pt-2 border-top">
@@ -315,7 +318,7 @@
                                     </div>
                                 </div>
                             </div>
-            
+
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="p5-2-2">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -324,22 +327,25 @@
                                         Data Visualization
                                     </button>
                                 </h2>
-            
+
                                 <div id="c-p5-2-2" class="accordion-collapse collapse">
                                     <div class="accordion-body">
-                                        <h6>Professionals giving lecture on Exploratory Data Analysis after having a clean data</h6>
+                                        <h6>Professionals giving lecture on Exploratory Data Analysis after having a clean
+                                            data</h6>
                                         <ul>
-                                            <li>Explain data visualization - how to visualize data in the form of boxplots, graphs, etc.
+                                            <li>Explain data visualization - how to visualize data in the form of boxplots,
+                                                graphs, etc.
                                             </li>
-                                            <li>Explain data analysis - how to analyze each feature variable to check if the variables
+                                            <li>Explain data analysis - how to analyze each feature variable to check if the
+                                                variables
                                                 are
                                                 significant for building the model</li>
                                         </ul>
 
                                         <textarea class="form-control mt-3" cols="30" rows="5"></textarea>
-            
+
                                         <br>
-            
+
                                         <h6>Create time series graph on weekly sales per store</h6>
                                         <ul>
                                             <li>In PivotChart, drag Date column to Rows or Axis (Categories)</li>
@@ -348,9 +354,9 @@
                                         </ul>
 
                                         <textarea class="form-control mt-3" cols="30" rows="5"></textarea>
-            
+
                                         <br>
-            
+
                                         <h6>Create time series graph on temperature</h6>
                                         <ul>
                                             <li>In PivotChart, drag Date column to Rows or Axis (Categories)</li>
@@ -359,9 +365,9 @@
                                         </ul>
 
                                         <textarea class="form-control mt-3" cols="30" rows="5"></textarea>
-            
+
                                         <br>
-            
+
                                         <h6>Create time series graph on fuel price</h6>
                                         <ul>
                                             <li>In PivotChart, drag Date column to Rows or Axis (Categories)</li>
@@ -370,9 +376,9 @@
                                         </ul>
 
                                         <textarea class="form-control mt-3" cols="30" rows="5"></textarea>
-            
+
                                         <br>
-            
+
                                         <h6>Create bar graph showing average weekly sales per store</h6>
                                         <ul>
                                             <li>Drag Sum of Weekly Sales to Values</li>
@@ -381,10 +387,11 @@
                                         </ul>
 
                                         <textarea class="form-control mt-3" cols="30" rows="5"></textarea>
-            
+
                                         <br>
-            
-                                        <h6>Create scatter plot showing relationship between weekly sales and temperature.</h6>
+
+                                        <h6>Create scatter plot showing relationship between weekly sales and temperature.
+                                        </h6>
                                         <p>Select column Weekly Sales and Temperature</p>
                                         <p>Click Insert and select scatter plot</p>
                                         <div class="col-md-12 text-end mt-4 pt-2 border-top">
@@ -395,7 +402,7 @@
                                     </div>
                                 </div>
                             </div>
-            
+
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="p5-2-3">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -404,35 +411,40 @@
                                         Model Building
                                     </button>
                                 </h2>
-            
+
                                 <div id="c-p5-2-3" class="accordion-collapse collapse">
                                     <div class="accordion-body">
                                         <ul>
-                                            <h6>Professionals giving lecture on model building, specifically Linear Regression model for
+                                            <h6>Professionals giving lecture on model building, specifically Linear
+                                                Regression model for
                                                 this
                                                 problem since the outcome is a continuous variable (Number of sales)</h6>
-            
+
                                             <br>
-            
+
                                             <h6>Which column/columns is/are our target variable?</h6>
-                                            <li>Pick Weekly Sales as our target variable, and other numeric columns as predictor</li>
+                                            <li>Pick Weekly Sales as our target variable, and other numeric columns as
+                                                predictor</li>
 
                                             <textarea class="form-control mt-3" cols="30" rows="5"></textarea>
-            
+
                                             <br>
-            
-                                            <h6>How many column/columns is/are eligible as features for linear regression?</h6>
+
+                                            <h6>How many column/columns is/are eligible as features for linear regression?
+                                            </h6>
                                             <li>Choose columns with numeric value!</li>
 
                                             <textarea class="form-control mt-3" cols="30" rows="5"></textarea>
-            
+
                                             <br>
-            
+
                                             <h6>Which column/columns is/are our target variable?</h6>
-                                            <li>Let’s create linear regression with formula of y = m1x1 + m2x2 + m3x3 + m4x4 + m5x5 + b
+                                            <li>Let’s create linear regression with formula of y = m1x1 + m2x2 + m3x3 + m4x4
+                                                + m5x5 + b
                                             </li>
                                             <li>Type LINEST(E2:E5771;H2:L5771) in column M</li>
-                                            <li>M to Q columns are the value of m1 to m5, while R column is the value of b</li>
+                                            <li>M to Q columns are the value of m1 to m5, while R column is the value of b
+                                            </li>
 
                                             <textarea class="form-control mt-3" cols="30" rows="5"></textarea>
                                         </ul>
@@ -445,7 +457,7 @@
                                 </div>
                             </div>
 
-                            
+
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -454,7 +466,7 @@
                                         Case Study Answer
                                     </button>
                                 </h2>
-            
+
                                 <div id="c-p5-2-4" class="accordion-collapse collapse">
                                     <div class="accordion-body">
                                         <h2>VIDEO 6 - CASE STUDY ANSWER</h2>
@@ -547,7 +559,7 @@
             let j = $('#c-p5-' + n + ' .accordion-item').length
             let z = 0
             for (i = 0; i <= j; i++) {
-                if (sessionStorage.getItem('c-p5-' + n + '-' + i ) == 'read') {
+                if (sessionStorage.getItem('c-p5-' + n + '-' + i) == 'read') {
                     z++
                 }
             }
@@ -567,7 +579,7 @@
                     }
                 }
 
-                if ( m == k) {
+                if (m == k) {
                     sessionStorage.setItem("part" + part, "done");
                     if (sessionStorage.getItem('part' + part) == 'done') {
                         $('#ds-iconPart' + part).addClass('fas fa-check-circle float-end mt-1 text-success')
