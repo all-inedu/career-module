@@ -39,7 +39,8 @@
                 <a href="<?php echo e(url('digital-marketing/part-1')); ?>">
                     <div class="card">
                         <div class="container2">
-                            <img src="<?php echo e(asset('img/CMW_1. Digital Marketing.webp')); ?>" class="card-img-top">
+                            <img src="<?php echo e(asset('img/no background icon/CMW_1. Digital Marketing (1).webp')); ?>"
+                                class="card-img-top">
                             <div class="bottom-right">Digital Marketing Specialist
                             </div>
                             <i class="fas fa-check-circle text-success float-end mt-1 d-none icon-done" id="dm"></i>
