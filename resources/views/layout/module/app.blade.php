@@ -146,6 +146,19 @@
     </style>
 
     <style>
+        .body {
+
+            background-image: url("{{ asset('img/pattern3.png') }}");
+            background-size: 100%;
+            background-repeat: repeat-x;
+            opacity: 0.5;
+            z-index: -99;
+            position: fixed;
+            height: 100vh;
+            width: 100%;
+        }
+
+
         .banner {
             background: url('{{ asset('img/banner.webp') }}');
             max-height: 30vh;
@@ -240,6 +253,7 @@
 </head>
 
 <body>
+    <div class="body"></div>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #f7f7f7;">
         <div class="container my-1">
             <a class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('img/logo-1.png') }}"
@@ -334,6 +348,7 @@
                 })
             })
         })
+
     </script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
         integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous">

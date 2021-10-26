@@ -25,6 +25,18 @@
             font-family: 'Montserrat', sans-serif;
         }
 
+        .body {
+
+            background-image: url("<?php echo e(asset('img/pattern3.png')); ?>");
+            background-size: 100%;
+            background-repeat: repeat-x;
+            opacity: 0.5;
+            z-index: -99;
+            position: fixed;
+            height: 100vh;
+            width: 100%;
+        }
+
         p {
             font-size: 18px;
         }
@@ -140,6 +152,7 @@
 </head>
 
 <body>
+    <section class="body"></section>
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f7f7f7;">
         <div class="container my-1">
             <a class="navbar-brand" href="<?php echo e(url('/')); ?>"><img src="<?php echo e(asset('img/logo-1.png')); ?>"
