@@ -52,10 +52,12 @@
                                             title="YouTube video player" frameborder="0"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen></iframe>
-                                    </div>
-                                    <div class="col-md-12 mt-3">
-                                        What are the 7 reasons a business should start using social media?
-                                        <textarea class="form-control" rows="5"></textarea>
+                                        <div class="pc">
+                                            <label class="mb-2">
+                                                What are the 7 reasons a business should start using social media?
+                                            </label>
+                                            <textarea class="form-control" rows="5"></textarea>
+                                        </div>
                                     </div>
                                     <div class="col-md-12">
                                         <hr>
@@ -65,14 +67,18 @@
                                             title="YouTube video player" frameborder="0"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen></iframe>
-                                    </div>
-                                    <div class="col-md-12 mt-3">
-                                        What are the benefits of social media marketing?
-                                        <textarea class="form-control" rows="5"></textarea>
-                                        <br>
-                                        Do you have experience with social media marketing?
-                                        If so, please explain.
-                                        <textarea class="form-control" rows="5"></textarea>
+                                        <p class="pc">
+                                            <label class="mb-2">
+                                                What are the benefits of social media marketing?
+                                            </label>
+                                            <textarea class="form-control" rows="5"></textarea>
+                                            <br>
+                                            <label class="mb-2">
+                                                Do you have experience with social media marketing?
+                                                If so, please explain.
+                                            </label>
+                                            <textarea class="form-control" rows="5"></textarea>
+                                        </p>
                                     </div>
                                     <div class="col-md-12 text-end mt-2">
                                         <hr class="m-0 mb-2">
@@ -111,10 +117,12 @@
                                             title="YouTube video player" frameborder="0"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen></iframe>
-
-                                        <br><br>
-                                        What differentiates SEM from SEO and traditional marketing?
-                                        <textarea class="form-control" rows="5"></textarea>
+                                        <div class="pc">
+                                            <label class="mb-2">
+                                                What differentiates SEM from SEO and traditional marketing?
+                                            </label>
+                                            <textarea class="form-control" rows="5"></textarea>
+                                        </div>
 
                                     </div>
 
@@ -145,11 +153,13 @@
                                             title="YouTube video player" frameborder="0"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen></iframe>
-                                    </div>
-                                    <div class="col-md-12 mt-3">
-                                        What is the main job of a
-                                        Digital Marketing Analyst?
-                                        <textarea class="form-control" rows="5"></textarea>
+                                        <div class="pc">
+                                            <label class="mb-2">
+                                                What is the main job of a
+                                                Digital Marketing Analyst?
+                                            </label>
+                                            <textarea class="form-control" rows="5"></textarea>
+                                        </div>
                                     </div>
 
                                     <div class="col-md-12 text-end mt-3">

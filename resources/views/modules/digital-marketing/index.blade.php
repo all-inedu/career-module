@@ -5,20 +5,19 @@
 
 @section('banner')
     <div class="banner">
-        <div class="container">
-            <h1 class="title">
-                Digital Marketing <br>
-                Specialist 101
-            </h1>
-        </div>
+        <h1 class="title">
+            Digital Marketing <br>
+            Specialist 101
+        </h1>
     </div>
-    <div class="container pt-4">
-        <p>
-            This module consists of all the background information on Digital Marketing Specialist as a career, 2 (two) case
-            studies and a final reflection. Complete all sections in order. Refer to Glossary and Additional Resources when
-            necessary.
-        </p>
-    </div>
+    <p class="mt-3">
+        This module consists of all the <b>background information</b> on <b> Digital Marketing Specialist</b> as a
+        career, 2 (two) <b>case
+            studies</b> and a final reflection. Complete all sections <b>in order</b> . Refer to Glossary and
+        Additional
+        Resources when
+        necessary.
+    </p>
 @endsection
 
 @section('sidebar')
@@ -71,10 +70,12 @@
                                     </div>
                                     <div class="col-md-12 mt-3">
                                         <p class="pc">
-                                            Observe the Instagram posts McDonalds posted. What do you think makes the
-                                            strategy effective?
+                                            <label class="mb-2">
+                                                Observe the Instagram posts McDonalds posted. What do you think makes the
+                                                strategy effective?
+                                            </label>
+                                            <textarea name="" class="form-control" rows="5"></textarea>
                                         </p>
-                                        <textarea name="" class="form-control" rows="5"></textarea>
                                     </div>
                                 </div>
                                 <div class="row align-items-center mt-3 mb-3">
@@ -99,28 +100,29 @@
                                             title="YouTube video player" frameborder="0"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen></iframe>
-                                        <br>
                                         <div class="pc">
-                                            This video explains what digital marketing is and how it works.
-                                            Before we jump into the module, here are some questions about Digital
-                                            Marketers:
+                                            <p>This video explains what digital marketing is and how it works.
+                                                Before we jump into the module, here are some questions about Digital
+                                                Marketers:
+                                                <br>
+                                            <form action="" class="my-2">
+                                                <label class="mb-2">
+                                                    What do you think Digital Marketing Specialists do?
+                                                </label>
+                                                <textarea class="form-control" rows="5"></textarea>
+                                                <br>
+                                                <label class="mb-2">
+                                                    What degree do they need?
+                                                </label>
+                                                <textarea class="form-control" rows="5"></textarea>
+                                                <br>
+                                                <label class="mb-2">
+                                                    What skills do they need?
+                                                </label>
+                                                <textarea class="form-control" rows="5"></textarea>
+                                            </form>
+                                            </p>
                                         </div>
-                                        <form action="" class="my-2">
-                                            <label>
-                                                What do you think Digital Marketing Specialists do?
-                                            </label>
-                                            <textarea class="form-control" rows="5"></textarea>
-                                            <br>
-                                            <label>
-                                                What degree do they need?
-                                            </label>
-                                            <textarea class="form-control" rows="5"></textarea>
-                                            <br>
-                                            <label>
-                                                What skills do they need?
-                                            </label>
-                                            <textarea class="form-control" rows="5"></textarea>
-                                        </form>
                                     </div>
                                     <div class="col-md-12 text-end">
                                         <hr class="m-0 mb-2">

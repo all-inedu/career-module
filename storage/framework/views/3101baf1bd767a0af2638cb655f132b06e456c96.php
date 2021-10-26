@@ -46,17 +46,33 @@
                         <div id="part4-1" class="accordion-collapse collapse">
                             <div class="accordion-body">
                                 <div class="row align-items-center">
-                                    <div class="col-md-6">
+                                    <div class="col-md-12">
+                                        <p>
+                                            If you’re interested in pursuing career in digital marketing, there are several
+                                            subjects you need to put more focus on in high school:
+                                        </p>
+                                        <ul style="margin-left:-10px;">
+                                            <li>English/Writing</li>
+                                            <li>Business</li>
+                                            <li>Economics</li>
+                                            <li>Art</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-12 mt-3">
                                         There is no single pathway to become digital
                                         marketing specialist.
+                                    </div>
+                                    <div class="col-md-6">
                                         <img class="img" src="<?php echo e(asset('img/data-marketing/path0.png')); ?>" width="100%">
                                     </div>
                                     <div class="col-md-6">
                                         <img class="img" src="<?php echo e(asset('img/data-marketing/path1.png')); ?>" width="100%">
                                     </div>
                                     <div class="col-md-12 mt-3">
-                                        All industries require Digital Marketing, but you still have to consider the
-                                        different channels you can use for specific industries
+                                        <div class="pc">
+                                            All industries require Digital Marketing, but you still have to consider the
+                                            different channels you can use for specific industries
+                                        </div>
                                     </div>
                                     <div class="col-md-12 text-end mt-3">
                                         <hr class="m-0 mb-2">

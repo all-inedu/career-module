@@ -35,18 +35,18 @@
             <div class="card-body">
                 <div class="row">
                     <div class="col-md-12">
-                        <label>
+                        <label class="mb-2">
                             After learning about Digital Marketing Specialist, do you want to pursue digital marketing as a
                             career?
                         </label>
                         <textarea class="form-control" rows="5"></textarea>
                         <br>
-                        <label>
+                        <label class="mb-2">
                             If so, what do you want to specialize in?
                         </label>
                         <textarea class="form-control" rows="5"></textarea>
                         <br>
-                        <label>
+                        <label class="mb-2">
                             What makes you interested in this career?
                         </label>
                         <textarea class="form-control" rows="5"></textarea>

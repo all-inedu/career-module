@@ -18,13 +18,15 @@
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
         body {
-            font-family: Roboto, sans-serif !important
+            font-family: 'Montserrat', sans-serif;
         }
 
         p {
-            font-size: 18px
+            font-size: 18px;
+            text-align: justify;
         }
 
         .accordion-button::after {
@@ -40,7 +42,7 @@
         }
 
         .content {
-            margin: 0 5% 0 0 !important
+            /* margin: 0 0 0 0 !important */
         }
 
         .container {
@@ -134,7 +136,11 @@
         }
 
         .container {
-            padding: 0% 10%;
+            /* padding: 0% 10%; */
+        }
+
+        .bg-allin {
+            background: #f1b979;
         }
 
     </style>
@@ -142,16 +148,18 @@
     <style>
         .banner {
             background: url('{{ asset('img/banner.webp') }}');
-            min-height: 50vh;
+            max-height: 30vh;
             background-size: 100%;
             background-position: bottom;
+            background-repeat: no-repeat;
         }
 
         h1.title {
             position: relative;
             color: rgb(27, 27, 27);
             text-align: end;
-            padding-top: 22%;
+            padding-top: 10%;
+            padding-right: 2%;
             font-weight: 900;
         }
 
@@ -162,7 +170,7 @@
         .list-group-item {
             border: 0px !important;
             background: #c4c4c4 !important;
-            padding: 2% 2% 2% 50% !important;
+            /* padding: 2% 2% 2% 50% !important; */
             transition: all .2s ease-in-out;
             font-size: 15.5px !important;
         }
@@ -182,7 +190,7 @@
         }
 
         .container {
-            padding: 0% 10%;
+            padding: 0% 5%;
         }
 
         .container2 {
@@ -209,7 +217,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f7f7f7;">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #f7f7f7;">
         <div class="container my-1">
             <a class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('img/logo-1.png') }}"
                     width="30%" /></a>
@@ -235,14 +243,18 @@
         </div>
     </nav>
 
-    @yield('banner');
 
-    <div class="container-fluid ps-0 mb-4">
+    <div class="container  mb-4" style="margin-top: 2%">
         <div class="row">
-            <div class="col-md-4">
-                @yield('sidebar')
+            <div class="col-md-12" style="padding-top:5%;">
+                @yield('banner');
             </div>
-            <div class="col-md-8 ps-md-3">
+            <div class="col-md-3">
+                <div class="sticky-top" style="top:10%; ">
+                    @yield('sidebar')
+                </div>
+            </div>
+            <div class="col-md-9">
                 @yield('content')
             </div>
         </div>
