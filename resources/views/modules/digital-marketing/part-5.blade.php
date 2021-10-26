@@ -14,12 +14,9 @@
     </div>
     <div class="container pt-4">
         <p>
-            In this module, you will learn about what Digital Marketing Specialist do, types of it, and how you could be a
-            Digital Marketing Specialist. Along with case studies, and reflection, we hope that you can gain a deeper
-            knowledge
-            on Digital Marketing and how to implement them in real-life events.
-            <br><br>
-            Happy learning!
+            This module consists of all the background information on Digital Marketing Specialist as a career, 2 (two) case
+            studies and a final reflection. Complete all sections in order. Refer to Glossary and Additional Resources when
+            necessary.
         </p>
     </div>
 @endsection
@@ -32,7 +29,7 @@
     <div class="content">
         <div class="card">
             <div class="pt-3 pb-2 ps-3">
-                <h5>Case Studies</h5>
+                <h3>Case Studies</h3>
             </div>
             <hr class="m-1 border-2 mx-auto" width="95%">
             <div class="card-body">
@@ -92,15 +89,19 @@
                                                                 </p>
                                                                 <div class="row">
                                                                     <div class="col-md-8 mx-auto">
-                                                                        <img src="{{ asset('img/data-marketing/cs1.png') }}"
+                                                                        <img class="img"
+                                                                            src="{{ asset('img/data-marketing/cs1.png') }}"
                                                                             width="100%"> <br> <br>
-                                                                        <img src="{{ asset('img/data-marketing/cs2.png') }}"
+                                                                        <img class="img"
+                                                                            src="{{ asset('img/data-marketing/cs2.png') }}"
                                                                             width="100%"> <br> <br>
-                                                                        <img src="{{ asset('img/data-marketing/cs3.png') }}"
+                                                                        <img class="img"
+                                                                            src="{{ asset('img/data-marketing/cs3.png') }}"
                                                                             width="100%"> <br><br>
                                                                     </div>
                                                                 </div>
-                                                                <img src="{{ asset('img/data-marketing/cs4.png') }}"
+                                                                <img class="img"
+                                                                    src="{{ asset('img/data-marketing/cs4.png') }}"
                                                                     width="100%">
                                                                 <br><br>
                                                                 <p>
@@ -151,7 +152,8 @@
                                                                 </p>
                                                                 <div class="row">
                                                                     <div class="col-md-8 mx-auto">
-                                                                        <img src="{{ asset('img/data-marketing/cs5.png') }}"
+                                                                        <img class="img"
+                                                                            src="{{ asset('img/data-marketing/cs5.png') }}"
                                                                             width="100%">
                                                                     </div>
                                                                 </div>
@@ -264,7 +266,7 @@
                                                                     onclick="csNext(3, 1)">
                                                                     Submit <i
                                                                         class=" far fa-arrow-alt-circle-right
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ps-2"></i>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ps-2"></i>
                                                                 </button>
                                                             </div>
                                                         </div>
@@ -407,7 +409,8 @@
                                                     <div class="accordion-body">
                                                         <div class="row align-items-center">
                                                             <div class="col-md-12 mb-3">
-                                                                <img src="{{ asset('img/data-marketing/cs6.png') }}"
+                                                                <img class="img"
+                                                                    src="{{ asset('img/data-marketing/cs6.png') }}"
                                                                     width="100%">
 
                                                                 <div class="text-center">
@@ -453,7 +456,8 @@
                                                                     for your digital marketing campaign. A concept board
                                                                     looks like this. [link]
                                                                 </p>
-                                                                <img src="{{ asset('img/data-marketing/cs7.png') }}"
+                                                                <img class="img"
+                                                                    src="{{ asset('img/data-marketing/cs7.png') }}"
                                                                     width="100%">
 
                                                                 <div class="text-center">

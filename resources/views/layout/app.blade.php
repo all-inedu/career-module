@@ -14,8 +14,9 @@
         Career Module - @yield('title')
     </title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="http://codylindley.com/thickbox/thickbox-code/thickbox.css">
     <script src="{{ asset('js/jquery-3.6.0.js') }}"></script>
-
+    <script src="{{ asset('js/thickbox.js') }}"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
@@ -188,6 +189,8 @@
     </script>
     <script>
         // sessionStorage.clear();
+
+
         if (sessionStorage.getItem('digital-marketing')) {
             $('#dm').removeClass('d-none')
         }

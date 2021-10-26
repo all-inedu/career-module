@@ -9,12 +9,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="<?php echo e(url('img/icon.ico')); ?>" type="image/x-icon">
     <title>
         Career Module - <?php echo $__env->yieldContent('title'); ?>
     </title>
     <link rel="stylesheet" href="<?php echo e(asset('css/style.css')); ?>">
+    <link rel="stylesheet" href="http://codylindley.com/thickbox/thickbox-code/thickbox.css">
     <script src="<?php echo e(asset('js/jquery-3.6.0.js')); ?>"></script>
-
+    <script src="<?php echo e(asset('js/thickbox.js')); ?>"></script>
     <style>
         @import  url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
@@ -187,8 +189,14 @@
     </script>
     <script>
         // sessionStorage.clear();
+
+
         if (sessionStorage.getItem('digital-marketing')) {
             $('#dm').removeClass('d-none')
+        }
+
+        if (sessionStorage.getItem('data-science')) {
+            $('#ds').removeClass('d-none')
         }
 
     </script>

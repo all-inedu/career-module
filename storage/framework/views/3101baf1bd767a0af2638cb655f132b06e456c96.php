@@ -13,12 +13,9 @@
     </div>
     <div class="container pt-4">
         <p>
-            In this module, you will learn about what Digital Marketing Specialist do, types of it, and how you could be a
-            Digital Marketing Specialist. Along with case studies, and reflection, we hope that you can gain a deeper
-            knowledge
-            on Digital Marketing and how to implement them in real-life events.
-            <br><br>
-            Happy learning!
+            This module consists of all the background information on Digital Marketing Specialist as a career, 2 (two) case
+            studies and a final reflection. Complete all sections in order. Refer to Glossary and Additional Resources when
+            necessary.
         </p>
     </div>
 <?php $__env->stopSection(); ?>
@@ -32,8 +29,8 @@
         <div class="card">
 
             <div class="pt-3 pb-2 ps-3">
-                <h5>How do I become a Digital
-                    Marketing Specialist?</h5>
+                <h3>How do I become a Digital
+                    Marketing Specialist?</h3>
             </div>
             <hr class="m-1 border-2 mx-auto" width="95%">
             <div class="card-body">
@@ -90,10 +87,10 @@
                                     <div class="col-md-6">
                                         There is no single pathway to become digital
                                         marketing specialist.
-                                        <img src="<?php echo e(asset('img/data-marketing/path0.png')); ?>" width="100%">
+                                        <img class="img" src="<?php echo e(asset('img/data-marketing/path0.png')); ?>" width="100%">
                                     </div>
                                     <div class="col-md-6">
-                                        <img src="<?php echo e(asset('img/data-marketing/path1.png')); ?>" width="100%">
+                                        <img class="img" src="<?php echo e(asset('img/data-marketing/path1.png')); ?>" width="100%">
                                     </div>
                                     <div class="col-md-12 mt-3">
                                         All industries require Digital Marketing, but you still have to consider the

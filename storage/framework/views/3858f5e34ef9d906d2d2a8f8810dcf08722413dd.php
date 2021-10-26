@@ -272,12 +272,32 @@
         </div>
     </footer>
 
+    <div class="modal fade" id="imagemodal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <small class="modal-title">Image Preview</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="" id="imagepreview" style="width:100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
     </script>
     <script>
         $(document).ready(function() {
             // sessionStorage.clear();
+            $('.img').each(function() {
+                $(this).click(function() {
+                    $('#imagemodal').modal('show')
+                    $('#imagepreview').attr('src', $(this).attr('src'));
+                })
+            })
         })
 
     </script>
