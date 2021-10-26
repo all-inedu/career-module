@@ -51,15 +51,9 @@
                             <div class="accordion-body">
                                 <div class="row align-items-center mb-4">
                                     <div class="col-md-6">
-                                        <p>
-                                            Do you remember the BTS meal hype a few months
-                                            ago? Let’s take a look at how McDonalds really made it
-                                            successful.
-                                        </p>
                                         <div class="pc">
-                                            They use collaboration with a famous korean musician, BTS,
-                                            which is very popular amongst Indonesia. Hence, they make a
-                                            viral marketing to this strategy
+                                            They collaborated with a famous Korean boy band, BTS, who is very popular among
+                                            Indonesians. Hence, they are able to create a viral marketing strategy.
                                         </div>
                                         <br><br>
                                     </div>
@@ -76,13 +70,10 @@
                                             width="100%">
                                     </div>
                                     <div class="col-md-12 mt-3">
-                                        <p class="pc">
-                                            Observe the
-                                            Instagram posts
-                                            McDonalds posted.
-                                            What do you think
-                                            makes it effective?
-                                        </p>
+                                        <div class="pc">
+                                            Observe the Instagram posts McDonalds posted. What do you think makes the
+                                            strategy effective?
+                                        </div>
                                         <textarea name="" class="form-control" rows="5"></textarea>
                                     </div>
                                 </div>
@@ -92,35 +83,18 @@
                                     </div>
                                     <div class="col-md-6">
                                         <p>
-                                            Do you know about
-                                            Instagram feature that
-                                            released on 2021,
-                                            named Instagram reels?
+                                            Do you know the newly released Instagram feature in 2021, Instagram Reels?
                                         </p>
                                         <div class="pc">
-                                            Instagram reels or vertical video is one
-                                            of the tools for Digital Marketing to
-                                            accelerate their marketing strategy. It is
-                                            the new opportunities for them,
-                                            because it provide a vertical quick
-                                            videos that can be used for market a
-                                            business. As a digital marketing, it is
-                                            important to keep us updated and seek
-                                            opportunities.
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12 mt-3 mb-3">
-                                        <div class="pc">
-                                            <b>Well… that’s DIGITAL MARKETING</b>
-                                            <br>
-                                            Digital Marketing is really broad. So there are infinite ways to
-                                            revolutionize advertising and marketing to suit the current trends on
-                                            Social Media and technological advancements.
+                                            Instagram Reels or vertical video is one of the tools intended for accelerating
+                                            marketing strategies. It provides new opportunities for marketers as they can be
+                                            made into quick promotional videos. Digital marketing specialists should keep
+                                            themselves updated with new technology like this.
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row mt-3">
-                                    <div class="col-md-12 mb-3">
+                                    <div class="col-md-12 mt-3 mb-3">
                                         <iframe width="100%" height="315" src="https://www.youtube.com/embed/Z_KspIX1oXU"
                                             title="YouTube video player" frameborder="0"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -128,7 +102,8 @@
                                         <br>
                                         <div class="pc">
                                             This video explains what digital marketing is and how it works.
-                                            Before we jump into the module, here are some questions about Digital Marketers:
+                                            Before we jump into the module, here are some questions about Digital
+                                            Marketers:
                                         </div>
                                         <form action="" class="my-2">
                                             <label>

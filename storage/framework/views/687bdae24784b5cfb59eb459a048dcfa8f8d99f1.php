@@ -34,11 +34,6 @@
             </div>
             <hr class="m-1 border-2 mx-auto" width="95%">
             <div class="card-body">
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/PNkCR5rGIzw"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-
                 <div class="row mt-3">
                     <div class="col-md-12 mb-3">
                         <h5 class="my-0">Core Tasks</h5>

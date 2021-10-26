@@ -37,45 +37,14 @@
             <div class="card-body">
                 <div class="accordion my-2" id="accordionPanelsStayOpenExample">
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#part3-1">
                                 <i class="far fa-check-circle pe-2" id="icon1"></i>
-                                Types of Digital Marketing
-                            </button>
-                        </h2>
-                        <div id="part3-1" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
-                            <div class="accordion-body">
-                                <div class="row align-items-center">
-                                    <div class="col-md-12 mb-3">
-                                        Digital Marketing can be specialized to three types of marketing:
-                                        <ul>
-                                            <li>Social Media Specialist</li>
-                                            <li>Search Engine Optimization specialist</li>
-                                            <li>Search Engine Marketing specialist</li>
-                                            <li>Digital Marketing Analyst</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-md-12 text-end">
-                                        <hr class="m-0 mb-2">
-                                        <button class="btn btn-info btn-sm px-3" onclick="next(1, 3)">
-                                            Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#part3-2">
-                                <i class="far fa-check-circle pe-2" id="icon2"></i>
                                 Social Media Specialist
                             </button>
                         </h2>
-                        <div id="part3-2" class="accordion-collapse collapse">
+                        <div id="part3-1" class="accordion-collapse collapse">
                             <div class="accordion-body">
                                 <div class="row align-items-center">
                                     <div class="col-md-12">
@@ -85,9 +54,7 @@
                                             allowfullscreen></iframe>
                                     </div>
                                     <div class="col-md-12 mt-3">
-                                        What are the 7 reasons why a
-                                        business should start using
-                                        social media?
+                                        What are the 7 reasons a business should start using social media?
                                         <textarea class="form-control" rows="5"></textarea>
                                     </div>
                                     <div class="col-md-12">
@@ -109,6 +76,50 @@
                                     </div>
                                     <div class="col-md-12 text-end mt-2">
                                         <hr class="m-0 mb-2">
+                                        <button class="btn btn-primary btn-sm px-3" onclick="next(1, 3)">
+                                            Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#part3-2">
+                                <i class="far fa-check-circle pe-2" id="icon2"></i>
+                                Search Engine Marketing Specialist
+                            </button>
+                        </h2>
+                        <div id="part3-2" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <div class="row align-items-center">
+                                    <div class="col-md-12 mb-3">
+                                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/stHBZGm_hMo"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                        <hr class="my-3">
+                                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/Qmm_FRIMeTg"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                        <hr class="my-3">
+                                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/oxae42kcc9Y"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+
+                                        <br><br>
+                                        What differentiates SEM from SEO and traditional marketing?
+                                        <textarea class="form-control" rows="5"></textarea>
+
+                                    </div>
+
+                                    <div class="col-md-12 text-end">
+                                        <hr class="m-0 mb-2">
                                         <button class="btn btn-primary btn-sm px-3" onclick="next(2, 3)">
                                             Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                         </button>
@@ -123,58 +134,10 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#part3-3">
                                 <i class="far fa-check-circle pe-2" id="icon3"></i>
-                                Search Engine Marketing Specialist
-                            </button>
-                        </h2>
-                        <div id="part3-3" class="accordion-collapse collapse">
-                            <div class="accordion-body">
-                                <div class="row align-items-center">
-                                    <div class="col-md-12 mb-3">
-                                        This video is an introduction to search engine optimization. <br><br>
-                                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/stHBZGm_hMo"
-                                            title="YouTube video player" frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                            allowfullscreen></iframe>
-                                        <br><br>
-                                        This video tells us how Search Engine Marketing is useful to a
-                                        business owner<br><br>
-                                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/Qmm_FRIMeTg"
-                                            title="YouTube video player" frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                            allowfullscreen></iframe>
-                                        <br><br>
-                                        This video highlights the difference between SEO and SEM<br><br>
-                                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/oxae42kcc9Y"
-                                            title="YouTube video player" frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                            allowfullscreen></iframe>
-
-                                        <br><br>
-                                        What differentiates SEM from SEO and traditional marketing?
-                                        <textarea class="form-control" rows="5"></textarea>
-
-                                    </div>
-
-                                    <div class="col-md-12 text-end">
-                                        <hr class="m-0 mb-2">
-                                        <button class="btn btn-primary btn-sm px-3" onclick="next(3, 3)">
-                                            Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#part3-4">
-                                <i class="far fa-check-circle pe-2" id="icon4"></i>
                                 Digital Marketing Analyst
                             </button>
                         </h2>
-                        <div id="part3-4" class="accordion-collapse collapse">
+                        <div id="part3-3" class="accordion-collapse collapse">
                             <div class="accordion-body">
                                 <div class="row align-items-center">
                                     <div class="col-md-12">
@@ -191,7 +154,7 @@
 
                                     <div class="col-md-12 text-end mt-3">
                                         <hr class="m-0 mb-2">
-                                        <button class="btn btn-primary btn-sm px-3" onclick="next(4, 3)">
+                                        <button class="btn btn-primary btn-sm px-3" onclick="next(3, 3)">
                                             Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                         </button>
                                     </div>
