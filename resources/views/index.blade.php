@@ -42,8 +42,7 @@
                 <a href="{{ url('digital-marketing/part-1') }}">
                     <div class="card">
                         <div class="container2 img-bg">
-                            <img src="{{ asset('img/no background icon/CMW_1. Digital Marketing (1).webp') }}"
-                                class="card-img-top">
+                            <img src="{{ asset('img/icon/CMW_1. Digital Marketing.webp') }}" class="card-img-top">
                             <div class="bottom-right">Digital Marketing <br>Specialist
                             </div>
                             <i class="fas fa-check-circle text-success float-end mt-1 d-none icon-done" id="dm"></i>
@@ -56,7 +55,7 @@
                 <a href="{{ url('data-scientist/1') }}">
                     <div class="card">
                         <div class="container2 img-bg">
-                            <img src="{{ asset('img/CMW_2. Data Scientist.webp') }}" class="card-img-top">
+                            <img src="{{ asset('img/icon/CMW_2. Data Scientist.webp') }}" class="card-img-top">
                             <div class="bottom-right">Data Scientist
                             </div>
                             <i class="fas fa-check-circle text-success float-end mt-1 d-none icon-done" id="ds"></i>
@@ -71,7 +70,7 @@
                         {{-- <img src="{{ asset('img/CMW_lock (black).webp') }}" class="img-lock"> --}}
                     </div>
                     <div class="container2 img-bg">
-                        <img src="{{ asset('img/CMW_3. Full Stack Engineer.webp') }}" class="card-img-top blur">
+                        <img src="{{ asset('img/icon/CMW_3. Full Stack Engineer.webp') }}" class="card-img-top blur">
                         <div class="bottom-right blur">Full Stack Engineering
                         </div>
 
@@ -86,7 +85,7 @@
                         {{-- <img src="{{ asset('img/CMW_lock (black).webp') }}" class="img-lock"> --}}
                     </div>
                     <div class="container2 img-bg">
-                        <img src="{{ asset('img/CMW_4. UX Designer.webp') }}" class="card-img-top blur">
+                        <img src="{{ asset('img/icon/CMW_4. UX Designer.webp') }}" class="card-img-top blur">
                         <div class="bottom-right blur">UX Designer
                         </div>
 
@@ -101,7 +100,7 @@
                         {{-- <img src="{{ asset('img/CMW_lock (black).webp') }}" class="img-lock"> --}}
                     </div>
                     <div class="container2 img-bg">
-                        <img src="{{ asset('img/CMW_5.Biomedical Engineer.webp') }}" class="card-img-top blur">
+                        <img src="{{ asset('img/icon/CMW_5.Biomedical Engineer.webp') }}" class="card-img-top blur">
                         <div class="bottom-right blur">Biomedical Engineering
                         </div>
 
@@ -118,7 +117,7 @@
                         {{-- <img src="{{ asset('img/CMW_lock (black).webp') }}" class="img-lock"> --}}
                     </div>
                     <div class="container2 img-bg">
-                        <img src="{{ asset('img/CMW_6.Investment Analyst.webp') }}" class="card-img-top blur">
+                        <img src="{{ asset('img/icon/CMW_6.Investment Analyst.webp') }}" class="card-img-top blur">
                         <div class="bottom-right blur">Investment Analyst
                         </div>
 
@@ -133,7 +132,7 @@
                         {{-- <img src="{{ asset('img/CMW_lock (black).webp') }}" class="img-lock"> --}}
                     </div>
                     <div class="container2 img-bg">
-                        <img src="{{ asset('img/CMW_7. Psychologist.webp') }}" class="card-img-top blur">
+                        <img src="{{ asset('img/icon/CMW_7. Psychologist.webp') }}" class="card-img-top blur">
                         <div class="bottom-right blur">Psychologist
                         </div>
 
@@ -148,7 +147,7 @@
                         {{-- <img src="{{ asset('img/CMW_lock (black).webp') }}" class="img-lock"> --}}
                     </div>
                     <div class="container2 img-bg">
-                        <img src="{{ asset('img/CMW_8. Conten Creator.webp') }}" class="card-img-top blur">
+                        <img src="{{ asset('img/icon/CMW_8. Conten Creator.webp') }}" class="card-img-top blur">
                         <div class="bottom-right blur">Content Creator
                         </div>
 
@@ -163,7 +162,7 @@
                         {{-- <img src="{{ asset('img/CMW_lock (black).webp') }}" class="img-lock"> --}}
                     </div>
                     <div class="container2 img-bg">
-                        <img src="{{ asset('img/CMW_9. Food Scientist.webp') }}" class="card-img-top blur">
+                        <img src="{{ asset('img/icon/CMW_9. Food Scientist.webp') }}" class="card-img-top blur">
                         <div class="bottom-right blur">Food Scientist
                         </div>
 
@@ -178,11 +177,11 @@
                         {{-- <img src="{{ asset('img/CMW_lock (black).webp') }}" class="img-lock"> --}}
                     </div>
                     <div class="container2 img-bg">
-                        <img src="{{ asset('img/CMW_10. Medical Doctor.webp') }}" class="card-img-top blur">
+                        <img src="{{ asset('img/icon/CMW_10. Medical Doctor.webp') }}" class="card-img-top blur">
                         <div class="bottom-right blur">Medical Doctor
                         </div>
 
-                        <i class="fas fa-lock text-dark mt-1 float-start icon-lock"></i>
+                        <i class="fas fa-lock text-dark mt-1 float-start icon-lock"></i>x
                     </div>
                 </div>
             </div>
