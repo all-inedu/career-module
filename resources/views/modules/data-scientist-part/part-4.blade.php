@@ -47,15 +47,15 @@
                 </div> --}}
 
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="p4-2">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c-p4-2"
-                            aria-expanded="true" aria-controls="c-p4-2">
-                            <i class="far fa-check-circle pe-2" id="ds-icon4-2"></i>
+                    <h2 class="accordion-header" id="p4-1">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c-p4-1"
+                            aria-expanded="true" aria-controls="c-p4-1">
+                            <i class="far fa-check-circle pe-2" id="ds-icon4-1"></i>
                             Educational Pathway
                         </button>
                     </h2>
 
-                    <div id="c-p4-2" class="accordion-collapse collapse show" aria-labelledby="p4-2" data-bs-parent="#p4">
+                    <div id="c-p4-1" class="accordion-collapse collapse show" aria-labelledby="p4-1" data-bs-parent="#p4">
                         <div class="accordion-body">
                             <div class="col-md-12">
                                 <p>As data science is a relatively new field, some universities might offer it as a
@@ -75,7 +75,7 @@
                             </div>
 
                             <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                <button class="btn btn-info btn-sm px-3" onclick="next(2, 4)">
+                                <button class="btn btn-info btn-sm px-3" onclick="next(1, 4)">
                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                 </button>
                             </div>
@@ -84,15 +84,15 @@
                 </div>
 
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="p4-3">
+                    <h2 class="accordion-header" id="p4-2">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#c-p4-3" aria-expanded="false" aria-controls="c-p4-3">
-                            <i class="far fa-check-circle pe-2" id="ds-icon4-3"></i>
+                            data-bs-target="#c-p4-2" aria-expanded="false" aria-controls="c-p4-2">
+                            <i class="far fa-check-circle pe-2" id="ds-icon4-2"></i>
                             Skills
                         </button>
                     </h2>
 
-                    <div id="c-p4-3" class="accordion-collapse collapse" aria-labelledby="p4-3" data-bs-parent="#p4">
+                    <div id="c-p4-2" class="accordion-collapse collapse" aria-labelledby="p4-2" data-bs-parent="#p4">
                         <div class="accordion-body row" style="text-align: left;">
                             <div class="col-md-12 mb-2">
                                 <h4>Programming Language :</h4>
@@ -132,7 +132,7 @@
                                     business field.</p>
                             </div>
                             <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                <button class="btn btn-info btn-sm px-3" onclick="next(3, 4)">
+                                <button class="btn btn-info btn-sm px-3" onclick="next(2, 4)">
                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                 </button>
                             </div>
@@ -141,15 +141,15 @@
                 </div>
 
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="p4-4">
+                    <h2 class="accordion-header" id="p4-3">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#c-p4-4" aria-expanded="false" aria-controls="c-p4-4">
-                            <i class="far fa-check-circle pe-2" id="ds-icon4-4"></i>
+                            data-bs-target="#c-p4-3" aria-expanded="false" aria-controls="c-p4-3">
+                            <i class="far fa-check-circle pe-2" id="ds-icon4-3"></i>
                             Possible Majors
                         </button>
                     </h2>
 
-                    <div id="c-p4-4" class="accordion-collapse collapse" aria-labelledby="p4-4" data-bs-parent="#p4">
+                    <div id="c-p4-3" class="accordion-collapse collapse" aria-labelledby="p4-3" data-bs-parent="#p4">
                         <div class="accordion-body row" style="text-align: left;">
                             <div class="col-md-12 mb-2">
                                 As an undergraduate student, you might want to consider taking majors such as:
@@ -166,7 +166,7 @@
                                 </p>
                             </div>
                             <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                <button class="btn btn-info btn-sm px-3" onclick="next(4, 4)">
+                                <button class="btn btn-info btn-sm px-3" onclick="next(3, 4)">
                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                 </button>
                             </div>
