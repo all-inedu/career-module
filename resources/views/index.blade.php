@@ -10,7 +10,7 @@
     </div>
     <h1 class="float-end" style="position: absolute; margin-top: -12%; right: 20%; font-size: 4em; text-align: right;">
         Welcome To <br>
-        Career Module
+        Career Exploration Module
     </h1>
 
     <div class="container my-4">
@@ -32,7 +32,7 @@
                     </div>
                 </div>
                 <div class="sp text-center pt-4">
-                    <h1 id="career"><b>Career</b></h1>
+                    <h1 id="career"><b>Career Choices</b></h1>
                 </div>
             </div>
         </div>
