@@ -11,4 +11,6 @@
         Additional
         Resources when
         necessary.
+        <br><br>
+        Happy learning!
     </p>

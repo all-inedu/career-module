@@ -11,5 +11,7 @@
         Additional
         Resources when
         necessary.
+        <br><br>
+        Happy learning!
     </p>
 <?php /**PATH /opt/lampp/htdocs/career-module/resources/views/modules/digital-marketing/banner.blade.php ENDPATH**/ ?>
