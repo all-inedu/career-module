@@ -8,9 +8,9 @@
     <div class="container">
         <img src="{{ asset('img/CMW_Career module cover.webp') }}" width="100%">
     </div>
-    <h1 class="float-end" style="position: absolute; margin-top: -12%; right: 20%; font-size: 4em; text-align: right;">
+    <h1 class="float-end" style="position: absolute; margin-top: -13%; right: 15%; font-size: 3em; text-align: right;">
         Welcome To <br>
-        Career Exploration Module
+        Career Exploration <br> Module
     </h1>
 
     <div class="container my-4">
