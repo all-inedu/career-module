@@ -246,9 +246,9 @@
             transition: 0.3s;
         }
 
-        img:hover {
+        /* img:hover {
             opacity: 0.7;
-        }
+        } */
 
         #image-viewer {
             display: none;

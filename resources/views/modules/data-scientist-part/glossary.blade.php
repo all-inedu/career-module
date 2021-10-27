@@ -15,43 +15,49 @@
     <div class="content">
         <div class="card p-3">
             <div class="accordion accordion-flush" id="p7">
-                <div class="border-bottom">
+                <div class="accordion-header">
                     <h3 class="section-header" id="p7-header">
                         <div>Glossary</div>
                     </h3>
                 </div>
-
-                <div class="pt-4">
-                    <ul class="ul-spacing">
-                        <li><b>Artificial Intelligence (AI):</b> the ability of a machine to mimic the capabilities of the
-                            human mind
-                        </li>
-                        <li><b>Business Intelligence (BI):</b> the discipline of analyzing and transforming data to extract
-                            valuable
-                            business insights to enable decision-making</li>
-                        <li><b>Data mining:</b> a process of extracting and discovering patterns in large data sets</li>
-                        <li><b>Data warehouse:</b> central repository of information that can be used to analyze and make
-                            more informed
-                            decisions</li>
-                        <li><b>Data wrangling (munging):</b> the process of cleaning, structuring and enriching raw data
-                            into a desired
-                            format for better decision making in less time</li>
-                        <li><b>Deep learning:</b> a technique that falls into the machine learning discipline based on
-                            artificial neural
-                            networks. It learns from vast amounts of data and finds patterns from unstructured data such as
-                            text and
-                            images</li>
-                        <li><b>Machine learning:</b> a subset of the artificial intelligence (AI) discipline that provides
-                            systems the
-                            ability to automatically learn and improve from experience without being explicitly programmed
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                    <button class="btn btn-info btn-sm px-3" onclick="next(1, 7)">
-                        Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
-                    </button>
+                <hr class="m-1 border-2 mx-auto" width="95%">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <b>Artifical Intelligence (AI):</b> the ability of a machine to mimic the capabilities
+                                    of the human mind.
+                                    <hr>
+                                    <b>Business Intelligence (BI):</b> the discipline of analyzing and transforming data to
+                                    extract valuable business insights to enable decision-making.
+                                    <hr>
+                                    <b>Data Mining:</b> a process of extracting and discovering patterns in large data sets.
+                                    <hr>
+                                    <b>Data Warehouse:</b> central repository of information that can be used to analyze and
+                                    make more informed decisions.
+                                    <hr>
+                                    <b>Data Wrangling (munging):</b> the process of cleaning, structuring and enriching raw
+                                    data into a desired format for better decision making in less time.
+                                    <hr>
+                                    <b>Deep Learning:</b> a technique that falls into the machine learning discipline based
+                                    on artificial neural networks. It learns from vast amounts of data and finds patterns
+                                    from unstructured data such as text and images.
+                                    <hr>
+                                    <b>Machine Learning:</b> a subset of the artificial intelligence (AI) discipline that
+                                    provides systems the ability to automatically learn and improve from experience without
+                                    being explicitly programmed.
+                                </div>
+                            </div>
+                            <br>
+                            <hr>
+                            <div class="text-end">
+                                <button class="btn btn-info btn-sm px-3" onclick="next(1, 7)">
+                                    Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -14,7 +14,6 @@
 @section('content')
     <div class="content">
         <div class="card">
-
             <div class="pt-3 pb-2 ps-3">
                 <h3>Glossary</h3>
             </div>
@@ -102,6 +101,5 @@
             let nextPart = part + 1
             window.location.href = "{{ url('digital-marketing/part-') }}" + nextPart;
         }
-
     </script>
 @endsection
