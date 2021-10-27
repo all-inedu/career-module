@@ -6,7 +6,7 @@
 @section('content')
     <br>
     <div class="container">
-        <img src="{{ asset('img/CMW_Career module cover.webp') }}" width="100%">
+        <img src="{{ asset('img/CMW_Career module cover.webp') }}" width="100%" class="shadow">
     </div>
     <h1 class="float-end"
         style="position: absolute; margin-top: -13%; right: 15%; font-size: 3em; text-align: right; font-weight:bold;">
@@ -17,23 +17,37 @@
     <div class="container my-4">
         <div class="row">
             <div class="col-12">
-                <div class="card border mb-4">
-                    <div class="card-body px-4">
-                        <p style="font-size: 22px">
-                            Hello, <br><br>
-                            Are you currently trying to figure out what you want as a career in the future? <br><br>
-                            ALL-in Career Module is here to provide you the space to discover various job roles and
-                            industries of
-                            your
-                            interest. Learn the basic knowledge of each career and how to implement them through hands-on
-                            learning
-                            experience here.<br><br>
-                            Let’s walk on your career exploration journey with ALL-in Career Module!
+                {{-- <div class="card border mb-4 bg-light">
+                    <div class="card-body text-center px-4">
+                        <p style="font-size: 18px">
+                            <b>Are you currently trying to figure out what you want as a career in the future?<br><br>
+                                ALL-in Career Module is here to provide you the space to discover various job roles and
+                                industries of
+                                your
+                                interest. Learn the basic knowledge of each career and how to implement them through
+                                hands-on
+                                learning
+                                experience here.<br><br>
+                                Let’s walk on your career exploration journey with ALL-in Career Module!
+                            </b>
                         </p>
                     </div>
-                </div>
-                <div class="sp text-center pt-4">
+                </div> --}}
+                <div class="sp text-center my-5">
                     <h1 id="career"><b>Career Choices</b></h1>
+                </div>
+                <div class="text-center mb-5">
+                    <p style="font-size: 18px">
+                        Are you currently trying to figure out what you want as a career in the future?<br><br>
+                        ALL-in Career Module is here to provide you the space to discover various job roles and
+                        industries of
+                        your
+                        interest. Learn the basic knowledge of each career and how to implement them through
+                        hands-on
+                        learning
+                        experience here.<br><br>
+                        Let’s walk on your career exploration journey with ALL-in Career Module!
+                    </p>
                 </div>
             </div>
         </div>
@@ -41,7 +55,7 @@
         <div class="row">
             <div class="col">
                 <a href="{{ url('digital-marketing/part-1') }}">
-                    <div class="card">
+                    <div class="card border-allin">
                         <div class="container2 img-bg">
                             <img src="{{ asset('img/icon/CMW_1. Digital Marketing.webp') }}" class="card-img-top">
                             <div class="bottom-right">Digital Marketing <br>Specialist
@@ -54,7 +68,7 @@
 
             <div class="col">
                 <a href="{{ url('data-scientist/1') }}">
-                    <div class="card">
+                    <div class="card border-allin">
                         <div class="container2 img-bg">
                             <img src="{{ asset('img/icon/CMW_2. Data Scientist.webp') }}" class="card-img-top">
                             <div class="bottom-right">Data Scientist
@@ -66,7 +80,7 @@
             </div>
 
             <div class="col">
-                <div class="card">
+                <div class="card border-allin">
                     <div class="container-overflow text-center pt-2">
                         {{-- <img src="{{ asset('img/CMW_lock (black).webp') }}" class="img-lock"> --}}
                     </div>
@@ -81,7 +95,7 @@
             </div>
 
             <div class="col">
-                <div class="card">
+                <div class="card border-allin">
                     <div class="container-overflow text-center pt-2">
                         {{-- <img src="{{ asset('img/CMW_lock (black).webp') }}" class="img-lock"> --}}
                     </div>
@@ -96,7 +110,7 @@
             </div>
 
             <div class="col">
-                <div class="card">
+                <div class="card border-allin">
                     <div class="container-overflow text-center pt-2">
                         {{-- <img src="{{ asset('img/CMW_lock (black).webp') }}" class="img-lock"> --}}
                     </div>
@@ -113,7 +127,7 @@
         </div>
         <div class="row mt-3">
             <div class="col">
-                <div class="card">
+                <div class="card border-allin">
                     <div class="container-overflow text-center pt-2">
                         {{-- <img src="{{ asset('img/CMW_lock (black).webp') }}" class="img-lock"> --}}
                     </div>
@@ -128,7 +142,7 @@
             </div>
 
             <div class="col">
-                <div class="card">
+                <div class="card border-allin">
                     <div class="container-overflow text-center pt-2">
                         {{-- <img src="{{ asset('img/CMW_lock (black).webp') }}" class="img-lock"> --}}
                     </div>
@@ -143,7 +157,7 @@
             </div>
 
             <div class="col">
-                <div class="card">
+                <div class="card border-allin">
                     <div class="container-overflow text-center pt-2">
                         {{-- <img src="{{ asset('img/CMW_lock (black).webp') }}" class="img-lock"> --}}
                     </div>
@@ -158,7 +172,7 @@
             </div>
 
             <div class="col">
-                <div class="card">
+                <div class="card border-allin">
                     <div class="container-overflow text-center pt-2">
                         {{-- <img src="{{ asset('img/CMW_lock (black).webp') }}" class="img-lock"> --}}
                     </div>
@@ -173,7 +187,7 @@
             </div>
 
             <div class="col">
-                <div class="card">
+                <div class="card border-allin">
                     <div class="container-overflow text-center pt-2">
                         {{-- <img src="{{ asset('img/CMW_lock (black).webp') }}" class="img-lock"> --}}
                     </div>
@@ -182,12 +196,11 @@
                         <div class="bottom-right blur">Medical Doctor
                         </div>
 
-                        <i class="fas fa-lock text-dark mt-1 float-start icon-lock"></i>x
+                        <i class="fas fa-lock text-dark mt-1 float-start icon-lock"></i>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
     <script>
         $('.img-bg').each(function() {
