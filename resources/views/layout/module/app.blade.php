@@ -269,10 +269,10 @@
                         <a class="nav-link" aria-current="page" href="{{ url('') }}">Home</a>
                     </li>
                     <li class="nav-item" style=" white-space: nowrap;">
-                        <a class="nav-link" href="#career">Career Module</a>
+                        <a class="nav-link" href="#career">Guideline Book</a>
                     </li>
                     <li class="nav-item" style=" white-space: nowrap;">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="#">About Us</a>
                     </li>
                 </ul>
 
@@ -301,35 +301,77 @@
     <footer class="mt-5 pt-4">
         <div class="container py-4">
             <div class="row">
-                <div class="col-2">
+                <div class="col-md-4 mb-3">
                     <img src="{{ url('img/logo.png') }}" width="125px" alt="">
                 </div>
-            </div>
-            <div class="row pt-2">
-                <div class="col-6">
-                    Copyright © 2021 ALL-in Eduspace All rights reserved
+                <div class="col-md-3 mb-3">
+                    <i class="fas fa-globe fa-fw"></i> <a href="https://all-inedu.com"
+                        target="_blank">www.all-inedu.com</a>
+                    <br>
+                    <i class="fab fa-instagram fa-fw"></i> <a href="https://www.instagram.com/allineduspace/"
+                        target="_blank">@allineduspace</a>
                 </div>
-                <div class="col-6 text-end">
-                    <div class="d-inline-flex flex-row social-media">
-                        Follow Us
-                        <div class="ms-3"><i class="fab fa-instagram"></i></div>
-                        <div class="ms-2"><i class="fab fa-youtube"></i></div>
-                        <div class="ms-2"><i class="fab fa-linkedin"></i></div>
-                    </div>
+                <div class="col-md-5 mb-3">
+                    <i class="fas fa-mobile-alt fa-fw"></i> <a href="https://wa.me/6281808081363" target="_blank">+62
+                        818-0808-1363</a> /
+                    <a href="https://wa.me/6287860811413" target="_blank">+62 878-6081-1413</a> <br>
+                    <i class="fas fa-envelope fa-fw"></i> <a href="mailto:info@all-inedu.com"
+                        target="_blank">info@all-inedu.com</a>
+                </div>
+                <div class="col-md-12">
+                    <hr class="my-2">
+                </div>
+                <div class="col-md-4 mb-3">
+                    Jl Jeruk Kembar Blok Q9, No. 15 <br> Srengseng, Kembangan <br>
+                    Jakarta Barat 11630, Indonesia
+                </div>
+                <div class="col-md-3 mb-3">
+                    #itsALLintheprep <br>
+                    #TakeOnYourFuture
+                </div>
+                <div class="col-md-5 mb-3">
+                    Copyright © 2021 · ALL-in Eduspace. <br>
+                    All rights reserved.
                 </div>
             </div>
         </div>
     </footer>
 
-    <div class="modal fade" id="imagemodal" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered modal-md">
-            <div class="modal-content">
+    <div class="modal  fade" id="imagemodal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content text-white" style="background: #272727ee">
                 <div class="modal-header">
                     <small class="modal-title">Image Preview</small>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
+                <div class="modal-body mx-auto py-5">
+                    <img src="" id="imagepreview">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="guideline">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Guideline Book</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
                 <div class="modal-body">
-                    <img src="" id="imagepreview" style="width:100%">
+                    Before starting your career exploration journey, make sure to read our CAREER EXPLORATION
+                    GUIDEBOOK
+                    <ul class=" mt-2" style="margin-left:-10px;">
+                        <li>
+                            Career Roadmap
+                        </li>
+                        <li>
+                            Understanding breadth, depth, and choosing university major
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer mx-auto">
+                    <a href="#" type="button" class="btn btn-primary">Download the GUIDEBOOK</a>
                 </div>
             </div>
         </div>
@@ -347,6 +389,13 @@
                     $('#imagepreview').attr('src', $(this).attr('src'));
                 })
             })
+
+            if (sessionStorage.getItem('first') == 'clicked') {
+                if (!sessionStorage.getItem('guideline')) {
+                    $('#guideline').modal('show')
+                }
+                sessionStorage.setItem('guideline', 'showed')
+            }
         })
 
     </script>

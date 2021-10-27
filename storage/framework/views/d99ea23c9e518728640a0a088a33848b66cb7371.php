@@ -168,10 +168,10 @@
                         <a class="nav-link" aria-current="page" href="<?php echo e(url('')); ?>">Home</a>
                     </li>
                     <li class="nav-item" style=" white-space: nowrap;">
-                        <a class="nav-link" href="#career">Career Module</a>
+                        <a class="nav-link" href="#career">Guideline Book</a>
                     </li>
                     <li class="nav-item" style=" white-space: nowrap;">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="#">About Us</a>
                     </li>
                 </ul>
 
@@ -223,6 +223,7 @@
         if (sessionStorage.getItem('data-science')) {
             $('#ds').removeClass('d-none')
         }
+
     </script>
     <style>
         img {

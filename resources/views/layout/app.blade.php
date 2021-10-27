@@ -168,10 +168,10 @@
                         <a class="nav-link" aria-current="page" href="{{ url('') }}">Home</a>
                     </li>
                     <li class="nav-item" style=" white-space: nowrap;">
-                        <a class="nav-link" href="#career">Career Module</a>
+                        <a class="nav-link" href="#career">Guideline Book</a>
                     </li>
                     <li class="nav-item" style=" white-space: nowrap;">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="#">About Us</a>
                     </li>
                 </ul>
 
@@ -187,23 +187,37 @@
     <footer class="mt-5 py-5">
         <div class="container py-4">
             <div class="row">
-                <div class="col-2">
+                <div class="col-md-4 mb-3">
                     <img src="{{ url('img/logo.png') }}" width="125px" alt="">
                 </div>
-            </div>
-            <div class="row pt-2">
-                <div class="col-6">
-                    <p>
-                        Copyright © 2021 ALL-in Eduspace All rights reserved
-                    </p>
+                <div class="col-md-3 mb-3">
+                    <i class="fas fa-globe fa-fw"></i> <a href="https://all-inedu.com"
+                        target="_blank">www.all-inedu.com</a>
+                    <br>
+                    <i class="fab fa-instagram fa-fw"></i> <a href="https://www.instagram.com/allineduspace/"
+                        target="_blank">@allineduspace</a>
                 </div>
-                <div class="col-6 text-end">
-                    <div class="d-inline-flex flex-row social-media">
-                        <p>Follow Us</p>
-                        <div class="ms-3"><i class="fab fa-instagram"></i></div>
-                        <div class="ms-2"><i class="fab fa-youtube"></i></div>
-                        <div class="ms-2"><i class="fab fa-linkedin"></i></div>
-                    </div>
+                <div class="col-md-5 mb-3">
+                    <i class="fas fa-mobile-alt fa-fw"></i> <a href="https://wa.me/6281808081363" target="_blank">+62
+                        818-0808-1363</a> /
+                    <a href="https://wa.me/6287860811413" target="_blank">+62 878-6081-1413</a> <br>
+                    <i class="fas fa-envelope fa-fw"></i> <a href="mailto:info@all-inedu.com"
+                        target="_blank">info@all-inedu.com</a>
+                </div>
+                <div class="col-md-12">
+                    <hr class="my-2">
+                </div>
+                <div class="col-md-4 mb-3">
+                    Jl Jeruk Kembar Blok Q9, No. 15 <br> Srengseng, Kembangan <br>
+                    Jakarta Barat 11630, Indonesia
+                </div>
+                <div class="col-md-3 mb-3">
+                    #itsALLintheprep <br>
+                    #TakeOnYourFuture
+                </div>
+                <div class="col-md-5 mb-3">
+                    Copyright © 2021 · ALL-in Eduspace. <br>
+                    All rights reserved.
                 </div>
             </div>
         </div>
@@ -223,6 +237,7 @@
         if (sessionStorage.getItem('data-science')) {
             $('#ds').removeClass('d-none')
         }
+
     </script>
     <style>
         img {

@@ -34,13 +34,16 @@ a.sidebar-elements {
 ul {
     margin: 0;
 }
+
 ul.dash {
     list-style-type: none;
 }
-ul.dash > li {
+
+ul.dash>li {
     text-indent: -5px;
 }
-ul.dash > li:before {
+
+ul.dash>li:before {
     content: "-";
     text-indent: -5px;
 }
@@ -52,6 +55,7 @@ ul.dash > li:before {
     background-size: cover;
     background-position: 0 -152px;
 }
+
 .banner .heading-title {
     position: absolute;
     bottom: 0;
@@ -61,18 +65,24 @@ ul.dash > li:before {
 footer {
     background: #243672;
     color: #fff;
-    font-size: 12px;
+    font-size: 15px !important;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
 }
 
 footer .social-media {
     font-size: 15px;
 }
 
-.ul-spacing li + li {
+.ul-spacing li+li {
     margin-top: 1em;
 }
 
 /* add new style  */
+
 .data-science-video {
     background: black;
     height: 250px;
@@ -116,8 +126,7 @@ ul li span {
     margin-left: 0.6em;
 }
 
-.ol-cst li + li,
-.ul-cst li + li {
+.ol-cst li+li, .ul-cst li+li {
     margin-top: 0.5em;
 }
 

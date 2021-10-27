@@ -188,10 +188,13 @@
             </div>
         </div>
 
-
     </div>
+    <script>
+        $('.img-bg').each(function() {
+            $(this).click(function(e) {
+                sessionStorage.setItem('first', 'clicked')
+            })
+        })
 
-    <div class="row">
-
-    </div>
+    </script>
 @endsection

@@ -187,12 +187,15 @@
             </div>
         </div>
 
-
     </div>
+    <script>
+        $('.img-bg').each(function() {
+            $(this).click(function(e) {
+                sessionStorage.setItem('first', 'clicked')
+            })
+        })
 
-    <div class="row">
-
-    </div>
+    </script>
 <?php $__env->stopSection(); ?>
 
 <?php echo $__env->make('layout.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /opt/lampp/htdocs/career-module/resources/views/index.blade.php ENDPATH**/ ?>
