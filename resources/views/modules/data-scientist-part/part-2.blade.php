@@ -80,7 +80,9 @@
                             <textarea rows="5" class="form-control rounded mx-auto d-block mt-2"></textarea>
 
                             <div class="text-end mt-2">
-                                <button type="button" class="btn btn-primary" onclick="next(4, 3)">Submit</button>
+                                <a href="#data-centric">
+                                    <button type="button" class="btn btn-primary">Submit</button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -89,7 +91,7 @@
             </div>
 
             <div class="m-4">
-                <ul class="list-unstyled">
+                <ul class="list-unstyled" id="data-centric">
                     <li>As we live in a data-centric world, data science is applied in :
                         <ul class="mt-3 list-unstyled ul-check-mark">
                             <li><span>Healthcare</span></li>
@@ -126,7 +128,7 @@
                     </label>
                 </div>
                 <div class="text-end">
-                    <button class="btn btn-primary btn-sm px-3 mt-2" onclick="next(9, 3)">
+                    <button class="btn btn-primary btn-sm px-3 mt-2" onclick="next(1, 3)">
                         Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
                     </button>
                 </div>

@@ -29,7 +29,7 @@
                         <h2 class="accordion-header" id="p0-1">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c-p0-1"
                                 aria-expanded="true" aria-controls="c-p0-1">
-                                <i class="far fa-check-circle pe-2" id="ds-icon3-1"></i>
+                                <i class="far fa-check-circle pe-2" id="ds-icon0-1"></i>
                                 What is Data Science?
                             </button>
                         </h2>
@@ -50,7 +50,7 @@
                                 </div>
 
                                 <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                    <button class="btn btn-info btn-sm px-3" onclick="next(1, 3)">
+                                    <button class="btn btn-info btn-sm px-3" onclick="next(1, 1)">
                                         Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                     </button>
                                 </div>
@@ -62,7 +62,7 @@
                         <h2 class="accordion-header" id="p0-2">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#c-p0-2" aria-expanded="false" aria-controls="c-p0-2">
-                                <i class="far fa-check-circle pe-2" id="ds-icon3-2"></i>
+                                <i class="far fa-check-circle pe-2" id="ds-icon0-2"></i>
                                 Data Scientist as a career
                             </button>
                         </h2>
@@ -81,7 +81,7 @@
                                 </div>
 
                                 <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                    <button class="btn btn-info btn-sm px-3" onclick="next(2, 3)">
+                                    <button class="btn btn-info btn-sm px-3" onclick="next(2, 1)">
                                         Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                     </button>
                                 </div>
@@ -93,7 +93,7 @@
                         <h2 class="accordion-header" id="p0-3">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#c-p0-3" aria-expanded="false" aria-controls="c-p0-3">
-                                <i class="far fa-check-circle pe-2" id="ds-icon3-3"></i>
+                                <i class="far fa-check-circle pe-2" id="ds-icon0-3"></i>
                                 Do you know basketball uses data science?
                             </button>
                         </h2>
@@ -106,7 +106,7 @@
                                     allowfullscreen></iframe>
 
                                 <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                    <button class="btn btn-info btn-sm px-3" onclick="next(3, 3)">
+                                    <button class="btn btn-info btn-sm px-3" onclick="next(3, 1)">
                                         Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                     </button>
                                 </div>
@@ -118,7 +118,7 @@
                         <h2 class="accordion-header" id="p0-4">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#c-p0-4" aria-expanded="false" aria-controls="c-p0-4">
-                                <i class="far fa-check-circle pe-2" id="ds-icon3-4"></i>
+                                <i class="far fa-check-circle pe-2" id="ds-icon0-4"></i>
                                 A Day in a Life of a Data Scientist
                             </button>
                         </h2>
@@ -130,7 +130,7 @@
                                     <!-- INPUT VIDEO HERE -->
                                 </div>
                                 <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                    <button class="btn btn-info btn-sm px-3" onclick="next(4, 3)">
+                                    <button class="btn btn-info btn-sm px-3" onclick="next(4, 1)">
                                         Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                     </button>
                                 </div>
@@ -194,8 +194,8 @@
             let n = $('.accordion-item').length
             for (i = 1; i <= n; i++) {
                 if (sessionStorage.getItem('intro' + i) == 'read') {
-                    $('#ds-icon' + i).removeClass('far fa-check-circle')
-                    $('#ds-icon' + i).addClass('fas fa-check-circle text-success')
+                    $('#ds-icon0-' + i).removeClass('far fa-check-circle')
+                    $('#ds-icon0-' + i).addClass('fas fa-check-circle text-success')
                 }
             }
 
@@ -210,8 +210,8 @@
         function next(n, part) {
             sessionStorage.setItem("intro" + n, "read");
             if (sessionStorage.getItem('intro' + n) == 'read') {
-                $('#ds-icon' + n).removeClass('far fa-check-circle')
-                $('#ds-icon' + n).addClass('fas fa-check-circle text-success')
+                $('#ds-icon0-' + n).removeClass('far fa-check-circle')
+                $('#ds-icon0-' + n).addClass('fas fa-check-circle text-success')
             }
 
             let next = n + 1
