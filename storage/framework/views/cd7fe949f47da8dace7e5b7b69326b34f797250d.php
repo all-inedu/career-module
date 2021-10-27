@@ -1,6 +1,4 @@
-
-
-<div class="banner">
+<div class="banner banner-ds">
     <h1 class="title">
         Data Scientist <br>
         101
