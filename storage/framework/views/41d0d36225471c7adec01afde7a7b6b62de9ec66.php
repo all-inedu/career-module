@@ -3,20 +3,7 @@
 <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('banner'); ?>
-    <div class="banner">
-        <h1 class="title">
-            Digital Marketing <br>
-            Specialist 101
-        </h1>
-    </div>
-    <p class="mt-3">
-        This module consists of all the <b>background information</b> on <b> Digital Marketing Specialist</b> as a
-        career, 2 (two) <b>case
-            studies</b> and a final reflection. Complete all sections <b>in order</b> . Refer to Glossary and
-        Additional
-        Resources when
-        necessary.
-    </p>
+    <?php echo $__env->make('modules.digital-marketing.banner', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('sidebar'); ?>
@@ -40,9 +27,10 @@
                                 Case Study #1
                             </button>
                         </h2>
-                        <div id="part5-1" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                        <div id="part5-1" class="accordion-collapse show collapse"
+                            aria-labelledby="panelsStayOpen-headingOne">
                             <div class="accordion-body">
-                                <div class="row align-items-center">
+                                <div class="row align-items-center lh-md">
                                     <div class="col-md-12 mb-3 pc">
                                         <p class="text-justify" style="text-align: justify;">
                                             Mrs. Penny opened a store selling her handmade traditional snacks but, because
@@ -266,7 +254,7 @@
                                                                     onclick="csNext(3, 1)">
                                                                     Submit <i
                                                                         class=" far fa-arrow-alt-circle-right
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ps-2"></i>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ps-2"></i>
                                                                 </button>
                                                             </div>
                                                         </div>

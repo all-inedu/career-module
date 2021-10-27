@@ -21,7 +21,7 @@
             </div>
             <hr class="m-1 border-2 mx-auto" width="95%">
             <div class="card-body">
-                <div class="row mt-3">
+                <div class="row mt-3 lh-lg">
                     <div class="col-md-12 mb-3">
                         <h5 class="my-0">Core Tasks</h5>
                         <hr class="my-0 mb-3">

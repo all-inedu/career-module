@@ -28,9 +28,10 @@
                                 Case Study #1
                             </button>
                         </h2>
-                        <div id="part5-1" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                        <div id="part5-1" class="accordion-collapse show collapse"
+                            aria-labelledby="panelsStayOpen-headingOne">
                             <div class="accordion-body">
-                                <div class="row align-items-center">
+                                <div class="row align-items-center lh-md">
                                     <div class="col-md-12 mb-3 pc">
                                         <p class="text-justify" style="text-align: justify;">
                                             Mrs. Penny opened a store selling her handmade traditional snacks but, because
@@ -257,7 +258,7 @@
                                                                     onclick="csNext(3, 1)">
                                                                     Submit <i
                                                                         class=" far fa-arrow-alt-circle-right
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ps-2"></i>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ps-2"></i>
                                                                 </button>
                                                             </div>
                                                         </div>

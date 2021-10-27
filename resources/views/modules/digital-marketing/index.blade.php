@@ -28,22 +28,24 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#part1-3">
-                                <i class="far fa-check-circle pe-2" id="icon3"></i>
+                                data-bs-target="#part1-1">
+                                <i class="far fa-check-circle pe-2" id="icon1"></i>
                                 What is Digital Marketing?
                             </button>
                         </h2>
-                        <div id="part1-3" class="accordion-collapse show collapse">
+                        <div id="part1-1" class="accordion-collapse show collapse">
                             <div class="accordion-body">
                                 <div class="row align-items-center mb-4">
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 mb-3">
                                         <p class="pc">
-                                            They collaborated with a famous Korean boy band, BTS, who is very popular among
-                                            Indonesians. Hence, they are able to create a viral marketing strategy.
+                                            First of all, let’s remember the BTS meal hype a few months ago. Take a look at
+                                            how McDonalds made it successful. <br> <br>
+                                            They collaborated with a famous Korean boy band, BTS, who is very popular not
+                                            just among Indonesians, but K-Pop fan all over the world. Hence, they are able
+                                            to create a viral marketing strategy.
                                         </p>
-                                        <br><br>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 mb-3">
                                         <img class="img" src="{{ asset('img/data-marketing/btsmeal0.png') }}"
                                             width="100%">
                                     </div>
@@ -58,7 +60,7 @@
                                     <div class="col-md-12 mt-3">
                                         <p class="pc">
                                             <label class="mb-2">
-                                                Observe the Instagram posts McDonalds posted. What do you think makes the
+                                                Check out the Instagram posts McDonalds posted. What do you think makes the
                                                 strategy effective?
                                             </label>
                                             <textarea name="" class="form-control" rows="5"></textarea>
@@ -73,12 +75,12 @@
                                         <p>
                                             Do you know the newly released Instagram feature in 2021, Instagram Reels?
                                         </p>
-                                        <div class="pc">
+                                        <p class="pc">
                                             Instagram Reels or vertical video is one of the tools intended for accelerating
                                             marketing strategies. It provides new opportunities for marketers as they can be
                                             made into quick promotional videos. Digital marketing specialists should keep
                                             themselves updated with new technology like this.
-                                        </div>
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="row mt-3">
@@ -114,6 +116,29 @@
                                     <div class="col-md-12 text-end">
                                         <hr class="m-0 mb-2">
                                         <button class="btn btn-primary btn-sm px-3" onclick="next(1, 1)">
+                                            Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#part1-2">
+                                <i class="far fa-check-circle pe-2" id="icon2"></i>
+                                A Day in a Life of a Digital Marketing
+                            </button>
+                        </h2>
+                        <div id="part1-2" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <div class="row align-items-center mb-4">
+                                    <h3>Video</h3>
+                                    <div class="col-md-12 text-end">
+                                        <hr class="m-0 mb-2">
+                                        <button class="btn btn-primary btn-sm px-3" onclick="next(2, 1)">
                                             Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                         </button>
                                     </div>

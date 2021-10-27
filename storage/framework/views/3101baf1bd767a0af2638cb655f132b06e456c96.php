@@ -29,7 +29,7 @@
                                 Educational Pathway
                             </button>
                         </h2>
-                        <div id="part4-1" class="accordion-collapse collapse">
+                        <div id="part4-1" class="accordion-collapse show collapse">
                             <div class="accordion-body">
                                 <div class="row align-items-center">
                                     <div class="col-md-12">
