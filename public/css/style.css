@@ -46,12 +46,22 @@ ul.dash > li:before {
 }
 
 .banner {
-    background-image: url("../img/banner.webp");
     height: 350px;
     width: 100%;
+}
+
+.banner.banner-ds {
+    background-image: url("../img/CMW_Data Scientist Cover.webp");
     background-size: cover;
     background-position: 0 -152px;
 }
+
+.banner.banner-dm {
+    background-image: url("../img/CMW_Digital Marketing Cover.webp");
+    background-size: cover;
+    background-position: 0 -152px;
+}
+
 .banner .heading-title {
     position: absolute;
     bottom: 0;

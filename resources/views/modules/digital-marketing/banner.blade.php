@@ -1,4 +1,4 @@
-    <div class="banner">
+    <div class="banner banner-dm">
         <h1 class="title">
             Digital Marketing <br>
             Specialist 101
