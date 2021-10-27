@@ -184,7 +184,7 @@
     </div>
 
     <!-- Footer -->
-    <footer class="mt-5 py-5">
+    <footer class="mt-5 pt-4">
         <div class="container py-4">
             <div class="row">
                 <div class="col-md-4 mb-3">
