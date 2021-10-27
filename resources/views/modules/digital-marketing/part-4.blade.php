@@ -46,8 +46,10 @@
                                         </ul>
                                     </div>
                                     <div class="col-md-12 mt-3">
-                                        There is no single pathway to become digital
-                                        marketing specialist.
+                                        <p>
+                                            There is no single pathway to become digital
+                                            marketing specialist.
+                                        </p>
                                     </div>
                                     <div class="col-md-6">
                                         <img class="img" src="{{ asset('img/data-marketing/path0.png') }}" width="100%">

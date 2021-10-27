@@ -177,15 +177,17 @@
         }
 
         .list-group {
-            border: 1px solid #666666 !important;
+            /* border: 1px solid #666666 !important; */
         }
 
         .list-group-item {
-            border: 0px !important;
-            background: #c4c4c4 !important;
+            /* border: 0px !important; */
+            background: #243672 !important;
             /* padding: 2% 2% 2% 50% !important; */
             transition: all .2s ease-in-out;
             font-size: 15.5px !important;
+            color: #fff;
+            cursor: pointer;
         }
 
         .list-group-item.active {
@@ -194,8 +196,8 @@
         }
 
         .list-group-item:hover {
-            background: #383737 !important;
-            color: rgb(255, 255, 255) !important;
+            background: #FBAD3E !important;
+            color: rgb(0, 0, 0) !important;
         }
 
         .content {
@@ -396,6 +398,13 @@
                 }
                 sessionStorage.setItem('guideline', 'showed')
             }
+        })
+
+        $('.list-group-item').each(function() {
+            $(this).click(function() {
+                let href = $(this).find('a').attr('href')
+                window.location.href = href;
+            })
         })
 
     </script>

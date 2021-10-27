@@ -17,7 +17,7 @@
 
             <div class="pt-3 pb-2 ps-3">
                 <h3>What does a Digital Marketing
-                    Specialists do?</h3>
+                    Specialist do?</h3>
             </div>
             <hr class="m-1 border-2 mx-auto" width="95%">
             <div class="card-body">

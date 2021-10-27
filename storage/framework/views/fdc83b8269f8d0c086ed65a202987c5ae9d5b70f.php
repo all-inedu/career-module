@@ -137,8 +137,8 @@
                                     <h3>Video</h3>
                                     <div class="col-md-12 text-end">
                                         <hr class="m-0 mb-2">
-                                        <button class="btn btn-primary btn-sm px-3" onclick="next(2, 1)">
-                                            Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                        <button class="btn btn-info btn-sm px-3" onclick="next(2, 1)">
+                                            Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                         </button>
                                     </div>
                                 </div>
