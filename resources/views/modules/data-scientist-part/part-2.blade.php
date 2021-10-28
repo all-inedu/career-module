@@ -105,7 +105,7 @@
                         </p>
                     </div>
 
-                    <div class="row mt-3">
+                    <div class="row mt-3" id="data-centric">
                         <div class="col-md-12">
                             <h5 class="m-0 p-0">Data Scientist for business</h5>
                             <hr class="my-0 p-0 mb-3">

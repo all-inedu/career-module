@@ -58,7 +58,7 @@
                     <div id="c-p4-1" class="accordion-collapse collapse show" aria-labelledby="p4-1" data-bs-parent="#p4">
                         <div class="accordion-body">
                             <div class="col-md-12">
-                                <p>As data science is a relatively new field, some universities might offer it as a
+                                <div>As data science is a relatively new field, some universities might offer it as a
                                     specialization in the Computer Science course, or even as a postgraduate
                                     program.<br><br>
                                     One way to learn data science intensively is through <b>bootcamps</b>. Many <b>data
@@ -71,7 +71,7 @@
                                         data scientist</b>. Once you completed all the additional training -- in data
                                     visualization,
                                     business intelligence applications or relational database management -- you will be
-                                    promoted to mid- and advanced-level positions.</p>
+                                    promoted to mid- and advanced-level positions.</div>
                             </div>
 
                             <div class="col-md-12 text-end mt-4 pt-2 border-top">

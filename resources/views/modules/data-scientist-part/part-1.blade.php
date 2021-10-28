@@ -24,7 +24,7 @@
                     <!-- INPUT VIDEO HERE -->
                 </div>
 
-                <div class="mt-3">
+                <div class="mt-3" id="accordions">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="p0-1">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c-p0-1"
@@ -58,7 +58,7 @@
                                             </button>
                                         </h2>
 
-                                        <div id="c-p0-2" class="accordion-collapse collapse show" aria-labelledby="p0-2"
+                                        <div class="accordion-collapse collapse show" aria-labelledby="p0-2"
                                             data-bs-parent="#p0">
                                             <div class="accordion-body row" style="text-align: left;">
 
@@ -125,7 +125,7 @@
                                     <!-- INPUT VIDEO HERE -->
                                 </div>
                                 <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                    <button class="btn btn-info btn-sm px-3" onclick="next(4, 1)">
+                                    <button class="btn btn-info btn-sm px-3" onclick="next(2, 1)">
                                         Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                     </button>
                                 </div>
@@ -213,7 +213,7 @@
             $('#c-p0-' + n).collapse('toggle');
             $('#c-p0-' + next).collapse('toggle');
 
-            let j = $('.accordion-item').length
+            let j = $('#accordions > .accordion-item').length
             let z = 0
             for (i = 0; i <= j; i++) {
                 if (sessionStorage.getItem('intro' + i) == 'read') {

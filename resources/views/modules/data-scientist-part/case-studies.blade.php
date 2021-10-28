@@ -128,11 +128,9 @@
 
 
                                             <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                                <a href="#aws_1_cont">
-                                                    <button class="btn btn-primary btn-sm px-3">
-                                                        Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
-                                                    </button>
-                                                </a>
+                                                <button class="btn btn-primary btn-sm px-3" onclick="sub_next(1, 1, 5)">
+                                                    Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                                </button>
                                             </div>
 
                                             {{-- <div class="card">
@@ -318,131 +316,9 @@
 
 
                                             <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                                <a href="#aws_1_cont">
-                                                    <button class="btn btn-primary btn-sm px-3">
-                                                        Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
-                                                    </button>
-                                                </a>
-                                            </div>
-
-                                            {{-- <div class="card">
-                                                <!-- 1 -->
-                                                <div class="card-header">
-                                                    ANSWER - CRISP DM
-                                                </div>
-                                                <div class="card-body">
-                                                    <p>Professionals will be explaining about CRISP DM methodology as one of
-                                                        the
-                                                        most popular
-                                                        methodology
-                                                        that data scientist will use in order to gain more insight from the
-                                                        data.</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="card mt-3">
-                                                <!-- 2 -->
-                                                <div class="card-header">
-                                                    ANSWER - Business Understanding
-                                                </div>
-                                                <div class="card-body">
-                                                    <p>Professionals will be explaining about how does business accumen
-                                                        important in order to
-                                                        produce useful
-                                                        insights of the data science process.</p>
-                                                </div>
-                                            </div> --}}
-
-                                            <div style="display:none">
-                                                <div class="card mt-3">
-                                                    <!-- 4 -->
-                                                    <div class="card-header" id="aws_1_cont">
-                                                        ANSWER - EDA (Statistic)
-                                                    </div>
-                                                    <div class="card-body">
-                                                        <h6>How much average weekly sales per store?</h6>
-                                                        <p>In PivotChart, drag store column to Legend (Series)</p>
-                                                        <p>Drag Average of weekly sales to Values</p>
-
-                                                        <br>
-
-                                                        <div class="pb-3">
-                                                            <h6>Which stores is having highest average weekly sales?</h6>
-                                                            {{-- <p>Type MAX(3:3)</p> --}}
-                                                            <textarea id="aws_1" class="form-control w-100" id=""
-                                                                rows="5"></textarea>
-                                                        </div>
-
-                                                        <br>
-
-                                                        <div class="pb-3">
-                                                            <h6>Which stores is having lowest average weekly sales?</h6>
-                                                            {{-- <p>Type MIN(3:3)</p> --}}
-                                                            <textarea class="form-control w-100" id="" rows="5"></textarea>
-                                                        </div>
-
-                                                        <br>
-
-                                                        <div class="pb-3">
-                                                            <h6>Which month is having the average highest temperature?</h6>
-                                                            <p>In PivotChart, drag Date column to Rows</p>
-                                                            <p>Drag Average of Temperature to Values</p>
-                                                            {{-- <p>Type MAX(B:B)</p> --}}
-                                                            <textarea class="form-control w-100" id="" rows="5"></textarea>
-                                                        </div>
-
-                                                        <br>
-
-                                                        <div class="pb-3">
-                                                            <h6>Which month is having the average highest fuel price?</h6>
-                                                            <p>In PivotChart, drag Date column to Rows</p>
-                                                            <p>Drag Average of Fuel Price to Values</p>
-                                                            {{-- <p>Type MAX(B:B)</p> --}}
-                                                            <textarea class="form-control" id="" rows="5"></textarea>
-                                                        </div>
-
-                                                        <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                                            <a href="#aws_2_cont">
-                                                                <button class="btn btn-primary btn-sm px-3">
-                                                                    Submit <i
-                                                                        class="far fa-arrow-alt-circle-right ps-2"></i>
-                                                                </button>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="card mt-3">
-                                                    <!-- 5 -->
-                                                    <div class="card-header" id="aws_2_cont">
-                                                        ANSWER - Data Cleaning
-                                                    </div>
-                                                    <div class="card-body">
-                                                        <div class="pb-3" id="aws_2_cont">
-                                                            <h6>Which columns having missing values?</h6>
-                                                            <p>Filter each columns, see if a column is containing BLANKS</p>
-                                                            <textarea id="aws_2" class="form-control w-100" id=""
-                                                                rows="5"></textarea>
-                                                        </div>
-                                                        <br>
-
-                                                        <div class="pb-3">
-                                                            <h6>If any, please fill the missing values</h6>
-                                                            <p>Find average values for the missing columns, and fill the
-                                                                blank
-                                                                with
-                                                                it!</p>
-                                                            <textarea class="form-control w-100" id="" rows="5"></textarea>
-                                                        </div>
-
-                                                        <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                                            <button class="btn btn-primary btn-sm px-3"
-                                                                onclick="sub_next(1, 1, 5)">
-                                                                Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                                <button class="btn btn-primary btn-sm px-3" onclick="sub_next(1, 2, 5)">
+                                                    Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                                </button>
                                             </div>
                                         </div>
                                     </div>
@@ -476,11 +352,9 @@
 
 
                                             <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                                <a href="#aws_1_cont">
-                                                    <button class="btn btn-primary btn-sm px-3">
-                                                        Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
-                                                    </button>
-                                                </a>
+                                                <button class="btn btn-primary btn-sm px-3" onclick="sub_next(1, 3, 5)">
+                                                    Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                                </button>
                                             </div>
                                         </div>
                                     </div>
@@ -500,7 +374,7 @@
                                         <div class="accordion-body" style="text-align: left;">
                                             <h2>VIDEO 4 - CASE STUDY ANSWER</h2>
                                             <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                                <button class="btn btn-info btn-sm px-3" onclick="sub_next(1, 2, 5)">
+                                                <button class="btn btn-info btn-sm px-3" onclick="sub_next(1, 4, 5)">
                                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                                 </button>
                                             </div>
@@ -533,16 +407,16 @@
                                 <textarea class="form-control w-100 mb-3" id="" rows="5"></textarea>
 
                                 <div class="accordion-item">
-                                    <h2 class="accordion-header" id="p5-2-2">
+                                    <h2 class="accordion-header" id="p5-2-1">
                                         <button class="accordion-button bg-allin collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#c-p5-2-2" aria-expanded="false"
-                                            aria-controls="c-p5-2-2">
-                                            <i class="far fa-check-circle pe-2" id="ds-icon5-2-2"></i>
+                                            data-bs-toggle="collapse" data-bs-target="#c-p5-2-1" aria-expanded="false"
+                                            aria-controls="c-p5-2-1">
+                                            <i class="far fa-check-circle pe-2" id="ds-icon5-2-1"></i>
                                             Data Visualization
                                         </button>
                                     </h2>
 
-                                    <div id="c-p5-2-2" class="accordion-collapse collapse">
+                                    <div id="c-p5-2-1" class="accordion-collapse collapse">
                                         <div class="accordion-body">
                                             <h6>We will help you determine the suitable graph so you could get better
                                                 understanding of the raw data that you have proceed:
@@ -585,7 +459,7 @@
                                             </ol>
 
                                             <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                                <button class="btn btn-primary btn-sm px-3" onclick="sub_next(2, 2, 5)">
+                                                <button class="btn btn-primary btn-sm px-3" onclick="sub_next(2, 1, 5)">
                                                     Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                                 </button>
                                             </div>
@@ -594,16 +468,16 @@
                                 </div>
 
                                 <div class="accordion-item">
-                                    <h2 class="accordion-header" id="p5-2-3">
+                                    <h2 class="accordion-header" id="p5-2-2">
                                         <button class="accordion-button bg-allin collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#c-p5-2-3" aria-expanded="false"
-                                            aria-controls="c-p5-2-3">
-                                            <i class="far fa-check-circle pe-2" id="ds-icon5-2-3"></i>
+                                            data-bs-toggle="collapse" data-bs-target="#c-p5-2-2" aria-expanded="false"
+                                            aria-controls="c-p5-2-2">
+                                            <i class="far fa-check-circle pe-2" id="ds-icon5-2-2"></i>
                                             Simple Model Building
                                         </button>
                                     </h2>
 
-                                    <div id="c-p5-2-3" class="accordion-collapse collapse">
+                                    <div id="c-p5-2-2" class="accordion-collapse collapse">
                                         <div class="accordion-body">
 
                                             <div></div>
@@ -660,7 +534,7 @@
                                                 <input type="file" class="form-control">
                                             </ul>
                                             <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                                <button class="btn btn-primary btn-sm px-3" onclick="sub_next(2, 3, 5)">
+                                                <button class="btn btn-primary btn-sm px-3" onclick="sub_next(2, 2, 5)">
                                                     Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                                 </button>
                                             </div>
@@ -672,19 +546,19 @@
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
                                         <button class="accordion-button bg-allin collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#c-p5-2-4" aria-expanded="false"
-                                            aria-controls="c-p5-2-4">
-                                            <i class="far fa-check-circle pe-2" id="ds-icon5-2-4"></i>
+                                            data-bs-toggle="collapse" data-bs-target="#c-p5-2-3" aria-expanded="false"
+                                            aria-controls="c-p5-2-3">
+                                            <i class="far fa-check-circle pe-2" id="ds-icon5-2-3"></i>
                                             Case Study Answer
                                         </button>
                                     </h2>
 
-                                    <div id="c-p5-2-4" class="accordion-collapse collapse">
+                                    <div id="c-p5-2-3" class="accordion-collapse collapse">
                                         <div class="accordion-body">
                                             <h2>VIDEO 6 - CASE STUDY ANSWER</h2>
 
                                             <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                                <button class="btn btn-info btn-sm px-3" onclick="sub_next(2, 4, 5)">
+                                                <button class="btn btn-info btn-sm px-3" onclick="sub_next(2, 3, 5)">
                                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                                 </button>
                                             </div>
