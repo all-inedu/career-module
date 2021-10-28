@@ -45,14 +45,14 @@
 
                 <div class="accordion-item accordion-parent">
                     <h2 class="accordion-header" id="p5-1">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#c-p5-1" aria-expanded="false" aria-controls="c-p5-1">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c-p5-1"
+                            aria-expanded="true" aria-controls="c-p5-1">
                             <i class="far fa-check-circle pe-2" id="ds-icon5-1"></i>
                             Case Study #1
                         </button>
                     </h2>
 
-                    <div id="c-p5-1" class="accordion-collapse collapse" aria-labelledby="p5-2" data-bs-parent="#p5">
+                    <div id="c-p5-1" class="accordion-collapse collapse show" aria-labelledby="p5-2" data-bs-parent="#p5">
                         <div class="accordion-body" style="text-align: left;">
                             <div class="pc">
                                 <p>Data Science plays a huge role in many industries. One of the industry that are also
@@ -68,8 +68,12 @@
                                     Provide a
                                     step by
                                     step explanation of how the raw data will turn into visualization for a better
-                                    understanding.
-                                    (Expert pls provide the dataset)</p>
+                                    understanding.</p>
+                                <div class="text-center mb-4">
+                                    <a href="{{ asset('file/Retail Dataset Worksheet.xlsx') }}">
+                                        <button class="btn btn-primary btn-sm px-3">Download the Dataset</button>
+                                    </a>
+                                </div>
 
                                 <h2>VIDEO 3 - CASE STUDY EXPLANATION</h2>
 
@@ -79,12 +83,57 @@
                                             data-bs-toggle="collapse" data-bs-target="#c-p5-1-1" aria-expanded="false"
                                             aria-controls="c-p5-1-1">
                                             <i class="far fa-check-circle pe-2" id="ds-icon5-1-1"></i>
-                                            Answer
+                                            Understand the Data
                                         </button>
                                     </h2>
                                     <div id="c-p5-1-1" class="accordion-collapse collapse">
                                         <div class="accordion-body">
-                                            <div class="card">
+
+                                            <div>Try to understand the data letter by answering these questions:</div>
+
+                                            <hr>
+                                            <div>Check how many:</div>
+
+                                            <div class="sub-border">
+                                                <div class="pt-3 pb-3 ms-4">
+                                                    <h6 class="fw-normal">Columns and rows in the data?</h6>
+                                                    {{-- <p>Type UNIQUE(B:B)</p> --}}
+                                                    <textarea class="form-control w-100" id="" cols="30"
+                                                        rows="5"></textarea>
+                                                </div>
+
+                                                <div class="pt-3 pb-3 ms-4">
+                                                    <h6 class="fw-normal">Distinct stores in the data?</h6>
+                                                    {{-- <p>Type UNIQUE(B:B)</p> --}}
+                                                    <textarea class="form-control w-100" id="" cols="30"
+                                                        rows="5"></textarea>
+                                                </div>
+
+                                                <div class="pt-3 pb-3 ms-4">
+                                                    <h6 class="fw-normal">Distinct numbers of departments in
+                                                        the
+                                                        data?</h6>
+                                                    {{-- <p>Type UNIQUE(C:C)</p> --}}
+                                                    <textarea class="form-control w-100" id="" cols="30"
+                                                        rows="5"></textarea>
+                                                </div>
+                                            </div>
+
+                                            <div class="pt-3 pb-3">
+                                                <h6 class="fw-normal">Could you tell the date range in the data?</h6>
+                                                {{-- <p>Type MIN(D:D)</p>
+                                            <p>Type MAX{D:D)</p> --}}
+                                                <textarea class="form-control w-100" id="" cols="30" rows="5"></textarea>
+                                            </div>
+
+
+                                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
+                                                <button class="btn btn-primary btn-sm px-3" onclick="sub_next(1, 1, 5)">
+                                                    Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                                </button>
+                                            </div>
+
+                                            {{-- <div class="card">
                                                 <!-- 1 -->
                                                 <div class="card-header">
                                                     ANSWER - CRISP DM
@@ -110,157 +159,222 @@
                                                         produce useful
                                                         insights of the data science process.</p>
                                                 </div>
-                                            </div>
+                                            </div> --}}
 
-                                            <div class="card mt-3">
-                                                <!-- 3 -->
-                                                <div class="card-header">
-                                                    ANSWER - EDA
+                                            <div style="display:none">
+                                                <div class="card mt-3">
+                                                    <!-- 4 -->
+                                                    <div class="card-header" id="aws_1_cont">
+                                                        ANSWER - EDA (Statistic)
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <h6>How much average weekly sales per store?</h6>
+                                                        <p>In PivotChart, drag store column to Legend (Series)</p>
+                                                        <p>Drag Average of weekly sales to Values</p>
+
+                                                        <br>
+
+                                                        <div class="pb-3">
+                                                            <h6>Which stores is having highest average weekly sales?</h6>
+                                                            {{-- <p>Type MAX(3:3)</p> --}}
+                                                            <textarea id="aws_1" class="form-control w-100" id=""
+                                                                rows="5"></textarea>
+                                                        </div>
+
+                                                        <br>
+
+                                                        <div class="pb-3">
+                                                            <h6>Which stores is having lowest average weekly sales?</h6>
+                                                            {{-- <p>Type MIN(3:3)</p> --}}
+                                                            <textarea class="form-control w-100" id="" rows="5"></textarea>
+                                                        </div>
+
+                                                        <br>
+
+                                                        <div class="pb-3">
+                                                            <h6>Which month is having the average highest temperature?</h6>
+                                                            <p>In PivotChart, drag Date column to Rows</p>
+                                                            <p>Drag Average of Temperature to Values</p>
+                                                            {{-- <p>Type MAX(B:B)</p> --}}
+                                                            <textarea class="form-control w-100" id="" rows="5"></textarea>
+                                                        </div>
+
+                                                        <br>
+
+                                                        <div class="pb-3">
+                                                            <h6>Which month is having the average highest fuel price?</h6>
+                                                            <p>In PivotChart, drag Date column to Rows</p>
+                                                            <p>Drag Average of Fuel Price to Values</p>
+                                                            {{-- <p>Type MAX(B:B)</p> --}}
+                                                            <textarea class="form-control" id="" rows="5"></textarea>
+                                                        </div>
+
+                                                        <div class="col-md-12 text-end mt-4 pt-2 border-top">
+                                                            <a href="#aws_2_cont">
+                                                                <button class="btn btn-primary btn-sm px-3">
+                                                                    Submit <i
+                                                                        class="far fa-arrow-alt-circle-right ps-2"></i>
+                                                                </button>
+                                                            </a>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <div class="card-body">
-                                                    <div class="pt-3 pb-3">
-                                                        <h6>How many distinct stores in the data?</h6>
-                                                        {{-- <p>Type UNIQUE(B:B)</p> --}}
-                                                        <textarea class="form-control w-100" id="" cols="30"
-                                                            rows="5"></textarea>
-                                                    </div>
 
-                                                    <div class="pt-3 pb-3">
-                                                        <h6>How many distinct numbers of departments in the data?</h6>
-                                                        {{-- <p>Type UNIQUE(C:C)</p> --}}
-                                                        <textarea class="form-control w-100" id="" cols="30"
-                                                            rows="5"></textarea>
+                                                <div class="card mt-3">
+                                                    <!-- 5 -->
+                                                    <div class="card-header" id="aws_2_cont">
+                                                        ANSWER - Data Cleaning
                                                     </div>
+                                                    <div class="card-body">
+                                                        <div class="pb-3" id="aws_2_cont">
+                                                            <h6>Which columns having missing values?</h6>
+                                                            <p>Filter each columns, see if a column is containing BLANKS</p>
+                                                            <textarea id="aws_2" class="form-control w-100" id=""
+                                                                rows="5"></textarea>
+                                                        </div>
+                                                        <br>
 
-                                                    <div class="pt-3 pb-3">
-                                                        <h6>Could you tell the date range in the data?</h6>
-                                                        {{-- <p>Type MIN(D:D)</p>
-                                                    <p>Type MAX{D:D)</p> --}}
-                                                        <textarea class="form-control w-100" id="" cols="30"
-                                                            rows="5"></textarea>
-                                                    </div>
+                                                        <div class="pb-3">
+                                                            <h6>If any, please fill the missing values</h6>
+                                                            <p>Find average values for the missing columns, and fill the
+                                                                blank
+                                                                with
+                                                                it!</p>
+                                                            <textarea class="form-control w-100" id="" rows="5"></textarea>
+                                                        </div>
 
-                                                    <div class="pt-3 pb-3">
-                                                        <h6>How many different store types in the data?</h6>
-                                                        {{-- <p>Type UNIQUE(G:G)</p> --}}
-                                                        <textarea class="form-control w-100" id="" cols="30"
-                                                            rows="5"></textarea>
-                                                    </div>
-                                                    <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                                        <a href="#aws_1_cont">
-                                                            <button class="btn btn-primary btn-sm px-3">
+                                                        <div class="col-md-12 text-end mt-4 pt-2 border-top">
+                                                            <button class="btn btn-primary btn-sm px-3"
+                                                                onclick="sub_next(1, 1, 5)">
                                                                 Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                                             </button>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="card mt-3">
-                                                <!-- 4 -->
-                                                <div class="card-header" id="aws_1_cont">
-                                                    ANSWER - EDA (Statistic)
-                                                </div>
-                                                <div class="card-body">
-                                                    <h6>How much average weekly sales per store?</h6>
-                                                    <p>In PivotChart, drag store column to Legend (Series)</p>
-                                                    <p>Drag Average of weekly sales to Values</p>
-
-                                                    <br>
-
-                                                    <div class="pb-3">
-                                                        <h6>Which stores is having highest average weekly sales?</h6>
-                                                        {{-- <p>Type MAX(3:3)</p> --}}
-                                                        <textarea id="aws_1" class="form-control w-100" id=""
-                                                            rows="5"></textarea>
-                                                    </div>
-
-                                                    <br>
-
-                                                    <div class="pb-3">
-                                                        <h6>Which stores is having lowest average weekly sales?</h6>
-                                                        {{-- <p>Type MIN(3:3)</p> --}}
-                                                        <textarea class="form-control w-100" id="" rows="5"></textarea>
-                                                    </div>
-
-                                                    <br>
-
-                                                    <div class="pb-3">
-                                                        <h6>Which month is having the average highest temperature?</h6>
-                                                        <p>In PivotChart, drag Date column to Rows</p>
-                                                        <p>Drag Average of Temperature to Values</p>
-                                                        {{-- <p>Type MAX(B:B)</p> --}}
-                                                        <textarea class="form-control w-100" id="" rows="5"></textarea>
-                                                    </div>
-
-                                                    <br>
-
-                                                    <div class="pb-3">
-                                                        <h6>Which month is having the average highest fuel price?</h6>
-                                                        <p>In PivotChart, drag Date column to Rows</p>
-                                                        <p>Drag Average of Fuel Price to Values</p>
-                                                        {{-- <p>Type MAX(B:B)</p> --}}
-                                                        <textarea class="form-control" id="" rows="5"></textarea>
-                                                    </div>
-
-                                                    <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                                        <a href="#aws_2_cont">
-                                                            <button class="btn btn-primary btn-sm px-3">
-                                                                Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
-                                                            </button>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="card mt-3">
-                                                <!-- 5 -->
-                                                <div class="card-header" id="aws_2_cont">
-                                                    ANSWER - Data Cleaning
-                                                </div>
-                                                <div class="card-body">
-                                                    <div class="pb-3" id="aws_2_cont">
-                                                        <h6>Which columns having missing values?</h6>
-                                                        <p>Filter each columns, see if a column is containing BLANKS</p>
-                                                        <textarea id="aws_2" class="form-control w-100" id=""
-                                                            rows="5"></textarea>
-                                                    </div>
-                                                    <br>
-
-                                                    <div class="pb-3">
-                                                        <h6>If any, please fill the missing values</h6>
-                                                        <p>Find average values for the missing columns, and fill the blank
-                                                            with
-                                                            it!</p>
-                                                        <textarea class="form-control w-100" id="" rows="5"></textarea>
-                                                    </div>
-
-                                                    <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                                        <button class="btn btn-primary btn-sm px-3"
-                                                            onclick="sub_next(1, 1, 5)">
-                                                            Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
-                                                        </button>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
                                         <button class="accordion-button bg-allin collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#c-p5-1-2" aria-expanded="false"
                                             aria-controls="c-p5-1-2">
                                             <i class="far fa-check-circle pe-2" id="ds-icon5-1-2"></i>
+                                            Analyze the Data
+                                        </button>
+                                    </h2>
+                                    <div id="c-p5-1-2" class="accordion-collapse collapse">
+                                        <div class="accordion-body">
+
+                                            <div>Try to get some insights about weekly sales by answering these questions:
+                                            </div>
+
+                                            <div class="pt-3 pb-3">
+                                                <h6 class="fw-normal">How many different store types in the data?</h6>
+                                                {{-- <p>Type UNIQUE(B:B)</p> --}}
+                                                <textarea class="form-control w-100" id="" cols="30" rows="5"></textarea>
+                                            </div>
+
+                                            <div class="pt-3 pb-3">
+                                                <h6 class="fw-normal">How much average weekly sales per store?</h6>
+                                                {{-- <p>Type UNIQUE(B:B)</p> --}}
+                                                <textarea class="form-control w-100" id="" cols="30" rows="5"></textarea>
+                                            </div>
+
+                                            <hr>
+                                            <div>Which stores have</div>
+                                            <div class="sub-border">
+                                                <div class="pt-3 pb-3 ms-4">
+                                                    <h6 class="fw-normal">The highest average weekly sales?</h6>
+                                                    {{-- <p>Type UNIQUE(C:C)</p> --}}
+                                                    <textarea class="form-control w-100" id="" cols="30"
+                                                        rows="5"></textarea>
+                                                </div>
+
+                                                <div class="pt-3 pb-3 ms-4">
+                                                    <h6 class="fw-normal">The lowest average weekly sales?</h6>
+                                                    {{-- <p>Type MIN(D:D)</p>
+                                            <p>Type MAX{D:D)</p> --}}
+                                                    <textarea class="form-control w-100" id="" cols="30"
+                                                        rows="5"></textarea>
+                                                </div>
+
+                                                <div class="pt-3 pb-3 ms-4">
+                                                    <h6 class="fw-normal">The average highest temperature?</h6>
+                                                    <textarea class="form-control w-100" id="" cols="30"
+                                                        rows="5"></textarea>
+                                                </div>
+                                            </div>
+
+                                            <div class="pt-3 pb-3">
+                                                <h6 class="fw-normal">Which month is having the average highest fuel
+                                                    price?</h6>
+                                                <textarea class="form-control w-100" id="" cols="30" rows="5"></textarea>
+                                            </div>
+
+
+                                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
+                                                <button class="btn btn-primary btn-sm px-3" onclick="sub_next(1, 2, 5)">
+                                                    Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button bg-allin collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#c-p5-1-3" aria-expanded="false"
+                                            aria-controls="c-p5-1-3">
+                                            <i class="far fa-check-circle pe-2" id="ds-icon5-1-3"></i>
+                                            Data Cleaning
+                                        </button>
+                                    </h2>
+                                    <div id="c-p5-1-3" class="accordion-collapse collapse">
+                                        <div class="accordion-body">
+
+                                            <div>After you understand the data, try to clean it up!
+                                            </div>
+
+                                            <div class="pt-3 pb-3">
+                                                <h6 class="fw-normal">Which columns having missing values? If any,
+                                                    please fill the missing values</h6>
+                                                {{-- <p>Type UNIQUE(B:B)</p> --}}
+                                                <hr class="my-1">
+                                                <br>
+                                                Please upload your worksheet below
+                                                <br>
+                                                <input type="file" class="form-control">
+                                            </div>
+
+
+                                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
+                                                <button class="btn btn-primary btn-sm px-3" onclick="sub_next(1, 3, 5)">
+                                                    Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button bg-allin collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#c-p5-1-4" aria-expanded="false"
+                                            aria-controls="c-p5-1-4">
+                                            <i class="far fa-check-circle pe-2" id="ds-icon5-1-4"></i>
                                             Case Study Answer
                                         </button>
                                     </h2>
 
-                                    <div id="c-p5-1-2" class="accordion-collapse collapse">
+                                    <div id="c-p5-1-4" class="accordion-collapse collapse">
                                         <div class="accordion-body" style="text-align: left;">
                                             <h2>VIDEO 4 - CASE STUDY ANSWER</h2>
                                             <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                                <button class="btn btn-info btn-sm px-3" onclick="sub_next(1, 2, 5)">
+                                                <button class="btn btn-info btn-sm px-3" onclick="sub_next(1, 4, 5)">
                                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                                 </button>
                                             </div>
@@ -298,35 +412,52 @@
                                             data-bs-toggle="collapse" data-bs-target="#c-p5-2-1" aria-expanded="false"
                                             aria-controls="c-p5-2-1">
                                             <i class="far fa-check-circle pe-2" id="ds-icon5-2-1"></i>
-                                            Data Cleaning
+                                            Data Visualization
                                         </button>
                                     </h2>
 
                                     <div id="c-p5-2-1" class="accordion-collapse collapse">
                                         <div class="accordion-body">
-                                            <p>Professionals will be explaining about the importance of data cleaning
-                                                process
-                                                which includes
-                                                getting
-                                                rid of all inconsistencies, such as missing values and any redundant
-                                                variables
-                                            </p>
-                                            <ul>
-                                                <li>Check if the data have any missing values (NA) and analyze which
-                                                    variables
-                                                    have the null
-                                                    values
-                                                </li>
-                                                <li>Explain how to get rid of any unnecessary variable that isn’t essential
-                                                    for
-                                                    predicting
-                                                    the
-                                                    outcome</li>
-                                            </ul>
-                                            <p>The predictor variables used are <i>Store, Dept, Date, CPI, Weekly_Sales,
-                                                    IsHoliday</i></p>
+                                            <h6>We will help you determine the suitable graph so you could get better
+                                                understanding of the raw data that you have proceed:
+                                            </h6>
 
-                                            <textarea class="form-control" id="" cols="30" rows="5"></textarea>
+                                            <div>Now please try to create :</div>
+                                            <ol class="ol-cst mt-2">
+                                                <li>Time series graph:
+                                                    <ol type="a" class="mt-2">
+                                                        <li>on weekly sales per store</li>
+                                                        <li>on temperature</li>
+                                                        <li>on fuel price</li>
+                                                    </ol>
+
+                                                    <hr class="my-1">
+                                                    <br>
+                                                    Please upload your worksheet below
+                                                    <br>
+                                                    <input type="file" class="form-control">
+                                                    <br>
+                                                </li>
+                                                <li>Bar graph showing average weekly sales per store
+
+                                                    <hr class="my-1">
+                                                    <br>
+                                                    Please upload your worksheet below
+                                                    <br>
+                                                    <input type="file" class="form-control">
+                                                    <br>
+                                                </li>
+                                                <li>Scatter plot showing relationship between weekly sales and temperature.
+
+                                                    <hr class="my-1">
+                                                    <br>
+                                                    Please upload your worksheet below
+                                                    <br>
+                                                    <input type="file" class="form-control">
+                                                    <br>
+                                                </li>
+                                            </ol>
+
                                             <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                                 <button class="btn btn-primary btn-sm px-3" onclick="sub_next(2, 1, 5)">
                                                     Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
@@ -342,128 +473,51 @@
                                             data-bs-toggle="collapse" data-bs-target="#c-p5-2-2" aria-expanded="false"
                                             aria-controls="c-p5-2-2">
                                             <i class="far fa-check-circle pe-2" id="ds-icon5-2-2"></i>
-                                            Data Visualization
+                                            Simple Model Building
                                         </button>
                                     </h2>
 
                                     <div id="c-p5-2-2" class="accordion-collapse collapse">
                                         <div class="accordion-body">
-                                            <h6>Professionals giving lecture on Exploratory Data Analysis after having a
-                                                clean
-                                                data</h6>
+
+                                            <div></div>
+
                                             <ul>
-                                                <li>Explain data visualization - how to visualize data in the form of
-                                                    boxplots,
-                                                    graphs, etc.
-                                                </li>
-                                                <li>Explain data analysis - how to analyze each feature variable to check if
-                                                    the
-                                                    variables
-                                                    are
-                                                    significant for building the model</li>
-                                            </ul>
-
-                                            <textarea class="form-control mt-3" cols="30" rows="5"></textarea>
-
-                                            <br>
-
-                                            <h6>Create time series graph on weekly sales per store</h6>
-                                            <ul>
-                                                <li>In PivotChart, drag Date column to Rows or Axis (Categories)</li>
-                                                <li>Drag Average of Weekly Sales to Values</li>
-                                                <li>Change the chart to line chart</li>
-                                            </ul>
-
-                                            <textarea class="form-control mt-3" cols="30" rows="5"></textarea>
-
-                                            <br>
-
-                                            <h6>Create time series graph on temperature</h6>
-                                            <ul>
-                                                <li>In PivotChart, drag Date column to Rows or Axis (Categories)</li>
-                                                <li>Drag Average of Temperature to Values</li>
-                                                <li>Change the chart to line chart</li>
-                                            </ul>
-
-                                            <textarea class="form-control mt-3" cols="30" rows="5"></textarea>
-
-                                            <br>
-
-                                            <h6>Create time series graph on fuel price</h6>
-                                            <ul>
-                                                <li>In PivotChart, drag Date column to Rows or Axis (Categories)</li>
-                                                <li>Drag Average of Fuel Price to Values</li>
-                                                <li>Change the chart to line chart</li>
-                                            </ul>
-
-                                            <textarea class="form-control mt-3" cols="30" rows="5"></textarea>
-
-                                            <br>
-
-                                            <h6>Create bar graph showing average weekly sales per store</h6>
-                                            <ul>
-                                                <li>Drag Sum of Weekly Sales to Values</li>
-                                                <li>Drag Store to Legend (Series)</li>
-                                                <li>Change the chart to bar graph</li>
-                                            </ul>
-
-                                            <textarea class="form-control mt-3" cols="30" rows="5"></textarea>
-
-                                            <br>
-
-                                            <h6>Create scatter plot showing relationship between weekly sales and
-                                                temperature.
-                                            </h6>
-                                            <p>Select column Weekly Sales and Temperature</p>
-                                            <p>Click Insert and select scatter plot</p>
-                                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                                <button class="btn btn-primary btn-sm px-3" onclick="sub_next(2, 2, 5)">
-                                                    Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="p5-2-3">
-                                        <button class="accordion-button bg-allin collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#c-p5-2-3" aria-expanded="false"
-                                            aria-controls="c-p5-2-3">
-                                            <i class="far fa-check-circle pe-2" id="ds-icon5-2-3"></i>
-                                            Model Building
-                                        </button>
-                                    </h2>
-
-                                    <div id="c-p5-2-3" class="accordion-collapse collapse">
-                                        <div class="accordion-body">
-                                            <ul>
-                                                <h6>Professionals giving lecture on model building, specifically Linear
-                                                    Regression model for
-                                                    this
-                                                    problem since the outcome is a continuous variable (Number of sales)
+                                                <h6>After completing the data visualization, try to make the model building!
                                                 </h6>
 
                                                 <br>
 
                                                 <h6>Which column/columns is/are our target variable?</h6>
-                                                <li>Pick Weekly Sales as our target variable, and other numeric columns as
-                                                    predictor</li>
+                                                <li><span>Hint: Pick Weekly Sales as our target variable, and other numeric
+                                                        columns as
+                                                        predictor</span></li>
 
-                                                <textarea class="form-control mt-3" cols="30" rows="5"></textarea>
+                                                <hr class="my-1">
+                                                <br>
+                                                Please upload your worksheet below
+                                                <br>
+                                                <input type="file" class="form-control">
 
                                                 <br>
 
                                                 <h6>How many column/columns is/are eligible as features for linear
                                                     regression?
                                                 </h6>
-                                                <li>Choose columns with numeric value!</li>
+                                                <li>
+                                                    <spam>Hint: Choose columns with numeric value!</spam>
+                                                </li>
 
-                                                <textarea class="form-control mt-3" cols="30" rows="5"></textarea>
+                                                <hr class="my-1">
+                                                <br>
+                                                Please upload your worksheet below
+                                                <br>
+                                                <input type="file" class="form-control">
 
                                                 <br>
 
-                                                <h6>Which column/columns is/are our target variable?</h6>
+                                                <h6>Create simple linear regression with those columns!</h6>
+                                                Hint:
                                                 <li>Let’s create linear regression with formula of y = m1x1 + m2x2 + m3x3 +
                                                     m4x4
                                                     + m5x5 + b
@@ -473,10 +527,14 @@
                                                     b
                                                 </li>
 
-                                                <textarea class="form-control mt-3" cols="30" rows="5"></textarea>
+                                                <hr class="my-1">
+                                                <br>
+                                                Please upload your worksheet below
+                                                <br>
+                                                <input type="file" class="form-control">
                                             </ul>
                                             <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                                <button class="btn btn-primary btn-sm px-3" onclick="sub_next(2, 3, 5)">
+                                                <button class="btn btn-primary btn-sm px-3" onclick="sub_next(2, 2, 5)">
                                                     Submit <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                                 </button>
                                             </div>
@@ -488,19 +546,19 @@
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
                                         <button class="accordion-button bg-allin collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#c-p5-2-4" aria-expanded="false"
-                                            aria-controls="c-p5-2-4">
-                                            <i class="far fa-check-circle pe-2" id="ds-icon5-2-4"></i>
+                                            data-bs-toggle="collapse" data-bs-target="#c-p5-2-3" aria-expanded="false"
+                                            aria-controls="c-p5-2-3">
+                                            <i class="far fa-check-circle pe-2" id="ds-icon5-2-3"></i>
                                             Case Study Answer
                                         </button>
                                     </h2>
 
-                                    <div id="c-p5-2-4" class="accordion-collapse collapse">
+                                    <div id="c-p5-2-3" class="accordion-collapse collapse">
                                         <div class="accordion-body">
                                             <h2>VIDEO 6 - CASE STUDY ANSWER</h2>
 
                                             <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                                <button class="btn btn-info btn-sm px-3" onclick="sub_next(2, 4, 5)">
+                                                <button class="btn btn-info btn-sm px-3" onclick="sub_next(2, 3, 5)">
                                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                                 </button>
                                             </div>

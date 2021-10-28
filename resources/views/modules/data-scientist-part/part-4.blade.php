@@ -58,7 +58,7 @@
                     <div id="c-p4-1" class="accordion-collapse collapse show" aria-labelledby="p4-1" data-bs-parent="#p4">
                         <div class="accordion-body">
                             <div class="col-md-12">
-                                <p>As data science is a relatively new field, some universities might offer it as a
+                                <div>As data science is a relatively new field, some universities might offer it as a
                                     specialization in the Computer Science course, or even as a postgraduate
                                     program.<br><br>
                                     One way to learn data science intensively is through <b>bootcamps</b>. Many <b>data
@@ -71,7 +71,7 @@
                                         data scientist</b>. Once you completed all the additional training -- in data
                                     visualization,
                                     business intelligence applications or relational database management -- you will be
-                                    promoted to mid- and advanced-level positions.</p>
+                                    promoted to mid- and advanced-level positions.</div>
                             </div>
 
                             <div class="col-md-12 text-end mt-4 pt-2 border-top">
@@ -125,11 +125,11 @@
 
                                 <br>
 
-                                <p>Storytelling and interpersonal skills are two important skills that data scientist need
+                                <div>Storytelling and interpersonal skills are two important skills that data scientist need
                                     to have,
                                     as they are required to communicate insights from the processed data to the stakeholders
                                     in the
-                                    business field.</p>
+                                    business field.</div>
                             </div>
                             <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(2, 4)">
@@ -160,10 +160,10 @@
                                     <li><span>Acturial Science</span></li>
                                     <li><span>Business and Management</span></li>
                                 </ul>
-                                <p>
+                                <div class="mt-3">
                                     Some companies might also require specific additional background, like Biomedical
                                     Engineering to work as Data Scientist in a health-tech company.
-                                </p>
+                                </div>
                             </div>
                             <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(3, 4)">

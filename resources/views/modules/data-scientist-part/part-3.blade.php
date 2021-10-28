@@ -181,7 +181,7 @@
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
                             <div>
-                                <div class="pc">
+                                <div class="pc pb-4">
                                     <ul class="col-md-12">
                                         <li>Business Intelligence (BI) analysts transform data into insights that drive
                                             business
@@ -191,18 +191,34 @@
                                             to
                                             improve processes in the organization</li>
                                     </ul>
+
+                                    <div class="mt-4 p-4">
+                                        <div class="form-group">
+                                            <label>After getting to know briefly about the specializations of data
+                                                science,
+                                                which
+                                                one do you
+                                                find the most interesting?</label>
+                                            <br>
+                                            <textarea rows="5" class="form-control rounded mx-auto d-block mt-3"></textarea>
+                                        </div>
+                                        <br>
+                                        <button type="button" class="btn btn-primary float-end text-center"
+                                            onclick="next(5, 2)">Submit</button>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-md-12 text-end mt-4 pt-2 border-top">
+
+                            {{-- <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(5, 2)">
                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
                                 </button>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </div>
 
-                <div class="accordion-item">
+                {{-- <div class="accordion-item">
                     <h2 class="accordion-header" id="p2-6">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#c-p2-6" aria-expanded="false" aria-controls="c-p2-6">
@@ -230,7 +246,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
