@@ -39,7 +39,7 @@
                         <a class="nav-link" href="#career">Guideline Book</a>
                     </li>
                     <li class="nav-item" style=" white-space: nowrap;">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="{{ url('/about-us') }}">About Us</a>
                     </li>
                 </ul>
 
