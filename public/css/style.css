@@ -207,7 +207,7 @@ p {
 
 .img-bg {
     background: #fff8f1;
-    height: 200px;
+    /* height: 200px; */
     border-radius: 20px;
     transition: all 0.2s ease-in-out;
 }
