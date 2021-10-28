@@ -33,9 +33,6 @@
                         </p>
                     </div>
                 </div> --}}
-                <div class="sp text-center my-5">
-                    <h1 id="career"><b>Career Choices</b></h1>
-                </div>
                 <div class="text-center mb-5">
                     <p style="font-size: 18px">
                         Are you currently trying to figure out what you want as a career in the future?<br><br>
@@ -48,6 +45,10 @@
                         experience here.<br><br>
                         Let’s walk on your career exploration journey with ALL-in Career Module!
                     </p>
+                </div>
+
+                <div class="sp text-center my-5">
+                    <h1 id="career"><b>Career Choices</b></h1>
                 </div>
             </div>
         </div>
@@ -208,6 +209,5 @@
                 sessionStorage.setItem('first', 'clicked')
             })
         })
-
     </script>
 @endsection
