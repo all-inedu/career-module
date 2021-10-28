@@ -49,6 +49,12 @@
                     </p>
                 </div>
 
+                <div class="text-center">
+                    <a href="javascript:void(0)" onclick="show_guidebook()">
+                        <button class="btn btn-allin">Start Your Journey</button>
+                    </a>
+                </div>
+
                 <div class="sp text-center my-5">
                     <h1 id="career"><b>Career Choices</b></h1>
                 </div>

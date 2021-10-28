@@ -91,6 +91,32 @@
         </div>
     </footer>
 
+    <div class="modal fade" id="guideline">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Guideline Book</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="text-align: justify;">
+                    Before starting your career exploration journey, make sure to read our CAREER EXPLORATION
+                    GUIDEBOOK
+                    <ul class=" mt-2" style="margin-left:-10px;">
+                        <li>
+                            Career Roadmap
+                        </li>
+                        <li>
+                            Understanding breadth, depth, and choosing university major
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer mx-auto">
+                    <a href="#" type="button" class="btn btn-primary">Download the GUIDEBOOK</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
     </script>
@@ -104,6 +130,10 @@
 
         if (sessionStorage.getItem('data-science')) {
             $('#ds').removeClass('d-none')
+        }
+
+        function show_guidebook() {
+            $('#guideline').modal('show')
         }
     </script>
     <style>

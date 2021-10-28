@@ -300,3 +300,8 @@ p {
     height: 100%;
     opacity: 0.5;
 }
+
+.btn-allin {
+    background: #eeaa56;
+    padding: 1em 6em;
+}
