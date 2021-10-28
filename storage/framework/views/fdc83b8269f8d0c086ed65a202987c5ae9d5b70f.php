@@ -134,8 +134,11 @@
                         <div id="part1-2" class="accordion-collapse collapse">
                             <div class="accordion-body">
                                 <div class="row align-items-center mb-4">
-                                    <h3>Video</h3>
-                                    <div class="col-md-12 text-end">
+                                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/fQZ22xZ54vQ"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                    <div class="col-md-12 mt-3 text-end">
                                         <hr class="m-0 mb-2">
                                         <button class="btn btn-info btn-sm px-3" onclick="next(2, 1)">
                                             Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
