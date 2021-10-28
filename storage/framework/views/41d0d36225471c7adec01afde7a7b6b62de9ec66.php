@@ -53,7 +53,7 @@
                                             Penny strategize her social media marketing?
                                         </p>
                                         <br>
-                                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/PNkCR5rGIzw"
+                                        <iframe width="100%" height="500" src="https://www.youtube.com/embed/aUbclBphuC8"
                                             title="YouTube video player" frameborder="0"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen></iframe>
@@ -254,7 +254,7 @@
                                                                     onclick="csNext(3, 1)">
                                                                     Submit <i
                                                                         class=" far fa-arrow-alt-circle-right
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ps-2"></i>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ps-2"></i>
                                                                 </button>
                                                             </div>
                                                         </div>
@@ -275,7 +275,11 @@
                                                     <div class="accordion-body">
                                                         <div class="row align-items-center">
                                                             <div class="col-md-12 mb-3">
-                                                                <h1>Video</h1>
+                                                                <iframe width="100%" height="500"
+                                                                    src="https://www.youtube.com/embed/fH00AGQ2_54"
+                                                                    title="YouTube video player" frameborder="0"
+                                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                                    allowfullscreen></iframe>
                                                             </div>
                                                             <div class="col-md-12 text-end">
                                                                 <hr class="m-0 mb-2">

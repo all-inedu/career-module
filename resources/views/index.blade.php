@@ -33,174 +33,187 @@
                         </p>
                     </div>
                 </div> --}}
-                <div class="sp text-center my-5">
-                    <h1 id="career"><b>Career Choices</b></h1>
-                </div>
-                <div class="text-center mb-5">
-                    <p style="font-size: 18px">
-                        Are you currently trying to figure out what you want as a career in the future?<br><br>
-                        ALL-in Career Module is here to provide you the space to discover various job roles and
+                <div class="text-center my-5 px-5">
+                    <p style="font-size: 24px;" class="fst-italic">
+                        Are you currently trying to figure out what you want as a career in the future?
+                    </p>
+                    <p style="font-size: 20px">
+                        Career Exploration Module is here to provide you the space to discover various job roles and
                         industries of
                         your
                         interest. Learn the basic knowledge of each career and how to implement them through
                         hands-on
                         learning
                         experience here.<br><br>
-                        Let’s walk on your career exploration journey with ALL-in Career Module!
+                        <b>Let’s walk on your career exploration journey with Career Exploration Module!</b>
                     </p>
                 </div>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col">
-                <a href="{{ url('digital-marketing/part-1') }}">
-                    <div class="card border-allin">
-                        <div class="container2 img-bg">
-                            <img src="{{ asset('img/icon/CMW_1. Digital Marketing.webp') }}" class="card-img-top">
-                            <div class="bottom-right">Digital Marketing <br>Specialist
+        <div class="card border border-3">
+            <div class="card-body p-md-5 pt-0">
+                <div class="row">
+                    <div class="col-md-12 mb-2">
+                        <div class="text-start">
+                            <h3 id="career"><i class="far fa-hand-pointer pe-3"></i><b>Career Choices</b></h3>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <a href="{{ url('digital-marketing/part-1') }}">
+                            <div class="card border-allin">
+                                <div class="container2 img-bg">
+                                    <img src="{{ asset('img/icon/CMW_1. Digital Marketing.webp') }}" class="card-img-top">
+                                    <div class="bottom-right">Digital Marketing <br>Specialist
+                                    </div>
+                                    <i class="fas fa-check-circle text-success float-end mt-1 d-none icon-done" id="dm"></i>
+                                </div>
                             </div>
-                            <i class="fas fa-check-circle text-success float-end mt-1 d-none icon-done" id="dm"></i>
-                        </div>
+                        </a>
                     </div>
-                </a>
-            </div>
 
-            <div class="col">
-                <a href="{{ url('data-scientist/1') }}">
-                    <div class="card border-allin">
-                        <div class="container2 img-bg">
-                            <img src="{{ asset('img/icon/CMW_2. Data Scientist.webp') }}" class="card-img-top">
-                            <div class="bottom-right">Data Scientist
+                    <div class="col">
+                        <a href="{{ url('data-scientist/1') }}">
+                            <div class="card border-allin">
+                                <div class="container2 img-bg">
+                                    <img src="{{ asset('img/icon/CMW_2. Data Scientist.webp') }}" class="card-img-top">
+                                    <div class="bottom-right">Data Scientist
+                                    </div>
+                                    <i class="fas fa-check-circle text-success float-end mt-1 d-none icon-done" id="ds"></i>
+                                </div>
                             </div>
-                            <i class="fas fa-check-circle text-success float-end mt-1 d-none icon-done" id="ds"></i>
+                        </a>
+                    </div>
+
+                    <div class="col">
+                        <div class="card border-allin">
+                            <div class="container-overflow text-center pt-2">
+                                {{-- <img src="{{ asset('img/CMW_lock (black).webp') }}" class="img-lock"> --}}
+                            </div>
+                            <div class="container2 img-bg">
+                                <img src="{{ asset('img/icon/CMW_3. Full Stack Engineer.webp') }}"
+                                    class="card-img-top blur">
+                                <div class="bottom-right blur">Full Stack Engineering
+                                </div>
+
+                                <i class="fas fa-lock text-dark mt-1 float-start icon-lock"></i>
+                            </div>
                         </div>
                     </div>
-                </a>
-            </div>
 
-            <div class="col">
-                <div class="card border-allin">
-                    <div class="container-overflow text-center pt-2">
-                        {{-- <img src="{{ asset('img/CMW_lock (black).webp') }}" class="img-lock"> --}}
-                    </div>
-                    <div class="container2 img-bg">
-                        <img src="{{ asset('img/icon/CMW_3. Full Stack Engineer.webp') }}" class="card-img-top blur">
-                        <div class="bottom-right blur">Full Stack Engineering
+                    <div class="col">
+                        <div class="card border-allin">
+                            <div class="container-overflow text-center pt-2">
+                                {{-- <img src="{{ asset('img/CMW_lock (black).webp') }}" class="img-lock"> --}}
+                            </div>
+                            <div class="container2 img-bg">
+                                <img src="{{ asset('img/icon/CMW_4. UX Designer.webp') }}" class="card-img-top blur">
+                                <div class="bottom-right blur">UX Designer
+                                </div>
+
+                                <i class="fas fa-lock text-dark mt-1 float-start icon-lock"></i>
+                            </div>
                         </div>
+                    </div>
 
-                        <i class="fas fa-lock text-dark mt-1 float-start icon-lock"></i>
+                    <div class="col">
+                        <div class="card border-allin">
+                            <div class="container-overflow text-center pt-2">
+                                {{-- <img src="{{ asset('img/CMW_lock (black).webp') }}" class="img-lock"> --}}
+                            </div>
+                            <div class="container2 img-bg">
+                                <img src="{{ asset('img/icon/CMW_5.Biomedical Engineer.webp') }}"
+                                    class="card-img-top blur">
+                                <div class="bottom-right blur">Biomedical Engineering
+                                </div>
+
+                                <i class="fas fa-lock text-dark mt-1 float-start icon-lock"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row mt-3">
+                    <div class="col">
+                        <div class="card border-allin">
+                            <div class="container-overflow text-center pt-2">
+                                {{-- <img src="{{ asset('img/CMW_lock (black).webp') }}" class="img-lock"> --}}
+                            </div>
+                            <div class="container2 img-bg">
+                                <img src="{{ asset('img/icon/CMW_6.Investment Analyst.webp') }}"
+                                    class="card-img-top blur">
+                                <div class="bottom-right blur">Investment Analyst
+                                </div>
+
+                                <i class="fas fa-lock text-dark mt-1 float-start icon-lock"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card border-allin">
+                            <div class="container-overflow text-center pt-2">
+                                {{-- <img src="{{ asset('img/CMW_lock (black).webp') }}" class="img-lock"> --}}
+                            </div>
+                            <div class="container2 img-bg">
+                                <img src="{{ asset('img/icon/CMW_7. Psychologist.webp') }}" class="card-img-top blur">
+                                <div class="bottom-right blur">Psychologist
+                                </div>
+
+                                <i class="fas fa-lock text-dark mt-1 float-start icon-lock"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card border-allin">
+                            <div class="container-overflow text-center pt-2">
+                                {{-- <img src="{{ asset('img/CMW_lock (black).webp') }}" class="img-lock"> --}}
+                            </div>
+                            <div class="container2 img-bg">
+                                <img src="{{ asset('img/icon/CMW_8. Conten Creator.webp') }}" class="card-img-top blur">
+                                <div class="bottom-right blur">Content Creator
+                                </div>
+
+                                <i class="fas fa-lock text-dark mt-1 float-start icon-lock"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card border-allin">
+                            <div class="container-overflow text-center pt-2">
+                                {{-- <img src="{{ asset('img/CMW_lock (black).webp') }}" class="img-lock"> --}}
+                            </div>
+                            <div class="container2 img-bg">
+                                <img src="{{ asset('img/icon/CMW_9. Food Scientist.webp') }}" class="card-img-top blur">
+                                <div class="bottom-right blur">Food Scientist
+                                </div>
+
+                                <i class="fas fa-lock text-dark mt-1 float-start icon-lock"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card border-allin">
+                            <div class="container-overflow text-center pt-2">
+                                {{-- <img src="{{ asset('img/CMW_lock (black).webp') }}" class="img-lock"> --}}
+                            </div>
+                            <div class="container2 img-bg">
+                                <img src="{{ asset('img/icon/CMW_10. Medical Doctor.webp') }}" class="card-img-top blur">
+                                <div class="bottom-right blur">Medical Doctor
+                                </div>
+
+                                <i class="fas fa-lock text-dark mt-1 float-start icon-lock"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="col">
-                <div class="card border-allin">
-                    <div class="container-overflow text-center pt-2">
-                        {{-- <img src="{{ asset('img/CMW_lock (black).webp') }}" class="img-lock"> --}}
-                    </div>
-                    <div class="container2 img-bg">
-                        <img src="{{ asset('img/icon/CMW_4. UX Designer.webp') }}" class="card-img-top blur">
-                        <div class="bottom-right blur">UX Designer
-                        </div>
-
-                        <i class="fas fa-lock text-dark mt-1 float-start icon-lock"></i>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card border-allin">
-                    <div class="container-overflow text-center pt-2">
-                        {{-- <img src="{{ asset('img/CMW_lock (black).webp') }}" class="img-lock"> --}}
-                    </div>
-                    <div class="container2 img-bg">
-                        <img src="{{ asset('img/icon/CMW_5.Biomedical Engineer.webp') }}" class="card-img-top blur">
-                        <div class="bottom-right blur">Biomedical Engineering
-                        </div>
-
-                        <i class="fas fa-lock text-dark mt-1 float-start icon-lock"></i>
-                    </div>
-                </div>
-            </div>
-
         </div>
-        <div class="row mt-3">
-            <div class="col">
-                <div class="card border-allin">
-                    <div class="container-overflow text-center pt-2">
-                        {{-- <img src="{{ asset('img/CMW_lock (black).webp') }}" class="img-lock"> --}}
-                    </div>
-                    <div class="container2 img-bg">
-                        <img src="{{ asset('img/icon/CMW_6.Investment Analyst.webp') }}" class="card-img-top blur">
-                        <div class="bottom-right blur">Investment Analyst
-                        </div>
 
-                        <i class="fas fa-lock text-dark mt-1 float-start icon-lock"></i>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card border-allin">
-                    <div class="container-overflow text-center pt-2">
-                        {{-- <img src="{{ asset('img/CMW_lock (black).webp') }}" class="img-lock"> --}}
-                    </div>
-                    <div class="container2 img-bg">
-                        <img src="{{ asset('img/icon/CMW_7. Psychologist.webp') }}" class="card-img-top blur">
-                        <div class="bottom-right blur">Psychologist
-                        </div>
-
-                        <i class="fas fa-lock text-dark mt-1 float-start icon-lock"></i>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card border-allin">
-                    <div class="container-overflow text-center pt-2">
-                        {{-- <img src="{{ asset('img/CMW_lock (black).webp') }}" class="img-lock"> --}}
-                    </div>
-                    <div class="container2 img-bg">
-                        <img src="{{ asset('img/icon/CMW_8. Conten Creator.webp') }}" class="card-img-top blur">
-                        <div class="bottom-right blur">Content Creator
-                        </div>
-
-                        <i class="fas fa-lock text-dark mt-1 float-start icon-lock"></i>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card border-allin">
-                    <div class="container-overflow text-center pt-2">
-                        {{-- <img src="{{ asset('img/CMW_lock (black).webp') }}" class="img-lock"> --}}
-                    </div>
-                    <div class="container2 img-bg">
-                        <img src="{{ asset('img/icon/CMW_9. Food Scientist.webp') }}" class="card-img-top blur">
-                        <div class="bottom-right blur">Food Scientist
-                        </div>
-
-                        <i class="fas fa-lock text-dark mt-1 float-start icon-lock"></i>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card border-allin">
-                    <div class="container-overflow text-center pt-2">
-                        {{-- <img src="{{ asset('img/CMW_lock (black).webp') }}" class="img-lock"> --}}
-                    </div>
-                    <div class="container2 img-bg">
-                        <img src="{{ asset('img/icon/CMW_10. Medical Doctor.webp') }}" class="card-img-top blur">
-                        <div class="bottom-right blur">Medical Doctor
-                        </div>
-
-                        <i class="fas fa-lock text-dark mt-1 float-start icon-lock"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
     <script>
         $('.img-bg').each(function() {
