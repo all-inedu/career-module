@@ -39,9 +39,7 @@
                     </a>
                 </div>
 
-                <div class="sp text-center my-5">
-                    <h1 id="career"><b>Career Choices</b></h1>
-                </div>
+                <br><br>
             </div>
         </div>
 
@@ -50,7 +48,8 @@
                 <div class="row">
                     <div class="col-md-12 mb-2">
                         <div class="text-start">
-                            <h3 id="career"><i class="far fa-hand-pointer pe-3"></i><b>Career Choices</b></h3>
+                            <h3 id="career"><i class="far fa-hand-pointer pe-3"
+                                    style="transform:rotate(180deg)"></i>&nbsp;&nbsp;<b>Career Choices</b></h3>
                             <hr>
                         </div>
                     </div>
