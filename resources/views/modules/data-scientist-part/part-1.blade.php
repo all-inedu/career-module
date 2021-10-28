@@ -48,67 +48,62 @@
                                         using machine learning to better predict the future.
                                     </p>
                                 </div>
+                                <div class="accordion accordion-flush">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="p0-2">
+                                            <button class="accordion-button" type="button" aria-expanded="true"
+                                                aria-controls="c-p0-2">
+                                                <i class="far fa-check-circle pe-2" id="ds-icon0-2"></i>
+                                                Data Scientist as a career
+                                            </button>
+                                        </h2>
 
-                                <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                    <button class="btn btn-info btn-sm px-3" onclick="next(1, 1)">
-                                        Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                                        <div id="c-p0-2" class="accordion-collapse collapse show" aria-labelledby="p0-2"
+                                            data-bs-parent="#p0">
+                                            <div class="accordion-body row" style="text-align: left;">
 
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="p0-2">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#c-p0-2" aria-expanded="false" aria-controls="c-p0-2">
-                                <i class="far fa-check-circle pe-2" id="ds-icon0-2"></i>
-                                Data Scientist as a career
-                            </button>
-                        </h2>
+                                                <div class="col-md-12">
+                                                    <img src="{{ asset('img/yt-recommended.png') }}" width="100% ">
 
-                        <div id="c-p0-2" class="accordion-collapse collapse" aria-labelledby="p0-2" data-bs-parent="#p0">
-                            <div class="accordion-body row" style="text-align: left;">
+                                                    <p class="mt-3 pc">
+                                                        Have you ever watched YouTube? Do you know why the recommendations
+                                                        seem
+                                                        to fit your
+                                                        preferences?
+                                                    </p>
+                                                    <h5><strong>THAT’S THE WORK OF DATA SCIENTIST!</strong></h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
 
-                                <div class="col-md-12">
-                                    <img src="{{ asset('img/yt-recommended.png') }}" width="100% ">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="p0-3">
+                                            <button class="accordion-button" type="button" aria-expanded="true"
+                                                aria-controls="c-p0-3">
+                                                <i class="far fa-check-circle pe-2" id="ds-icon0-3"></i>
+                                                Do you know basketball uses data science?
+                                            </button>
+                                        </h2>
 
-                                    <p class="mt-3 pc">
-                                        Have you ever watched YouTube? Do you know why the recommendations seem to fit your
-                                        preferences?
-                                    </p>
-                                    <h5><strong>THAT’S THE WORK OF DATA SCIENTIST!</strong></h5>
-                                </div>
+                                        <div id="c-p0-3" class="accordion-collapse collapse show" aria-labelledby="p0-3"
+                                            data-bs-parent="#p0">
+                                            <div class="accordion-body">
+                                                <iframe width="100%" height="315"
+                                                    src="https://www.youtube.com/embed/MpLHMKTolVw" class="mx-auto d-block"
+                                                    title="YouTube video player" frameborder="0"
+                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                    allowfullscreen></iframe>
 
-                                <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                    <button class="btn btn-info btn-sm px-3" onclick="next(2, 1)">
-                                        Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
 
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="p0-3">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#c-p0-3" aria-expanded="false" aria-controls="c-p0-3">
-                                <i class="far fa-check-circle pe-2" id="ds-icon0-3"></i>
-                                Do you know basketball uses data science?
-                            </button>
-                        </h2>
-
-                        <div id="c-p0-3" class="accordion-collapse collapse" aria-labelledby="p0-3" data-bs-parent="#p0">
-                            <div class="accordion-body">
-                                <iframe width="100%" height="315" src="https://www.youtube.com/embed/MpLHMKTolVw"
-                                    class="mx-auto d-block" title="YouTube video player" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
-
-                                <div class="col-md-12 text-end mt-4 pt-2 border-top">
-                                    <button class="btn btn-info btn-sm px-3" onclick="next(3, 1)">
-                                        Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
-                                    </button>
+                                    <div class="col-md-12 text-end mt-4 pt-2">
+                                        <button class="btn btn-info btn-sm px-3" onclick="next(1, 1)">
+                                            Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>

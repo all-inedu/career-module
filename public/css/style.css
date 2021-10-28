@@ -39,11 +39,11 @@ ul.dash {
     list-style-type: none;
 }
 
-ul.dash>li {
+ul.dash > li {
     text-indent: -5px;
 }
 
-ul.dash>li:before {
+ul.dash > li:before {
     content: "-";
     text-indent: -5px;
 }
@@ -86,7 +86,7 @@ footer .social-media {
     font-size: 15px;
 }
 
-.ul-spacing li+li {
+.ul-spacing li + li {
     margin-top: 1em;
 }
 
@@ -132,10 +132,11 @@ ul li span {
 }
 
 .ol-cst li span {
-    margin-left: 0.6em;
+    margin-left: -10px;
 }
 
-.ol-cst li+li, .ul-cst li+li {
+.ol-cst li + li,
+.ul-cst li + li {
     margin-top: 0.5em;
 }
 
@@ -144,10 +145,10 @@ ul li span {
     font-weight: bold;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .body {
@@ -179,25 +180,25 @@ p {
     position: relative;
     text-align: center;
     color: #000;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .bottom-left {
     position: absolute;
     bottom: 8px;
-    left: 16px
+    left: 16px;
 }
 
 .top-left {
     position: absolute;
     top: 8px;
-    left: 16px
+    left: 16px;
 }
 
 .top-right {
     position: absolute;
     top: 8px;
-    right: 16px
+    right: 16px;
 }
 
 .card-img-top {
@@ -205,10 +206,10 @@ p {
 }
 
 .img-bg {
-    background: #FFF8F1;
+    background: #fff8f1;
     height: 200px;
     border-radius: 20px;
-    transition: all .2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .img-bg:hover {
@@ -216,7 +217,7 @@ p {
 }
 
 .bottom-right {
-    font-family: 'Roboto', sans-serif !important;
+    font-family: "Roboto", sans-serif !important;
     position: absolute;
     font-size: 13px;
     font-weight: 500;
@@ -229,7 +230,7 @@ p {
     position: absolute;
     bottom: 1%;
     left: 50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
 }
 
 .container-overflow {
@@ -239,16 +240,16 @@ p {
     width: 100%;
     /* height: 240px; */
     height: 100%;
-    transition: all .2s ease-in-out;
+    transition: all 0.2s ease-in-out;
     z-index: 999;
-    opacity: .1;
+    opacity: 0.1;
     cursor: pointer;
-    border-radius: 14px
+    border-radius: 14px;
 }
 
 .border-allin {
-    border: 3px solid #EEAA56 !important;
-    transition: all .2s ease-in-out;
+    border: 3px solid #eeaa56 !important;
+    transition: all 0.2s ease-in-out;
     border-radius: 20px;
 }
 
@@ -264,12 +265,12 @@ p {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    flex-wrap: wrap
+    flex-wrap: wrap;
 }
 
 .card {
     border: 1px solid #fff;
-    background-color: #fff
+    background-color: #fff;
 }
 
 .img-lock {
@@ -284,5 +285,18 @@ p {
 }
 
 .blur {
-    filter: blur(1px)
+    filter: blur(1px);
+}
+
+.sub-border {
+    position: relative;
+    padding-left: 10px;
+}
+
+.sub-border::before {
+    content: "";
+    border-left: 2px solid #303d6f;
+    position: absolute;
+    height: 100%;
+    opacity: 0.5;
 }

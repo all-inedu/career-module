@@ -125,11 +125,11 @@
 
                                 <br>
 
-                                <p>Storytelling and interpersonal skills are two important skills that data scientist need
+                                <div>Storytelling and interpersonal skills are two important skills that data scientist need
                                     to have,
                                     as they are required to communicate insights from the processed data to the stakeholders
                                     in the
-                                    business field.</p>
+                                    business field.</div>
                             </div>
                             <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(2, 4)">
@@ -160,10 +160,10 @@
                                     <li><span>Acturial Science</span></li>
                                     <li><span>Business and Management</span></li>
                                 </ul>
-                                <p>
+                                <div class="mt-3">
                                     Some companies might also require specific additional background, like Biomedical
                                     Engineering to work as Data Scientist in a health-tech company.
-                                </p>
+                                </div>
                             </div>
                             <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                 <button class="btn btn-info btn-sm px-3" onclick="next(3, 4)">
