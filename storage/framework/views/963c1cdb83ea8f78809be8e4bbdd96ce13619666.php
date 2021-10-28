@@ -32,6 +32,16 @@
                         <b>Let’s walk on your career exploration journey with Career Exploration Module!</b>
                     </p>
                 </div>
+
+                <div class="text-center">
+                    <a href="javascript:void(0)" onclick="show_guidebook()">
+                        <button class="btn btn-allin">Start Your Journey</button>
+                    </a>
+                </div>
+
+                <div class="sp text-center my-5">
+                    <h1 id="career"><b>Career Choices</b></h1>
+                </div>
             </div>
         </div>
 
@@ -48,7 +58,8 @@
                         <a href="<?php echo e(url('digital-marketing/part-1')); ?>">
                             <div class="card border-allin">
                                 <div class="container2 img-bg">
-                                    <img src="<?php echo e(asset('img/icon/CMW_1. Digital Marketing.webp')); ?>" class="card-img-top">
+                                    <img src="<?php echo e(asset('img/icon/CMW_1. Digital Marketing.webp')); ?>"
+                                        class="card-img-top">
                                     <div class="bottom-right">Digital Marketing <br>Specialist
                                     </div>
                                     <i class="fas fa-check-circle text-success float-end mt-1 d-none icon-done" id="dm"></i>
@@ -205,7 +216,6 @@
                 sessionStorage.setItem('first', 'clicked')
             })
         })
-
     </script>
 <?php $__env->stopSection(); ?>
 
