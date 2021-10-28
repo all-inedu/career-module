@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/about-us', function () {
+    return view('about-us');
+});
+
 Route::get('/digital-marketing/part-1', function() {
     return view('modules/digital-marketing/index');
 });
