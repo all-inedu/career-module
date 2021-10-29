@@ -5,34 +5,17 @@
 
 @section('content')
     <br>
-    <div class="container">
+    <div class="container position-relative">
+        <h1 class="float-end title-banner">
+            Welcome To <br>
+            Career Exploration <br> Module
+        </h1>
         <img src="{{ asset('img/CMW_Career module cover.webp') }}" width="100%" class="shadow">
     </div>
-    <h1 class="float-end"
-        style="position: absolute; margin-top: -13%; right: 15%; font-size: 3em; text-align: right; font-weight:bold;">
-        Welcome To <br>
-        Career Exploration <br> Module
-    </h1>
 
     <div class="container my-4">
         <div class="row">
             <div class="col-12">
-                {{-- <div class="card border mb-4 bg-light">
-                    <div class="card-body text-center px-4">
-                        <p style="font-size: 18px">
-                            <b>Are you currently trying to figure out what you want as a career in the future?<br><br>
-                                ALL-in Career Module is here to provide you the space to discover various job roles and
-                                industries of
-                                your
-                                interest. Learn the basic knowledge of each career and how to implement them through
-                                hands-on
-                                learning
-                                experience here.<br><br>
-                                Let’s walk on your career exploration journey with ALL-in Career Module!
-                            </b>
-                        </p>
-                    </div>
-                </div> --}}
                 <div class="text-center my-5 px-5">
                     <p style="font-size: 24px;" class="fst-italic">
                         Are you currently trying to figure out what you want as a career in the future?
@@ -146,7 +129,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
                 <div class="row mt-3">
                     <div class="col">

@@ -349,7 +349,7 @@
                                             competitior analysis, customer journey, and concept board to
                                             determine a week of content planning
                                         </p>
-                                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/eRgEIuHt5T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/YsxA_C80-Cc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                         <br>
                                         <div class="accordion my-2" id="accordionPanelsStayOpenExample">
                                             <div class="accordion-item dm-cs2">

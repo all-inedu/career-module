@@ -322,3 +322,12 @@ p {
 #reflection-btn {
     display: none;
 }
+
+.title-banner {
+    position: absolute;
+    right: 10%;
+    font-size: 4vw;
+    text-align: right;
+    font-weight: bold;
+    bottom: 0;
+}
