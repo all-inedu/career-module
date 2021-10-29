@@ -75,7 +75,7 @@
                                     </a>
                                 </div>
 
-                                <h2>VIDEO 3 - CASE STUDY EXPLANATION</h2>
+                                {{-- <h2>VIDEO 3 - CASE STUDY EXPLANATION</h2> --}}
 
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
@@ -372,7 +372,10 @@
 
                                     <div id="c-p5-1-4" class="accordion-collapse collapse">
                                         <div class="accordion-body" style="text-align: left;">
-                                            <h2>VIDEO 4 - CASE STUDY ANSWER</h2>
+                                            {{-- <h2>VIDEO 4 - CASE STUDY ANSWER</h2> --}}
+                                            <div>
+                                                <h4>Coming soon</h4>
+                                            </div>
                                             <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                                 <button class="btn btn-info btn-sm px-3" onclick="sub_next(1, 4, 5)">
                                                     Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
@@ -402,7 +405,7 @@
                                     visualization!
                                 </p>
 
-                                <h2>VIDEO 5 - CASE STUDY EXPLANATION</h2>
+                                {{-- <h2>VIDEO 5 - CASE STUDY EXPLANATION</h2> --}}
 
                                 <textarea class="form-control w-100 mb-3" id="" rows="5"></textarea>
 
@@ -555,7 +558,10 @@
 
                                     <div id="c-p5-2-3" class="accordion-collapse collapse">
                                         <div class="accordion-body">
-                                            <h2>VIDEO 6 - CASE STUDY ANSWER</h2>
+                                            {{-- <h2>VIDEO 6 - CASE STUDY ANSWER</h2> --}}
+                                            <div>
+                                                <h4>Coming soon</h4>
+                                            </div>
 
                                             <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                                 <button class="btn btn-info btn-sm px-3" onclick="sub_next(2, 3, 5)">

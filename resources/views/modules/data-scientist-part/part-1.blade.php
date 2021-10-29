@@ -20,10 +20,6 @@
                     </h3>
                 </div>
 
-                <div class="data-science-video mt-4">
-                    <!-- INPUT VIDEO HERE -->
-                </div>
-
                 <div class="mt-3" id="accordions">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="p0-1">
@@ -121,8 +117,8 @@
                         <div id="c-p0-4" class="accordion-collapse collapse" aria-labelledby="p0-4" data-bs-parent="#p0">
                             <div class="accordion-body">
 
-                                <div class="data-science-video">
-                                    <!-- INPUT VIDEO HERE -->
+                                <div>
+                                    <h4>Coming soon</h4>
                                 </div>
                                 <div class="col-md-12 text-end mt-4 pt-2 border-top">
                                     <button class="btn btn-info btn-sm px-3" onclick="next(2, 1)">

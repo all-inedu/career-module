@@ -347,10 +347,7 @@
                                             competitior analysis, customer journey, and concept board to
                                             determine a week of content planning
                                         </p>
-                                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/PNkCR5rGIzw"
-                                            title="YouTube video player" frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                            allowfullscreen></iframe>
+                                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/eRgEIuHt5T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                         <br>
                                         <div class="accordion my-2" id="accordionPanelsStayOpenExample">
                                             <div class="accordion-item dm-cs2">
@@ -541,7 +538,7 @@
                                                     <div class="accordion-body">
                                                         <div class="row align-items-center">
                                                             <div class="col-md-12 mb-3">
-                                                                <h1>Video</h1>
+                                                                <iframe width="100%" height="315" src="https://www.youtube.com/embed/5ScW5Fwu-ts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                                             </div>
                                                             <div class="col-md-12 text-end">
                                                                 <hr class="m-0 mb-2">
