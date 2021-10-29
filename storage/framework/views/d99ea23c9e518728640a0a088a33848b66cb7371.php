@@ -36,10 +36,11 @@
                         <a class="nav-link" aria-current="page" href="<?php echo e(url('')); ?>">Home</a>
                     </li>
                     <li class="nav-item" style=" white-space: nowrap;">
-                        <a class="nav-link" href="#career">Guideline Book</a>
+                        <a class="nav-link" href="<?php echo e(asset('file/CAREER  EXPLORATION  GUIDELINES.pdf')); ?>"
+                            target="_blank">Guideline Book</a>
                     </li>
                     <li class="nav-item" style=" white-space: nowrap;">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="<?php echo e(url('/about-us')); ?>">About Us</a>
                     </li>
                 </ul>
 
@@ -111,7 +112,8 @@
                     </ul>
                 </div>
                 <div class="modal-footer mx-auto">
-                    <a href="#" type="button" class="btn btn-primary">Download the GUIDEBOOK</a>
+                    <a href="<?php echo e(asset('file/CAREER  EXPLORATION  GUIDELINES.pdf')); ?>" target="_blank"
+                        class="btn btn-primary">Download the GUIDEBOOK</a>
                 </div>
             </div>
         </div>
@@ -135,6 +137,7 @@
         function show_guidebook() {
             $('#guideline').modal('show')
         }
+
     </script>
     <style>
         img {

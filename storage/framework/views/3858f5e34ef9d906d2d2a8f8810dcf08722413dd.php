@@ -139,7 +139,8 @@
                     </ul>
                 </div>
                 <div class="modal-footer mx-auto">
-                    <a href="#" type="button" class="btn btn-primary">Download the GUIDEBOOK</a>
+                    <a href="<?php echo e(asset('file/CAREER  EXPLORATION  GUIDELINES.pdf')); ?>" target="_blank"
+                        class="btn btn-primary">Download the GUIDEBOOK</a>
                 </div>
             </div>
         </div>
@@ -172,6 +173,7 @@
                 window.location.href = href;
             })
         })
+
     </script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
         integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous">

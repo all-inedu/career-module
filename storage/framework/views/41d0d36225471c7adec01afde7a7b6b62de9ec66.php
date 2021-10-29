@@ -100,8 +100,9 @@
                                                                         below!</b>
 
                                                                 <div class="text-center">
-                                                                    <button class="btn btn-primary btn-sm px-3">Download the
-                                                                        Worksheet</button>
+                                                                    <a href="<?php echo e(asset('file/digital-marketing/CS1 - BUYER PERSONA.xlsx')); ?>"
+                                                                        class="btn btn-primary btn-sm px-3">Download the
+                                                                        Worksheet</a>
                                                                 </div>
                                                                 </p>
                                                                 <hr class="my-1">
@@ -185,8 +186,9 @@
                                                                         below worksheet!</b>
                                                                 </p>
                                                                 <div class="text-center">
-                                                                    <button class="btn btn-primary btn-sm px-3">Download the
-                                                                        Worksheet</button>
+                                                                    <a href="<?php echo e(asset('file/digital-marketing/CS 1 - Determine Pains_Gains.xlsx')); ?>"
+                                                                        class="btn btn-primary btn-sm px-3">Download the
+                                                                        Worksheet</a>
                                                                 </div>
                                                                 <br>
                                                                 <hr class="my-1">
@@ -239,8 +241,9 @@
                                                                     below worksheet!
                                                                 </p>
                                                                 <div class="text-center">
-                                                                    <button class="btn btn-primary btn-sm px-3">Download the
-                                                                        Worksheet</button>
+                                                                    <a href="<?php echo e(asset('file/digital-marketing/CS1 - Social Media Marketing Strategy.xlsx')); ?>"
+                                                                        class="btn btn-primary btn-sm px-3">Download the
+                                                                        Worksheet</a>
                                                                 </div>
                                                                 <br>
                                                                 <hr class="my-1">
@@ -253,8 +256,7 @@
                                                                 <button class="btn btn-primary btn-sm px-3"
                                                                     onclick="csNext(3, 1)">
                                                                     Submit <i
-                                                                        class=" far fa-arrow-alt-circle-right
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ps-2"></i>
+                                                                        class=" far fa-arrow-alt-circle-right ps-2"></i>
                                                                 </button>
                                                             </div>
                                                         </div>
@@ -371,8 +373,9 @@
                                                                 </p>
 
                                                                 <div class="text-center">
-                                                                    <button class="btn btn-primary btn-sm px-3">Download the
-                                                                        Worksheet</button>
+                                                                    <a href="<?php echo e(asset('file/digital-marketing/CS2 - Competitor Analysis.xlsx')); ?>"
+                                                                        class="btn btn-primary btn-sm px-3">Download the
+                                                                        Worksheet</a>
                                                                 </div>
                                                                 </p>
                                                                 <hr class="my-1">
@@ -411,8 +414,9 @@
                                                                     width="100%">
 
                                                                 <div class="text-center">
-                                                                    <button class="btn btn-primary btn-sm px-3">Download the
-                                                                        Worksheet</button>
+                                                                    <a href="<?php echo e(asset('file/digital-marketing/CS2 - Competitor Analysis.xlsx')); ?>"
+                                                                        class="btn btn-primary btn-sm px-3">Download the
+                                                                        Worksheet</a>
                                                                 </div>
                                                                 </p>
                                                                 <hr class="my-1">
@@ -457,8 +461,9 @@
                                                                     width="100%">
 
                                                                 <div class="text-center">
-                                                                    <button class="btn btn-primary btn-sm px-3">Download the
-                                                                        Worksheet</button>
+                                                                    <a href="<?php echo e(asset('file/digital-marketing/CS2 - Concept Board.pptx')); ?>"
+                                                                        class="btn btn-primary btn-sm px-3">Download the
+                                                                        Slide</a>
                                                                 </div>
                                                                 </p>
                                                                 <hr class="my-1">
@@ -502,8 +507,9 @@
                                                                 </p>
 
                                                                 <div class="text-center mt-3">
-                                                                    <button class="btn btn-primary btn-sm px-3">Download the
-                                                                        Worksheet</button>
+                                                                    <a href="<?php echo e(asset('file/digital-marketing/CS2 - Marketing Planning.xlsx')); ?>"
+                                                                        class="btn btn-primary btn-sm px-3">Download the
+                                                                        Worksheet</a>
                                                                 </div>
                                                                 </p>
                                                                 <hr class="my-1">
