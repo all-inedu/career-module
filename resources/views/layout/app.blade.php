@@ -112,7 +112,7 @@
                     </ul>
                 </div>
                 <div class="modal-footer mx-auto">
-                    <a href="{{ asset('file/CAREER  EXPLORATION  GUIDELINES.pdf') }}" target="_blank"
+                    <a href="{{ asset('file/CAREER  EXPLORATION  GUIDELINES.pdf') }}" id="download-guidebook" target="_blank"
                         class="btn btn-primary">Download the GUIDEBOOK</a>
                 </div>
             </div>
@@ -125,6 +125,20 @@
     <script>
         // sessionStorage.clear();
 
+        $("#download-guidebook").click(function(e) {
+            e.preventDefault();
+            if (!sessionStorage.getItem('download-guidebook')) {
+                let url = $(this).attr('href');
+                window.open(url);
+                sessionStorage.setItem('download-guidebook', true);
+                location.reload();
+            }
+        });
+
+        if (sessionStorage.getItem('download-guidebook')) {
+            $("#reflection-btn").show();
+        }
+
 
         if (sessionStorage.getItem('digital-marketing')) {
             $('#dm').removeClass('d-none')
@@ -134,9 +148,15 @@
             $('#ds').removeClass('d-none')
         }
 
-        function show_guidebook() {
+        $("#start-your-journey-btn").click(function() {
             $('#guideline').modal('show')
-        }
+        })
+
+        $("#reflection-btn").click(function(e) {
+            e.preventDefault();
+            let url = $(this).attr('href');
+            window.open(url);
+        })
 
     </script>
     <style>

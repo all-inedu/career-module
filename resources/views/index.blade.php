@@ -50,8 +50,12 @@
                 </div>
 
                 <div class="text-center">
-                    <a href="javascript:void(0)" onclick="show_guidebook()">
+                    <a href="javascript:void(0)" class="text-decoration-none" id="start-your-journey-btn">
                         <button class="btn btn-allin">Start Your Journey</button>
+                    </a>
+
+                    <a href="{{ asset('file/Initial Reflection.xlsx') }}" class="text-decoration-none" id="reflection-btn">
+                        <button class="btn btn-allin-blue">Reflection</button>
                     </a>
                 </div>
 

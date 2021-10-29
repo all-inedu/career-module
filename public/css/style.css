@@ -311,3 +311,14 @@ p {
 .bg-orange {
     background-color: #f99b24;
 }
+
+.btn-allin-blue {
+    background: #22366F;
+    color: #fff;
+    padding: 0.5em 3em;
+    box-shadow: 3px 3px 9px -3px rgb(0 0 0 / 50%);
+}
+
+#reflection-btn {
+    display: none;
+}

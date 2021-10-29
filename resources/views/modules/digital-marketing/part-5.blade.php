@@ -415,7 +415,7 @@
                                                                     width="100%">
 
                                                                 <div class="text-center">
-                                                                    <a href="{{ asset('file/digital-marketing/CS2 - Competitor Analysis.xlsx') }}"
+                                                                    <a href="{{ asset('file/digital-marketing/CS2 - Customer Journey.xlsx') }}"
                                                                         class="btn btn-primary btn-sm px-3">Download the
                                                                         Worksheet</a>
                                                                 </div>
