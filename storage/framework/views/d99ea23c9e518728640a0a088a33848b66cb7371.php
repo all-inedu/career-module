@@ -36,10 +36,11 @@
                         <a class="nav-link" aria-current="page" href="<?php echo e(url('')); ?>">Home</a>
                     </li>
                     <li class="nav-item" style=" white-space: nowrap;">
-                        <a class="nav-link" href="#career">Guideline Book</a>
+                        <a class="nav-link" href="<?php echo e(asset('file/CAREER  EXPLORATION  GUIDELINES.pdf')); ?>"
+                            target="_blank">Guideline Book</a>
                     </li>
                     <li class="nav-item" style=" white-space: nowrap;">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="<?php echo e(url('/about-us')); ?>">About Us</a>
                     </li>
                 </ul>
 
@@ -65,7 +66,7 @@
                     <i class="fab fa-instagram fa-fw"></i> <a href="https://www.instagram.com/allineduspace/"
                         target="_blank">@allineduspace</a>
                 </div>
-                <div class="col-md-5 mb-3">
+                <div class="col-md-5 mb-3 ps-md-5">
                     <i class="fas fa-mobile-alt fa-fw"></i> <a href="https://wa.me/6281808081363" target="_blank">+62
                         818-0808-1363</a> /
                     <a href="https://wa.me/6287860811413" target="_blank">+62 878-6081-1413</a> <br>
@@ -83,13 +84,40 @@
                     #itsALLintheprep <br>
                     #TakeOnYourFuture
                 </div>
-                <div class="col-md-5 mb-3">
+                <div class="col-md-5 mb-3 ps-md-5">
                     Copyright © 2021 · ALL-in Eduspace. <br>
                     All rights reserved.
                 </div>
             </div>
         </div>
     </footer>
+
+    <div class="modal fade" id="guideline">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Guideline Book</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="text-align: justify;">
+                    Before starting your career exploration journey, make sure to read our CAREER EXPLORATION
+                    GUIDEBOOK
+                    <ul class=" mt-2" style="margin-left:-10px;">
+                        <li>
+                            Career Roadmap
+                        </li>
+                        <li>
+                            Understanding breadth, depth, and choosing university major
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer mx-auto">
+                    <a href="<?php echo e(asset('file/CAREER  EXPLORATION  GUIDELINES.pdf')); ?>" target="_blank"
+                        class="btn btn-primary">Download the GUIDEBOOK</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
@@ -104,6 +132,10 @@
 
         if (sessionStorage.getItem('data-science')) {
             $('#ds').removeClass('d-none')
+        }
+
+        function show_guidebook() {
+            $('#guideline').modal('show')
         }
 
     </script>
