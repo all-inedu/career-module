@@ -4,19 +4,17 @@
 
 <?php $__env->startSection('content'); ?>
     <br>
-    <div class="container">
+    <div class="container position-relative">
+        <h1 class="float-end title-banner">
+            Welcome To <br>
+            Career Exploration <br> Module
+        </h1>
         <img src="<?php echo e(asset('img/CMW_Career module cover.webp')); ?>" width="100%" class="shadow">
     </div>
-    <h1 class="float-end"
-        style="position: absolute; margin-top: -13%; right: 15%; font-size: 3em; text-align: right; font-weight:bold;">
-        Welcome To <br>
-        Career Exploration <br> Module
-    </h1>
 
     <div class="container my-4">
         <div class="row">
             <div class="col-12">
-                
                 <div class="text-center my-5 px-5">
                     <p style="font-size: 24px;" class="fst-italic">
                         Are you currently trying to figure out what you want as a career in the future?
@@ -34,8 +32,12 @@
                 </div>
 
                 <div class="text-center">
-                    <a href="javascript:void(0)" onclick="show_guidebook()">
+                    <a href="javascript:void(0)" class="text-decoration-none" id="start-your-journey-btn">
                         <button class="btn btn-allin">Start Your Journey</button>
+                    </a>
+
+                    <a href="<?php echo e(asset('file/Initial Reflection.xlsx')); ?>" class="text-decoration-none" id="reflection-btn">
+                        <button class="btn btn-allin-blue">Reflection</button>
                     </a>
                 </div>
 
@@ -126,7 +128,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
                 <div class="row mt-3">
                     <div class="col">

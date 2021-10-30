@@ -21,29 +21,31 @@
 
 <body>
     <section class="body"></section>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f7f7f7;">
-        <div class="container my-1">
-            <a class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('img/logo-1.png') }}"
-                    width="30%" /></a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <img src="{{ asset('img/logo-1.png') }}" width="16%" class="navbar-brand" />
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item" style=" white-space: nowrap;">
-                        <a class="nav-link" aria-current="page" href="{{ url('') }}">Home</a>
-                    </li>
-                    <li class="nav-item" style=" white-space: nowrap;">
-                        <a class="nav-link" href="{{ asset('file/CAREER  EXPLORATION  GUIDELINES.pdf') }}"
-                            target="_blank">Guideline Book</a>
-                    </li>
-                    <li class="nav-item" style=" white-space: nowrap;">
-                        <a class="nav-link" href="{{ url('/about-us') }}">About Us</a>
-                    </li>
-                </ul>
-
+                <div class="navbar-nav me-auto mb-2 mb-lg-0">
+                </div>
+                <div class="d-flex">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="{{ url('') }}">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ asset('file/CAREER  EXPLORATION  GUIDELINES.pdf') }}"
+                                target="_blank">Guideline Book</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url('/about-us') }}">About Us</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
@@ -112,8 +114,8 @@
                     </ul>
                 </div>
                 <div class="modal-footer mx-auto">
-                    <a href="{{ asset('file/CAREER  EXPLORATION  GUIDELINES.pdf') }}" id="download-guidebook" target="_blank"
-                        class="btn btn-primary">Download the GUIDEBOOK</a>
+                    <a href="{{ asset('file/CAREER  EXPLORATION  GUIDELINES.pdf') }}" id="download-guidebook"
+                        target="_blank" class="btn btn-primary">Download the GUIDEBOOK</a>
                 </div>
             </div>
         </div>
@@ -256,9 +258,9 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
         integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+    {{-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
         integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous">
-    </script>
+    </script> --}}
 </body>
 
 </html>

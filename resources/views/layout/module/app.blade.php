@@ -24,26 +24,29 @@
     <div class="body"></div>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #f7f7f7;">
         <div class="container my-1">
-            <a class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('img/logo-1.png') }}"
-                    width="30%" /></a>
+            <img src="{{ asset('img/logo-1.png') }}" width="16%" class="navbar-brand" />
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item" style=" white-space: nowrap;">
-                        <a class="nav-link" aria-current="page" href="{{ url('') }}">Home</a>
-                    </li>
-                    <li class="nav-item" style=" white-space: nowrap;">
-                        <a class="nav-link" href="#career">Guideline Book</a>
-                    </li>
-                    <li class="nav-item" style=" white-space: nowrap;">
-                        <a class="nav-link" href="#">About Us</a>
-                    </li>
-                </ul>
-
+                <div class="navbar-nav me-auto mb-2 mb-lg-0">
+                </div>
+                <div class="d-flex">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="{{ url('') }}">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ asset('file/CAREER  EXPLORATION  GUIDELINES.pdf') }}"
+                                target="_blank">Guideline Book</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url('/about-us') }}">About Us</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
