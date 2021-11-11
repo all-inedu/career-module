@@ -4,14 +4,7 @@
 @endsection
 
 @section('banner')
-    <div class="banner">
-        <div class="container">
-            <h1 class="title">
-                Data Science <br>
-                101
-            </h1>
-        </div>
-    </div>
+    @include('modules.data-scientist-part.banner')
 @stop
 
 @section('sidebar')
@@ -21,38 +14,50 @@
 @section('content')
     <div class="content">
         <div class="card p-3">
-            <div class="accordion accordion-flush" id="p6">
-                <div class="border-bottom">
-                    <h3 class="section-header" id="p6-header">
+            <div class="accordion accordion-flush" id="p7">
+                <div class="accordion-header">
+                    <h3 class="section-header" id="p7-header">
                         <div>Glossary</div>
                     </h3>
                 </div>
-
-                <div class="pt-4">
-                    <ul class="ul-spacing">
-                        <li><b>Business Intelligence (BI):</b> the discipline of analyzing and transforming data to extract
-                            valuable
-                            business insights to enable decision-making</li>
-                        <li><b>Data wrangling (munging):</b> the process of cleaning, structuring and enriching raw data
-                            into a desired
-                            format for better decision making in less time</li>
-                        <li><b>Data warehouse:</b> central repository of information that can be used to analyze and make
-                            more informed
-                            decisions</li>
-                        <li><b>Data mining:</b> a process of extracting and discovering patterns in large data sets</li>
-                        <li><b>Artificial Intelligence (AI):</b> the ability of a machine to mimic the capabilities of the
-                            human mind
-                        </li>
-                        <li><b>Machine learning:</b> a subset of the artificial intelligence (AI) discipline that provides
-                            systems the
-                            ability to automatically learn and improve from experience without being explicitly programmed
-                        </li>
-                        <li><b>Deep learning:</b> a technique that falls into the machine learning discipline based on
-                            artificial neural
-                            networks. It learns from vast amounts of data and finds patterns from unstructured data such as
-                            text and
-                            images</li>
-                    </ul>
+                <hr class="m-1 border-2 mx-auto" width="95%">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <b>Artifical Intelligence (AI):</b> the ability of a machine to mimic the capabilities
+                                    of the human mind.
+                                    <hr>
+                                    <b>Business Intelligence (BI):</b> the discipline of analyzing and transforming data to
+                                    extract valuable business insights to enable decision-making.
+                                    <hr>
+                                    <b>Data Mining:</b> a process of extracting and discovering patterns in large data sets.
+                                    <hr>
+                                    <b>Data Warehouse:</b> central repository of information that can be used to analyze and
+                                    make more informed decisions.
+                                    <hr>
+                                    <b>Data Wrangling (munging):</b> the process of cleaning, structuring and enriching raw
+                                    data into a desired format for better decision making in less time.
+                                    <hr>
+                                    <b>Deep Learning:</b> a technique that falls into the machine learning discipline based
+                                    on artificial neural networks. It learns from vast amounts of data and finds patterns
+                                    from unstructured data such as text and images.
+                                    <hr>
+                                    <b>Machine Learning:</b> a subset of the artificial intelligence (AI) discipline that
+                                    provides systems the ability to automatically learn and improve from experience without
+                                    being explicitly programmed.
+                                </div>
+                            </div>
+                            <br>
+                            <hr>
+                            <div class="text-end">
+                                <button class="btn btn-info btn-sm px-3" onclick="next(1, 7)">
+                                    Next <i class="far fa-arrow-alt-circle-right ps-2"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -63,35 +68,35 @@
             // sessionStorage.clear();
             let n = $('.accordion-item').length
             for (i = 1; i <= n; i++) {
-                if (sessionStorage.getItem('c-p6-' + i) == 'read') {
-                    $('#icon6-' + i).removeClass('far fa-check-circle')
-                    $('#icon6-' + i).addClass('fas fa-check-circle')
+                if (sessionStorage.getItem('c-p7-' + i) == 'read') {
+                    $('#icon7-' + i).removeClass('far fa-check-circle')
+                    $('#icon7-' + i).addClass('fas fa-check-circle text-success')
                 }
             }
 
             let nPart = $('.list-group-item').length
             for (i = 1; i <= nPart; i++) {
                 if (sessionStorage.getItem('part' + i) == 'done') {
-                    $('#iconPart' + i).addClass('fas fa-check-circle float-end mt-1')
+                    $('#ds-iconPart' + i).addClass('fas fa-check-circle float-end mt-1 text-success')
                 }
             }
         });
 
         function next(n, part) {
-            sessionStorage.setItem("c-p6-" + n, "read");
-            if (sessionStorage.getItem('c-p6-' + n) == 'read') {
-                $('#icon6-' + n).removeClass('far fa-check-circle')
-                $('#icon6-' + n).addClass('fas fa-check-circle')
+            sessionStorage.setItem("c-p7-" + n, "read");
+            if (sessionStorage.getItem('c-p7-' + n) == 'read') {
+                $('#icon7-' + n).removeClass('far fa-check-circle')
+                $('#icon7-' + n).addClass('fas fa-check-circle text-success')
             }
 
             let next = n + 1
-            $('#c-p6-' + n).collapse('toggle');
-            $('#c-p6-' + next).collapse('toggle');
+            $('#c-p7-' + n).collapse('toggle');
+            $('#c-p7-' + next).collapse('toggle');
 
             let j = $('.accordion-item').length
             let z = 0
             for (i = 0; i <= j; i++) {
-                if (sessionStorage.getItem('c-p6-' + i) == 'read') {
+                if (sessionStorage.getItem('c-p7-' + i) == 'read') {
                     z++
                 }
             }
@@ -99,8 +104,8 @@
             if (z == j) {
                 sessionStorage.setItem("part" + part, "done");
                 if (sessionStorage.getItem('part' + part) == 'done') {
-                    $('#iconPart' + part).addClass('fas fa-check-circle float-end mt-1')
-                    window.location = "<?php echo url('/data-scientist/glossary'); ?>";
+                    $('#ds-iconPart' + part).addClass('fas fa-check-circle float-end mt-1 text-success')
+                    window.location = "<?php echo url('/data-scientist/other-resources'); ?>";
                 }
             }
         }

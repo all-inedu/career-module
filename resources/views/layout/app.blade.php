@@ -9,174 +9,258 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="{{ url('img/icon.ico') }}" type="image/x-icon">
     <title>
         Career Module - @yield('title')
     </title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="http://codylindley.com/thickbox/thickbox-code/thickbox.css">
     <script src="{{ asset('js/jquery-3.6.0.js') }}"></script>
-
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-
-        body {
-            font-family: 'Roboto', sans-serif !important;
-        }
-
-        p {
-            font-size: 18px;
-        }
-
-        .container {
-            padding: 0% 10%;
-        }
-
-        .container2 {
-            position: relative;
-            text-align: center;
-            color: #000;
-            cursor: pointer
-        }
-
-        .bottom-left {
-            position: absolute;
-            bottom: 8px;
-            left: 16px
-        }
-
-        .top-left {
-            position: absolute;
-            top: 8px;
-            left: 16px
-        }
-
-        .top-right {
-            position: absolute;
-            top: 8px;
-            right: 16px
-        }
-
-        .card-img-top {
-            width: 100%;
-        }
-
-        .bottom-right {
-            font-family: 'Roboto', sans-serif !important;
-            position: absolute;
-            font-size: 13px;
-            font-weight: 500;
-            top: 72%;
-            right: 5%;
-            left: 5%;
-        }
-
-        .centered {
-            position: absolute;
-            bottom: 1%;
-            left: 50%;
-            transform: translate(-50%, -50%)
-        }
-
-        .container-overflow {
-            position: absolute;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 240px;
-            transition: all .2s ease-in-out;
-            z-index: 999;
-            opacity: .2;
-            cursor: pointer
-        }
-
-        .container-overflow:hover {
-            opacity: .9
-        }
-
-        .container1 {
-            display: flex;
-            justify-content: center;
-            flex-direction: row;
-            flex-wrap: wrap
-        }
-
-        .card {
-            border: 1px solid #fff;
-            background-color: #fff
-        }
-
-        .img-lock {
-            width: 25%;
-            margin-top: 25%;
-        }
-
-    </style>
+    <script src="{{ asset('js/thickbox.js') }}"></script>
 </head>
 
 <body>
+    <section class="body"></section>
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f7f7f7;">
         <div class="container my-1">
-            <a class="navbar-brand" href="#"><img src="{{ asset('img/logo-1.png') }}" width="30%" /></a>
+            <img src="{{ asset('img/logo-1.png') }}" width="16%" class="navbar-brand" />
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item" style=" white-space: nowrap;">
-                        <a class="nav-link" aria-current="page" href="{{ url('') }}">Home</a>
-                    </li>
-                    <li class="nav-item" style=" white-space: nowrap;">
-                        <a class="nav-link" href="#career">Career Module</a>
-                    </li>
-                    <li class="nav-item" style=" white-space: nowrap;">
-                        <a class="nav-link" href="#">Contact Us</a>
-                    </li>
-                </ul>
-
+                <div class="navbar-nav me-auto mb-2 mb-lg-0">
+                </div>
+                <div class="d-flex">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="{{ url('') }}">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ asset('file/CAREER  EXPLORATION  GUIDELINES.pdf') }}"
+                                target="_blank">Guideline Book</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url('/about-us') }}">About Us</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
 
-    <div class="container-fluid p-0 mb-4">
+    <div class="container-fluid p-0" style="margin-bottom: 10%; ">
         @yield('content')
     </div>
 
     <!-- Footer -->
-    <footer class="mt-5 py-5">
+    <footer class="mt-5 pt-4">
         <div class="container py-4">
             <div class="row">
-                <div class="col-2">
+                <div class="col-md-4 mb-3">
                     <img src="{{ url('img/logo.png') }}" width="125px" alt="">
                 </div>
-            </div>
-            <div class="row pt-2">
-                <div class="col-6">
-                    <p>
-                        Copyright © 2021 ALL-in Eduspace All rights reserved
-                    </p>
+                <div class="col-md-3 mb-3">
+                    <i class="fas fa-globe fa-fw"></i> <a href="https://all-inedu.com"
+                        target="_blank">www.all-inedu.com</a>
+                    <br>
+                    <i class="fab fa-instagram fa-fw"></i> <a href="https://www.instagram.com/allineduspace/"
+                        target="_blank">@allineduspace</a>
                 </div>
-                <div class="col-6 text-end">
-                    <div class="d-inline-flex flex-row social-media">
-                        <p>Follow Us</p>
-                        <div class="ms-3"><i class="fab fa-instagram"></i></div>
-                        <div class="ms-2"><i class="fab fa-youtube"></i></div>
-                        <div class="ms-2"><i class="fab fa-linkedin"></i></div>
-                    </div>
+                <div class="col-md-5 mb-3 ps-md-5">
+                    <i class="fas fa-mobile-alt fa-fw"></i> <a href="https://wa.me/6281808081363" target="_blank">+62
+                        818-0808-1363</a> /
+                    <a href="https://wa.me/6287860811413" target="_blank">+62 878-6081-1413</a> <br>
+                    <i class="fas fa-envelope fa-fw"></i> <a href="mailto:info@all-inedu.com"
+                        target="_blank">info@all-inedu.com</a>
+                </div>
+                <div class="col-md-12">
+                    <hr class="my-2">
+                </div>
+                <div class="col-md-4 mb-3">
+                    Jl Jeruk Kembar Blok Q9, No. 15 <br> Srengseng, Kembangan <br>
+                    Jakarta Barat 11630, Indonesia
+                </div>
+                <div class="col-md-3 mb-3">
+                    #itsALLintheprep <br>
+                    #TakeOnYourFuture
+                </div>
+                <div class="col-md-5 mb-3 ps-md-5">
+                    Copyright © 2021 · ALL-in Eduspace. <br>
+                    All rights reserved.
                 </div>
             </div>
         </div>
     </footer>
 
+    <div class="modal fade" id="guideline">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Guideline Book</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="text-align: justify;">
+                    Before starting your career exploration journey, make sure to read our CAREER EXPLORATION
+                    GUIDEBOOK
+                    <ul class=" mt-2" style="margin-left:-10px;">
+                        <li>
+                            Career Roadmap
+                        </li>
+                        <li>
+                            Understanding breadth, depth, and choosing university major
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer mx-auto">
+                    <a href="{{ asset('file/CAREER  EXPLORATION  GUIDELINES.pdf') }}" id="download-guidebook" target="_blank"
+                        class="btn btn-primary">Download the GUIDEBOOK</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
     </script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
-        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
-        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
-        crossorigin="anonymous"></script> -->
+    <script>
+        // sessionStorage.clear();
+
+        $("#download-guidebook").click(function(e) {
+            e.preventDefault();
+            if (!sessionStorage.getItem('download-guidebook')) {
+                let url = $(this).attr('href');
+                window.open(url);
+                sessionStorage.setItem('download-guidebook', true);
+                location.reload();
+            }
+        });
+
+        if (sessionStorage.getItem('download-guidebook')) {
+            $("#reflection-btn").show();
+        }
+
+
+        if (sessionStorage.getItem('digital-marketing')) {
+            $('#dm').removeClass('d-none')
+        }
+
+        if (sessionStorage.getItem('data-science')) {
+            $('#ds').removeClass('d-none')
+        }
+
+        $("#start-your-journey-btn").click(function() {
+            $('#guideline').modal('show')
+        })
+
+        $("#reflection-btn").click(function(e) {
+            e.preventDefault();
+            let url = $(this).attr('href');
+            window.open(url);
+        })
+
+    </script>
+    <style>
+        img {
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        /* img:hover {
+            opacity: 0.7;
+        } */
+
+        #image-viewer {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            padding-top: 100px;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgb(0, 0, 0);
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+
+        .modal-content {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 700px;
+        }
+
+        .modal-content {
+            animation-name: zoom;
+            animation-duration: 0.6s;
+        }
+
+        @keyframes zoom {
+            from {
+                transform: scale(0)
+            }
+
+            to {
+                transform: scale(1)
+            }
+        }
+
+        #image-viewer .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        #image-viewer .close:hover,
+        #image-viewer .close:focus {
+            color: #bbb;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        @media only screen and (max-width: 700px) {
+            .modal-content {
+                width: 100%;
+            }
+        }
+
+        .sp {
+            position: relative;
+            padding-bottom: 1em;
+            margin-bottom: 2em;
+            font-size: 23px;
+        }
+
+        .sp::after {
+            content: '';
+            position: absolute;
+            width: 200px;
+            height: 5px;
+            bottom: 0;
+            background-color: #584aa8;
+            left: 0;
+            margin-left: 41.5%;
+        }
+
+        label {
+            font-style: italic;
+            font-weight: 500;
+        }
+
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous">
+    </script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"-->
+    <!--    integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous">-->
+    <!--</script>-->
 </body>
 
 </html>

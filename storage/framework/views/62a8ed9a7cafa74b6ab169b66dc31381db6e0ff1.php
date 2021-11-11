@@ -1,42 +1,50 @@
 <ul class="list-group" id="sidebar-list">
     <li class="list-group-item <?php echo e(Request::is('digital-marketing/part-1') ? 'active' : ''); ?>">
-        <a class="sidebar-elements" href="<?php echo e(url('digital-marketing/part-1')); ?>">
-            Part 1 <i class="" id="iconPart1"></i>
+        <a class="sidebar-elements text-uppercase" href="<?php echo e(url('digital-marketing/part-1')); ?>">
+            <i class="fas fa-tachometer fa-fw"></i>
+            Introduction <i class="" id="dm-iconPart1"></i>
         </a>
     </li>
     <li class="list-group-item <?php echo e(Request::is('digital-marketing/part-2') ? 'active' : ''); ?>">
-        <a class="sidebar-elements" href="<?php echo e(url('digital-marketing/part-2')); ?>">
-            Part 2 <i class="" id="iconPart2"></i>
+        <a class="sidebar-elements text-uppercase" href="<?php echo e(url('digital-marketing/part-2')); ?>">
+            <i class="fas fa-tasks fa-fw"></i>
+            Core Tasks <i class="" id="dm-iconPart2"></i>
         </a>
     </li>
     <li class="list-group-item <?php echo e(Request::is('digital-marketing/part-3') ? 'active' : ''); ?>">
-        <a class="sidebar-elements" href="<?php echo e(url('digital-marketing/part-3')); ?>">
-            Part 3 <i class="" id="iconPart3"></i>
+        <a class="sidebar-elements text-uppercase" href="<?php echo e(url('digital-marketing/part-3')); ?>">
+            <i class="fas fa-tag fa-fw"></i>
+            Types <i class="" id="dm-iconPart3"></i>
         </a>
     </li>
     <li class="list-group-item <?php echo e(Request::is('digital-marketing/part-4') ? 'active' : ''); ?>">
-        <a class="sidebar-elements" href="<?php echo e(url('digital-marketing/part-4')); ?>">
-            Part 4 <i class="" id="iconPart4"></i>
+        <a class="sidebar-elements text-uppercase" href="<?php echo e(url('digital-marketing/part-4')); ?>">
+            <i class="fas fa-bezier-curve fa-fw"></i>
+            Pathway <i class="" id="dm-iconPart4"></i>
         </a>
     </li>
     <li class="list-group-item <?php echo e(Request::is('digital-marketing/part-5') ? 'active' : ''); ?>">
-        <a class="sidebar-elements" href="<?php echo e(url('digital-marketing/part-5')); ?>">
-            Case Studies <i class="" id="iconPart5"></i>
+        <a class="sidebar-elements text-uppercase" href="<?php echo e(url('digital-marketing/part-5')); ?>">
+            <i class="fas fa-marker fa-fw"></i>
+            Case Studies <i class="" id="dm-iconPart5"></i>
         </a>
     </li>
     <li class="list-group-item <?php echo e(Request::is('digital-marketing/part-6') ? 'active' : ''); ?>">
-        <a class="sidebar-elements" href="<?php echo e(url('digital-marketing/part-6')); ?>">
-            Reflection <i class="" id="iconPart6"></i>
+        <a class="sidebar-elements text-uppercase" href="<?php echo e(url('digital-marketing/part-6')); ?>">
+            <i class="far fa-file-alt fa-fw"></i>
+            Reflection <i class="" id="dm-iconPart6"></i>
         </a>
     </li>
     <li class="list-group-item <?php echo e(Request::is('digital-marketing/part-7') ? 'active' : ''); ?>">
-        <a class="sidebar-elements" href="<?php echo e(url('digital-marketing/part-7')); ?>">
-            Glossary <i class="" id="iconPart7"></i>
+        <a class="sidebar-elements text-uppercase" href="<?php echo e(url('digital-marketing/part-7')); ?>">
+            <i class="fas fa-book fa-fw"></i>
+            Glossary <i class=""></i>
         </a>
     </li>
     <li class="list-group-item <?php echo e(Request::is('digital-marketing/part-8') ? 'active' : ''); ?>">
-        <a class="sidebar-elements" href="<?php echo e(url('digital-marketing/part-8')); ?>">
-            Additional Resources <i class="" id="iconPart8"></i>
+        <a class="sidebar-elements text-uppercase" href="<?php echo e(url('digital-marketing/part-8')); ?>">
+            <i class="fas fa-link fa-fw"></i>
+            Additional Resources <i class=""></i>
         </a>
     </li>
 </ul>
