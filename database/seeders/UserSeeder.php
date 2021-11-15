@@ -21,7 +21,7 @@ class UserSeeder extends Seeder
                 'last_name' => 'admin',
                 'birthday' => null,
                 'phone_number' => null,
-                'role_id' => 5,
+                'role_id' => 2,
                 'email' => 'admin@all-inedu.com', //TODO diganti sesuai real email admin 
                 'email_verified_at' => Carbon::now(),
                 'password' => 'admin123',
