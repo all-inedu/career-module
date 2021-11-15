@@ -167,7 +167,7 @@
                 <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
                     <tr>
                         <td bgcolor="#FFFFFF" align="center" style="padding: 30px 30px 30px 30px; border-radius: 4px 4px 4px 4px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; line-height: 25px;">
-                            <h2 style="font-size: 20px; font-weight: 400; color: #111111; margin: 0;"><img src="{{ asset('img/allin.png') }}" stylepwidth: 200px; height: auto;"></h2>
+                            <h2 style="font-size: 20px; font-weight: 400; color: #111111; margin: 0;"><img src="{{ asset('img/allin.png') }}" style="width: 200px; height: auto;"></h2>
                         </td>
                     </tr>
                 </table>

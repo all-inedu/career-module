@@ -3,6 +3,9 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\v1\AuthController;
+use App\Http\Controllers\Api\V1\VerificationController;
+use App\Http\Controllers\Api\V1\ResetPasswordController;
+use App\Http\Controllers\Api\V1\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,9 +18,9 @@ use App\Http\Controllers\Api\v1\AuthController;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
+// Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
+//     return $request->user();
+// });
 
 Route::group(['prefix' => 'v1'], function() {
     //! Verification
@@ -34,6 +37,6 @@ Route::group(['prefix' => 'v1'], function() {
     Route::post('login', [AuthController::class, 'login']);
 
     Route::group(['middleware' => ['jwt.verify']], function () {
-        Route::get('user/{type}', [UserController::class, 'user']);
+        Route::get('user/{id?}', [UserController::class, 'getDataUser']);
     });
 });
